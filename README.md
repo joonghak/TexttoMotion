@@ -1,4 +1,6 @@
-# 자연어 기반 보상 설계를 활용한 휴머노이드 캐릭터 모션 제어
+# LaRMo: Language-Rewarded Motion
+
+### 자연어 기반 보상 설계를 활용한 휴머노이드 캐릭터 모션 제어
 
 **말로 시키면, 물리 시뮬레이션 속 휴머노이드가 그대로 움직인다.**
 
@@ -10,7 +12,7 @@
 </p>
 <p align="center"><sub>"고릴라처럼 가슴을 두드리며 걸어", "티라노사우루스처럼 걸어", "특공대원처럼 총을 겨눈 자세로 걸어", "두 팔을 머리 위로 들고 걸어"로 각각 학습한 정책</sub></p>
 
-자연어 명령을 받으면 LLM이 스타일 파라미터를 정하고, 고정한 보상 수식이 그 값으로 참조 모션의 목표를 바꾼 뒤, 명령마다 강화학습 정책을 학습합니다.
+LaRMo는 자연어 명령을 받으면 LLM이 스타일 파라미터를 정하고, 고정한 보상 수식이 그 값으로 참조 모션의 목표를 바꾼 뒤, 명령마다 강화학습 정책을 학습합니다.
 정책은 Isaac Lab 물리 시뮬레이션 안에서 관절 토크로 움직이므로, 발이 뜨거나 미끄러지지 않고 "상체를 40도 숙여" 같은 수치나 "왼손만" 같은 한쪽 지시도 보상의 목표로 그대로 들어갑니다.
 참조 모션(MimicKit의 걷기, 달리기, 점프, 앞차기, 돌려차기)은 한 번도 고치지 않았습니다.
 
@@ -30,9 +32,9 @@
 
 ### 같은 명령, 네 방법
 
-같은 명령을 공개 text-to-motion 모델 세 개(MoMask, T2M-GPT, MDM)에도 넣고, 그 출력을 우리 캐릭터로 옮겨 같은 카메라로 찍었습니다(옆모습).
+같은 명령을 공개 text-to-motion 모델 세 개(MoMask, T2M-GPT, MDM)에도 넣고, 그 출력을 본 연구의 캐릭터로 옮겨 같은 카메라로 찍었습니다(옆모습).
 
-| 명령 | 우리 | MoMask | T2M-GPT | MDM |
+| 명령 | LaRMo | MoMask | T2M-GPT | MDM |
 | :--- | :---: | :---: | :---: | :---: |
 | 상체를 40도 앞으로 숙이고 걸어 | <img src="docs/media/compare_set8_Q2_ours.gif" width="140"> | <img src="docs/media/compare_set8_Q2_momask.gif" width="140"> | <img src="docs/media/compare_set8_Q2_t2mgpt.gif" width="140"> | <img src="docs/media/compare_set8_Q2_mdm.gif" width="140"> |
 | 왼손을 번쩍 들고 걸어 | <img src="docs/media/compare_set9_S2_ours.gif" width="140"> | <img src="docs/media/compare_set9_S2_momask.gif" width="140"> | <img src="docs/media/compare_set9_S2_t2mgpt.gif" width="140"> | <img src="docs/media/compare_set9_S2_mdm.gif" width="140"> |
@@ -55,7 +57,7 @@ LLM이 동작의 순서와 길이를 답하면, 참조 클립을 0.5초씩 섞�
 결과를 보기 전에 작성한 평가 명령 60개(스타일 25, 수치 13, 한쪽 동작 10, 연속 동작 8, 발끝 걷기 4)로 측정하였습니다.
 비교 모델은 명령마다 출력 3개를 HumanML3D 관절 그대로 같은 방법으로 측정하였습니다.
 
-| 평가 항목 | 우리 | MoMask | T2M-GPT | MDM |
+| 평가 항목 | LaRMo | MoMask | T2M-GPT | MDM |
 | :--- | :---: | :---: | :---: | :---: |
 | 수치 지시의 상대 오차 (중앙값, 낮을수록 좋음) | **5%** | 95% | 78% | 80% |
 | 100STYLE 스타일 유사도 (높을수록 좋음) | **0.46** | 0.13 | 0.28 | 0.23 |
