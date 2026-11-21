@@ -68,7 +68,8 @@ def main():
             cut.append(im.crop((x0, 90, x0 + 400, 610)).resize((280, 364), Image.LANCZOS))
         sizes[name] = save_gif(cut, os.path.join(OUT, f"chain_{name}.gif"), 12)
     # stills and the system figure of the report
-    for f in ["fig1_architecture.png", "fig2_styles.jpg", "fig3_compare.jpg", "fig4_onesided.jpg", "fig5_chains.jpg"]:
+    for f in ["fig1_architecture.png", "fig2_styles.jpg", "fig3_compare.jpg", "fig4_onesided.jpg", "fig5_chains.jpg",
+              "chart_overview.png", "chart_numeric.png"]:  # the charts come from reports/final/make_charts.py
         shutil.copy(os.path.join(ROOT, "reports", "final", "figures", f), os.path.join(OUT, f))
     for k, v in sizes.items():
         print(f"{k:24s} {v:5.2f} MB")
