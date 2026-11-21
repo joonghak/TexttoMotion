@@ -1,0 +1,6 @@
+[
+  {"key": "base", "label": "기본 걷기", "scales": {}},
+  {"key": "hip16", "label": "허벅지 진폭 1.6배", "scales": {"swing": {"right_thigh": 1.6, "left_thigh": 1.6}}},
+  {"key": "stance10", "label": "다리 벌림 10° (발은 바닥과 평행)",
+   "scales": {"pose": {"right_thigh": [-10, 0, 0], "left_thigh": [10, 0, 0], "right_foot": [10, 0, 0], "left_foot": [-10, 0, 0]}}}
+]

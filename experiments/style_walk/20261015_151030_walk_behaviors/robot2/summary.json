@@ -1,0 +1,83 @@
+{
+  "command": "로봇처럼 (완화)",
+  "variant": {
+    "key": "robot2",
+    "label": "로봇처럼 (완화)",
+    "scales": {
+      "swing": {
+        "torso": 0.0,
+        "right_lower_arm": 0.0,
+        "left_lower_arm": 0.0,
+        "right_shin": 0.85,
+        "left_shin": 0.85
+      },
+      "pose": {
+        "right_lower_arm": [
+          0,
+          0,
+          50
+        ],
+        "left_lower_arm": [
+          0,
+          0,
+          -50
+        ]
+      }
+    },
+    "terms": {
+      "track_w": 0.6,
+      "swing": {
+        "torso": 0.0,
+        "right_lower_arm": 0.0,
+        "left_lower_arm": 0.0,
+        "right_shin": 0.85,
+        "left_shin": 0.85
+      },
+      "pose": {
+        "right_lower_arm": [
+          0,
+          0,
+          50
+        ],
+        "left_lower_arm": [
+          0,
+          0,
+          -50
+        ]
+      }
+    }
+  },
+  "reference": {
+    "clip": "/home/jong/TexttoMotion/MimicKit/data/motions/humanoid/humanoid_walk.pkl",
+    "duration_s": 10.0
+  },
+  "training": {
+    "iterations": 2000,
+    "num_envs": 1024,
+    "status": "completed",
+    "started": "2026-10-15T23:52:59",
+    "finished": "2026-10-16T00:21:12",
+    "final_log": {
+      "Iteration": 1999.0,
+      "Wall_Time": 0.4675836647219128,
+      "Samples": 65536000.0,
+      "Samples_Per_Second": 38933.020586318424,
+      "Test_Return": 291.8282165527344,
+      "Test_Episode_Length": 296.8047180175781,
+      "Test_Episodes": 1024.0,
+      "Train_Return": 279.1852111816406,
+      "Train_Episode_Length": 297.6629943847656,
+      "Train_Episodes": 10321.0,
+      "Critic_Loss": 0.17185552418231964,
+      "Actor_Loss": -0.024378834292292595,
+      "Clip_Frac": 0.186859130859375,
+      "Imp_Ratio": 1.0002654790878296,
+      "Action_Bound_Loss": 0.0,
+      "Adv_Mean": -0.029045868664979935,
+      "Adv_Std": 0.439075231552124,
+      "Obs_Norm_Mean": 0.3404150605201721,
+      "Obs_Norm_Std": 0.16544927656650543,
+      "Exp_Prob": 1.0
+    }
+  }
+}

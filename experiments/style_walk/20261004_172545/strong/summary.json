@@ -1,0 +1,43 @@
+{
+  "command": "아주 힘있게",
+  "variant": {
+    "key": "strong",
+    "label": "아주 힘있게",
+    "scales": [
+      2.0,
+      1.7,
+      0.4
+    ],
+    "terms": {
+      "track_w": 0.6,
+      "reward_key_bodies": [
+        "head"
+      ],
+      "arm_swing": {
+        "w": 0.15,
+        "scale": 2.0,
+        "k": "auto"
+      },
+      "foot_lift": {
+        "w": 0.15,
+        "scale": 1.7,
+        "k": "auto"
+      },
+      "upright": {
+        "w": 0.1,
+        "scale": 0.4,
+        "k": "auto"
+      }
+    }
+  },
+  "reference": {
+    "clip": "/home/jong/TexttoMotion/MimicKit/data/motions/humanoid/humanoid_walk.pkl",
+    "duration_s": 10.0
+  },
+  "training": {
+    "iterations": 1000,
+    "num_envs": 1024,
+    "status": "running",
+    "started": "2026-10-04T17:54:41"
+  }
+}

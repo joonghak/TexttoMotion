@@ -1,0 +1,48 @@
+{
+ "title": "펭귄 파라미터 시험 (2026-11-05, 학습한 정책)",
+ "note": "Three penguin parameter sets trained on the walk (experiments/style_walk/20261105_143500_penguin) and the v5 answer to 펭귄처럼 걸어 (the sway policy), all against 100STYLE Penguin.",
+ "items": [
+  {
+   "label": "v5 answer (sway)",
+   "command": "펭귄처럼 걸어, v5가 낸 값 (n 0.6, m_torso 10)",
+   "rollout": "20261015_151030_walk_behaviors__sway",
+   "base": "20261015_151030_walk_behaviors__base",
+   "target": "Penguin"
+  },
+  {
+   "label": "pen_a",
+   "command": "지금 파라미터만 (s 0.4, n 1.2, m_arm 0.3, m_knee 0.7, 팔꿈치 신전 30, 다리 벌림 10, m_torso 5)",
+   "rollout": "20261105_143500_penguin__pen_a",
+   "base": "20261015_151030_walk_behaviors__base",
+   "target": "Penguin"
+  },
+  {
+   "label": "pen_b",
+   "command": "A + 발끝 벌림 30 + 팔 흔들기 0",
+   "rollout": "20261105_143500_penguin__pen_b",
+   "base": "20261015_151030_walk_behaviors__base",
+   "target": "Penguin"
+  },
+  {
+   "label": "pen_c",
+   "command": "B + 상체 흔들림 10",
+   "rollout": "20261105_143500_penguin__pen_c",
+   "base": "20261015_151030_walk_behaviors__base",
+   "target": "Penguin"
+  },
+  {
+   "label": "pen_d",
+   "command": "s 0.3, n 1.3, m_knee 0.4, m_arm 0, 팔꿈치 신전 30, 어깨 안쪽 15, 발끝 벌림 30, 다리 벌림 5, m_torso 10",
+   "rollout": "20261105_143500_penguin__pen_d",
+   "base": "20261015_151030_walk_behaviors__base",
+   "target": "Penguin"
+  },
+  {
+   "label": "pen_e",
+   "command": "D에서 다리 벌림 없음",
+   "rollout": "20261105_143500_penguin__pen_e",
+   "base": "20261015_151030_walk_behaviors__base",
+   "target": "Penguin"
+  }
+ ]
+}

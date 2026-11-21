@@ -1,0 +1,56 @@
+[
+ {
+  "key": "base",
+  "label": "기본 걷기",
+  "scales": {}
+ },
+ {
+  "key": "arms_up_v",
+  "label": "두 팔을 머리 위로 V자로 든 걸음 확인 (사람이 정한 값): 어깨 옆으로 160°, 팔 흔들기 0.3",
+  "scales": {
+   "arm_swing": 0.3,
+   "pose": {
+    "right_upper_arm": [
+     -160,
+     0,
+     0
+    ],
+    "left_upper_arm": [
+     160,
+     0,
+     0
+    ]
+   }
+  },
+  "params": {
+   "shoulder_abduction": 160,
+   "m_arm": 0.3
+  }
+ },
+ {
+  "key": "look_right",
+  "label": "고개를 오른쪽으로 돌린 걸음 확인 (사람이 정한 값): head_yaw 50°",
+  "scales": {
+   "pose": {
+    "head": [
+     0.0,
+     0.0,
+     -50.0
+    ]
+   }
+  },
+  "params": {
+   "head_yaw": 50
+  }
+ },
+ {
+  "key": "weave30",
+  "label": "갈지자로 걷는 길 확인 (사람이 정한 값): 길이 좌우로 0.3 m씩 3초 주기로 흔들림",
+  "scales": {
+   "weave": 0.3
+  },
+  "params": {
+   "weave": 0.3
+  }
+ }
+]

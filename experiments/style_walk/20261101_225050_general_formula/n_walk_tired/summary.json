@@ -1,0 +1,94 @@
+{
+  "command": "지쳐서 터벅터벅 걷기 (새 수식)",
+  "variant": {
+    "key": "n_walk_tired",
+    "label": "지쳐서 터벅터벅 걷기 (새 수식)",
+    "scales": {
+      "speed": 0.8,
+      "cadence": 0.75,
+      "arm_swing": 0.4,
+      "swing": {
+        "right_shin": 0.8,
+        "left_shin": 0.8
+      },
+      "pose": {
+        "torso": [
+          0,
+          15,
+          0
+        ],
+        "head": [
+          0,
+          25,
+          0
+        ]
+      }
+    },
+    "terms": {
+      "track_w": 0.6,
+      "speed": {
+        "scale": 0.8
+      },
+      "cadence": {
+        "scale": 0.75
+      },
+      "arm_swing": {
+        "scale": 0.4
+      },
+      "swing": {
+        "right_shin": 0.8,
+        "left_shin": 0.8
+      },
+      "pose": {
+        "torso": [
+          0,
+          15,
+          0
+        ],
+        "head": [
+          0,
+          25,
+          0
+        ]
+      },
+      "style": {
+        "w": 0.2
+      },
+      "swing_unit": "/home/jong/TexttoMotion/MimicKit/data/motions/humanoid/humanoid_walk.pkl",
+      "pose_unit": "/home/jong/TexttoMotion/MimicKit/data/motions/humanoid/humanoid_walk.pkl"
+    }
+  },
+  "reference": {
+    "clip": "/home/jong/TexttoMotion/MimicKit/data/motions/humanoid/humanoid_walk.pkl",
+    "duration_s": 10.0
+  },
+  "training": {
+    "iterations": 2000,
+    "num_envs": 1024,
+    "status": "completed",
+    "started": "2026-11-03T18:56:46",
+    "finished": "2026-11-03T19:29:07",
+    "final_log": {
+      "Iteration": 1999.0,
+      "Wall_Time": 0.535807280143102,
+      "Samples": 65536000.0,
+      "Samples_Per_Second": 33975.731795921936,
+      "Test_Return": 288.97784423828125,
+      "Test_Episode_Length": 295.0634765625,
+      "Test_Episodes": 1024.0,
+      "Train_Return": 273.0890197753906,
+      "Train_Episode_Length": 295.52191162109375,
+      "Train_Episodes": 10408.0,
+      "Critic_Loss": 0.03781808167695999,
+      "Actor_Loss": -0.004020528867840767,
+      "Clip_Frac": 0.24849243462085724,
+      "Imp_Ratio": 0.9996534585952759,
+      "Action_Bound_Loss": 0.0,
+      "Adv_Mean": 0.02042430266737938,
+      "Adv_Std": 0.19854170083999634,
+      "Obs_Norm_Mean": 0.3400627076625824,
+      "Obs_Norm_Std": 0.1537124365568161,
+      "Exp_Prob": 1.0
+    }
+  }
+}

@@ -1,0 +1,156 @@
+{
+  "command": "펭귄 D: s 0.3, n 1.3, m_knee 0.4 (발 끌기), m_arm 0, 팔꿈치 신전 30, 어깨 안쪽 15 (팔을 몸에 붙임), 발끝 벌림 30, 다리 벌림 5, m_torso 10",
+  "variant": {
+    "key": "pen_d",
+    "label": "펭귄 D: s 0.3, n 1.3, m_knee 0.4 (발 끌기), m_arm 0, 팔꿈치 신전 30, 어깨 안쪽 15 (팔을 몸에 붙임), 발끝 벌림 30, 다리 벌림 5, m_torso 10",
+    "scales": {
+      "speed": 0.3,
+      "cadence": 1.3,
+      "arm_swing": 0.0,
+      "swing": {
+        "torso": 10.0,
+        "right_shin": 0.4,
+        "left_shin": 0.4
+      },
+      "pose": {
+        "right_lower_arm": [
+          0,
+          0,
+          -30
+        ],
+        "left_lower_arm": [
+          0,
+          0,
+          30
+        ],
+        "right_upper_arm": [
+          15,
+          0,
+          0
+        ],
+        "left_upper_arm": [
+          -15,
+          0,
+          0
+        ],
+        "right_thigh": [
+          -5,
+          0,
+          -30
+        ],
+        "left_thigh": [
+          5,
+          0,
+          30
+        ],
+        "right_foot": [
+          5,
+          0,
+          0
+        ],
+        "left_foot": [
+          -5,
+          0,
+          0
+        ]
+      }
+    },
+    "terms": {
+      "track_w": 0.6,
+      "speed": {
+        "scale": 0.3
+      },
+      "cadence": {
+        "scale": 1.3
+      },
+      "arm_swing": {
+        "scale": 0.0
+      },
+      "swing": {
+        "torso": 10.0,
+        "right_shin": 0.4,
+        "left_shin": 0.4
+      },
+      "pose": {
+        "right_lower_arm": [
+          0,
+          0,
+          -30
+        ],
+        "left_lower_arm": [
+          0,
+          0,
+          30
+        ],
+        "right_upper_arm": [
+          15,
+          0,
+          0
+        ],
+        "left_upper_arm": [
+          -15,
+          0,
+          0
+        ],
+        "right_thigh": [
+          -5,
+          0,
+          -30
+        ],
+        "left_thigh": [
+          5,
+          0,
+          30
+        ],
+        "right_foot": [
+          5,
+          0,
+          0
+        ],
+        "left_foot": [
+          -5,
+          0,
+          0
+        ]
+      },
+      "style": {
+        "w": 0.2
+      },
+      "swing_unit": "/home/jong/TexttoMotion/MimicKit/data/motions/humanoid/humanoid_walk.pkl",
+      "pose_unit": "/home/jong/TexttoMotion/MimicKit/data/motions/humanoid/humanoid_walk.pkl"
+    }
+  },
+  "reference": {
+    "clip": "/home/jong/TexttoMotion/MimicKit/data/motions/humanoid/humanoid_walk.pkl",
+    "duration_s": 10.0
+  },
+  "training": {
+    "iterations": 2000,
+    "num_envs": 1024,
+    "status": "completed",
+    "started": "2026-11-05T17:49:07",
+    "finished": "2026-11-05T18:21:51",
+    "final_log": {
+      "Iteration": 1999.0,
+      "Wall_Time": 0.5410653958055708,
+      "Samples": 65536000.0,
+      "Samples_Per_Second": 33645.552987805786,
+      "Test_Return": 266.7049255371094,
+      "Test_Episode_Length": 288.427734375,
+      "Test_Episodes": 1024.0,
+      "Train_Return": 258.39404296875,
+      "Train_Episode_Length": 293.1721496582031,
+      "Train_Episodes": 10488.0,
+      "Critic_Loss": 0.031174417585134506,
+      "Actor_Loss": -0.0034257068764418364,
+      "Clip_Frac": 0.2651123106479645,
+      "Imp_Ratio": 0.9992141723632812,
+      "Action_Bound_Loss": 0.0,
+      "Adv_Mean": -0.018930329009890556,
+      "Adv_Std": 0.1865987479686737,
+      "Obs_Norm_Mean": 0.3393744230270386,
+      "Obs_Norm_Std": 0.15832024812698364,
+      "Exp_Prob": 1.0
+    }
+  }
+}

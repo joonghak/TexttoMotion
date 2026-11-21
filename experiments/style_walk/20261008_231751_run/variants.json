@@ -1,0 +1,36 @@
+[
+  {
+    "key": "base",
+    "label": "그대로",
+    "scales": {}
+  },
+  {
+    "key": "sway2",
+    "label": "몸통 흔들림 x2",
+    "scales": {
+      "swing": {
+        "torso": 2.0
+      }
+    }
+  },
+  {
+    "key": "lean",
+    "label": "상체 숙임 20°",
+    "scales": {
+      "pose": {
+        "torso": [
+          0,
+          20,
+          0
+        ]
+      }
+    }
+  },
+  {
+    "key": "crouch",
+    "label": "다리 굽힘 20°",
+    "scales": {
+      "crouch": 20.0
+    }
+  }
+]

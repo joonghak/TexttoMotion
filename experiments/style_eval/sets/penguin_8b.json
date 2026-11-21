@@ -1,0 +1,27 @@
+{
+ "title": "8B가 정한 펭귄 값 (2026-11-11, 학습한 정책)",
+ "note": "펭귄처럼 걸어: the answer of Qwen3-4B with prompt v5 (the sway policy), the answer of Qwen3-8B in 4 bit with prompt v8 (experiments/style_walk/20261111_004000_penguin_8b/q8_N1), and pen_e, whose values I set by hand while looking at 100STYLE Penguin. All against 100STYLE Penguin; the target was fixed before training.",
+ "items": [
+  {
+   "label": "4B v5 (LLM)",
+   "command": "펭귄처럼 걸어, Qwen3-4B v5가 낸 값 (n 0.6, m_torso 10)",
+   "rollout": "20261015_151030_walk_behaviors__sway",
+   "base": "20261015_151030_walk_behaviors__base",
+   "target": "Penguin"
+  },
+  {
+   "label": "8B v8 (LLM)",
+   "command": "펭귄처럼 걸어, Qwen3-8B 4비트 v8이 낸 값 (s 0.6, n 1.25, m_torso 6, 상체 숙임 15, 다리 벌림 10, 발끝 벌림 30)",
+   "rollout": "20261111_004000_penguin_8b__q8_N1",
+   "base": "20261015_151030_walk_behaviors__base",
+   "target": "Penguin"
+  },
+  {
+   "label": "pen_e (사람)",
+   "command": "사람이 정한 값 (s 0.3, n 1.3, m_knee 0.4, m_arm 0, 팔꿈치 신전 30, 어깨 안쪽 15, 발끝 벌림 30, m_torso 10)",
+   "rollout": "20261105_143500_penguin__pen_e",
+   "base": "20261015_151030_walk_behaviors__base",
+   "target": "Penguin"
+  }
+ ]
+}

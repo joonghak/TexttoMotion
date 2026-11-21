@@ -1,0 +1,108 @@
+{
+  "command": "메추라기처럼 종종 걸어: gpt-5.6-terra, 프롬프트 v14이 정한 값 (s 0.45, n 1.5, m_arm 0.2, m_knee 0.75, torso_pitch 12, shoulder_abduction -15, bounce 15)",
+  "variant": {
+    "key": "f7_N1",
+    "label": "메추라기처럼 종종 걸어: gpt-5.6-terra, 프롬프트 v14이 정한 값 (s 0.45, n 1.5, m_arm 0.2, m_knee 0.75, torso_pitch 12, shoulder_abduction -15, bounce 15)",
+    "scales": {
+      "speed": 0.45,
+      "cadence": 1.5,
+      "arm_swing": 0.2,
+      "bounce": 15.0,
+      "swing": {
+        "right_shin": 0.75,
+        "left_shin": 0.75
+      },
+      "pose": {
+        "torso": [
+          0,
+          12.0,
+          0
+        ],
+        "right_upper_arm": [
+          15.0,
+          -0.0,
+          0.0
+        ],
+        "left_upper_arm": [
+          -15.0,
+          -0.0,
+          -0.0
+        ]
+      }
+    },
+    "terms": {
+      "track_w": 0.6,
+      "speed": {
+        "scale": 0.45
+      },
+      "cadence": {
+        "scale": 1.5
+      },
+      "arm_swing": {
+        "scale": 0.2
+      },
+      "bounce": {
+        "angle": 15.0
+      },
+      "swing": {
+        "right_shin": 0.75,
+        "left_shin": 0.75
+      },
+      "pose": {
+        "torso": [
+          0,
+          12.0,
+          0
+        ],
+        "right_upper_arm": [
+          15.0,
+          -0.0,
+          0.0
+        ],
+        "left_upper_arm": [
+          -15.0,
+          -0.0,
+          -0.0
+        ]
+      },
+      "style": {
+        "w": 0.2
+      },
+      "swing_unit": "/home/jong/TexttoMotion/MimicKit/data/motions/humanoid/humanoid_walk.pkl",
+      "pose_unit": "/home/jong/TexttoMotion/MimicKit/data/motions/humanoid/humanoid_walk.pkl"
+    }
+  },
+  "reference": {
+    "clip": "/home/jong/TexttoMotion/MimicKit/data/motions/humanoid/humanoid_walk.pkl",
+    "duration_s": 10.0
+  },
+  "training": {
+    "iterations": 2000,
+    "num_envs": 1024,
+    "status": "completed",
+    "started": "2026-11-16T23:21:01",
+    "finished": "2026-11-16T23:58:54",
+    "final_log": {
+      "Iteration": 1999.0,
+      "Wall_Time": 0.6281091090705659,
+      "Samples": 65536000.0,
+      "Samples_Per_Second": 28982.933349561143,
+      "Test_Return": 277.3484802246094,
+      "Test_Episode_Length": 295.6708984375,
+      "Test_Episodes": 1024.0,
+      "Train_Return": 264.317626953125,
+      "Train_Episode_Length": 296.8740234375,
+      "Train_Episodes": 10353.0,
+      "Critic_Loss": 0.06895218044519424,
+      "Actor_Loss": -0.009317993186414242,
+      "Clip_Frac": 0.24652099609375,
+      "Imp_Ratio": 0.9991604089736938,
+      "Action_Bound_Loss": 0.0,
+      "Adv_Mean": -0.0007917610928416252,
+      "Adv_Std": 0.26771533489227295,
+      "Obs_Norm_Mean": 0.34059491753578186,
+      "Obs_Norm_Std": 0.1635015308856964,
+      "Exp_Prob": 1.0
+    }
+  }
+}

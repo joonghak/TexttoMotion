@@ -1,0 +1,53 @@
+{
+  "command": "허벅지 진폭 1.6배",
+  "variant": {
+    "key": "hip16",
+    "label": "허벅지 진폭 1.6배",
+    "scales": {
+      "swing": {
+        "right_thigh": 1.6,
+        "left_thigh": 1.6
+      }
+    },
+    "terms": {
+      "track_w": 0.6,
+      "swing": {
+        "right_thigh": 1.6,
+        "left_thigh": 1.6
+      }
+    }
+  },
+  "reference": {
+    "clip": "/home/jong/TexttoMotion/MimicKit/data/motions/humanoid/humanoid_walk.pkl",
+    "duration_s": 10.0
+  },
+  "training": {
+    "iterations": 2000,
+    "num_envs": 1024,
+    "status": "completed",
+    "started": "2026-10-31T21:15:53",
+    "finished": "2026-10-31T21:44:29",
+    "final_log": {
+      "Iteration": 1999.0,
+      "Wall_Time": 0.47098621620072256,
+      "Samples": 65536000.0,
+      "Samples_Per_Second": 38651.75628979801,
+      "Test_Return": 282.2969665527344,
+      "Test_Episode_Length": 297.3857421875,
+      "Test_Episodes": 1024.0,
+      "Train_Return": 269.4298095703125,
+      "Train_Episode_Length": 298.5005187988281,
+      "Train_Episodes": 10294.0,
+      "Critic_Loss": 0.029879344627261162,
+      "Actor_Loss": -0.005586869549006224,
+      "Clip_Frac": 0.24583740532398224,
+      "Imp_Ratio": 0.9994111061096191,
+      "Action_Bound_Loss": 0.0,
+      "Adv_Mean": -0.0011368854902684689,
+      "Adv_Std": 0.17228756844997406,
+      "Obs_Norm_Mean": 0.3423854410648346,
+      "Obs_Norm_Std": 0.17359164357185364,
+      "Exp_Prob": 1.0
+    }
+  }
+}

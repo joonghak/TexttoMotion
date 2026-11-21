@@ -1,0 +1,53 @@
+{
+  "command": "무릎 흔들림 0.7배",
+  "variant": {
+    "key": "knee07",
+    "label": "무릎 흔들림 0.7배",
+    "scales": {
+      "swing": {
+        "right_shin": 0.7,
+        "left_shin": 0.7
+      }
+    },
+    "terms": {
+      "track_w": 0.6,
+      "swing": {
+        "right_shin": 0.7,
+        "left_shin": 0.7
+      }
+    }
+  },
+  "reference": {
+    "clip": "/home/jong/TexttoMotion/MimicKit/data/motions/humanoid/humanoid_walk.pkl",
+    "duration_s": 10.0
+  },
+  "training": {
+    "iterations": 2000,
+    "num_envs": 1024,
+    "status": "completed",
+    "started": "2026-10-15T21:56:43",
+    "finished": "2026-10-15T22:25:01",
+    "final_log": {
+      "Iteration": 1999.0,
+      "Wall_Time": 0.46894984000258977,
+      "Samples": 65536000.0,
+      "Samples_Per_Second": 38819.59836971884,
+      "Test_Return": 291.7601623535156,
+      "Test_Episode_Length": 296.5439453125,
+      "Test_Episodes": 1024.0,
+      "Train_Return": 279.3711853027344,
+      "Train_Episode_Length": 298.0668029785156,
+      "Train_Episodes": 10313.0,
+      "Critic_Loss": 0.06686342507600784,
+      "Actor_Loss": -0.010764251463115215,
+      "Clip_Frac": 0.18695679306983948,
+      "Imp_Ratio": 1.0003306865692139,
+      "Action_Bound_Loss": 0.0,
+      "Adv_Mean": -0.005896196234971285,
+      "Adv_Std": 0.276584655046463,
+      "Obs_Norm_Mean": 0.34118402004241943,
+      "Obs_Norm_Std": 0.16427075862884521,
+      "Exp_Prob": 1.0
+    }
+  }
+}

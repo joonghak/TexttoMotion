@@ -1,0 +1,42 @@
+[
+ {
+  "key": "base",
+  "label": "기본 걷기",
+  "scales": {}
+ },
+ {
+  "key": "s12_C2",
+  "label": "뛰어가다가 앞으로 크게 점프해: gpt-5.6-sol, 프롬프트 v12이 정한 값 (run 2.4s -> jump 1.77s: s 1.4)",
+  "scales": {
+   "speed": 1.4
+  },
+  "source": {
+   "run": "20261112_213225_v12_set10_gpt-5.6-sol",
+   "id": "C2",
+   "target": null
+  },
+  "clip": "chain_run2p4_jump1p77"
+ },
+ {
+  "key": "s12_C3",
+  "label": "걸어가다가 앞차기 한 번 해: gpt-5.6-sol, 프롬프트 v12이 정한 값 (walk 3s -> kick 1.53s: 기본값)",
+  "scales": {},
+  "source": {
+   "run": "20261112_213225_v12_set10_gpt-5.6-sol",
+   "id": "C3",
+   "target": null
+  },
+  "clip": "chain_walk3_kick1p53"
+ },
+ {
+  "key": "s12_C5",
+  "label": "걷다가 돌려차기 해: gpt-5.6-sol, 프롬프트 v12이 정한 값 (walk 3s -> spinkick 1.28s: 기본값)",
+  "scales": {},
+  "source": {
+   "run": "20261112_213225_v12_set10_gpt-5.6-sol",
+   "id": "C5",
+   "target": null
+  },
+  "clip": "chain_walk3_spinkick1p28"
+ }
+]

@@ -1,0 +1,18 @@
+{
+ "note": "Tenth set (2026-11-12): chains of actions and walking on the toes or heels, for prompt v12 (sequence, foot_pitch). Written by Claude before any model was run on it; none of the commands is a v12 example in other words except that C1 and C2 share their actions with the examples (walk then run, run then jump) in different wording. Group C asks for two or three actions in a row: expect_sequence is the order of actions the answer must give. Group T asks for walking on the toes or the heels: expect_foot_pitch is the sign the answer's foot_pitch must have. Do not edit after its first run.",
+ "groups": {"C": "동작 이어붙이기", "T": "발끝이나 발뒤꿈치로 걷기"},
+ "commands": [
+  {"id": "C1", "group": "C", "text": "천천히 걷다가 갑자기 막 뛰어", "expect": "accept", "expect_sequence": ["walk", "run"]},
+  {"id": "C2", "group": "C", "text": "뛰어가다가 앞으로 크게 점프해", "expect": "accept", "expect_sequence": ["run", "jump"]},
+  {"id": "C3", "group": "C", "text": "걸어가다가 앞차기 한 번 해", "expect": "accept", "expect_sequence": ["walk", "kick"]},
+  {"id": "C4", "group": "C", "text": "점프 두 번 하고 나서 걸어", "expect": "accept", "expect_sequence": ["jump", "walk"]},
+  {"id": "C5", "group": "C", "text": "걷다가 돌려차기 해", "expect": "accept", "expect_sequence": ["walk", "spinkick"]},
+  {"id": "C6", "group": "C", "text": "달리다가 멈춰서 발차기해", "expect": "accept", "expect_sequence": ["run", "kick"]},
+  {"id": "C7", "group": "C", "text": "걷다가 뛰다가 마지막에 점프해", "expect": "accept", "expect_sequence": ["walk", "run", "jump"]},
+  {"id": "C8", "group": "C", "text": "지쳐서 터벅터벅 걷다가 힘을 내서 달려", "expect": "accept", "expect_sequence": ["walk", "run"]},
+  {"id": "T1", "group": "T", "text": "까치발을 들고 사뿐사뿐 걸어", "expect": "accept", "expect_action": "walk", "expect_foot_pitch": 1},
+  {"id": "T2", "group": "T", "text": "발뒤꿈치로만 걸어", "expect": "accept", "expect_action": "walk", "expect_foot_pitch": -1},
+  {"id": "T3", "group": "T", "text": "하이힐을 신은 것처럼 걸어", "expect": "accept", "expect_action": "walk", "expect_foot_pitch": 1},
+  {"id": "T4", "group": "T", "text": "발레리나처럼 발끝으로 걸어", "expect": "accept", "expect_action": "walk", "expect_foot_pitch": 1}
+ ]
+}

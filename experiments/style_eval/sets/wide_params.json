@@ -1,0 +1,34 @@
+{
+ "title": "넓힌 파라미터 범위의 학습 확인 (2026-11-11)",
+ "note": "Strong values set by Claude for the ranges added on 2026-11-11 (arms back with the upper arms turned in, toes in to -35, legs together; bounce, a term added the same day), chosen with the training-free check against the listed targets; so a high score shows that the parameters can express the style, not a result of the LLM.",
+ "items": [
+  {
+   "label": "w_armsback",
+   "command": "뒷짐 (어깨 뒤로 40, 안쪽 회전 30, 팔꿈치 40, 팔 흔들기 0)",
+   "rollout": "20261111_141053_wide_params__w_armsback",
+   "base": "20261015_151030_walk_behaviors__base",
+   "target": "ArmsBehindBack"
+  },
+  {
+   "label": "w_toein",
+   "command": "안짱 (발끝 안쪽 35)",
+   "rollout": "20261111_141053_wide_params__w_toein",
+   "base": "20261015_151030_walk_behaviors__base",
+   "target": "PigeonToed"
+  },
+  {
+   "label": "w_together",
+   "command": "다리 모으기 (다리 안쪽 8, 발끝 안쪽 20)",
+   "rollout": "20261111_141053_wide_params__w_together",
+   "base": "20261015_151030_walk_behaviors__base",
+   "target": "CrossOver"
+  },
+  {
+   "label": "w_bounce",
+   "command": "출렁임 (위아래 출렁임 25, 무릎 흔들림 1.4)",
+   "rollout": "20261111_141053_wide_params__w_bounce",
+   "base": "20261015_151030_walk_behaviors__base",
+   "target": "Skip"
+  }
+ ]
+}

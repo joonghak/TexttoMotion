@@ -1,0 +1,67 @@
+{
+  "command": "턱을 치켜들고 거만하게 걸어",
+  "variant": {
+    "key": "A6",
+    "label": "턱을 치켜들고 거만하게 걸어",
+    "scales": {
+      "cadence": 0.7,
+      "arm_swing": 0.4,
+      "pose": {
+        "head": [
+          0,
+          -14.0,
+          0
+        ]
+      }
+    },
+    "terms": {
+      "track_w": 0.6,
+      "cadence": {
+        "scale": 0.7
+      },
+      "arm_swing": {
+        "scale": 0.4
+      },
+      "pose": {
+        "head": [
+          0,
+          -14.0,
+          0
+        ]
+      }
+    }
+  },
+  "reference": {
+    "clip": "/home/jong/TexttoMotion/MimicKit/data/motions/humanoid/humanoid_walk.pkl",
+    "duration_s": 10.0
+  },
+  "training": {
+    "iterations": 2000,
+    "num_envs": 1024,
+    "status": "completed",
+    "started": "2026-10-26T22:21:00",
+    "finished": "2026-10-26T22:50:21",
+    "final_log": {
+      "Iteration": 1999.0,
+      "Wall_Time": 0.48639712790648143,
+      "Samples": 65536000.0,
+      "Samples_Per_Second": 37427.121584370405,
+      "Test_Return": 290.68035888671875,
+      "Test_Episode_Length": 296.2255859375,
+      "Test_Episodes": 1024.0,
+      "Train_Return": 276.6183776855469,
+      "Train_Episode_Length": 296.2322998046875,
+      "Train_Episodes": 10377.0,
+      "Critic_Loss": 0.05933424085378647,
+      "Actor_Loss": 0.004621478728950024,
+      "Clip_Frac": 0.21434326469898224,
+      "Imp_Ratio": 1.0000863075256348,
+      "Action_Bound_Loss": 2.8876500437036157e-05,
+      "Adv_Mean": 0.017436185851693153,
+      "Adv_Std": 0.269947350025177,
+      "Obs_Norm_Mean": 0.3406275808811188,
+      "Obs_Norm_Std": 0.15558940172195435,
+      "Exp_Prob": 1.0
+    }
+  }
+}

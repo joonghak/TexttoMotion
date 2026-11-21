@@ -1,0 +1,31 @@
+[
+  {
+    "key": "s0_75_n0_75",
+    "label": "s = 0.75, n = 0.75",
+    "scales": {
+      "speed": 0.75,
+      "cadence": 0.75
+    }
+  },
+  {
+    "key": "s1",
+    "label": "s = 1, n = 1",
+    "scales": {}
+  },
+  {
+    "key": "s1_25_n1_25",
+    "label": "s = 1.25, n = 1.25",
+    "scales": {
+      "speed": 1.25,
+      "cadence": 1.25
+    }
+  },
+  {
+    "key": "s2_n1_5",
+    "label": "s = 2, n = 1.5",
+    "scales": {
+      "speed": 2.0,
+      "cadence": 1.5
+    }
+  }
+]

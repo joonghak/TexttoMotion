@@ -1,0 +1,247 @@
+[
+ {
+  "key": "base",
+  "label": "기본 걷기",
+  "scales": {}
+ },
+ {
+  "key": "pen_a",
+  "label": "펭귄 A: 지금 파라미터만 (s 0.4, n 1.2, m_arm 0.3, m_knee 0.7, 팔꿈치 신전 30, 다리 벌림 10, m_torso 5)",
+  "scales": {
+   "speed": 0.4,
+   "cadence": 1.2,
+   "arm_swing": 0.3,
+   "swing": {
+    "torso": 5.0,
+    "right_shin": 0.7,
+    "left_shin": 0.7
+   },
+   "pose": {
+    "right_lower_arm": [
+     0,
+     0,
+     -30
+    ],
+    "left_lower_arm": [
+     0,
+     0,
+     30
+    ],
+    "right_thigh": [
+     -10,
+     0,
+     0
+    ],
+    "left_thigh": [
+     10,
+     0,
+     0
+    ],
+    "right_foot": [
+     10,
+     0,
+     0
+    ],
+    "left_foot": [
+     -10,
+     0,
+     0
+    ]
+   }
+  }
+ },
+ {
+  "key": "pen_b",
+  "label": "펭귄 B: A + 발끝 벌림 30 + 팔 흔들기 0",
+  "scales": {
+   "speed": 0.4,
+   "cadence": 1.2,
+   "arm_swing": 0.0,
+   "swing": {
+    "torso": 5.0,
+    "right_shin": 0.7,
+    "left_shin": 0.7
+   },
+   "pose": {
+    "right_lower_arm": [
+     0,
+     0,
+     -30
+    ],
+    "left_lower_arm": [
+     0,
+     0,
+     30
+    ],
+    "right_thigh": [
+     -10,
+     0,
+     -30
+    ],
+    "left_thigh": [
+     10,
+     0,
+     30
+    ],
+    "right_foot": [
+     10,
+     0,
+     0
+    ],
+    "left_foot": [
+     -10,
+     0,
+     0
+    ]
+   }
+  }
+ },
+ {
+  "key": "pen_c",
+  "label": "펭귄 C: B + 상체 흔들림 10 (뒤뚱거림 과장)",
+  "scales": {
+   "speed": 0.4,
+   "cadence": 1.2,
+   "arm_swing": 0.0,
+   "swing": {
+    "torso": 10.0,
+    "right_shin": 0.7,
+    "left_shin": 0.7
+   },
+   "pose": {
+    "right_lower_arm": [
+     0,
+     0,
+     -30
+    ],
+    "left_lower_arm": [
+     0,
+     0,
+     30
+    ],
+    "right_thigh": [
+     -10,
+     0,
+     -30
+    ],
+    "left_thigh": [
+     10,
+     0,
+     30
+    ],
+    "right_foot": [
+     10,
+     0,
+     0
+    ],
+    "left_foot": [
+     -10,
+     0,
+     0
+    ]
+   }
+  }
+ },
+ {
+  "key": "pen_d",
+  "label": "펭귄 D: s 0.3, n 1.3, m_knee 0.4 (발 끌기), m_arm 0, 팔꿈치 신전 30, 어깨 안쪽 15 (팔을 몸에 붙임), 발끝 벌림 30, 다리 벌림 5, m_torso 10",
+  "scales": {
+   "speed": 0.3,
+   "cadence": 1.3,
+   "arm_swing": 0.0,
+   "swing": {
+    "torso": 10.0,
+    "right_shin": 0.4,
+    "left_shin": 0.4
+   },
+   "pose": {
+    "right_lower_arm": [
+     0,
+     0,
+     -30
+    ],
+    "left_lower_arm": [
+     0,
+     0,
+     30
+    ],
+    "right_upper_arm": [
+     15,
+     0,
+     0
+    ],
+    "left_upper_arm": [
+     -15,
+     0,
+     0
+    ],
+    "right_thigh": [
+     -5,
+     0,
+     -30
+    ],
+    "left_thigh": [
+     5,
+     0,
+     30
+    ],
+    "right_foot": [
+     5,
+     0,
+     0
+    ],
+    "left_foot": [
+     -5,
+     0,
+     0
+    ]
+   }
+  }
+ },
+ {
+  "key": "pen_e",
+  "label": "펭귄 E: D에서 다리 벌림 없이 (뒤뚱거림은 흔들림과 발끝 벌림으로)",
+  "scales": {
+   "speed": 0.3,
+   "cadence": 1.3,
+   "arm_swing": 0.0,
+   "swing": {
+    "torso": 10.0,
+    "right_shin": 0.4,
+    "left_shin": 0.4
+   },
+   "pose": {
+    "right_lower_arm": [
+     0,
+     0,
+     -30
+    ],
+    "left_lower_arm": [
+     0,
+     0,
+     30
+    ],
+    "right_upper_arm": [
+     15,
+     0,
+     0
+    ],
+    "left_upper_arm": [
+     -15,
+     0,
+     0
+    ],
+    "right_thigh": [
+     0,
+     0,
+     -30
+    ],
+    "left_thigh": [
+     0,
+     0,
+     30
+    ]
+   }
+  }
+ }
+]

@@ -1,0 +1,49 @@
+{
+  "command": "n = 1.25",
+  "variant": {
+    "key": "n1_25",
+    "label": "n = 1.25",
+    "scales": {
+      "cadence": 1.25
+    },
+    "terms": {
+      "track_w": 0.6,
+      "cadence": {
+        "scale": 1.25
+      }
+    }
+  },
+  "reference": {
+    "clip": "/home/jong/TexttoMotion/MimicKit/data/motions/humanoid/humanoid_spinkick.pkl",
+    "duration_s": 10.0
+  },
+  "training": {
+    "iterations": 1500,
+    "num_envs": 1024,
+    "status": "completed",
+    "started": "2026-10-07T16:40:18",
+    "finished": "2026-10-07T17:02:21",
+    "final_log": {
+      "Iteration": 1499.0,
+      "Wall_Time": 0.36475326048003304,
+      "Samples": 49152000.0,
+      "Samples_Per_Second": 37431.69647165013,
+      "Test_Return": 228.8382110595703,
+      "Test_Episode_Length": 276.8646240234375,
+      "Test_Episodes": 1034.0,
+      "Train_Return": 213.46868896484375,
+      "Train_Episode_Length": 275.3040466308594,
+      "Train_Episodes": 11238.0,
+      "Critic_Loss": 0.10540835559368134,
+      "Actor_Loss": -0.0015163610223680735,
+      "Clip_Frac": 0.30324098467826843,
+      "Imp_Ratio": 1.000241994857788,
+      "Action_Bound_Loss": 1.4743726524102385e-06,
+      "Adv_Mean": 0.010845696553587914,
+      "Adv_Std": 0.33016669750213623,
+      "Obs_Norm_Mean": 0.3771023452281952,
+      "Obs_Norm_Std": 0.36441394686698914,
+      "Exp_Prob": 1.0
+    }
+  }
+}

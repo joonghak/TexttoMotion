@@ -1,0 +1,53 @@
+{
+  "command": "한 걸음 한 걸음 크게 내디디며 걸어",
+  "variant": {
+    "key": "A8",
+    "label": "한 걸음 한 걸음 크게 내디디며 걸어",
+    "scales": {
+      "speed": 1.2,
+      "cadence": 0.85
+    },
+    "terms": {
+      "track_w": 0.6,
+      "speed": {
+        "scale": 1.2
+      },
+      "cadence": {
+        "scale": 0.85
+      }
+    }
+  },
+  "reference": {
+    "clip": "/home/jong/TexttoMotion/MimicKit/data/motions/humanoid/humanoid_walk.pkl",
+    "duration_s": 10.0
+  },
+  "training": {
+    "iterations": 2000,
+    "num_envs": 1024,
+    "status": "completed",
+    "started": "2026-10-26T21:23:15",
+    "finished": "2026-10-26T21:51:20",
+    "final_log": {
+      "Iteration": 1999.0,
+      "Wall_Time": 0.4653277646832996,
+      "Samples": 65536000.0,
+      "Samples_Per_Second": 39121.76712007358,
+      "Test_Return": 289.9714050292969,
+      "Test_Episode_Length": 297.6767578125,
+      "Test_Episodes": 1024.0,
+      "Train_Return": 276.1898193359375,
+      "Train_Episode_Length": 297.74078369140625,
+      "Train_Episodes": 10323.0,
+      "Critic_Loss": 0.036988601088523865,
+      "Actor_Loss": -0.0035033405292779207,
+      "Clip_Frac": 0.2602905333042145,
+      "Imp_Ratio": 0.999697208404541,
+      "Action_Bound_Loss": 0.0,
+      "Adv_Mean": 0.007452379912137985,
+      "Adv_Std": 0.1922152191400528,
+      "Obs_Norm_Mean": 0.3411942720413208,
+      "Obs_Norm_Std": 0.16775797307491302,
+      "Exp_Prob": 1.0
+    }
+  }
+}

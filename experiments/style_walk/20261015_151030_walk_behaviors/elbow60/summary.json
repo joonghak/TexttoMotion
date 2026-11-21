@@ -1,0 +1,69 @@
+{
+  "command": "팔꿈치 60° 굽힘",
+  "variant": {
+    "key": "elbow60",
+    "label": "팔꿈치 60° 굽힘",
+    "scales": {
+      "pose": {
+        "right_lower_arm": [
+          0,
+          0,
+          60
+        ],
+        "left_lower_arm": [
+          0,
+          0,
+          -60
+        ]
+      }
+    },
+    "terms": {
+      "track_w": 0.6,
+      "pose": {
+        "right_lower_arm": [
+          0,
+          0,
+          60
+        ],
+        "left_lower_arm": [
+          0,
+          0,
+          -60
+        ]
+      }
+    }
+  },
+  "reference": {
+    "clip": "/home/jong/TexttoMotion/MimicKit/data/motions/humanoid/humanoid_walk.pkl",
+    "duration_s": 10.0
+  },
+  "training": {
+    "iterations": 2000,
+    "num_envs": 1024,
+    "status": "completed",
+    "started": "2026-10-15T22:54:07",
+    "finished": "2026-10-15T23:22:43",
+    "final_log": {
+      "Iteration": 1999.0,
+      "Wall_Time": 0.47381489296754203,
+      "Samples": 65536000.0,
+      "Samples_Per_Second": 38421.00515335957,
+      "Test_Return": 292.011962890625,
+      "Test_Episode_Length": 296.5146484375,
+      "Test_Episodes": 1024.0,
+      "Train_Return": 279.8083190917969,
+      "Train_Episode_Length": 298.0770263671875,
+      "Train_Episodes": 10309.0,
+      "Critic_Loss": 0.041367966681718826,
+      "Actor_Loss": -0.011117375455796719,
+      "Clip_Frac": 0.24044190347194672,
+      "Imp_Ratio": 0.999567985534668,
+      "Action_Bound_Loss": 0.0,
+      "Adv_Mean": 0.02160806953907013,
+      "Adv_Std": 0.20691275596618652,
+      "Obs_Norm_Mean": 0.3405623733997345,
+      "Obs_Norm_Std": 0.16652919352054596,
+      "Exp_Prob": 1.0
+    }
+  }
+}

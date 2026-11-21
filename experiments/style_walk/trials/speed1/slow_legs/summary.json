@@ -1,0 +1,49 @@
+{
+  "command": "slow_legs",
+  "variant": {
+    "key": "slow_legs",
+    "label": "slow_legs",
+    "scales": {
+      "speed": 0.75
+    },
+    "terms": {
+      "track_w": 0.6,
+      "speed": {
+        "scale": 0.75
+      }
+    }
+  },
+  "reference": {
+    "clip": "/home/jong/TexttoMotion/MimicKit/data/motions/humanoid/humanoid_walk.pkl",
+    "duration_s": 10.0
+  },
+  "training": {
+    "iterations": 1000,
+    "num_envs": 1024,
+    "status": "completed",
+    "started": "2026-10-06T15:35:09",
+    "finished": "2026-10-06T15:51:40",
+    "final_log": {
+      "Iteration": 999.0,
+      "Wall_Time": 0.27239399764272904,
+      "Samples": 32768000.0,
+      "Samples_Per_Second": 33415.64902674788,
+      "Test_Return": 278.1877136230469,
+      "Test_Episode_Length": 293.6142578125,
+      "Test_Episodes": 1024.0,
+      "Train_Return": 261.2144470214844,
+      "Train_Episode_Length": 295.39178466796875,
+      "Train_Episodes": 10416.0,
+      "Critic_Loss": 0.459927499294281,
+      "Actor_Loss": -0.014639444649219513,
+      "Clip_Frac": 0.16450805962085724,
+      "Imp_Ratio": 0.9987525343894958,
+      "Action_Bound_Loss": 0.0,
+      "Adv_Mean": 0.03279015049338341,
+      "Adv_Std": 0.7731959223747253,
+      "Obs_Norm_Mean": 0.3425273597240448,
+      "Obs_Norm_Std": 0.16173462569713593,
+      "Exp_Prob": 1.0
+    }
+  }
+}

@@ -1,0 +1,136 @@
+{
+  "command": "펭귄 E: D에서 다리 벌림 없이 (뒤뚱거림은 흔들림과 발끝 벌림으로)",
+  "variant": {
+    "key": "pen_e",
+    "label": "펭귄 E: D에서 다리 벌림 없이 (뒤뚱거림은 흔들림과 발끝 벌림으로)",
+    "scales": {
+      "speed": 0.3,
+      "cadence": 1.3,
+      "arm_swing": 0.0,
+      "swing": {
+        "torso": 10.0,
+        "right_shin": 0.4,
+        "left_shin": 0.4
+      },
+      "pose": {
+        "right_lower_arm": [
+          0,
+          0,
+          -30
+        ],
+        "left_lower_arm": [
+          0,
+          0,
+          30
+        ],
+        "right_upper_arm": [
+          15,
+          0,
+          0
+        ],
+        "left_upper_arm": [
+          -15,
+          0,
+          0
+        ],
+        "right_thigh": [
+          0,
+          0,
+          -30
+        ],
+        "left_thigh": [
+          0,
+          0,
+          30
+        ]
+      }
+    },
+    "terms": {
+      "track_w": 0.6,
+      "speed": {
+        "scale": 0.3
+      },
+      "cadence": {
+        "scale": 1.3
+      },
+      "arm_swing": {
+        "scale": 0.0
+      },
+      "swing": {
+        "torso": 10.0,
+        "right_shin": 0.4,
+        "left_shin": 0.4
+      },
+      "pose": {
+        "right_lower_arm": [
+          0,
+          0,
+          -30
+        ],
+        "left_lower_arm": [
+          0,
+          0,
+          30
+        ],
+        "right_upper_arm": [
+          15,
+          0,
+          0
+        ],
+        "left_upper_arm": [
+          -15,
+          0,
+          0
+        ],
+        "right_thigh": [
+          0,
+          0,
+          -30
+        ],
+        "left_thigh": [
+          0,
+          0,
+          30
+        ]
+      },
+      "style": {
+        "w": 0.2
+      },
+      "swing_unit": "/home/jong/TexttoMotion/MimicKit/data/motions/humanoid/humanoid_walk.pkl",
+      "pose_unit": "/home/jong/TexttoMotion/MimicKit/data/motions/humanoid/humanoid_walk.pkl"
+    }
+  },
+  "reference": {
+    "clip": "/home/jong/TexttoMotion/MimicKit/data/motions/humanoid/humanoid_walk.pkl",
+    "duration_s": 10.0
+  },
+  "training": {
+    "iterations": 2000,
+    "num_envs": 1024,
+    "status": "completed",
+    "started": "2026-11-05T18:22:05",
+    "finished": "2026-11-05T18:55:17",
+    "final_log": {
+      "Iteration": 1999.0,
+      "Wall_Time": 0.549935719900661,
+      "Samples": 65536000.0,
+      "Samples_Per_Second": 33102.858726348684,
+      "Test_Return": 270.1798400878906,
+      "Test_Episode_Length": 291.2900390625,
+      "Test_Episodes": 1024.0,
+      "Train_Return": 260.1008605957031,
+      "Train_Episode_Length": 293.5600891113281,
+      "Train_Episodes": 10478.0,
+      "Critic_Loss": 0.02754361741244793,
+      "Actor_Loss": -0.003021686337888241,
+      "Clip_Frac": 0.28678590059280396,
+      "Imp_Ratio": 0.9993139505386353,
+      "Action_Bound_Loss": 0.0,
+      "Adv_Mean": -0.005085306242108345,
+      "Adv_Std": 0.16607064008712769,
+      "Obs_Norm_Mean": 0.33924466371536255,
+      "Obs_Norm_Std": 0.1592525839805603,
+      "Exp_Prob": 1.0
+    }
+  }
+}

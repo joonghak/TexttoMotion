@@ -1,0 +1,99 @@
+{
+  "command": "긴장해서 몸이 굳은 채로 걸어",
+  "variant": {
+    "key": "B1",
+    "label": "긴장해서 몸이 굳은 채로 걸어",
+    "scales": {
+      "arm_swing": 0.4,
+      "swing": {
+        "torso": 0.0
+      },
+      "pose": {
+        "torso": [
+          0,
+          15.0,
+          0
+        ],
+        "head": [
+          0,
+          25.0,
+          0
+        ],
+        "right_lower_arm": [
+          0,
+          0,
+          50.0
+        ],
+        "left_lower_arm": [
+          0,
+          0,
+          -50.0
+        ]
+      }
+    },
+    "terms": {
+      "track_w": 0.6,
+      "arm_swing": {
+        "scale": 0.4
+      },
+      "swing": {
+        "torso": 0.0
+      },
+      "pose": {
+        "torso": [
+          0,
+          15.0,
+          0
+        ],
+        "head": [
+          0,
+          25.0,
+          0
+        ],
+        "right_lower_arm": [
+          0,
+          0,
+          50.0
+        ],
+        "left_lower_arm": [
+          0,
+          0,
+          -50.0
+        ]
+      }
+    }
+  },
+  "reference": {
+    "clip": "/home/jong/TexttoMotion/MimicKit/data/motions/humanoid/humanoid_walk.pkl",
+    "duration_s": 10.0
+  },
+  "training": {
+    "iterations": 2000,
+    "num_envs": 1024,
+    "status": "completed",
+    "started": "2026-10-26T22:50:33",
+    "finished": "2026-10-26T23:18:59",
+    "final_log": {
+      "Iteration": 1999.0,
+      "Wall_Time": 0.4710396960046556,
+      "Samples": 65536000.0,
+      "Samples_Per_Second": 38647.367937042225,
+      "Test_Return": 289.53271484375,
+      "Test_Episode_Length": 295.6435546875,
+      "Test_Episodes": 1024.0,
+      "Train_Return": 277.2259216308594,
+      "Train_Episode_Length": 297.17669677734375,
+      "Train_Episodes": 10347.0,
+      "Critic_Loss": 0.03778647631406784,
+      "Actor_Loss": -0.006105367094278336,
+      "Clip_Frac": 0.2567199766635895,
+      "Imp_Ratio": 0.9992663264274597,
+      "Action_Bound_Loss": 0.0,
+      "Adv_Mean": 0.018168430775403976,
+      "Adv_Std": 0.1986493617296219,
+      "Obs_Norm_Mean": 0.34142547845840454,
+      "Obs_Norm_Std": 0.16371868550777435,
+      "Exp_Prob": 1.0
+    }
+  }
+}

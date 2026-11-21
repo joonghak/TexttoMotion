@@ -1,0 +1,74 @@
+{
+  "command": "안짱걸음을 노린 새 범위 확인 (사람이 정한 값): 발끝 안쪽 35°",
+  "variant": {
+    "key": "w_toein",
+    "label": "안짱걸음을 노린 새 범위 확인 (사람이 정한 값): 발끝 안쪽 35°",
+    "scales": {
+      "pose": {
+        "right_thigh": [
+          -0.0,
+          0,
+          35
+        ],
+        "left_thigh": [
+          0.0,
+          0,
+          -35
+        ]
+      }
+    },
+    "terms": {
+      "track_w": 0.6,
+      "pose": {
+        "right_thigh": [
+          -0.0,
+          0,
+          35
+        ],
+        "left_thigh": [
+          0.0,
+          0,
+          -35
+        ]
+      },
+      "style": {
+        "w": 0.2
+      },
+      "swing_unit": "/home/jong/TexttoMotion/MimicKit/data/motions/humanoid/humanoid_walk.pkl",
+      "pose_unit": "/home/jong/TexttoMotion/MimicKit/data/motions/humanoid/humanoid_walk.pkl"
+    }
+  },
+  "reference": {
+    "clip": "/home/jong/TexttoMotion/MimicKit/data/motions/humanoid/humanoid_walk.pkl",
+    "duration_s": 10.0
+  },
+  "training": {
+    "iterations": 2000,
+    "num_envs": 1024,
+    "status": "completed",
+    "started": "2026-11-11T21:23:46",
+    "finished": "2026-11-11T21:54:38",
+    "final_log": {
+      "Iteration": 1999.0,
+      "Wall_Time": 0.5112828280528386,
+      "Samples": 65536000.0,
+      "Samples_Per_Second": 35605.429022081495,
+      "Test_Return": 279.7801208496094,
+      "Test_Episode_Length": 296.541015625,
+      "Test_Episodes": 1024.0,
+      "Train_Return": 267.0989685058594,
+      "Train_Episode_Length": 296.8079833984375,
+      "Train_Episodes": 10356.0,
+      "Critic_Loss": 0.034001197665929794,
+      "Actor_Loss": -0.005850800313055515,
+      "Clip_Frac": 0.26249390840530396,
+      "Imp_Ratio": 0.9990897178649902,
+      "Action_Bound_Loss": 0.0,
+      "Adv_Mean": -0.004540170542895794,
+      "Adv_Std": 0.18384526669979095,
+      "Obs_Norm_Mean": 0.3425575792789459,
+      "Obs_Norm_Std": 0.17441755533218384,
+      "Exp_Prob": 1.0
+    }
+  }
+}

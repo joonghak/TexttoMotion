@@ -1,0 +1,123 @@
+{
+  "command": "살금살금 C",
+  "variant": {
+    "key": "sneak_c",
+    "label": "살금살금 C",
+    "scales": {
+      "crouch": 15.0,
+      "swing": {
+        "right_shin": 0.8,
+        "left_shin": 0.8
+      },
+      "speed": 1.0,
+      "cadence": 0.5,
+      "arm_swing": 0.3,
+      "pose": {
+        "torso": [
+          0,
+          15,
+          0
+        ],
+        "right_upper_arm": [
+          0,
+          -20,
+          0
+        ],
+        "left_upper_arm": [
+          0,
+          -20,
+          0
+        ],
+        "right_lower_arm": [
+          0,
+          0,
+          40
+        ],
+        "left_lower_arm": [
+          0,
+          0,
+          -40
+        ]
+      }
+    },
+    "terms": {
+      "track_w": 0.6,
+      "crouch": {
+        "angle": 15.0
+      },
+      "swing": {
+        "right_shin": 0.8,
+        "left_shin": 0.8
+      },
+      "speed": {
+        "scale": 1.0
+      },
+      "cadence": {
+        "scale": 0.5
+      },
+      "arm_swing": {
+        "scale": 0.3
+      },
+      "pose": {
+        "torso": [
+          0,
+          15,
+          0
+        ],
+        "right_upper_arm": [
+          0,
+          -20,
+          0
+        ],
+        "left_upper_arm": [
+          0,
+          -20,
+          0
+        ],
+        "right_lower_arm": [
+          0,
+          0,
+          40
+        ],
+        "left_lower_arm": [
+          0,
+          0,
+          -40
+        ]
+      }
+    }
+  },
+  "reference": {
+    "clip": "/home/jong/TexttoMotion/MimicKit/data/motions/humanoid/humanoid_walk.pkl",
+    "duration_s": 10.0
+  },
+  "training": {
+    "iterations": 2000,
+    "num_envs": 1024,
+    "status": "completed",
+    "started": "2026-10-15T16:21:22",
+    "finished": "2026-10-15T16:53:34",
+    "final_log": {
+      "Iteration": 1999.0,
+      "Wall_Time": 0.5335972334278954,
+      "Samples": 65536000.0,
+      "Samples_Per_Second": 34116.452080339346,
+      "Test_Return": 285.2046813964844,
+      "Test_Episode_Length": 293.314453125,
+      "Test_Episodes": 1024.0,
+      "Train_Return": 273.2134094238281,
+      "Train_Episode_Length": 294.5733947753906,
+      "Train_Episodes": 10436.0,
+      "Critic_Loss": 0.4458017349243164,
+      "Actor_Loss": -0.02502565085887909,
+      "Clip_Frac": 0.15401001274585724,
+      "Imp_Ratio": 0.9996506571769714,
+      "Action_Bound_Loss": 0.0,
+      "Adv_Mean": -0.049852121621370316,
+      "Adv_Std": 0.7295337915420532,
+      "Obs_Norm_Mean": 0.3404729664325714,
+      "Obs_Norm_Std": 0.1489124298095703,
+      "Exp_Prob": 1.0
+    }
+  }
+}

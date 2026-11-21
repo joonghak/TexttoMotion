@@ -1,0 +1,70 @@
+{
+  "command": "화가 나서 쿵쿵 걸어: Qwen3-4B-Thinking-2507, 프롬프트 v6이 정한 값 (n 1.25, c 15, m_arm 1.5, m_knee 1.5)",
+  "variant": {
+    "key": "v6_M3",
+    "label": "화가 나서 쿵쿵 걸어: Qwen3-4B-Thinking-2507, 프롬프트 v6이 정한 값 (n 1.25, c 15, m_arm 1.5, m_knee 1.5)",
+    "scales": {
+      "cadence": 1.25,
+      "arm_swing": 1.5,
+      "crouch": 15.0,
+      "swing": {
+        "right_shin": 1.5,
+        "left_shin": 1.5
+      }
+    },
+    "terms": {
+      "track_w": 0.6,
+      "cadence": {
+        "scale": 1.25
+      },
+      "arm_swing": {
+        "scale": 1.5
+      },
+      "crouch": {
+        "angle": 15.0
+      },
+      "swing": {
+        "right_shin": 1.5,
+        "left_shin": 1.5
+      },
+      "style": {
+        "w": 0.2
+      },
+      "swing_unit": "/home/jong/TexttoMotion/MimicKit/data/motions/humanoid/humanoid_walk.pkl",
+      "pose_unit": "/home/jong/TexttoMotion/MimicKit/data/motions/humanoid/humanoid_walk.pkl"
+    }
+  },
+  "reference": {
+    "clip": "/home/jong/TexttoMotion/MimicKit/data/motions/humanoid/humanoid_walk.pkl",
+    "duration_s": 10.0
+  },
+  "training": {
+    "iterations": 2000,
+    "num_envs": 1024,
+    "status": "completed",
+    "started": "2026-11-11T15:47:59",
+    "finished": "2026-11-11T16:20:26",
+    "final_log": {
+      "Iteration": 1999.0,
+      "Wall_Time": 0.5377168422937393,
+      "Samples": 65536000.0,
+      "Samples_Per_Second": 33855.075780758,
+      "Test_Return": 272.4911804199219,
+      "Test_Episode_Length": 296.8056945800781,
+      "Test_Episodes": 1024.0,
+      "Train_Return": 256.8668518066406,
+      "Train_Episode_Length": 298.5384216308594,
+      "Train_Episodes": 10292.0,
+      "Critic_Loss": 0.03408017009496689,
+      "Actor_Loss": -0.00230102869682014,
+      "Clip_Frac": 0.32708740234375,
+      "Imp_Ratio": 0.9982610940933228,
+      "Action_Bound_Loss": 8.252386578533333e-06,
+      "Adv_Mean": 0.012178303673863411,
+      "Adv_Std": 0.1876329779624939,
+      "Obs_Norm_Mean": 0.3436947464942932,
+      "Obs_Norm_Std": 0.1883595585823059,
+      "Exp_Prob": 1.0
+    }
+  }
+}

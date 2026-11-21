@@ -1,0 +1,602 @@
+{
+  "model": "openai/gpt-5.6-terra",
+  "revision": null,
+  "quantize": null,
+  "prompt": "v11",
+  "thinking_budget": null,
+  "test_set": "test_commands_9.json",
+  "seed": 42,
+  "batch_size": 2,
+  "elapsed_s": 26.3,
+  "level1_passed": 10,
+  "commands": 10,
+  "results": [
+    {
+      "id": "S1",
+      "group": "S",
+      "text": "오른쪽 다리를 절뚝거리며 걸어",
+      "expect": "accept",
+      "expect_action": "walk",
+      "target": "LimpRight",
+      "check": "legs",
+      "min": 1,
+      "level1": "pass",
+      "tokens": 30,
+      "answer": "{\"look\":\"The character walks with a limp on the right leg.\",\"right\":{\"m_knee\":0.4}}",
+      "params": {
+        "action": "walk",
+        "s": 1.0,
+        "n": 1.0,
+        "c": 0.0,
+        "m_arm": 1.0,
+        "m_torso": 1.0,
+        "m_knee": 1.0,
+        "m_elbow": 1.0,
+        "torso_pitch": 0.0,
+        "head_pitch": 0.0,
+        "shoulder_flexion": 0.0,
+        "shoulder_abduction": 0.0,
+        "elbow_flexion": 0.0,
+        "stance_width": 0.0,
+        "toe_out": 0.0,
+        "shoulder_rotation": 0.0,
+        "bounce": 0.0,
+        "torso_roll": 0.0,
+        "head_roll": 0.0,
+        "head_yaw": 0.0,
+        "look": "The character walks with a limp on the right leg.",
+        "right_m_knee": 0.4
+      },
+      "rules": [],
+      "scales": {
+        "swing": {
+          "right_shin": 0.4
+        }
+      },
+      "speed_mps": 1.26
+    },
+    {
+      "id": "S2",
+      "group": "S",
+      "text": "왼손을 번쩍 들고 걸어",
+      "expect": "accept",
+      "expect_action": "walk",
+      "target": "RaisedLeftArm",
+      "check": "l_hand_height - r_hand_height",
+      "min": 0.4,
+      "level1": "pass",
+      "tokens": 34,
+      "answer": "{\"look\":\"Walking with the left arm raised high.\",\"left\":{\"shoulder_flexion\":85,\"m_arm\":0.3}}",
+      "params": {
+        "action": "walk",
+        "s": 1.0,
+        "n": 1.0,
+        "c": 0.0,
+        "m_arm": 1.0,
+        "m_torso": 1.0,
+        "m_knee": 1.0,
+        "m_elbow": 1.0,
+        "torso_pitch": 0.0,
+        "head_pitch": 0.0,
+        "shoulder_flexion": 0.0,
+        "shoulder_abduction": 0.0,
+        "elbow_flexion": 0.0,
+        "stance_width": 0.0,
+        "toe_out": 0.0,
+        "shoulder_rotation": 0.0,
+        "bounce": 0.0,
+        "torso_roll": 0.0,
+        "head_roll": 0.0,
+        "head_yaw": 0.0,
+        "look": "Walking with the left arm raised high.",
+        "left_shoulder_flexion": 85.0,
+        "left_m_arm": 0.3
+      },
+      "rules": [],
+      "scales": {
+        "swing": {
+          "left_upper_arm": 0.3,
+          "left_lower_arm": 0.3
+        },
+        "pose": {
+          "left_upper_arm": [
+            0.0,
+            -85.0,
+            -0.0
+          ]
+        }
+      },
+      "speed_mps": 1.26
+    },
+    {
+      "id": "S3",
+      "group": "S",
+      "text": "오른손으로 전화를 받으면서 걸어",
+      "expect": "accept",
+      "expect_action": "walk",
+      "target": "OnPhoneRight",
+      "check": "r_elbow_bend - l_elbow_bend",
+      "min": 25,
+      "level1": "pass",
+      "tokens": 56,
+      "answer": "{\"look\":\"Walk while holding the right hand to the ear as if answering a phone.\",\"right\":{\"shoulder_abduction\":45,\"shoulder_flexion\":35,\"elbow_flexion\":60,\"m_arm\":0.3}}",
+      "params": {
+        "action": "walk",
+        "s": 1.0,
+        "n": 1.0,
+        "c": 0.0,
+        "m_arm": 1.0,
+        "m_torso": 1.0,
+        "m_knee": 1.0,
+        "m_elbow": 1.0,
+        "torso_pitch": 0.0,
+        "head_pitch": 0.0,
+        "shoulder_flexion": 0.0,
+        "shoulder_abduction": 0.0,
+        "elbow_flexion": 0.0,
+        "stance_width": 0.0,
+        "toe_out": 0.0,
+        "shoulder_rotation": 0.0,
+        "bounce": 0.0,
+        "torso_roll": 0.0,
+        "head_roll": 0.0,
+        "head_yaw": 0.0,
+        "look": "Walk while holding the right hand to the ear as if answering a phone.",
+        "right_shoulder_abduction": 45.0,
+        "right_shoulder_flexion": 35.0,
+        "right_elbow_flexion": 60.0,
+        "right_m_arm": 0.3
+      },
+      "rules": [],
+      "scales": {
+        "swing": {
+          "right_upper_arm": 0.3,
+          "right_lower_arm": 0.3
+        },
+        "pose": {
+          "right_upper_arm": [
+            -43.56,
+            -33.16,
+            -13.74
+          ],
+          "right_lower_arm": [
+            0,
+            0,
+            60.0
+          ]
+        }
+      },
+      "speed_mps": 1.26
+    },
+    {
+      "id": "S4",
+      "group": "S",
+      "text": "왼쪽 다리를 질질 끌면서 걸어",
+      "expect": "accept",
+      "expect_action": "walk",
+      "target": "DragLeftLeg",
+      "check": "r_knee_range - l_knee_range",
+      "min": 10,
+      "level1": "pass",
+      "tokens": 28,
+      "answer": "{\"look\":\"The character walks while dragging the left leg.\",\"left\":{\"m_knee\":0.4}}",
+      "params": {
+        "action": "walk",
+        "s": 1.0,
+        "n": 1.0,
+        "c": 0.0,
+        "m_arm": 1.0,
+        "m_torso": 1.0,
+        "m_knee": 1.0,
+        "m_elbow": 1.0,
+        "torso_pitch": 0.0,
+        "head_pitch": 0.0,
+        "shoulder_flexion": 0.0,
+        "shoulder_abduction": 0.0,
+        "elbow_flexion": 0.0,
+        "stance_width": 0.0,
+        "toe_out": 0.0,
+        "shoulder_rotation": 0.0,
+        "bounce": 0.0,
+        "torso_roll": 0.0,
+        "head_roll": 0.0,
+        "head_yaw": 0.0,
+        "look": "The character walks while dragging the left leg.",
+        "left_m_knee": 0.4
+      },
+      "rules": [],
+      "scales": {
+        "swing": {
+          "left_shin": 0.4
+        }
+      },
+      "speed_mps": 1.26
+    },
+    {
+      "id": "S5",
+      "group": "S",
+      "text": "오른손에 지팡이를 짚고 걸어",
+      "expect": "accept",
+      "expect_action": "walk",
+      "target": "WalkingStickRight",
+      "check": "arms",
+      "min": 1,
+      "level1": "pass",
+      "tokens": 89,
+      "answer": "{\"look\":\"Walks while leaning on a cane in the right hand.\",\"s\":0.7,\"n\":0.7,\"m_arm\":0.4,\"m_knee\":0.8,\"torso_pitch\":15,\"torso_roll\":20,\"right\":{\"m_arm\":0,\"m_elbow\":0,\"shoulder_flexion\":20,\"elbow_flexion\":40}}",
+      "params": {
+        "action": "walk",
+        "s": 0.7,
+        "n": 0.7,
+        "c": 0.0,
+        "m_arm": 0.4,
+        "m_torso": 1.0,
+        "m_knee": 0.8,
+        "m_elbow": 1.0,
+        "torso_pitch": 15.0,
+        "head_pitch": 0.0,
+        "shoulder_flexion": 0.0,
+        "shoulder_abduction": 0.0,
+        "elbow_flexion": 0.0,
+        "stance_width": 0.0,
+        "toe_out": 0.0,
+        "shoulder_rotation": 0.0,
+        "bounce": 0.0,
+        "torso_roll": 20.0,
+        "head_roll": 0.0,
+        "head_yaw": 0.0,
+        "look": "Walks while leaning on a cane in the right hand.",
+        "right_m_arm": 0.0,
+        "right_m_elbow": 0.0,
+        "right_shoulder_flexion": 20.0,
+        "right_elbow_flexion": 40.0
+      },
+      "rules": [],
+      "scales": {
+        "speed": 0.7,
+        "cadence": 0.7,
+        "arm_swing": 0.4,
+        "swing": {
+          "right_upper_arm": 0.0,
+          "right_lower_arm": 0.0,
+          "right_shin": 0.8,
+          "left_shin": 0.8
+        },
+        "pose": {
+          "torso": [
+            19.89,
+            14.85,
+            -2.62
+          ],
+          "right_upper_arm": [
+            -0.0,
+            -20.0,
+            0.0
+          ],
+          "right_lower_arm": [
+            0,
+            0,
+            40.0
+          ]
+        }
+      },
+      "speed_mps": 0.617
+    },
+    {
+      "id": "S6",
+      "group": "S",
+      "text": "몸을 오른쪽으로 기울인 채 걸어",
+      "expect": "accept",
+      "expect_action": "walk",
+      "target": "LeanRight",
+      "check": "torso_roll",
+      "min": 8,
+      "level1": "pass",
+      "tokens": 26,
+      "answer": "{\"look\":\"Walk while leaning the body to the character's right.\",\"torso_roll\":20}",
+      "params": {
+        "action": "walk",
+        "s": 1.0,
+        "n": 1.0,
+        "c": 0.0,
+        "m_arm": 1.0,
+        "m_torso": 1.0,
+        "m_knee": 1.0,
+        "m_elbow": 1.0,
+        "torso_pitch": 0.0,
+        "head_pitch": 0.0,
+        "shoulder_flexion": 0.0,
+        "shoulder_abduction": 0.0,
+        "elbow_flexion": 0.0,
+        "stance_width": 0.0,
+        "toe_out": 0.0,
+        "shoulder_rotation": 0.0,
+        "bounce": 0.0,
+        "torso_roll": 20.0,
+        "head_roll": 0.0,
+        "head_yaw": 0.0,
+        "look": "Walk while leaning the body to the character's right."
+      },
+      "rules": [],
+      "scales": {
+        "pose": {
+          "torso": [
+            20.0,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "speed_mps": 1.26
+    },
+    {
+      "id": "S7",
+      "group": "S",
+      "text": "다친 왼팔을 감싸 쥐고 걸어",
+      "expect": "accept",
+      "expect_action": "walk",
+      "check": "r_arm_swing - l_arm_swing",
+      "min": 0.15,
+      "level1": "pass",
+      "tokens": 231,
+      "answer": "{\"look\":\"Walks while cradling an injured left arm with the right hand.\",\"left\":{\"m_arm\":0,\"m_elbow\":0,\"shoulder_flexion\":25,\"elbow_flexion\":50,\"shoulder_rotation\":30},\"right\":{\"m_arm\":0,\"m_elbow\":0,\"shoulder_flexion\":55,\"elbow_flexion\":60,\"shoulder_rotation\":45}}",
+      "params": {
+        "action": "walk",
+        "s": 1.0,
+        "n": 1.0,
+        "c": 0.0,
+        "m_arm": 1.0,
+        "m_torso": 1.0,
+        "m_knee": 1.0,
+        "m_elbow": 1.0,
+        "torso_pitch": 0.0,
+        "head_pitch": 0.0,
+        "shoulder_flexion": 0.0,
+        "shoulder_abduction": 0.0,
+        "elbow_flexion": 0.0,
+        "stance_width": 0.0,
+        "toe_out": 0.0,
+        "shoulder_rotation": 0.0,
+        "bounce": 0.0,
+        "torso_roll": 0.0,
+        "head_roll": 0.0,
+        "head_yaw": 0.0,
+        "look": "Walks while cradling an injured left arm with the right hand.",
+        "right_m_arm": 0.0,
+        "right_m_elbow": 0.0,
+        "right_shoulder_flexion": 55.0,
+        "right_elbow_flexion": 60.0,
+        "right_shoulder_rotation": 45.0,
+        "left_m_arm": 0.0,
+        "left_m_elbow": 0.0,
+        "left_shoulder_flexion": 25.0,
+        "left_elbow_flexion": 50.0,
+        "left_shoulder_rotation": 30.0
+      },
+      "rules": [],
+      "scales": {
+        "swing": {
+          "right_upper_arm": 0.0,
+          "right_lower_arm": 0.0,
+          "left_upper_arm": 0.0,
+          "left_lower_arm": 0.0
+        },
+        "pose": {
+          "right_upper_arm": [
+            -21.56,
+            -52.06,
+            41.42
+          ],
+          "right_lower_arm": [
+            0,
+            0,
+            60.0
+          ],
+          "left_upper_arm": [
+            6.54,
+            -24.42,
+            -29.52
+          ],
+          "left_lower_arm": [
+            0,
+            0,
+            -50.0
+          ]
+        }
+      },
+      "speed_mps": 1.26
+    },
+    {
+      "id": "S8",
+      "group": "S",
+      "text": "무거운 가방을 왼쪽 어깨에 메고 걸어",
+      "expect": "accept",
+      "expect_action": "walk",
+      "check": "max(abs(torso_roll) / 5, arms)",
+      "min": 1,
+      "level1": "pass",
+      "tokens": 215,
+      "answer": "{\"look\":\"Walks slowly with a heavy bag carried on the left shoulder, leaning right to balance it.\",\"s\":0.85,\"n\":0.8,\"torso_roll\":15,\"head_roll\":12,\"left\":{\"m_arm\":0.3,\"shoulder_flexion\":45,\"elbow_flexion\":60}}",
+      "params": {
+        "action": "walk",
+        "s": 0.85,
+        "n": 0.8,
+        "c": 0.0,
+        "m_arm": 1.0,
+        "m_torso": 1.0,
+        "m_knee": 1.0,
+        "m_elbow": 1.0,
+        "torso_pitch": 0.0,
+        "head_pitch": 0.0,
+        "shoulder_flexion": 0.0,
+        "shoulder_abduction": 0.0,
+        "elbow_flexion": 0.0,
+        "stance_width": 0.0,
+        "toe_out": 0.0,
+        "shoulder_rotation": 0.0,
+        "bounce": 0.0,
+        "torso_roll": 15.0,
+        "head_roll": 12.0,
+        "head_yaw": 0.0,
+        "look": "Walks slowly with a heavy bag carried on the left shoulder, leaning right to balance it.",
+        "left_m_arm": 0.3,
+        "left_shoulder_flexion": 45.0,
+        "left_elbow_flexion": 60.0
+      },
+      "rules": [],
+      "scales": {
+        "speed": 0.85,
+        "cadence": 0.8,
+        "swing": {
+          "left_upper_arm": 0.3,
+          "left_lower_arm": 0.3
+        },
+        "pose": {
+          "torso": [
+            15.0,
+            0.0,
+            0.0
+          ],
+          "head": [
+            12.0,
+            0.0,
+            0.0
+          ],
+          "left_upper_arm": [
+            0.0,
+            -45.0,
+            -0.0
+          ],
+          "left_lower_arm": [
+            0,
+            0,
+            -60.0
+          ]
+        }
+      },
+      "speed_mps": 0.857
+    },
+    {
+      "id": "S9",
+      "group": "S",
+      "text": "고개를 왼쪽으로 갸웃한 채 걸어",
+      "expect": "accept",
+      "expect_action": "walk",
+      "check": "-head_roll",
+      "min": 8,
+      "level1": "pass",
+      "tokens": 25,
+      "answer": "{\"look\":\"Walking with the head tilted toward the left shoulder.\",\"head_roll\":-20}",
+      "params": {
+        "action": "walk",
+        "s": 1.0,
+        "n": 1.0,
+        "c": 0.0,
+        "m_arm": 1.0,
+        "m_torso": 1.0,
+        "m_knee": 1.0,
+        "m_elbow": 1.0,
+        "torso_pitch": 0.0,
+        "head_pitch": 0.0,
+        "shoulder_flexion": 0.0,
+        "shoulder_abduction": 0.0,
+        "elbow_flexion": 0.0,
+        "stance_width": 0.0,
+        "toe_out": 0.0,
+        "shoulder_rotation": 0.0,
+        "bounce": 0.0,
+        "torso_roll": 0.0,
+        "head_roll": -20.0,
+        "head_yaw": 0.0,
+        "look": "Walking with the head tilted toward the left shoulder."
+      },
+      "rules": [],
+      "scales": {
+        "pose": {
+          "head": [
+            -20.0,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "speed_mps": 1.26
+    },
+    {
+      "id": "S10",
+      "group": "S",
+      "text": "한쪽 다리가 나무 의족인 해적처럼 걸어",
+      "expect": "accept",
+      "expect_action": "walk",
+      "check": "legs",
+      "min": 1,
+      "level1": "pass",
+      "tokens": 135,
+      "answer": "{\"look\":\"A slow, swaggering pirate walk with one stiff wooden peg leg.\",\"s\":0.8,\"n\":0.75,\"m_torso\":6,\"stance_width\":6,\"right\":{\"m_knee\":0.4}}",
+      "params": {
+        "action": "walk",
+        "s": 0.8,
+        "n": 0.75,
+        "c": 0.0,
+        "m_arm": 1.0,
+        "m_torso": 6.0,
+        "m_knee": 1.0,
+        "m_elbow": 1.0,
+        "torso_pitch": 0.0,
+        "head_pitch": 0.0,
+        "shoulder_flexion": 0.0,
+        "shoulder_abduction": 0.0,
+        "elbow_flexion": 0.0,
+        "stance_width": 6.0,
+        "toe_out": 0.0,
+        "shoulder_rotation": 0.0,
+        "bounce": 0.0,
+        "torso_roll": 0.0,
+        "head_roll": 0.0,
+        "head_yaw": 0.0,
+        "look": "A slow, swaggering pirate walk with one stiff wooden peg leg.",
+        "right_m_knee": 0.4
+      },
+      "rules": [],
+      "scales": {
+        "speed": 0.8,
+        "cadence": 0.75,
+        "swing": {
+          "torso": 6.0,
+          "right_shin": 0.4
+        },
+        "pose": {
+          "right_thigh": [
+            -6.0,
+            0,
+            -0.0
+          ],
+          "right_foot": [
+            6.0,
+            0,
+            0
+          ],
+          "left_thigh": [
+            6.0,
+            0,
+            0.0
+          ],
+          "left_foot": [
+            -6.0,
+            0,
+            0
+          ]
+        }
+      },
+      "speed_mps": 0.756
+    }
+  ],
+  "reasoning_effort": "medium",
+  "api_usage": {
+    "requests": 10,
+    "prompt_tokens": 45378,
+    "cached_tokens": 45180,
+    "completion_tokens": 869,
+    "reasoning_tokens": 337
+  }
+}

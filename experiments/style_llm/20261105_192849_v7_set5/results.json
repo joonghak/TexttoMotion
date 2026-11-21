@@ -1,0 +1,1055 @@
+{
+  "model": "Qwen/Qwen3-4B-Thinking-2507",
+  "revision": "768f209d9ea81521153ed38c47d515654e938aea",
+  "prompt": "v7",
+  "thinking_budget": 4096,
+  "test_set": "test_commands_5.json",
+  "seed": 42,
+  "batch_size": 2,
+  "elapsed_s": 1697.5,
+  "level1_passed": 17,
+  "commands": 20,
+  "results": [
+    {
+      "id": "A1",
+      "group": "A",
+      "text": "기운 없이 축 처져서 달려",
+      "expect": "accept",
+      "expect_action": "run",
+      "check": "torso_pitch >= 15 and head_pitch >= 25 and s * n < 1",
+      "why": "지친 달리기 (상체 15°, 고개 25°, 느린 걸음)",
+      "level1": "pass",
+      "tokens": 3116,
+      "answer": "{\"action\": \"run\", \"features\": {\"step\": \"short\", \"pace\": \"slow\", \"torso\": \"leaning_forward\", \"head\": \"lowered\", \"arm_swing\": \"small\", \"feet_lift\": \"low\"}}",
+      "params": {
+        "action": "run",
+        "s": 0.6,
+        "n": 0.75,
+        "c": 0.0,
+        "m_arm": 0.4,
+        "m_torso": 1.0,
+        "m_knee": 0.8,
+        "m_elbow": 1.0,
+        "torso_pitch": 15.0,
+        "head_pitch": 25.0,
+        "shoulder_flexion": 0.0,
+        "shoulder_abduction": 0.0,
+        "elbow_flexion": 0.0,
+        "stance_width": 0.0,
+        "toe_out": 0.0,
+        "features": {
+          "step": "short",
+          "pace": "slow",
+          "torso": "leaning_forward",
+          "head": "lowered",
+          "arm_swing": "small",
+          "feet_lift": "low"
+        }
+      },
+      "rules": [],
+      "scales": {
+        "speed": 0.6,
+        "cadence": 0.75,
+        "arm_swing": 0.4,
+        "swing": {
+          "right_shin": 0.8,
+          "left_shin": 0.8
+        },
+        "pose": {
+          "torso": [
+            0,
+            15.0,
+            0
+          ],
+          "head": [
+            0,
+            25.0,
+            0
+          ]
+        }
+      },
+      "speed_mps": 1.602
+    },
+    {
+      "id": "A2",
+      "group": "A",
+      "text": "고개를 깊이 숙인 채로 점프해",
+      "expect": "accept",
+      "expect_action": "jump",
+      "check": "head_pitch >= 25",
+      "why": "점프 고개 25°는 고정한 수식에서 분명히 보임",
+      "level1": "pass",
+      "tokens": 798,
+      "answer": "{\"action\": \"jump\", \"features\": {\"head\": \"lowered\"}}",
+      "params": {
+        "action": "jump",
+        "s": 1.0,
+        "n": 1.0,
+        "c": 0.0,
+        "m_arm": 1.0,
+        "m_torso": 1.0,
+        "m_knee": 1.0,
+        "m_elbow": 1.0,
+        "torso_pitch": 0.0,
+        "head_pitch": 25.0,
+        "shoulder_flexion": 0.0,
+        "shoulder_abduction": 0.0,
+        "elbow_flexion": 0.0,
+        "stance_width": 0.0,
+        "toe_out": 0.0,
+        "features": {
+          "head": "lowered"
+        }
+      },
+      "rules": [],
+      "scales": {
+        "pose": {
+          "head": [
+            0,
+            25.0,
+            0
+          ]
+        }
+      },
+      "speed_mps": 0.61
+    },
+    {
+      "id": "A3",
+      "group": "A",
+      "text": "자세를 낮추고 무릎을 굽힌 채 점프해",
+      "expect": "accept",
+      "expect_action": "jump",
+      "check": "c >= 15",
+      "why": "낮은 점프 (c 20)",
+      "level1": "pass",
+      "tokens": 1320,
+      "answer": "{\"action\": \"jump\", \"features\": {\"torso\": \"bent_over\", \"knees\": \"deeply_bent\"}}",
+      "params": {
+        "action": "jump",
+        "s": 1.0,
+        "n": 1.0,
+        "c": 30.0,
+        "m_arm": 1.0,
+        "m_torso": 1.0,
+        "m_knee": 1.0,
+        "m_elbow": 1.0,
+        "torso_pitch": 35.0,
+        "head_pitch": 0.0,
+        "shoulder_flexion": 0.0,
+        "shoulder_abduction": 0.0,
+        "elbow_flexion": 0.0,
+        "stance_width": 0.0,
+        "toe_out": 0.0,
+        "features": {
+          "torso": "bent_over",
+          "knees": "deeply_bent"
+        }
+      },
+      "rules": [],
+      "scales": {
+        "crouch": 30.0,
+        "pose": {
+          "torso": [
+            0,
+            35.0,
+            0
+          ]
+        }
+      },
+      "speed_mps": 0.61
+    },
+    {
+      "id": "A4",
+      "group": "A",
+      "text": "피곤한 몸으로 느릿느릿 돌려차기해",
+      "expect": "accept",
+      "expect_action": "spinkick",
+      "check": "torso_pitch >= 15 and head_pitch >= 25 and n <= 0.8",
+      "why": "지친 돌려차기 (상체 15°, 고개 25°, n 0.75)",
+      "level1": "pass",
+      "tokens": 2759,
+      "answer": "{\"action\": \"spinkick\", \"features\": {\"step\": \"short\", \"pace\": \"slow\", \"feet_lift\": \"low\", \"arm_swing\": \"small\", \"torso\": \"leaning_forward\", \"head\": \"lowered\"}}",
+      "params": {
+        "action": "spinkick",
+        "s": 0.6,
+        "n": 0.75,
+        "c": 0.0,
+        "m_arm": 0.4,
+        "m_torso": 1.0,
+        "m_knee": 0.8,
+        "m_elbow": 1.0,
+        "torso_pitch": 15.0,
+        "head_pitch": 25.0,
+        "shoulder_flexion": 0.0,
+        "shoulder_abduction": 0.0,
+        "elbow_flexion": 0.0,
+        "stance_width": 0.0,
+        "toe_out": 0.0,
+        "features": {
+          "step": "short",
+          "pace": "slow",
+          "feet_lift": "low",
+          "arm_swing": "small",
+          "torso": "leaning_forward",
+          "head": "lowered"
+        }
+      },
+      "rules": [],
+      "scales": {
+        "speed": 0.6,
+        "cadence": 0.75,
+        "arm_swing": 0.4,
+        "swing": {
+          "right_shin": 0.8,
+          "left_shin": 0.8
+        },
+        "pose": {
+          "torso": [
+            0,
+            15.0,
+            0
+          ],
+          "head": [
+            0,
+            25.0,
+            0
+          ]
+        }
+      },
+      "speed_mps": 0.171
+    },
+    {
+      "id": "A5",
+      "group": "A",
+      "text": "허리를 뒤로 젖히고 발차기해",
+      "expect": "accept",
+      "expect_action": "kick",
+      "check": "torso_pitch <= -15",
+      "why": "발차기 상체 뒤로 10°는 기울기를 8° 바꾸었으나 영상에서 작게 보임 (2026-11-03)",
+      "level1": "pass",
+      "tokens": 555,
+      "answer": "{\"action\": \"kick\", \"features\": {\"torso\": \"leaning_back\"}}",
+      "params": {
+        "action": "kick",
+        "s": 1.0,
+        "n": 1.0,
+        "c": 0.0,
+        "m_arm": 1.0,
+        "m_torso": 1.0,
+        "m_knee": 1.0,
+        "m_elbow": 1.0,
+        "torso_pitch": -15.0,
+        "head_pitch": 0.0,
+        "shoulder_flexion": 0.0,
+        "shoulder_abduction": 0.0,
+        "elbow_flexion": 0.0,
+        "stance_width": 0.0,
+        "toe_out": 0.0,
+        "features": {
+          "torso": "leaning_back"
+        }
+      },
+      "rules": [],
+      "scales": {
+        "pose": {
+          "torso": [
+            0,
+            -15.0,
+            0
+          ]
+        }
+      },
+      "speed_mps": 0.73
+    },
+    {
+      "id": "A6",
+      "group": "A",
+      "text": "좀비처럼 두 팔을 앞으로 내밀고 달려",
+      "expect": "accept",
+      "expect_action": "run",
+      "check": "shoulder_flexion >= 70",
+      "why": "좀비 달리기 (어깨 굴곡 85°)",
+      "level1": "pass",
+      "tokens": 2628,
+      "answer": "{\"action\": \"run\", \"features\": {\"step\": \"short\", \"pace\": \"very_slow\", \"sway\": \"strong\", \"torso\": \"leaning_forward\", \"arm_position\": \"forward\", \"elbows\": \"straight\"}}",
+      "params": {
+        "action": "run",
+        "s": 0.6,
+        "n": 0.55,
+        "c": 0.0,
+        "m_arm": 1.0,
+        "m_torso": 6.0,
+        "m_knee": 1.0,
+        "m_elbow": 1.0,
+        "torso_pitch": 15.0,
+        "head_pitch": 0.0,
+        "shoulder_flexion": 85.0,
+        "shoulder_abduction": 0.0,
+        "elbow_flexion": -30.0,
+        "stance_width": 0.0,
+        "toe_out": 0.0,
+        "features": {
+          "step": "short",
+          "pace": "very_slow",
+          "sway": "strong",
+          "torso": "leaning_forward",
+          "arm_position": "forward",
+          "elbows": "straight"
+        }
+      },
+      "rules": [
+        "m_arm 1 -> 0.3 (팔을 85° 듦)"
+      ],
+      "scales": {
+        "speed": 0.6,
+        "cadence": 0.55,
+        "arm_swing": 0.3,
+        "swing": {
+          "torso": 6.0
+        },
+        "pose": {
+          "torso": [
+            0,
+            15.0,
+            0
+          ],
+          "right_upper_arm": [
+            0,
+            -85.0,
+            0
+          ],
+          "left_upper_arm": [
+            0,
+            -85.0,
+            0
+          ],
+          "right_lower_arm": [
+            0,
+            0,
+            -30.0
+          ],
+          "left_lower_arm": [
+            0,
+            0,
+            30.0
+          ]
+        }
+      },
+      "speed_mps": 1.175
+    },
+    {
+      "id": "B1",
+      "group": "B",
+      "text": "술 취한 사람처럼 비틀비틀 달려",
+      "expect": "accept",
+      "expect_action": "run",
+      "check": "m_torso >= 5",
+      "why": "고정한 수식에서 달리기의 m_torso 5는 상체 좌우 기울기 폭을 15°에서 23°로 넓힘, 2는 약 2°",
+      "level1": "pass",
+      "tokens": 2722,
+      "answer": "{\"action\": \"run\", \"features\": {\"sway\": \"very_strong\", \"pace\": \"slow\", \"step\": \"short\", \"torso\": \"leaning_forward\", \"head\": \"lowered\", \"arm_swing\": \"small\"}}",
+      "params": {
+        "action": "run",
+        "s": 0.6,
+        "n": 0.75,
+        "c": 0.0,
+        "m_arm": 0.4,
+        "m_torso": 10.0,
+        "m_knee": 1.0,
+        "m_elbow": 1.0,
+        "torso_pitch": 15.0,
+        "head_pitch": 25.0,
+        "shoulder_flexion": 0.0,
+        "shoulder_abduction": 0.0,
+        "elbow_flexion": 0.0,
+        "stance_width": 0.0,
+        "toe_out": 0.0,
+        "features": {
+          "sway": "very_strong",
+          "pace": "slow",
+          "step": "short",
+          "torso": "leaning_forward",
+          "head": "lowered",
+          "arm_swing": "small"
+        }
+      },
+      "rules": [],
+      "scales": {
+        "speed": 0.6,
+        "cadence": 0.75,
+        "arm_swing": 0.4,
+        "swing": {
+          "torso": 10.0
+        },
+        "pose": {
+          "torso": [
+            0,
+            15.0,
+            0
+          ],
+          "head": [
+            0,
+            25.0,
+            0
+          ]
+        }
+      },
+      "speed_mps": 1.602
+    },
+    {
+      "id": "B2",
+      "group": "B",
+      "text": "당당하게 가슴을 펴고 달려",
+      "expect": "accept",
+      "expect_action": "run",
+      "check": "torso_pitch <= -10 and m_arm > 1",
+      "why": "당당한 걸음 (뒤로 젖힌 상체, 큰 팔 흔들기)",
+      "level1": "pass",
+      "tokens": 1122,
+      "answer": "{\"action\": \"run\", \"features\": {\"torso\": \"leaning_back\", \"head\": \"raised\", \"arm_swing\": \"large\", \"step\": \"long\"}}",
+      "params": {
+        "action": "run",
+        "s": 1.4,
+        "n": 1.0,
+        "c": 0.0,
+        "m_arm": 1.5,
+        "m_torso": 1.0,
+        "m_knee": 1.0,
+        "m_elbow": 1.0,
+        "torso_pitch": -15.0,
+        "head_pitch": -15.0,
+        "shoulder_flexion": 0.0,
+        "shoulder_abduction": 0.0,
+        "elbow_flexion": 0.0,
+        "stance_width": 0.0,
+        "toe_out": 0.0,
+        "features": {
+          "torso": "leaning_back",
+          "head": "raised",
+          "arm_swing": "large",
+          "step": "long"
+        }
+      },
+      "rules": [],
+      "scales": {
+        "speed": 1.4,
+        "arm_swing": 1.5,
+        "pose": {
+          "torso": [
+            0,
+            -15.0,
+            0
+          ],
+          "head": [
+            0,
+            -15.0,
+            0
+          ]
+        }
+      },
+      "speed_mps": 4.984
+    },
+    {
+      "id": "B3",
+      "group": "B",
+      "text": "로봇처럼 뻣뻣하게 달려",
+      "expect": "accept",
+      "expect_action": "run",
+      "check": "m_torso == 0 and m_elbow == 0",
+      "why": "로봇 걸음 (상체와 팔꿈치 고정)",
+      "level1": "pass",
+      "tokens": 3561,
+      "answer": "{\"action\": \"run\", \"features\": {\"sway\": \"none\", \"feet_lift\": \"low\", \"elbows\": \"bent\", \"elbow_motion\": \"stiff\"}}",
+      "params": {
+        "action": "run",
+        "s": 1.0,
+        "n": 1.0,
+        "c": 0.0,
+        "m_arm": 1.0,
+        "m_torso": 0.0,
+        "m_knee": 0.8,
+        "m_elbow": 0.0,
+        "torso_pitch": 0.0,
+        "head_pitch": 0.0,
+        "shoulder_flexion": 0.0,
+        "shoulder_abduction": 0.0,
+        "elbow_flexion": 45.0,
+        "stance_width": 0.0,
+        "toe_out": 0.0,
+        "features": {
+          "sway": "none",
+          "feet_lift": "low",
+          "elbows": "bent",
+          "elbow_motion": "stiff"
+        }
+      },
+      "rules": [],
+      "scales": {
+        "swing": {
+          "torso": 0.0,
+          "right_shin": 0.8,
+          "left_shin": 0.8,
+          "right_lower_arm": 0.0,
+          "left_lower_arm": 0.0
+        },
+        "pose": {
+          "right_lower_arm": [
+            0,
+            0,
+            45.0
+          ],
+          "left_lower_arm": [
+            0,
+            0,
+            -45.0
+          ]
+        }
+      },
+      "speed_mps": 3.56
+    },
+    {
+      "id": "B4",
+      "group": "B",
+      "text": "두 팔을 앞으로 쭉 뻗은 채 점프해",
+      "expect": "accept",
+      "expect_action": "jump",
+      "check": "shoulder_flexion >= 70",
+      "why": "팔을 앞으로 뻗음",
+      "level1": "pass",
+      "tokens": 806,
+      "answer": "{\"action\": \"jump\", \"features\": {\"arm_position\": \"forward\"}}",
+      "params": {
+        "action": "jump",
+        "s": 1.0,
+        "n": 1.0,
+        "c": 0.0,
+        "m_arm": 1.0,
+        "m_torso": 1.0,
+        "m_knee": 1.0,
+        "m_elbow": 1.0,
+        "torso_pitch": 0.0,
+        "head_pitch": 0.0,
+        "shoulder_flexion": 85.0,
+        "shoulder_abduction": 0.0,
+        "elbow_flexion": 0.0,
+        "stance_width": 0.0,
+        "toe_out": 0.0,
+        "features": {
+          "arm_position": "forward"
+        }
+      },
+      "rules": [
+        "m_arm 1 -> 0.3 (팔을 85° 듦)"
+      ],
+      "scales": {
+        "arm_swing": 0.3,
+        "pose": {
+          "right_upper_arm": [
+            0,
+            -85.0,
+            0
+          ],
+          "left_upper_arm": [
+            0,
+            -85.0,
+            0
+          ]
+        }
+      },
+      "speed_mps": 0.61
+    },
+    {
+      "id": "B5",
+      "group": "B",
+      "text": "허리가 굽은 노인처럼 점프해",
+      "expect": "accept",
+      "expect_action": "jump",
+      "check": "torso_pitch >= 15",
+      "why": "굽은 허리 (상체 앞으로 15° 이상이 보이는 크기)",
+      "level1": "pass",
+      "tokens": 2093,
+      "answer": "{\"action\": \"jump\", \"features\": {\"torso\": \"bent_over\", \"knees\": \"bent\", \"feet_lift\": \"low\", \"arm_swing\": \"small\", \"head\": \"raised\"}}",
+      "params": {
+        "action": "jump",
+        "s": 1.0,
+        "n": 1.0,
+        "c": 15.0,
+        "m_arm": 0.4,
+        "m_torso": 1.0,
+        "m_knee": 0.8,
+        "m_elbow": 1.0,
+        "torso_pitch": 35.0,
+        "head_pitch": -15.0,
+        "shoulder_flexion": 0.0,
+        "shoulder_abduction": 0.0,
+        "elbow_flexion": 0.0,
+        "stance_width": 0.0,
+        "toe_out": 0.0,
+        "features": {
+          "torso": "bent_over",
+          "knees": "bent",
+          "feet_lift": "low",
+          "arm_swing": "small",
+          "head": "raised"
+        }
+      },
+      "rules": [],
+      "scales": {
+        "arm_swing": 0.4,
+        "crouch": 15.0,
+        "swing": {
+          "right_shin": 0.8,
+          "left_shin": 0.8
+        },
+        "pose": {
+          "torso": [
+            0,
+            35.0,
+            0
+          ],
+          "head": [
+            0,
+            -15.0,
+            0
+          ]
+        }
+      },
+      "speed_mps": 0.61
+    },
+    {
+      "id": "B6",
+      "group": "B",
+      "text": "두 팔을 옆으로 벌린 채 발차기해",
+      "expect": "accept",
+      "expect_action": "kick",
+      "check": "shoulder_abduction >= 45",
+      "why": "팔을 옆으로 듦",
+      "level1": "pass",
+      "tokens": 708,
+      "answer": "{\"action\": \"kick\", \"features\": {\"arm_position\": \"sideways\"}}",
+      "params": {
+        "action": "kick",
+        "s": 1.0,
+        "n": 1.0,
+        "c": 0.0,
+        "m_arm": 1.0,
+        "m_torso": 1.0,
+        "m_knee": 1.0,
+        "m_elbow": 1.0,
+        "torso_pitch": 0.0,
+        "head_pitch": 0.0,
+        "shoulder_flexion": 0.0,
+        "shoulder_abduction": 85.0,
+        "elbow_flexion": 0.0,
+        "stance_width": 0.0,
+        "toe_out": 0.0,
+        "features": {
+          "arm_position": "sideways"
+        }
+      },
+      "rules": [
+        "m_arm 1 -> 0.3 (팔을 85° 듦)"
+      ],
+      "scales": {
+        "arm_swing": 0.3,
+        "pose": {
+          "right_upper_arm": [
+            -85.0,
+            0,
+            0
+          ],
+          "left_upper_arm": [
+            85.0,
+            0,
+            0
+          ]
+        }
+      },
+      "speed_mps": 0.73
+    },
+    {
+      "id": "W1",
+      "group": "W",
+      "text": "다리를 넓게 벌리고 걸어",
+      "expect": "accept",
+      "expect_action": "walk",
+      "check": "stance_width >= 10",
+      "why": "다리 벌림 10°만 확인함 (발 사이가 넓어지고 뒤뚱거림)",
+      "level1": "pass",
+      "tokens": 915,
+      "answer": "{\"features\": {\"stance\": \"wide\"}}",
+      "params": {
+        "action": "walk",
+        "s": 1.0,
+        "n": 1.0,
+        "c": 0.0,
+        "m_arm": 1.0,
+        "m_torso": 1.0,
+        "m_knee": 1.0,
+        "m_elbow": 1.0,
+        "torso_pitch": 0.0,
+        "head_pitch": 0.0,
+        "shoulder_flexion": 0.0,
+        "shoulder_abduction": 0.0,
+        "elbow_flexion": 0.0,
+        "stance_width": 10.0,
+        "toe_out": 0.0,
+        "features": {
+          "stance": "wide"
+        }
+      },
+      "rules": [],
+      "scales": {
+        "pose": {
+          "right_thigh": [
+            -10.0,
+            0,
+            -0.0
+          ],
+          "left_thigh": [
+            10.0,
+            0,
+            0.0
+          ],
+          "right_foot": [
+            10.0,
+            0,
+            0
+          ],
+          "left_foot": [
+            -10.0,
+            0,
+            0
+          ]
+        }
+      },
+      "speed_mps": 1.26
+    },
+    {
+      "id": "W2",
+      "group": "W",
+      "text": "아기처럼 다리를 벌리고 아장아장 걸어",
+      "expect": "accept",
+      "expect_action": "walk",
+      "check": "stance_width >= 10 and s <= 0.7",
+      "why": "다리 벌림과 짧은 보폭",
+      "level1": "pass",
+      "tokens": 2162,
+      "answer": "{\"features\": {\"stance\": \"wide\", \"sway\": \"strong\"}}",
+      "params": {
+        "action": "walk",
+        "s": 1.0,
+        "n": 1.0,
+        "c": 0.0,
+        "m_arm": 1.0,
+        "m_torso": 6.0,
+        "m_knee": 1.0,
+        "m_elbow": 1.0,
+        "torso_pitch": 0.0,
+        "head_pitch": 0.0,
+        "shoulder_flexion": 0.0,
+        "shoulder_abduction": 0.0,
+        "elbow_flexion": 0.0,
+        "stance_width": 10.0,
+        "toe_out": 0.0,
+        "features": {
+          "stance": "wide",
+          "sway": "strong"
+        }
+      },
+      "rules": [],
+      "scales": {
+        "swing": {
+          "torso": 6.0
+        },
+        "pose": {
+          "right_thigh": [
+            -10.0,
+            0,
+            -0.0
+          ],
+          "left_thigh": [
+            10.0,
+            0,
+            0.0
+          ],
+          "right_foot": [
+            10.0,
+            0,
+            0
+          ],
+          "left_foot": [
+            -10.0,
+            0,
+            0
+          ]
+        }
+      },
+      "speed_mps": 1.26
+    },
+    {
+      "id": "W3",
+      "group": "W",
+      "text": "카우보이처럼 다리를 벌리고 느긋하게 걸어",
+      "expect": "accept",
+      "expect_action": "walk",
+      "check": "stance_width >= 10 and n < 1",
+      "why": "다리 벌림과 느린 박자",
+      "level1": "pass",
+      "tokens": 3111,
+      "answer": "{\"action\": \"walk\", \"features\": {\"stance\": \"wide\", \"pace\": \"slow\"}}",
+      "params": {
+        "action": "walk",
+        "s": 1.0,
+        "n": 0.75,
+        "c": 0.0,
+        "m_arm": 1.0,
+        "m_torso": 1.0,
+        "m_knee": 1.0,
+        "m_elbow": 1.0,
+        "torso_pitch": 0.0,
+        "head_pitch": 0.0,
+        "shoulder_flexion": 0.0,
+        "shoulder_abduction": 0.0,
+        "elbow_flexion": 0.0,
+        "stance_width": 10.0,
+        "toe_out": 0.0,
+        "features": {
+          "stance": "wide",
+          "pace": "slow"
+        }
+      },
+      "rules": [],
+      "scales": {
+        "cadence": 0.75,
+        "pose": {
+          "right_thigh": [
+            -10.0,
+            0,
+            -0.0
+          ],
+          "left_thigh": [
+            10.0,
+            0,
+            0.0
+          ],
+          "right_foot": [
+            10.0,
+            0,
+            0
+          ],
+          "left_foot": [
+            -10.0,
+            0,
+            0
+          ]
+        }
+      },
+      "speed_mps": 0.945
+    },
+    {
+      "id": "W4",
+      "group": "W",
+      "text": "기진맥진해서 터덜터덜 걸어",
+      "expect": "accept",
+      "expect_action": "walk",
+      "check": "torso_pitch >= 15 and head_pitch >= 25",
+      "why": "지친 걸음 (걷기는 수식을 바꾼 뒤에도 같아야 함)",
+      "level1": "pass",
+      "tokens": 1285,
+      "answer": "{\"features\": {\"step\": \"short\", \"pace\": \"slow\", \"feet_lift\": \"low\", \"arm_swing\": \"small\", \"torso\": \"leaning_forward\", \"head\": \"lowered\"}}",
+      "params": {
+        "action": "walk",
+        "s": 0.6,
+        "n": 0.75,
+        "c": 0.0,
+        "m_arm": 0.4,
+        "m_torso": 1.0,
+        "m_knee": 0.8,
+        "m_elbow": 1.0,
+        "torso_pitch": 15.0,
+        "head_pitch": 25.0,
+        "shoulder_flexion": 0.0,
+        "shoulder_abduction": 0.0,
+        "elbow_flexion": 0.0,
+        "stance_width": 0.0,
+        "toe_out": 0.0,
+        "features": {
+          "step": "short",
+          "pace": "slow",
+          "feet_lift": "low",
+          "arm_swing": "small",
+          "torso": "leaning_forward",
+          "head": "lowered"
+        }
+      },
+      "rules": [],
+      "scales": {
+        "speed": 0.6,
+        "cadence": 0.75,
+        "arm_swing": 0.4,
+        "swing": {
+          "right_shin": 0.8,
+          "left_shin": 0.8
+        },
+        "pose": {
+          "torso": [
+            0,
+            15.0,
+            0
+          ],
+          "head": [
+            0,
+            25.0,
+            0
+          ]
+        }
+      },
+      "speed_mps": 0.567
+    },
+    {
+      "id": "C1",
+      "group": "C",
+      "text": "다리를 45도로 쫙 벌리고 걸어",
+      "expect": "reject",
+      "why": "다리 벌림은 10°까지만 확인함",
+      "level1": "fail",
+      "tokens": 972,
+      "answer": "{\"action\": \"walk\", \"features\": {\"stance\": \"wide\"}}",
+      "params": {
+        "action": "walk",
+        "s": 1.0,
+        "n": 1.0,
+        "c": 0.0,
+        "m_arm": 1.0,
+        "m_torso": 1.0,
+        "m_knee": 1.0,
+        "m_elbow": 1.0,
+        "torso_pitch": 0.0,
+        "head_pitch": 0.0,
+        "shoulder_flexion": 0.0,
+        "shoulder_abduction": 0.0,
+        "elbow_flexion": 0.0,
+        "stance_width": 10.0,
+        "toe_out": 0.0,
+        "features": {
+          "stance": "wide"
+        }
+      },
+      "rules": [],
+      "scales": {
+        "pose": {
+          "right_thigh": [
+            -10.0,
+            0,
+            -0.0
+          ],
+          "left_thigh": [
+            10.0,
+            0,
+            0.0
+          ],
+          "right_foot": [
+            10.0,
+            0,
+            0
+          ],
+          "left_foot": [
+            -10.0,
+            0,
+            0
+          ]
+        }
+      },
+      "speed_mps": 1.26
+    },
+    {
+      "id": "C2",
+      "group": "C",
+      "text": "옆으로 게걸음으로 걸어",
+      "expect": "reject",
+      "why": "진행 방향을 바꿀 수 없음",
+      "level1": "fail",
+      "tokens": 2546,
+      "answer": "{\"features\": {\"sway\": \"very_strong\"}}",
+      "params": {
+        "action": "walk",
+        "s": 1.0,
+        "n": 1.0,
+        "c": 0.0,
+        "m_arm": 1.0,
+        "m_torso": 10.0,
+        "m_knee": 1.0,
+        "m_elbow": 1.0,
+        "torso_pitch": 0.0,
+        "head_pitch": 0.0,
+        "shoulder_flexion": 0.0,
+        "shoulder_abduction": 0.0,
+        "elbow_flexion": 0.0,
+        "stance_width": 0.0,
+        "toe_out": 0.0,
+        "features": {
+          "sway": "very_strong"
+        }
+      },
+      "rules": [],
+      "scales": {
+        "swing": {
+          "torso": 10.0
+        }
+      },
+      "speed_mps": 1.26
+    },
+    {
+      "id": "C3",
+      "group": "C",
+      "text": "물구나무 서서 걸어",
+      "expect": "reject",
+      "why": "참조 모션이 없는 동작",
+      "level1": "fail",
+      "tokens": 7344,
+      "answer": "{\"features\": {\"pace\": \"very_slow\", \"sway\": \"very_strong\"}}",
+      "params": {
+        "action": "walk",
+        "s": 1.0,
+        "n": 0.55,
+        "c": 0.0,
+        "m_arm": 1.0,
+        "m_torso": 10.0,
+        "m_knee": 1.0,
+        "m_elbow": 1.0,
+        "torso_pitch": 0.0,
+        "head_pitch": 0.0,
+        "shoulder_flexion": 0.0,
+        "shoulder_abduction": 0.0,
+        "elbow_flexion": 0.0,
+        "stance_width": 0.0,
+        "toe_out": 0.0,
+        "features": {
+          "pace": "very_slow",
+          "sway": "very_strong"
+        }
+      },
+      "rules": [],
+      "scales": {
+        "cadence": 0.55,
+        "swing": {
+          "torso": 10.0
+        }
+      },
+      "speed_mps": 0.693
+    },
+    {
+      "id": "C4",
+      "group": "C",
+      "text": "점프한 다음에 바로 발차기해",
+      "expect": "reject",
+      "why": "명령 하나에 동작 하나만 고를 수 있음",
+      "level1": "pass",
+      "tokens": 282,
+      "answer": "{\"error\": \"not_expressible\"}",
+      "rejection": "not_expressible",
+      "message": "[not_expressible] 현재 스타일 파라미터로 표현할 수 없는 동작입니다."
+    }
+  ]
+}

@@ -1,0 +1,372 @@
+[
+  {
+    "key": "base",
+    "label": "기본 걷기",
+    "scales": {}
+  },
+  {
+    "key": "A1",
+    "label": "기운 없이 축 처져서 달려",
+    "scales": {
+      "speed": 0.6,
+      "cadence": 0.75,
+      "arm_swing": 0.4,
+      "swing": {
+        "right_shin": 0.8,
+        "left_shin": 0.8
+      },
+      "pose": {
+        "torso": [
+          0,
+          35.0,
+          0
+        ],
+        "head": [
+          0,
+          25.0,
+          0
+        ]
+      }
+    },
+    "clip": "run"
+  },
+  {
+    "key": "A2",
+    "label": "고개를 깊이 숙인 채로 점프해",
+    "scales": {
+      "pose": {
+        "head": [
+          0,
+          25.0,
+          0
+        ]
+      }
+    },
+    "clip": "jump"
+  },
+  {
+    "key": "A3",
+    "label": "자세를 낮추고 무릎을 굽힌 채 점프해",
+    "scales": {
+      "crouch": 30.0,
+      "pose": {
+        "torso": [
+          0,
+          35.0,
+          0
+        ]
+      }
+    },
+    "clip": "jump"
+  },
+  {
+    "key": "A4",
+    "label": "피곤한 몸으로 느릿느릿 돌려차기해",
+    "scales": {
+      "cadence": 0.55,
+      "arm_swing": 0.4,
+      "crouch": 15.0,
+      "swing": {
+        "torso": 6.0,
+        "right_shin": 0.8,
+        "left_shin": 0.8
+      },
+      "pose": {
+        "torso": [
+          0,
+          15.0,
+          0
+        ],
+        "head": [
+          0,
+          25.0,
+          0
+        ]
+      }
+    },
+    "clip": "spinkick"
+  },
+  {
+    "key": "A5",
+    "label": "허리를 뒤로 젖히고 발차기해",
+    "scales": {
+      "pose": {
+        "torso": [
+          0,
+          -15.0,
+          0
+        ]
+      }
+    },
+    "clip": "kick"
+  },
+  {
+    "key": "A6",
+    "label": "좀비처럼 두 팔을 앞으로 내밀고 달려",
+    "scales": {
+      "speed": 0.6,
+      "cadence": 0.55,
+      "arm_swing": 0.3,
+      "swing": {
+        "torso": 6.0
+      },
+      "pose": {
+        "torso": [
+          0,
+          15.0,
+          0
+        ],
+        "right_upper_arm": [
+          0,
+          -85.0,
+          0
+        ],
+        "left_upper_arm": [
+          0,
+          -85.0,
+          0
+        ],
+        "right_lower_arm": [
+          0,
+          0,
+          -30.0
+        ],
+        "left_lower_arm": [
+          0,
+          0,
+          30.0
+        ]
+      }
+    },
+    "clip": "run"
+  },
+  {
+    "key": "B1",
+    "label": "술 취한 사람처럼 비틀비틀 달려",
+    "scales": {
+      "cadence": 0.75,
+      "swing": {
+        "torso": 10.0
+      },
+      "pose": {
+        "head": [
+          0,
+          25.0,
+          0
+        ]
+      }
+    },
+    "clip": "run"
+  },
+  {
+    "key": "B2",
+    "label": "당당하게 가슴을 펴고 달려",
+    "scales": {
+      "pose": {
+        "torso": [
+          0,
+          -15.0,
+          0
+        ]
+      }
+    },
+    "clip": "run"
+  },
+  {
+    "key": "B3",
+    "label": "로봇처럼 뻣뻣하게 달려",
+    "scales": {
+      "swing": {
+        "torso": 0.0,
+        "right_shin": 0.8,
+        "left_shin": 0.8,
+        "right_lower_arm": 0.0,
+        "left_lower_arm": 0.0
+      },
+      "pose": {
+        "right_lower_arm": [
+          0,
+          0,
+          45.0
+        ],
+        "left_lower_arm": [
+          0,
+          0,
+          -45.0
+        ]
+      }
+    },
+    "clip": "run"
+  },
+  {
+    "key": "B4",
+    "label": "두 팔을 앞으로 쭉 뻗은 채 점프해",
+    "scales": {
+      "arm_swing": 0.3,
+      "pose": {
+        "right_upper_arm": [
+          0,
+          -85.0,
+          0
+        ],
+        "left_upper_arm": [
+          0,
+          -85.0,
+          0
+        ]
+      }
+    },
+    "clip": "jump"
+  },
+  {
+    "key": "B5",
+    "label": "허리가 굽은 노인처럼 점프해",
+    "scales": {
+      "pose": {
+        "torso": [
+          0,
+          35.0,
+          0
+        ]
+      }
+    },
+    "clip": "jump"
+  },
+  {
+    "key": "B6",
+    "label": "두 팔을 옆으로 벌린 채 발차기해",
+    "scales": {
+      "arm_swing": 0.3,
+      "pose": {
+        "right_upper_arm": [
+          -85.0,
+          0,
+          0
+        ],
+        "left_upper_arm": [
+          85.0,
+          0,
+          0
+        ]
+      }
+    },
+    "clip": "kick"
+  },
+  {
+    "key": "W1",
+    "label": "다리를 넓게 벌리고 걸어",
+    "scales": {
+      "pose": {
+        "right_thigh": [
+          -10.0,
+          0,
+          -0.0
+        ],
+        "left_thigh": [
+          10.0,
+          0,
+          0.0
+        ],
+        "right_foot": [
+          10.0,
+          0,
+          0
+        ],
+        "left_foot": [
+          -10.0,
+          0,
+          0
+        ]
+      }
+    },
+    "clip": "walk"
+  },
+  {
+    "key": "W2",
+    "label": "아기처럼 다리를 벌리고 아장아장 걸어",
+    "scales": {
+      "swing": {
+        "torso": 10.0
+      },
+      "pose": {
+        "right_thigh": [
+          -10.0,
+          0,
+          -0.0
+        ],
+        "left_thigh": [
+          10.0,
+          0,
+          0.0
+        ],
+        "right_foot": [
+          10.0,
+          0,
+          0
+        ],
+        "left_foot": [
+          -10.0,
+          0,
+          0
+        ]
+      }
+    },
+    "clip": "walk"
+  },
+  {
+    "key": "W3",
+    "label": "카우보이처럼 다리를 벌리고 느긋하게 걸어",
+    "scales": {
+      "cadence": 0.75,
+      "pose": {
+        "right_thigh": [
+          -10.0,
+          0,
+          -0.0
+        ],
+        "left_thigh": [
+          10.0,
+          0,
+          0.0
+        ],
+        "right_foot": [
+          10.0,
+          0,
+          0
+        ],
+        "left_foot": [
+          -10.0,
+          0,
+          0
+        ]
+      }
+    },
+    "clip": "walk"
+  },
+  {
+    "key": "W4",
+    "label": "기진맥진해서 터덜터덜 걸어",
+    "scales": {
+      "speed": 0.6,
+      "cadence": 0.75,
+      "arm_swing": 0.4,
+      "swing": {
+        "right_shin": 0.8,
+        "left_shin": 0.8
+      },
+      "pose": {
+        "torso": [
+          0,
+          15.0,
+          0
+        ],
+        "head": [
+          0,
+          25.0,
+          0
+        ]
+      }
+    },
+    "clip": "walk"
+  }
+]

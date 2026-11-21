@@ -1,0 +1,78 @@
+{
+  "command": "두 팔을 머리 위로 V자로 든 걸음 확인 (사람이 정한 값): 어깨 옆으로 160°, 팔 흔들기 0.3",
+  "variant": {
+    "key": "arms_up_v",
+    "label": "두 팔을 머리 위로 V자로 든 걸음 확인 (사람이 정한 값): 어깨 옆으로 160°, 팔 흔들기 0.3",
+    "scales": {
+      "arm_swing": 0.3,
+      "pose": {
+        "right_upper_arm": [
+          -160,
+          0,
+          0
+        ],
+        "left_upper_arm": [
+          160,
+          0,
+          0
+        ]
+      }
+    },
+    "terms": {
+      "track_w": 0.6,
+      "arm_swing": {
+        "scale": 0.3
+      },
+      "pose": {
+        "right_upper_arm": [
+          -160,
+          0,
+          0
+        ],
+        "left_upper_arm": [
+          160,
+          0,
+          0
+        ]
+      },
+      "style": {
+        "w": 0.2
+      },
+      "swing_unit": "/home/jong/TexttoMotion/MimicKit/data/motions/humanoid/humanoid_walk.pkl",
+      "pose_unit": "/home/jong/TexttoMotion/MimicKit/data/motions/humanoid/humanoid_walk.pkl"
+    }
+  },
+  "reference": {
+    "clip": "/home/jong/TexttoMotion/MimicKit/data/motions/humanoid/humanoid_walk.pkl",
+    "duration_s": 10.0
+  },
+  "training": {
+    "iterations": 2000,
+    "num_envs": 1024,
+    "status": "completed",
+    "started": "2026-11-16T13:46:38",
+    "finished": "2026-11-16T14:20:05",
+    "final_log": {
+      "Iteration": 1999.0,
+      "Wall_Time": 0.5545860665374333,
+      "Samples": 65536000.0,
+      "Samples_Per_Second": 32825.28275206079,
+      "Test_Return": 283.0304260253906,
+      "Test_Episode_Length": 296.2255859375,
+      "Test_Episodes": 1024.0,
+      "Train_Return": 265.9940490722656,
+      "Train_Episode_Length": 294.2437438964844,
+      "Train_Episodes": 10457.0,
+      "Critic_Loss": 1.6253547668457031,
+      "Actor_Loss": -0.017178308218717575,
+      "Clip_Frac": 0.09796142578125,
+      "Imp_Ratio": 0.9990324974060059,
+      "Action_Bound_Loss": 0.0,
+      "Adv_Mean": -0.031708985567092896,
+      "Adv_Std": 1.2677466869354248,
+      "Obs_Norm_Mean": 0.3464869260787964,
+      "Obs_Norm_Std": 0.1699100285768509,
+      "Exp_Prob": 1.0
+    }
+  }
+}

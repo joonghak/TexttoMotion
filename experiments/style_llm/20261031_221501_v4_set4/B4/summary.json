@@ -1,0 +1,57 @@
+{
+  "command": "팔꿈치를 굽히고 힘차게 발차기해",
+  "variant": {
+    "key": "B4",
+    "label": "팔꿈치를 굽히고 힘차게 발차기해",
+    "scales": {
+      "speed": 1.2,
+      "cadence": 1.15,
+      "crouch": 20.0
+    },
+    "terms": {
+      "track_w": 0.6,
+      "speed": {
+        "scale": 1.2
+      },
+      "cadence": {
+        "scale": 1.15
+      },
+      "crouch": {
+        "angle": 20.0
+      }
+    }
+  },
+  "reference": {
+    "clip": "/home/jong/TexttoMotion/MimicKit/data/motions/humanoid/humanoid_kick.pkl",
+    "duration_s": 10.0
+  },
+  "training": {
+    "iterations": 1500,
+    "num_envs": 1024,
+    "status": "completed",
+    "started": "2026-10-31T23:50:09",
+    "finished": "2026-11-01T00:19:24",
+    "final_log": {
+      "Iteration": 1499.0,
+      "Wall_Time": 0.48484435207313964,
+      "Samples": 49152000.0,
+      "Samples_Per_Second": 28160.240033638063,
+      "Test_Return": 14.372488021850586,
+      "Test_Episode_Length": 17.296552658081055,
+      "Test_Episodes": 1740.0,
+      "Train_Return": 16.29230308532715,
+      "Train_Episode_Length": 20.453798294067383,
+      "Train_Episodes": 157971.0,
+      "Critic_Loss": 0.04116319864988327,
+      "Actor_Loss": -0.009537803940474987,
+      "Clip_Frac": 0.279388427734375,
+      "Imp_Ratio": 0.999933660030365,
+      "Action_Bound_Loss": 6.748448413418373e-06,
+      "Adv_Mean": -0.005822863895446062,
+      "Adv_Std": 0.20306389033794403,
+      "Obs_Norm_Mean": 0.38209375739097595,
+      "Obs_Norm_Std": 0.2746632397174835,
+      "Exp_Prob": 1.0
+    }
+  }
+}

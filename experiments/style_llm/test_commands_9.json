@@ -1,0 +1,30 @@
+{
+ "note": "Ninth set (2026-11-12): one-sided and sideways walking commands, for the one-sided values of prompt v11 (right/left objects, torso_roll, head_roll). Written by Claude before any model was run on it. Each command has a check on the one-sided measures of gait_features.features()[\"_side\"] (r_ and l_ values of each side; torso_roll and head_roll in degrees, + toward the character's right): the expression must reach min. The plain walk gives knee ranges 59 and 62 degrees, hand heights within 0.01 arm lengths, torso_roll -1, head_roll -1. legs and arms are the largest left-right difference of the leg or arm measures in units of a clearly visible difference (knee range 10 degrees, foot lift 0.03 leg lengths, toe angle 10 degrees; arm swing 0.1, hand position 0.1 arm lengths, elbow 15 degrees). Targets are 100STYLE style names where one exists; the 100STYLE features average both sides, so they score only the two-sided part. Do not edit after its first run.",
+ "groups": {"S": "한쪽만 다른 걸음"},
+ "checks": {
+  "legs": "max(abs(r_knee_range - l_knee_range) / 10, abs(r_foot_lift - l_foot_lift) / 0.03, abs(r_toe_out - l_toe_out) / 10)",
+  "arms": "max(abs(r_arm_swing - l_arm_swing) / 0.1, abs(r_hand_forward - l_hand_forward) / 0.1, abs(r_hand_height - l_hand_height) / 0.1, abs(r_hand_out - l_hand_out) / 0.1, abs(r_elbow_bend - l_elbow_bend) / 15)"
+ },
+ "commands": [
+  {"id": "S1", "group": "S", "text": "오른쪽 다리를 절뚝거리며 걸어", "expect": "accept", "expect_action": "walk", "target": "LimpRight",
+   "check": "legs", "min": 1},
+  {"id": "S2", "group": "S", "text": "왼손을 번쩍 들고 걸어", "expect": "accept", "expect_action": "walk", "target": "RaisedLeftArm",
+   "check": "l_hand_height - r_hand_height", "min": 0.4},
+  {"id": "S3", "group": "S", "text": "오른손으로 전화를 받으면서 걸어", "expect": "accept", "expect_action": "walk", "target": "OnPhoneRight",
+   "check": "r_elbow_bend - l_elbow_bend", "min": 25},
+  {"id": "S4", "group": "S", "text": "왼쪽 다리를 질질 끌면서 걸어", "expect": "accept", "expect_action": "walk", "target": "DragLeftLeg",
+   "check": "r_knee_range - l_knee_range", "min": 10},
+  {"id": "S5", "group": "S", "text": "오른손에 지팡이를 짚고 걸어", "expect": "accept", "expect_action": "walk", "target": "WalkingStickRight",
+   "check": "arms", "min": 1},
+  {"id": "S6", "group": "S", "text": "몸을 오른쪽으로 기울인 채 걸어", "expect": "accept", "expect_action": "walk", "target": "LeanRight",
+   "check": "torso_roll", "min": 8},
+  {"id": "S7", "group": "S", "text": "다친 왼팔을 감싸 쥐고 걸어", "expect": "accept", "expect_action": "walk",
+   "check": "r_arm_swing - l_arm_swing", "min": 0.15},
+  {"id": "S8", "group": "S", "text": "무거운 가방을 왼쪽 어깨에 메고 걸어", "expect": "accept", "expect_action": "walk",
+   "check": "max(abs(torso_roll) / 5, arms)", "min": 1},
+  {"id": "S9", "group": "S", "text": "고개를 왼쪽으로 갸웃한 채 걸어", "expect": "accept", "expect_action": "walk",
+   "check": "-head_roll", "min": 8},
+  {"id": "S10", "group": "S", "text": "한쪽 다리가 나무 의족인 해적처럼 걸어", "expect": "accept", "expect_action": "walk",
+   "check": "legs", "min": 1}
+ ]
+}

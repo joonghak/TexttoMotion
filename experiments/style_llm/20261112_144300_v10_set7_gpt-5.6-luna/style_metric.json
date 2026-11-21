@@ -1,0 +1,1081 @@
+{
+ "run": "20261112_144300_v10_set7_gpt-5.6-luna",
+ "prompt": "v10",
+ "results": [
+  {
+   "id": "N1",
+   "text": "메추라기처럼 종종 걸어",
+   "target": "Quail",
+   "top": [
+    [
+     "LeftHop",
+     0.575
+    ],
+    [
+     "Quail",
+     0.523
+    ],
+    [
+     "RightHop",
+     0.511
+    ]
+   ],
+   "similarity": 0.523,
+   "rank": 2,
+   "strength": 1.284,
+   "size": 4.28,
+   "answer": {
+    "action": "walk",
+    "s": 0.5,
+    "n": 1.5,
+    "c": 10.0,
+    "m_arm": 0.3,
+    "m_torso": 5.0,
+    "m_knee": 0.7,
+    "m_elbow": 0.0,
+    "torso_pitch": 0.0,
+    "head_pitch": 0.0,
+    "shoulder_flexion": 0.0,
+    "shoulder_abduction": -15.0,
+    "elbow_flexion": 0.0,
+    "stance_width": 8.0,
+    "toe_out": 10.0,
+    "shoulder_rotation": 0.0,
+    "bounce": 0.0,
+    "look": "A small quail-like figure scurries with rapid, tiny steps and a slight waddle."
+   }
+  },
+  {
+   "id": "N2",
+   "text": "고릴라처럼 가슴을 두드리며 걸어",
+   "target": "BeatChest",
+   "top": [
+    [
+     "ShieldedLeft",
+     0.749
+    ],
+    [
+     "ShieldedRight",
+     0.745
+    ],
+    [
+     "Dinosaur",
+     0.73
+    ]
+   ],
+   "similarity": 0.359,
+   "rank": 25,
+   "strength": 1.462,
+   "size": 7.29,
+   "answer": {
+    "action": "walk",
+    "s": 0.7,
+    "n": 0.8,
+    "c": 20.0,
+    "m_arm": 0.3,
+    "m_torso": 3.0,
+    "m_knee": 0.8,
+    "m_elbow": 1.0,
+    "torso_pitch": 25.0,
+    "head_pitch": 0.0,
+    "shoulder_flexion": 45.0,
+    "shoulder_abduction": 0.0,
+    "elbow_flexion": 50.0,
+    "stance_width": 10.0,
+    "toe_out": 0.0,
+    "shoulder_rotation": 0.0,
+    "bounce": 0.0,
+    "look": "A hunched, wide-legged gorilla walk with heavy bent-knee steps and bent arms held toward the chest."
+   }
+  },
+  {
+   "id": "N3",
+   "text": "펭귄 흉내를 내면서 걸어",
+   "target": "Penguin",
+   "top": [
+    [
+     "LegsApart",
+     0.615
+    ],
+    [
+     "WideLegs",
+     0.592
+    ],
+    [
+     "Star",
+     0.583
+    ]
+   ],
+   "similarity": 0.355,
+   "rank": 12,
+   "strength": 1.462,
+   "size": 5.45,
+   "answer": {
+    "action": "walk",
+    "s": 0.7,
+    "n": 0.9,
+    "c": 0.0,
+    "m_arm": 0.3,
+    "m_torso": 10.0,
+    "m_knee": 0.7,
+    "m_elbow": 1.0,
+    "torso_pitch": 0.0,
+    "head_pitch": 0.0,
+    "shoulder_flexion": 0.0,
+    "shoulder_abduction": 20.0,
+    "elbow_flexion": 0.0,
+    "stance_width": 10.0,
+    "toe_out": 20.0,
+    "shoulder_rotation": 0.0,
+    "bounce": 0.0,
+    "look": "A penguin-like walk with short waddling steps, a wide stance, side-to-side sway, and small flipper movements."
+   }
+  },
+  {
+   "id": "N4",
+   "text": "티라노사우루스처럼 걸어",
+   "target": "Dinosaur",
+   "top": [
+    [
+     "ShieldedLeft",
+     0.779
+    ],
+    [
+     "Swat",
+     0.738
+    ],
+    [
+     "ShieldedRight",
+     0.727
+    ]
+   ],
+   "similarity": 0.603,
+   "rank": 7,
+   "strength": 0.956,
+   "size": 6.97,
+   "answer": {
+    "action": "walk",
+    "s": 0.7,
+    "n": 1.2,
+    "c": 15.0,
+    "m_arm": 0.3,
+    "m_torso": 1.0,
+    "m_knee": 0.8,
+    "m_elbow": 1.0,
+    "torso_pitch": 30.0,
+    "head_pitch": 25.0,
+    "shoulder_flexion": 45.0,
+    "shoulder_abduction": 0.0,
+    "elbow_flexion": 60.0,
+    "stance_width": 6.0,
+    "toe_out": 0.0,
+    "shoulder_rotation": 0.0,
+    "bounce": 0.0,
+    "look": "A hunched, short-stepping T. rex walk with bent knees, a lowered head, and tiny arms held forward."
+   }
+  },
+  {
+   "id": "N5",
+   "text": "수탉처럼 걸어",
+   "target": "Chicken",
+   "top": [
+    [
+     "March",
+     0.703
+    ],
+    [
+     "Roadrunner",
+     0.631
+    ],
+    [
+     "HighKnees",
+     0.582
+    ]
+   ],
+   "similarity": 0.553,
+   "rank": 5,
+   "strength": 1.112,
+   "size": 6.41,
+   "answer": {
+    "action": "walk",
+    "s": 1.15,
+    "n": 1.0,
+    "c": 15.0,
+    "m_arm": 0.3,
+    "m_torso": 1.0,
+    "m_knee": 1.5,
+    "m_elbow": 1.0,
+    "torso_pitch": -10.0,
+    "head_pitch": -10.0,
+    "shoulder_flexion": 0.0,
+    "shoulder_abduction": 45.0,
+    "elbow_flexion": 45.0,
+    "stance_width": 5.0,
+    "toe_out": 20.0,
+    "shoulder_rotation": 0.0,
+    "bounce": 0.0,
+    "look": "A proud rooster-like walk with high-stepping legs, chest out, head raised, and wings held slightly open."
+   }
+  },
+  {
+   "id": "N6",
+   "text": "고양이처럼 조심스럽게 걸어",
+   "target": "Cat",
+   "top": [
+    [
+     "Dinosaur",
+     0.738
+    ],
+    [
+     "ShieldedRight",
+     0.609
+    ],
+    [
+     "OnToesCrouched",
+     0.607
+    ]
+   ],
+   "similarity": 0.464,
+   "rank": 13,
+   "strength": 1.184,
+   "size": 5.25,
+   "answer": {
+    "action": "walk",
+    "s": 0.7,
+    "n": 0.6,
+    "c": 15.0,
+    "m_arm": 0.3,
+    "m_torso": 0.0,
+    "m_knee": 0.7,
+    "m_elbow": 1.0,
+    "torso_pitch": 15.0,
+    "head_pitch": 0.0,
+    "shoulder_flexion": 20.0,
+    "shoulder_abduction": 0.0,
+    "elbow_flexion": 40.0,
+    "stance_width": -5.0,
+    "toe_out": 0.0,
+    "shoulder_rotation": 0.0,
+    "bounce": 0.0,
+    "look": "A low, quiet cat-like walk with tiny careful steps and minimal arm movement."
+   }
+  },
+  {
+   "id": "P1",
+   "text": "어둠 속에서 손으로 더듬으며 걸어",
+   "target": "InTheDark",
+   "top": [
+    [
+     "Superman",
+     0.566
+    ],
+    [
+     "Zombie",
+     0.559
+    ],
+    [
+     "ShieldedLeft",
+     0.549
+    ]
+   ],
+   "similarity": 0.508,
+   "rank": 4,
+   "strength": 1.555,
+   "size": 6.64,
+   "answer": {
+    "action": "walk",
+    "s": 0.7,
+    "n": 0.6,
+    "c": 15.0,
+    "m_arm": 0.3,
+    "m_torso": 1.0,
+    "m_knee": 0.8,
+    "m_elbow": 1.0,
+    "torso_pitch": 15.0,
+    "head_pitch": 20.0,
+    "shoulder_flexion": 85.0,
+    "shoulder_abduction": 0.0,
+    "elbow_flexion": -30.0,
+    "stance_width": 0.0,
+    "toe_out": 0.0,
+    "shoulder_rotation": 0.0,
+    "bounce": 0.0,
+    "look": "A cautious, hunched walk with both arms extended forward, feeling the way through the darkness."
+   }
+  },
+  {
+   "id": "P2",
+   "text": "군인처럼 행진하며 걸어",
+   "target": "March",
+   "top": [
+    [
+     "HighKnees",
+     0.818
+    ],
+    [
+     "Kick",
+     0.754
+    ],
+    [
+     "Roadrunner",
+     0.689
+    ]
+   ],
+   "similarity": 0.525,
+   "rank": 7,
+   "strength": 1.667,
+   "size": 5.06,
+   "answer": {
+    "action": "walk",
+    "s": 1.0,
+    "n": 1.1,
+    "c": 15.0,
+    "m_arm": 1.3,
+    "m_torso": 0.0,
+    "m_knee": 1.5,
+    "m_elbow": 0.0,
+    "torso_pitch": 0.0,
+    "head_pitch": 0.0,
+    "shoulder_flexion": 0.0,
+    "shoulder_abduction": 0.0,
+    "elbow_flexion": -20.0,
+    "stance_width": 0.0,
+    "toe_out": 0.0,
+    "shoulder_rotation": 0.0,
+    "bounce": 0.0,
+    "look": "A stiff soldier marches upright with high knees and rigid arm swings."
+   }
+  },
+  {
+   "id": "P3",
+   "text": "요정처럼 사뿐사뿐 걸어",
+   "target": "FairySteps",
+   "top": [
+    [
+     "Penguin",
+     0.545
+    ],
+    [
+     "Robot",
+     0.465
+    ],
+    [
+     "Tiptoe",
+     0.4
+    ]
+   ],
+   "similarity": 0.367,
+   "rank": 5,
+   "strength": 0.454,
+   "size": 2.01,
+   "answer": {
+    "action": "walk",
+    "s": 0.7,
+    "n": 1.2,
+    "c": 0.0,
+    "m_arm": 0.3,
+    "m_torso": 1.0,
+    "m_knee": 0.7,
+    "m_elbow": 1.0,
+    "torso_pitch": 0.0,
+    "head_pitch": 0.0,
+    "shoulder_flexion": 0.0,
+    "shoulder_abduction": 0.0,
+    "elbow_flexion": 0.0,
+    "stance_width": 0.0,
+    "toe_out": 0.0,
+    "shoulder_rotation": 0.0,
+    "bounce": 0.0,
+    "look": "A fairy-like walk with quick, tiny, light steps and delicate restrained movements."
+   }
+  },
+  {
+   "id": "P4",
+   "text": "덩치 큰 사람처럼 걸어",
+   "target": "Heavyset",
+   "top": [
+    [
+     "WideLegs",
+     0.667
+    ],
+    [
+     "LegsApart",
+     0.658
+    ],
+    [
+     "Star",
+     0.526
+    ]
+   ],
+   "similarity": 0.109,
+   "rank": 35,
+   "strength": 1.762,
+   "size": 3.53,
+   "answer": {
+    "action": "walk",
+    "s": 1.1,
+    "n": 0.8,
+    "c": 0.0,
+    "m_arm": 1.3,
+    "m_torso": 5.0,
+    "m_knee": 0.8,
+    "m_elbow": 1.0,
+    "torso_pitch": 0.0,
+    "head_pitch": 0.0,
+    "shoulder_flexion": 0.0,
+    "shoulder_abduction": 0.0,
+    "elbow_flexion": 0.0,
+    "stance_width": 10.0,
+    "toe_out": 0.0,
+    "shoulder_rotation": 0.0,
+    "bounce": 0.0,
+    "look": "A broad, heavy person walks with wide, swaying steps."
+   }
+  },
+  {
+   "id": "P5",
+   "text": "패션모델처럼 뽐내며 걸어",
+   "target": "Strutting",
+   "top": [
+    [
+     "LookUp",
+     0.485
+    ],
+    [
+     "Strutting",
+     0.484
+    ],
+    [
+     "Waving",
+     0.425
+    ]
+   ],
+   "similarity": 0.484,
+   "rank": 2,
+   "strength": 1.304,
+   "size": 2.86,
+   "answer": {
+    "action": "walk",
+    "s": 1.4,
+    "n": 0.9,
+    "c": 0.0,
+    "m_arm": 1.5,
+    "m_torso": 1.0,
+    "m_knee": 1.0,
+    "m_elbow": 1.0,
+    "torso_pitch": -10.0,
+    "head_pitch": -10.0,
+    "shoulder_flexion": 0.0,
+    "shoulder_abduction": 0.0,
+    "elbow_flexion": 0.0,
+    "stance_width": -5.0,
+    "toe_out": 10.0,
+    "shoulder_rotation": 0.0,
+    "bounce": 0.0,
+    "look": "A confident fashion-model strut with long, deliberate steps, a proud posture, and a broad arm swing."
+   }
+  },
+  {
+   "id": "P6",
+   "text": "특공대원처럼 총을 겨눈 자세로 걸어",
+   "target": "Swat",
+   "top": [
+    [
+     "InTheDark",
+     0.599
+    ],
+    [
+     "ShieldedRight",
+     0.587
+    ],
+    [
+     "ArmsAboveHead",
+     0.58
+    ]
+   ],
+   "similarity": 0.48,
+   "rank": 8,
+   "strength": 0.973,
+   "size": 5.95,
+   "answer": {
+    "action": "walk",
+    "s": 0.8,
+    "n": 0.75,
+    "c": 15.0,
+    "m_arm": 0.3,
+    "m_torso": 0.0,
+    "m_knee": 0.8,
+    "m_elbow": 1.0,
+    "torso_pitch": 0.0,
+    "head_pitch": 0.0,
+    "shoulder_flexion": 85.0,
+    "shoulder_abduction": 0.0,
+    "elbow_flexion": -30.0,
+    "stance_width": 0.0,
+    "toe_out": 0.0,
+    "shoulder_rotation": 0.0,
+    "bounce": 0.0,
+    "look": "A cautious commando walks in a low, steady stance with both arms extended forward as if aiming a rifle."
+   }
+  },
+  {
+   "id": "F1",
+   "text": "뒷짐을 지고 걸어",
+   "target": "ArmsBehindBack",
+   "top": [
+    [
+     "ArmsBehindBack",
+     0.625
+    ],
+    [
+     "Rocket",
+     0.523
+    ],
+    [
+     "Roadrunner",
+     0.319
+    ]
+   ],
+   "similarity": 0.625,
+   "rank": 1,
+   "strength": 1.137,
+   "size": 3.46,
+   "answer": {
+    "action": "walk",
+    "s": 1.0,
+    "n": 1.0,
+    "c": 0.0,
+    "m_arm": 0.3,
+    "m_torso": 1.0,
+    "m_knee": 1.0,
+    "m_elbow": 1.0,
+    "torso_pitch": 0.0,
+    "head_pitch": 0.0,
+    "shoulder_flexion": -45.0,
+    "shoulder_abduction": 0.0,
+    "elbow_flexion": 0.0,
+    "stance_width": 0.0,
+    "toe_out": 0.0,
+    "shoulder_rotation": 0.0,
+    "bounce": 0.0,
+    "look": "Walking upright with both arms held behind the back."
+   }
+  },
+  {
+   "id": "F2",
+   "text": "팔짱을 끼고 걸어",
+   "target": "ArmsFolded",
+   "top": [
+    [
+     "ArmsFolded",
+     0.882
+    ],
+    [
+     "LawnMower",
+     0.846
+    ],
+    [
+     "OnPhoneLeft",
+     0.811
+    ]
+   ],
+   "similarity": 0.882,
+   "rank": 1,
+   "strength": 1.024,
+   "size": 4.53,
+   "answer": {
+    "action": "walk",
+    "s": 1.0,
+    "n": 1.0,
+    "c": 0.0,
+    "m_arm": 0.3,
+    "m_torso": 1.0,
+    "m_knee": 1.0,
+    "m_elbow": 1.0,
+    "torso_pitch": 0.0,
+    "head_pitch": 0.0,
+    "shoulder_flexion": 45.0,
+    "shoulder_abduction": 0.0,
+    "elbow_flexion": 60.0,
+    "stance_width": 0.0,
+    "toe_out": 0.0,
+    "shoulder_rotation": 45.0,
+    "bounce": 0.0,
+    "look": "Walks with both arms folded across the chest."
+   }
+  },
+  {
+   "id": "F3",
+   "text": "양손을 허리에 짚고 걸어",
+   "target": "Akimbo",
+   "top": [
+    [
+     "BeatChest",
+     0.748
+    ],
+    [
+     "Akimbo",
+     0.747
+    ],
+    [
+     "HandsInPockets",
+     0.735
+    ]
+   ],
+   "similarity": 0.747,
+   "rank": 2,
+   "strength": 0.93,
+   "size": 2.33,
+   "answer": {
+    "action": "walk",
+    "s": 1.0,
+    "n": 1.0,
+    "c": 0.0,
+    "m_arm": 0.3,
+    "m_torso": 1.0,
+    "m_knee": 1.0,
+    "m_elbow": 1.0,
+    "torso_pitch": 0.0,
+    "head_pitch": 0.0,
+    "shoulder_flexion": -20.0,
+    "shoulder_abduction": 25.0,
+    "elbow_flexion": 50.0,
+    "stance_width": 0.0,
+    "toe_out": 0.0,
+    "shoulder_rotation": 0.0,
+    "bounce": 0.0,
+    "look": "A confident walk with both hands planted on the hips and elbows sticking outward."
+   }
+  },
+  {
+   "id": "F4",
+   "text": "두 팔을 머리 위로 들고 걸어",
+   "target": "ArmsAboveHead",
+   "top": [
+    [
+     "ArmsAboveHead",
+     0.875
+    ],
+    [
+     "InTheDark",
+     0.794
+    ],
+    [
+     "Zombie",
+     0.735
+    ]
+   ],
+   "similarity": 0.875,
+   "rank": 1,
+   "strength": 0.776,
+   "size": 5.0,
+   "answer": {
+    "action": "walk",
+    "s": 1.0,
+    "n": 1.0,
+    "c": 0.0,
+    "m_arm": 0.3,
+    "m_torso": 1.0,
+    "m_knee": 1.0,
+    "m_elbow": 1.0,
+    "torso_pitch": 0.0,
+    "head_pitch": 0.0,
+    "shoulder_flexion": 85.0,
+    "shoulder_abduction": 0.0,
+    "elbow_flexion": 0.0,
+    "stance_width": 0.0,
+    "toe_out": 0.0,
+    "shoulder_rotation": 0.0,
+    "bounce": 0.0,
+    "look": "Walks with both arms held high overhead."
+   }
+  },
+  {
+   "id": "F5",
+   "text": "발뒤꿈치로 걸어",
+   "target": "OnHeels",
+   "top": [
+    [
+     "Aeroplane",
+     0.0
+    ],
+    [
+     "ShieldedRight",
+     0.0
+    ],
+    [
+     "ShieldedLeft",
+     0.0
+    ]
+   ],
+   "similarity": 0.0,
+   "rank": 21,
+   "strength": 0.0,
+   "size": 0.0,
+   "answer": {
+    "action": "walk",
+    "s": 1.0,
+    "n": 1.0,
+    "c": 0.0,
+    "m_arm": 1.0,
+    "m_torso": 1.0,
+    "m_knee": 1.0,
+    "m_elbow": 1.0,
+    "torso_pitch": 0.0,
+    "head_pitch": 0.0,
+    "shoulder_flexion": 0.0,
+    "shoulder_abduction": 0.0,
+    "elbow_flexion": 0.0,
+    "stance_width": 0.0,
+    "toe_out": 0.0,
+    "shoulder_rotation": 0.0,
+    "bounce": 0.0,
+    "look": "A walk that lands on the heels with the toes lifted."
+   }
+  },
+  {
+   "id": "F6",
+   "text": "무릎을 굽힌 채로 걸어",
+   "target": "BentKnees",
+   "top": [
+    [
+     "BentKnees",
+     0.965
+    ],
+    [
+     "Roadrunner",
+     0.752
+    ],
+    [
+     "OnToesCrouched",
+     0.732
+    ]
+   ],
+   "similarity": 0.965,
+   "rank": 1,
+   "strength": 1.019,
+   "size": 3.73,
+   "answer": {
+    "action": "walk",
+    "s": 1.0,
+    "n": 1.0,
+    "c": 15.0,
+    "m_arm": 1.0,
+    "m_torso": 1.0,
+    "m_knee": 0.8,
+    "m_elbow": 1.0,
+    "torso_pitch": 0.0,
+    "head_pitch": 0.0,
+    "shoulder_flexion": 0.0,
+    "shoulder_abduction": 0.0,
+    "elbow_flexion": 0.0,
+    "stance_width": 0.0,
+    "toe_out": 0.0,
+    "shoulder_rotation": 0.0,
+    "bounce": 0.0,
+    "look": "A crouched walk with the knees visibly bent throughout."
+   }
+  },
+  {
+   "id": "F7",
+   "text": "상체를 뒤로 젖히고 걸어",
+   "target": "LeanBack",
+   "top": [
+    [
+     "LookUp",
+     0.588
+    ],
+    [
+     "InTheDark",
+     0.416
+    ],
+    [
+     "Strutting",
+     0.362
+    ]
+   ],
+   "similarity": 0.244,
+   "rank": 10,
+   "strength": 0.254,
+   "size": 0.91,
+   "answer": {
+    "action": "walk",
+    "s": 1.0,
+    "n": 1.0,
+    "c": 0.0,
+    "m_arm": 1.0,
+    "m_torso": 1.0,
+    "m_knee": 1.0,
+    "m_elbow": 1.0,
+    "torso_pitch": -12.0,
+    "head_pitch": 0.0,
+    "shoulder_flexion": 0.0,
+    "shoulder_abduction": 0.0,
+    "elbow_flexion": 0.0,
+    "stance_width": 0.0,
+    "toe_out": 0.0,
+    "shoulder_rotation": 0.0,
+    "bounce": 0.0,
+    "look": "A walk with the upper body clearly leaned backward."
+   }
+  },
+  {
+   "id": "F8",
+   "text": "발을 바닥에 끌면서 걸어",
+   "target": "SlideFeet",
+   "top": [
+    [
+     "Stiff",
+     0.578
+    ],
+    [
+     "OnHeels",
+     0.505
+    ],
+    [
+     "LimpRight",
+     0.485
+    ]
+   ],
+   "similarity": 0.228,
+   "rank": 17,
+   "strength": 0.584,
+   "size": 1.75,
+   "answer": {
+    "action": "walk",
+    "s": 1.0,
+    "n": 1.0,
+    "c": 0.0,
+    "m_arm": 1.0,
+    "m_torso": 1.0,
+    "m_knee": 0.4,
+    "m_elbow": 1.0,
+    "torso_pitch": 0.0,
+    "head_pitch": 0.0,
+    "shoulder_flexion": 0.0,
+    "shoulder_abduction": 0.0,
+    "elbow_flexion": 0.0,
+    "stance_width": 0.0,
+    "toe_out": 0.0,
+    "shoulder_rotation": 0.0,
+    "bounce": 0.0,
+    "look": "A walk with the feet dragging close along the ground."
+   }
+  },
+  {
+   "id": "M1",
+   "text": "급하게 서둘러 걸어",
+   "target": "Rushed",
+   "top": [
+    [
+     "Rushed",
+     0.718
+    ],
+    [
+     "Followed",
+     0.538
+    ],
+    [
+     "LegsApart",
+     0.511
+    ]
+   ],
+   "similarity": 0.718,
+   "rank": 1,
+   "strength": 0.374,
+   "size": 1.42,
+   "answer": {
+    "action": "walk",
+    "s": 1.1,
+    "n": 1.3,
+    "c": 0.0,
+    "m_arm": 1.3,
+    "m_torso": 1.0,
+    "m_knee": 1.0,
+    "m_elbow": 1.0,
+    "torso_pitch": 0.0,
+    "head_pitch": 0.0,
+    "shoulder_flexion": 0.0,
+    "shoulder_abduction": 0.0,
+    "elbow_flexion": 0.0,
+    "stance_width": 0.0,
+    "toe_out": 0.0,
+    "shoulder_rotation": 0.0,
+    "bounce": 0.0,
+    "look": "A brisk, hurried walk with quick, purposeful steps."
+   }
+  },
+  {
+   "id": "M2",
+   "text": "누가 따라오는 것 같아 뒤를 살피며 걸어",
+   "target": "Followed",
+   "top": [
+    [
+     "Dinosaur",
+     0.785
+    ],
+    [
+     "ShieldedRight",
+     0.66
+    ],
+    [
+     "ShieldedLeft",
+     0.651
+    ]
+   ],
+   "similarity": -0.113,
+   "rank": 87,
+   "strength": 1.523,
+   "size": 4.96,
+   "answer": {
+    "action": "walk",
+    "s": 0.8,
+    "n": 0.6,
+    "c": 15.0,
+    "m_arm": 0.3,
+    "m_torso": 1.0,
+    "m_knee": 0.8,
+    "m_elbow": 1.0,
+    "torso_pitch": 15.0,
+    "head_pitch": 0.0,
+    "shoulder_flexion": 20.0,
+    "shoulder_abduction": 0.0,
+    "elbow_flexion": 40.0,
+    "stance_width": 0.0,
+    "toe_out": 0.0,
+    "shoulder_rotation": 0.0,
+    "bounce": 0.0,
+    "look": "A cautious, sneaky walk with slow, small steps and a tense, lowered posture."
+   }
+  },
+  {
+   "id": "M3",
+   "text": "우아하게 걸어",
+   "target": "GracefulArms",
+   "top": [
+    [
+     "Strutting",
+     0.488
+    ],
+    [
+     "LookUp",
+     0.469
+    ],
+    [
+     "LimpRight",
+     0.415
+    ]
+   ],
+   "similarity": -0.151,
+   "rank": 65,
+   "strength": 0.37,
+   "size": 1.4,
+   "answer": {
+    "action": "walk",
+    "s": 1.1,
+    "n": 0.9,
+    "c": 0.0,
+    "m_arm": 0.7,
+    "m_torso": 0.5,
+    "m_knee": 0.8,
+    "m_elbow": 1.0,
+    "torso_pitch": -3.0,
+    "head_pitch": -5.0,
+    "shoulder_flexion": 0.0,
+    "shoulder_abduction": 0.0,
+    "elbow_flexion": 0.0,
+    "stance_width": 0.0,
+    "toe_out": 8.0,
+    "shoulder_rotation": 0.0,
+    "bounce": 0.0,
+    "look": "A graceful walk with smooth, measured strides, a poised posture, and gentle restrained arm movement."
+   }
+  },
+  {
+   "id": "M4",
+   "text": "외줄을 타듯 균형을 잡으며 걸어",
+   "target": "Balance",
+   "top": [
+    [
+     "RaisedRightArm",
+     0.748
+    ],
+    [
+     "Balance",
+     0.747
+    ],
+    [
+     "Flapping",
+     0.73
+    ]
+   ],
+   "similarity": 0.747,
+   "rank": 2,
+   "strength": 1.07,
+   "size": 6.15,
+   "answer": {
+    "action": "walk",
+    "s": 0.7,
+    "n": 0.7,
+    "c": 0.0,
+    "m_arm": 0.3,
+    "m_torso": 5.0,
+    "m_knee": 0.8,
+    "m_elbow": 1.0,
+    "torso_pitch": 0.0,
+    "head_pitch": 0.0,
+    "shoulder_flexion": 0.0,
+    "shoulder_abduction": 80.0,
+    "elbow_flexion": -20.0,
+    "stance_width": -8.0,
+    "toe_out": 0.0,
+    "shoulder_rotation": 0.0,
+    "bounce": 0.0,
+    "look": "A cautious tightrope walker takes slow, narrow steps with arms stretched wide for balance."
+   }
+  },
+  {
+   "id": "M5",
+   "text": "엉덩이를 씰룩거리며 걸어",
+   "target": "WiggleHips",
+   "top": [
+    [
+     "Old",
+     0.727
+    ],
+    [
+     "Followed",
+     0.685
+    ],
+    [
+     "SpinClock",
+     0.677
+    ]
+   ],
+   "similarity": 0.407,
+   "rank": 18,
+   "strength": 0.82,
+   "size": 3.27,
+   "answer": {
+    "action": "walk",
+    "s": 1.0,
+    "n": 0.8,
+    "c": 0.0,
+    "m_arm": 1.0,
+    "m_torso": 10.0,
+    "m_knee": 1.0,
+    "m_elbow": 1.0,
+    "torso_pitch": 0.0,
+    "head_pitch": 0.0,
+    "shoulder_flexion": 0.0,
+    "shoulder_abduction": 0.0,
+    "elbow_flexion": 0.0,
+    "stance_width": 0.0,
+    "toe_out": 0.0,
+    "shoulder_rotation": 0.0,
+    "bounce": 0.0,
+    "look": "A walk with an exaggerated, playful side-to-side hip wiggle."
+   }
+  }
+ ]
+}

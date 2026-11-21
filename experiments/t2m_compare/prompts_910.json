@@ -1,0 +1,112 @@
+[
+ {
+  "key": "set9_S1",
+  "text": "A person walks limping on the right leg.",
+  "length": 120
+ },
+ {
+  "key": "set9_S2",
+  "text": "A person walks with the left hand raised high.",
+  "length": 120
+ },
+ {
+  "key": "set9_S3",
+  "text": "A person walks while talking on a phone held in the right hand.",
+  "length": 120
+ },
+ {
+  "key": "set9_S4",
+  "text": "A person walks dragging the left leg.",
+  "length": 120
+ },
+ {
+  "key": "set9_S5",
+  "text": "A person walks leaning on a cane held in the right hand.",
+  "length": 120
+ },
+ {
+  "key": "set9_S6",
+  "text": "A person walks with the body leaning to the right.",
+  "length": 120
+ },
+ {
+  "key": "set9_S7",
+  "text": "A person walks holding an injured left arm.",
+  "length": 120
+ },
+ {
+  "key": "set9_S8",
+  "text": "A person walks carrying a heavy bag on the left shoulder.",
+  "length": 120
+ },
+ {
+  "key": "set9_S9",
+  "text": "A person walks with the head tilted to the left.",
+  "length": 120
+ },
+ {
+  "key": "set9_S10",
+  "text": "A person walks like a pirate with a wooden peg leg.",
+  "length": 120
+ },
+ {
+  "key": "set10_C1",
+  "text": "A person walks slowly and then suddenly starts running.",
+  "length": 160
+ },
+ {
+  "key": "set10_C2",
+  "text": "A person runs and then makes a big jump forward.",
+  "length": 160
+ },
+ {
+  "key": "set10_C3",
+  "text": "A person walks and then does a front kick.",
+  "length": 160
+ },
+ {
+  "key": "set10_C4",
+  "text": "A person jumps twice and then walks.",
+  "length": 160
+ },
+ {
+  "key": "set10_C5",
+  "text": "A person walks and then does a spinning kick.",
+  "length": 160
+ },
+ {
+  "key": "set10_C6",
+  "text": "A person runs, stops, and then kicks.",
+  "length": 160
+ },
+ {
+  "key": "set10_C7",
+  "text": "A person walks, then runs, and finally jumps.",
+  "length": 160
+ },
+ {
+  "key": "set10_C8",
+  "text": "A person trudges along tiredly and then runs with renewed energy.",
+  "length": 160
+ },
+ {
+  "key": "set10_T1",
+  "text": "A person walks lightly on tiptoes.",
+  "length": 120
+ },
+ {
+  "key": "set10_T2",
+  "text": "A person walks only on the heels.",
+  "length": 120
+ },
+ {
+  "key": "set10_T3",
+  "text": "A person walks as if wearing high heels.",
+  "length": 120
+ },
+ {
+  "key": "set10_T4",
+  "text": "A person walks on the tips of the toes like a ballerina.",
+  "length": 120
+ }
+]

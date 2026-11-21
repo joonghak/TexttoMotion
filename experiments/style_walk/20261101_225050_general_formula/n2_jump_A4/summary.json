@@ -1,0 +1,78 @@
+{
+  "command": "양팔을 쫙 펴고 점프해 (새 수식, 팔 자세는 걷기 기준)",
+  "variant": {
+    "key": "n2_jump_A4",
+    "label": "양팔을 쫙 펴고 점프해 (새 수식, 팔 자세는 걷기 기준)",
+    "scales": {
+      "arm_swing": 0.3,
+      "pose": {
+        "right_upper_arm": [
+          -80.0,
+          0,
+          0
+        ],
+        "left_upper_arm": [
+          80.0,
+          0,
+          0
+        ]
+      }
+    },
+    "terms": {
+      "track_w": 0.6,
+      "arm_swing": {
+        "scale": 0.3
+      },
+      "pose": {
+        "right_upper_arm": [
+          -80.0,
+          0,
+          0
+        ],
+        "left_upper_arm": [
+          80.0,
+          0,
+          0
+        ]
+      },
+      "style": {
+        "w": 0.2
+      },
+      "swing_unit": "/home/jong/TexttoMotion/MimicKit/data/motions/humanoid/humanoid_walk.pkl",
+      "pose_unit": "/home/jong/TexttoMotion/MimicKit/data/motions/humanoid/humanoid_walk.pkl"
+    }
+  },
+  "reference": {
+    "clip": "/home/jong/TexttoMotion/MimicKit/data/motions/humanoid/humanoid_jump.pkl",
+    "duration_s": 10.0
+  },
+  "training": {
+    "iterations": 1500,
+    "num_envs": 1024,
+    "status": "completed",
+    "started": "2026-11-03T18:30:26",
+    "finished": "2026-11-03T18:56:32",
+    "final_log": {
+      "Iteration": 1499.0,
+      "Wall_Time": 0.4317022297779719,
+      "Samples": 49152000.0,
+      "Samples_Per_Second": 31626.738041995653,
+      "Test_Return": 255.6504669189453,
+      "Test_Episode_Length": 285.5268249511719,
+      "Test_Episodes": 1025.0,
+      "Train_Return": 233.50123596191406,
+      "Train_Episode_Length": 277.9586486816406,
+      "Train_Episodes": 11161.0,
+      "Critic_Loss": 2.84712815284729,
+      "Actor_Loss": -0.03360222652554512,
+      "Clip_Frac": 0.18266601860523224,
+      "Imp_Ratio": 0.9998534321784973,
+      "Action_Bound_Loss": 1.7524395161672146e-06,
+      "Adv_Mean": 0.004861354827880859,
+      "Adv_Std": 1.8111302852630615,
+      "Obs_Norm_Mean": 0.36233845353126526,
+      "Obs_Norm_Std": 0.21517613530158997,
+      "Exp_Prob": 1.0
+    }
+  }
+}

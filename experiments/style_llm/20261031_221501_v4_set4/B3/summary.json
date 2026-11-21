@@ -1,0 +1,59 @@
+{
+  "command": "고개를 푹 숙이고 점프해",
+  "variant": {
+    "key": "B3",
+    "label": "고개를 푹 숙이고 점프해",
+    "scales": {
+      "pose": {
+        "head": [
+          0,
+          25.0,
+          0
+        ]
+      }
+    },
+    "terms": {
+      "track_w": 0.6,
+      "pose": {
+        "head": [
+          0,
+          25.0,
+          0
+        ]
+      }
+    }
+  },
+  "reference": {
+    "clip": "/home/jong/TexttoMotion/MimicKit/data/motions/humanoid/humanoid_jump.pkl",
+    "duration_s": 10.0
+  },
+  "training": {
+    "iterations": 1500,
+    "num_envs": 1024,
+    "status": "completed",
+    "started": "2026-10-31T23:24:40",
+    "finished": "2026-10-31T23:49:57",
+    "final_log": {
+      "Iteration": 1499.0,
+      "Wall_Time": 0.41828348437945045,
+      "Samples": 49152000.0,
+      "Samples_Per_Second": 32641.3397688625,
+      "Test_Return": 264.62091064453125,
+      "Test_Episode_Length": 291.2348937988281,
+      "Test_Episodes": 1026.0,
+      "Train_Return": 240.31735229492188,
+      "Train_Episode_Length": 281.7701110839844,
+      "Train_Episodes": 11006.0,
+      "Critic_Loss": 2.054551124572754,
+      "Actor_Loss": -0.024899564683437347,
+      "Clip_Frac": 0.17535400390625,
+      "Imp_Ratio": 0.9995715022087097,
+      "Action_Bound_Loss": 1.9588816940085962e-05,
+      "Adv_Mean": -0.027832582592964172,
+      "Adv_Std": 1.6008741855621338,
+      "Obs_Norm_Mean": 0.3602364957332611,
+      "Obs_Norm_Std": 0.22663737833499908,
+      "Exp_Prob": 1.0
+    }
+  }
+}

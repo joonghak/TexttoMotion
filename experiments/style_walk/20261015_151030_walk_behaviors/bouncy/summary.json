@@ -1,0 +1,65 @@
+{
+  "command": "껑충껑충",
+  "variant": {
+    "key": "bouncy",
+    "label": "껑충껑충",
+    "scales": {
+      "crouch": 15.0,
+      "swing": {
+        "right_shin": 1.5,
+        "left_shin": 1.5
+      },
+      "cadence": 1.2,
+      "arm_swing": 1.5
+    },
+    "terms": {
+      "track_w": 0.6,
+      "crouch": {
+        "angle": 15.0
+      },
+      "swing": {
+        "right_shin": 1.5,
+        "left_shin": 1.5
+      },
+      "cadence": {
+        "scale": 1.2
+      },
+      "arm_swing": {
+        "scale": 1.5
+      }
+    }
+  },
+  "reference": {
+    "clip": "/home/jong/TexttoMotion/MimicKit/data/motions/humanoid/humanoid_walk.pkl",
+    "duration_s": 10.0
+  },
+  "training": {
+    "iterations": 2000,
+    "num_envs": 1024,
+    "status": "completed",
+    "started": "2026-10-15T17:23:46",
+    "finished": "2026-10-15T17:53:42",
+    "final_log": {
+      "Iteration": 1999.0,
+      "Wall_Time": 0.49576905773745644,
+      "Samples": 65536000.0,
+      "Samples_Per_Second": 36719.60595428071,
+      "Test_Return": 283.44891357421875,
+      "Test_Episode_Length": 299.130859375,
+      "Test_Episodes": 1024.0,
+      "Train_Return": 267.9212951660156,
+      "Train_Episode_Length": 298.2513732910156,
+      "Train_Episodes": 10303.0,
+      "Critic_Loss": 0.028270045295357704,
+      "Actor_Loss": -0.004615096375346184,
+      "Clip_Frac": 0.2667236328125,
+      "Imp_Ratio": 0.9992172122001648,
+      "Action_Bound_Loss": 4.772068677993957e-07,
+      "Adv_Mean": 0.004492168314754963,
+      "Adv_Std": 0.16755220293998718,
+      "Obs_Norm_Mean": 0.344078004360199,
+      "Obs_Norm_Std": 0.1842017024755478,
+      "Exp_Prob": 1.0
+    }
+  }
+}

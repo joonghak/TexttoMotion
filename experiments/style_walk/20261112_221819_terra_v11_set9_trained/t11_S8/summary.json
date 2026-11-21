@@ -1,0 +1,110 @@
+{
+  "command": "무거운 가방을 왼쪽 어깨에 메고 걸어: gpt-5.6-terra, 프롬프트 v11이 정한 값 (s 0.85, n 0.8, torso_roll 15, head_roll 12, left_m_arm 0.3, left_shoulder_flexion 45, left_elbow_flexion 60)",
+  "variant": {
+    "key": "t11_S8",
+    "label": "무거운 가방을 왼쪽 어깨에 메고 걸어: gpt-5.6-terra, 프롬프트 v11이 정한 값 (s 0.85, n 0.8, torso_roll 15, head_roll 12, left_m_arm 0.3, left_shoulder_flexion 45, left_elbow_flexion 60)",
+    "scales": {
+      "speed": 0.85,
+      "cadence": 0.8,
+      "swing": {
+        "left_upper_arm": 0.3,
+        "left_lower_arm": 0.3
+      },
+      "pose": {
+        "torso": [
+          15.0,
+          0.0,
+          0.0
+        ],
+        "head": [
+          12.0,
+          0.0,
+          0.0
+        ],
+        "left_upper_arm": [
+          0.0,
+          -45.0,
+          -0.0
+        ],
+        "left_lower_arm": [
+          0,
+          0,
+          -60.0
+        ]
+      }
+    },
+    "terms": {
+      "track_w": 0.6,
+      "speed": {
+        "scale": 0.85
+      },
+      "cadence": {
+        "scale": 0.8
+      },
+      "swing": {
+        "left_upper_arm": 0.3,
+        "left_lower_arm": 0.3
+      },
+      "pose": {
+        "torso": [
+          15.0,
+          0.0,
+          0.0
+        ],
+        "head": [
+          12.0,
+          0.0,
+          0.0
+        ],
+        "left_upper_arm": [
+          0.0,
+          -45.0,
+          -0.0
+        ],
+        "left_lower_arm": [
+          0,
+          0,
+          -60.0
+        ]
+      },
+      "style": {
+        "w": 0.2
+      },
+      "swing_unit": "/home/jong/TexttoMotion/MimicKit/data/motions/humanoid/humanoid_walk.pkl",
+      "pose_unit": "/home/jong/TexttoMotion/MimicKit/data/motions/humanoid/humanoid_walk.pkl"
+    }
+  },
+  "reference": {
+    "clip": "/home/jong/TexttoMotion/MimicKit/data/motions/humanoid/humanoid_walk.pkl",
+    "duration_s": 10.0
+  },
+  "training": {
+    "iterations": 2000,
+    "num_envs": 1024,
+    "status": "completed",
+    "started": "2026-11-16T12:06:12",
+    "finished": "2026-11-16T12:40:39",
+    "final_log": {
+      "Iteration": 1999.0,
+      "Wall_Time": 0.5677299801508585,
+      "Samples": 65536000.0,
+      "Samples_Per_Second": 32065.321686212723,
+      "Test_Return": 287.8790283203125,
+      "Test_Episode_Length": 293.68359375,
+      "Test_Episodes": 1024.0,
+      "Train_Return": 276.410888671875,
+      "Train_Episode_Length": 295.4750671386719,
+      "Train_Episodes": 10401.0,
+      "Critic_Loss": 1.0882121324539185,
+      "Actor_Loss": -0.014689983800053596,
+      "Clip_Frac": 0.20533446967601776,
+      "Imp_Ratio": 0.9995395541191101,
+      "Action_Bound_Loss": 0.0,
+      "Adv_Mean": -0.018694275990128517,
+      "Adv_Std": 1.0528323650360107,
+      "Obs_Norm_Mean": 0.3415316939353943,
+      "Obs_Norm_Std": 0.15632382035255432,
+      "Exp_Prob": 1.0
+    }
+  }
+}

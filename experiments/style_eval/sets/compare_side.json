@@ -1,0 +1,10 @@
+{
+ "title": "한쪽 동작과 발끝 걸음, 우리 정책과 100STYLE 배우를 나란히 (2026-11-13)",
+ "note": "Our policies: gpt-5.6-terra prompt v11 answers to set 9 (S1 limp right, S2 left hand raised) and a hand-set foot_pitch 25 (tiptoe), trained 2000 iterations. The 100STYLE clips are moved onto our character by retarget_100style.py.",
+ "out": "experiments/style_eval/film/compare_side",
+ "pairs": [
+  {"key": "limp_right", "run": "experiments/style_walk/20261112_221819_terra_v11_set9_trained/t11_S1", "style": "LimpRight", "ours": "우리: 오른쪽 다리를 절뚝거리며 걸어 (terra v11: 오른쪽 무릎 흔들림 0.4)", "caption": "오른쪽 무릎을 거의 펴고 걷는 답. 100STYLE 배우의 LimpRight와 나란히"},
+  {"key": "raised_left_arm", "run": "experiments/style_walk/20261112_221819_terra_v11_set9_trained/t11_S2", "style": "RaisedLeftArm", "ours": "우리: 왼손을 번쩍 들고 걸어 (terra v11: 왼팔만 앞으로 85°)", "caption": "왼팔만 든 답. 100STYLE 배우의 RaisedLeftArm과 나란히"},
+  {"key": "tiptoe", "run": "experiments/style_walk/20261112_221819_terra_v11_set9_trained/toe25", "style": "Tiptoe", "ours": "우리: 발끝 세우기 25° (사람이 정한 값)", "caption": "발뒤꿈치를 든 걸음. 100STYLE 배우의 Tiptoe와 나란히"}
+ ]
+}

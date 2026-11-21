@@ -1,0 +1,136 @@
+{
+  "command": "술 취한 사람처럼 걸어: gpt-5.6-terra, 프롬프트 v10이 정한 값 (s 0.75, n 0.65, m_arm 0.6, m_torso 8, m_knee 0.8, torso_pitch 10, head_pitch 15, stance_width 8, toe_out 15)",
+  "variant": {
+    "key": "t10_P5",
+    "label": "술 취한 사람처럼 걸어: gpt-5.6-terra, 프롬프트 v10이 정한 값 (s 0.75, n 0.65, m_arm 0.6, m_torso 8, m_knee 0.8, torso_pitch 10, head_pitch 15, stance_width 8, toe_out 15)",
+    "scales": {
+      "speed": 0.75,
+      "cadence": 0.65,
+      "arm_swing": 0.6,
+      "swing": {
+        "torso": 8.0,
+        "right_shin": 0.8,
+        "left_shin": 0.8
+      },
+      "pose": {
+        "torso": [
+          0,
+          10.0,
+          0
+        ],
+        "head": [
+          0,
+          15.0,
+          0
+        ],
+        "right_thigh": [
+          -8.0,
+          0,
+          -15.0
+        ],
+        "left_thigh": [
+          8.0,
+          0,
+          15.0
+        ],
+        "right_foot": [
+          8.0,
+          0,
+          0
+        ],
+        "left_foot": [
+          -8.0,
+          0,
+          0
+        ]
+      }
+    },
+    "terms": {
+      "track_w": 0.6,
+      "speed": {
+        "scale": 0.75
+      },
+      "cadence": {
+        "scale": 0.65
+      },
+      "arm_swing": {
+        "scale": 0.6
+      },
+      "swing": {
+        "torso": 8.0,
+        "right_shin": 0.8,
+        "left_shin": 0.8
+      },
+      "pose": {
+        "torso": [
+          0,
+          10.0,
+          0
+        ],
+        "head": [
+          0,
+          15.0,
+          0
+        ],
+        "right_thigh": [
+          -8.0,
+          0,
+          -15.0
+        ],
+        "left_thigh": [
+          8.0,
+          0,
+          15.0
+        ],
+        "right_foot": [
+          8.0,
+          0,
+          0
+        ],
+        "left_foot": [
+          -8.0,
+          0,
+          0
+        ]
+      },
+      "style": {
+        "w": 0.2
+      },
+      "swing_unit": "/home/jong/TexttoMotion/MimicKit/data/motions/humanoid/humanoid_walk.pkl",
+      "pose_unit": "/home/jong/TexttoMotion/MimicKit/data/motions/humanoid/humanoid_walk.pkl"
+    }
+  },
+  "reference": {
+    "clip": "/home/jong/TexttoMotion/MimicKit/data/motions/humanoid/humanoid_walk.pkl",
+    "duration_s": 10.0
+  },
+  "training": {
+    "iterations": 2000,
+    "num_envs": 1024,
+    "status": "completed",
+    "started": "2026-11-11T18:29:09",
+    "finished": "2026-11-11T19:02:17",
+    "final_log": {
+      "Iteration": 1999.0,
+      "Wall_Time": 0.5490434738000234,
+      "Samples": 65536000.0,
+      "Samples_Per_Second": 33156.65391384836,
+      "Test_Return": 276.23712158203125,
+      "Test_Episode_Length": 288.673828125,
+      "Test_Episodes": 1024.0,
+      "Train_Return": 264.71478271484375,
+      "Train_Episode_Length": 293.9929504394531,
+      "Train_Episodes": 10467.0,
+      "Critic_Loss": 0.05464053153991699,
+      "Actor_Loss": -0.002175568835809827,
+      "Clip_Frac": 0.27283936738967896,
+      "Imp_Ratio": 0.9985312819480896,
+      "Action_Bound_Loss": 0.0,
+      "Adv_Mean": 0.008872289210557938,
+      "Adv_Std": 0.24234743416309357,
+      "Obs_Norm_Mean": 0.3407878279685974,
+      "Obs_Norm_Std": 0.15329404175281525,
+      "Exp_Prob": 1.0
+    }
+  }
+}

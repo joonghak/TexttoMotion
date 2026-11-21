@@ -1,0 +1,133 @@
+{
+  "command": "살금살금 B",
+  "variant": {
+    "key": "sneak_b",
+    "label": "살금살금 B",
+    "scales": {
+      "crouch": 25.0,
+      "swing": {
+        "right_shin": 0.6,
+        "left_shin": 0.6
+      },
+      "speed": 0.7,
+      "cadence": 0.6,
+      "arm_swing": 0.2,
+      "pose": {
+        "torso": [
+          0,
+          25,
+          0
+        ],
+        "head": [
+          0,
+          -15,
+          0
+        ],
+        "right_upper_arm": [
+          0,
+          -30,
+          0
+        ],
+        "left_upper_arm": [
+          0,
+          -30,
+          0
+        ],
+        "right_lower_arm": [
+          0,
+          0,
+          50
+        ],
+        "left_lower_arm": [
+          0,
+          0,
+          -50
+        ]
+      }
+    },
+    "terms": {
+      "track_w": 0.6,
+      "crouch": {
+        "angle": 25.0
+      },
+      "swing": {
+        "right_shin": 0.6,
+        "left_shin": 0.6
+      },
+      "speed": {
+        "scale": 0.7
+      },
+      "cadence": {
+        "scale": 0.6
+      },
+      "arm_swing": {
+        "scale": 0.2
+      },
+      "pose": {
+        "torso": [
+          0,
+          25,
+          0
+        ],
+        "head": [
+          0,
+          -15,
+          0
+        ],
+        "right_upper_arm": [
+          0,
+          -30,
+          0
+        ],
+        "left_upper_arm": [
+          0,
+          -30,
+          0
+        ],
+        "right_lower_arm": [
+          0,
+          0,
+          50
+        ],
+        "left_lower_arm": [
+          0,
+          0,
+          -50
+        ]
+      }
+    }
+  },
+  "reference": {
+    "clip": "/home/jong/TexttoMotion/MimicKit/data/motions/humanoid/humanoid_walk.pkl",
+    "duration_s": 10.0
+  },
+  "training": {
+    "iterations": 2000,
+    "num_envs": 1024,
+    "status": "completed",
+    "started": "2026-10-15T15:45:37",
+    "finished": "2026-10-15T16:21:09",
+    "final_log": {
+      "Iteration": 1999.0,
+      "Wall_Time": 0.5893345807658301,
+      "Samples": 65536000.0,
+      "Samples_Per_Second": 30889.829035296185,
+      "Test_Return": 280.4523620605469,
+      "Test_Episode_Length": 290.447265625,
+      "Test_Episodes": 1024.0,
+      "Train_Return": 267.9385681152344,
+      "Train_Episode_Length": 291.6934814453125,
+      "Train_Episodes": 10557.0,
+      "Critic_Loss": 0.05110478401184082,
+      "Actor_Loss": -0.005039004143327475,
+      "Clip_Frac": 0.22596435248851776,
+      "Imp_Ratio": 0.9987883567810059,
+      "Action_Bound_Loss": 0.0,
+      "Adv_Mean": -0.02001095935702324,
+      "Adv_Std": 0.24120047688484192,
+      "Obs_Norm_Mean": 0.342041015625,
+      "Obs_Norm_Std": 0.14902490377426147,
+      "Exp_Prob": 1.0
+    }
+  }
+}

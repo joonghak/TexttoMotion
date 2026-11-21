@@ -1,0 +1,458 @@
+{
+ "results": [
+  {
+   "label": "v5 answer (sway)",
+   "command": "\ud3ad\uadc4\ucc98\ub7fc \uac78\uc5b4, v5\uac00 \ub0b8 \uac12 (n 0.6, m_torso 10)",
+   "rollout": "20261015_151030_walk_behaviors__sway",
+   "base": "20261015_151030_walk_behaviors__base",
+   "target": "Penguin",
+   "top": [
+    [
+     "Old",
+     0.71
+    ],
+    [
+     "SlideFeet",
+     0.619
+    ],
+    [
+     "StartStop",
+     0.571
+    ]
+   ],
+   "similarity": 0.124,
+   "rank": 49,
+   "strength": 0.826,
+   "delta": {
+    "step_length": 0.0158,
+    "cadence": -0.5232,
+    "torso_lean": -1.5402,
+    "torso_side": 6.1516,
+    "head_pitch": 0.2617,
+    "arm_swing": -0.1238,
+    "hand_forward": 0.0096,
+    "hand_height": 0.0532,
+    "hand_out": 0.028,
+    "elbow_bend": 2.9546,
+    "knee_bend": 1.861,
+    "pelvis_height": -0.0057,
+    "foot_lift": -0.0387,
+    "stance_width": -0.0276,
+    "pelvis_sway": -0.0347,
+    "head_sway": 0.3098,
+    "bounce": 0.0157,
+    "toe_out": 1.8572
+   },
+   "size": 3.08
+  },
+  {
+   "label": "pen_a",
+   "command": "\uc9c0\uae08 \ud30c\ub77c\ubbf8\ud130\ub9cc (s 0.4, n 1.2, m_arm 0.3, m_knee 0.7, \ud314\uafc8\uce58 \uc2e0\uc804 30, \ub2e4\ub9ac \ubc8c\ub9bc 10, m_torso 5)",
+   "rollout": "20261105_143500_penguin__pen_a",
+   "base": "20261015_151030_walk_behaviors__base",
+   "target": "Penguin",
+   "top": [
+    [
+     "WideLegs",
+     0.533
+    ],
+    [
+     "LegsApart",
+     0.518
+    ],
+    [
+     "Star",
+     0.511
+    ]
+   ],
+   "similarity": 0.481,
+   "rank": 4,
+   "strength": 1.315,
+   "delta": {
+    "step_length": -0.9286,
+    "cadence": 0.2076,
+    "torso_lean": 0.097,
+    "torso_side": 0.4576,
+    "head_pitch": -3.8527,
+    "arm_swing": -0.2774,
+    "hand_forward": -0.1962,
+    "hand_height": -0.0571,
+    "hand_out": 0.1312,
+    "elbow_bend": -29.5724,
+    "knee_bend": 1.0839,
+    "pelvis_height": 0.0123,
+    "foot_lift": -0.0083,
+    "stance_width": 0.361,
+    "pelvis_sway": -0.0182,
+    "head_sway": 0.1538,
+    "bounce": -0.038,
+    "toe_out": 8.8317
+   },
+   "size": 4.902
+  },
+  {
+   "label": "pen_b",
+   "command": "A + \ubc1c\ub05d \ubc8c\ub9bc 30 + \ud314 \ud754\ub4e4\uae30 0",
+   "rollout": "20261105_143500_penguin__pen_b",
+   "base": "20261015_151030_walk_behaviors__base",
+   "target": "Penguin",
+   "top": [
+    [
+     "LegsApart",
+     0.598
+    ],
+    [
+     "WideLegs",
+     0.596
+    ],
+    [
+     "Star",
+     0.575
+    ]
+   ],
+   "similarity": 0.55,
+   "rank": 5,
+   "strength": 1.544,
+   "delta": {
+    "step_length": -0.9777,
+    "cadence": 0.2469,
+    "torso_lean": -1.2268,
+    "torso_side": 1.1442,
+    "head_pitch": 1.0246,
+    "arm_swing": -0.4819,
+    "hand_forward": -0.2201,
+    "hand_height": -0.0642,
+    "hand_out": 0.1253,
+    "elbow_bend": -31.8651,
+    "knee_bend": 1.389,
+    "pelvis_height": 0.0124,
+    "foot_lift": -0.0201,
+    "stance_width": 0.3085,
+    "pelvis_sway": 0.0003,
+    "head_sway": 0.1927,
+    "bounce": -0.0382,
+    "toe_out": 36.3732
+   },
+   "size": 5.756
+  },
+  {
+   "label": "pen_c",
+   "command": "B + \uc0c1\uccb4 \ud754\ub4e4\ub9bc 10",
+   "rollout": "20261105_143500_penguin__pen_c",
+   "base": "20261015_151030_walk_behaviors__base",
+   "target": "Penguin",
+   "top": [
+    [
+     "Penguin",
+     0.509
+    ],
+    [
+     "DuckFoot",
+     0.456
+    ],
+    [
+     "LegsApart",
+     0.451
+    ]
+   ],
+   "similarity": 0.509,
+   "rank": 1,
+   "strength": 1.707,
+   "delta": {
+    "step_length": -0.9356,
+    "cadence": 0.2076,
+    "torso_lean": -1.1776,
+    "torso_side": 10.4695,
+    "head_pitch": -6.3487,
+    "arm_swing": -0.4434,
+    "hand_forward": -0.1999,
+    "hand_height": -0.0321,
+    "hand_out": 0.1168,
+    "elbow_bend": -29.4131,
+    "knee_bend": 1.6433,
+    "pelvis_height": 0.0107,
+    "foot_lift": -0.0119,
+    "stance_width": 0.3173,
+    "pelvis_sway": -0.0496,
+    "head_sway": 0.3169,
+    "bounce": -0.0333,
+    "toe_out": 35.801
+   },
+   "size": 6.366
+  },
+  {
+   "label": "pen_d",
+   "command": "s 0.3, n 1.3, m_knee 0.4, m_arm 0, \ud314\uafc8\uce58 \uc2e0\uc804 30, \uc5b4\uae68 \uc548\ucabd 15, \ubc1c\ub05d \ubc8c\ub9bc 30, \ub2e4\ub9ac \ubc8c\ub9bc 5, m_torso 10",
+   "rollout": "20261105_143500_penguin__pen_d",
+   "base": "20261015_151030_walk_behaviors__base",
+   "target": "Penguin",
+   "top": [
+    [
+     "Penguin",
+     0.673
+    ],
+    [
+     "DragRightLeg",
+     0.493
+    ],
+    [
+     "DragLeftLeg",
+     0.396
+    ]
+   ],
+   "similarity": 0.673,
+   "rank": 1,
+   "strength": 1.627,
+   "delta": {
+    "step_length": -1.2286,
+    "cadence": 0.2877,
+    "torso_lean": -2.3992,
+    "torso_side": 9.8191,
+    "head_pitch": -2.7971,
+    "arm_swing": -0.4309,
+    "hand_forward": -0.2448,
+    "hand_height": -0.0799,
+    "hand_out": -0.1237,
+    "elbow_bend": -30.5354,
+    "knee_bend": 2.8374,
+    "pelvis_height": 0.0148,
+    "foot_lift": -0.0754,
+    "stance_width": 0.1541,
+    "pelvis_sway": -0.0671,
+    "head_sway": 0.2625,
+    "bounce": -0.0368,
+    "toe_out": 33.3661
+   },
+   "size": 6.067
+  },
+  {
+   "label": "pen_e",
+   "command": "D\uc5d0\uc11c \ub2e4\ub9ac \ubc8c\ub9bc \uc5c6\uc74c",
+   "rollout": "20261105_143500_penguin__pen_e",
+   "base": "20261015_151030_walk_behaviors__base",
+   "target": "Penguin",
+   "top": [
+    [
+     "Penguin",
+     0.744
+    ],
+    [
+     "DragRightLeg",
+     0.602
+    ],
+    [
+     "LimpLeft",
+     0.545
+    ]
+   ],
+   "similarity": 0.744,
+   "rank": 1,
+   "strength": 1.44,
+   "delta": {
+    "step_length": -1.2256,
+    "cadence": 0.2877,
+    "torso_lean": -2.1655,
+    "torso_side": 8.7374,
+    "head_pitch": 1.1,
+    "arm_swing": -0.4394,
+    "hand_forward": -0.2402,
+    "hand_height": -0.0789,
+    "hand_out": -0.114,
+    "elbow_bend": -28.8087,
+    "knee_bend": 1.5214,
+    "pelvis_height": 0.0176,
+    "foot_lift": -0.0897,
+    "stance_width": 0.0267,
+    "pelvis_sway": -0.0447,
+    "head_sway": 0.278,
+    "bounce": -0.0403,
+    "toe_out": 29.062
+   },
+   "size": 5.37
+  }
+ ],
+ "features": {
+  "20261015_151030_walk_behaviors__sway": {
+   "cadence": 66.66666666666667,
+   "step_length": 0.8193431561716797,
+   "torso_lean": -2.397545584496287,
+   "torso_side": 13.526060338222486,
+   "head_pitch": -1.5029217512675133,
+   "arm_swing": 0.46125204634073536,
+   "hand_forward": 0.14278215555664545,
+   "hand_height": -0.8229502073871925,
+   "hand_out": 0.21216318609172696,
+   "elbow_bend": 41.08826221854781,
+   "knee_bend": 27.473964794223058,
+   "foot_lift": 0.11127079325106363,
+   "toe_out": 7.298136503964104,
+   "pelvis_height": 0.9569405624878848,
+   "stance_width": 0.1499943161494155,
+   "pelvis_sway": 0.0576778087325791,
+   "head_sway": 0.3712436065882572,
+   "bounce": 0.07454046391634693,
+   "_frames": 829.0,
+   "_speed": 0.7569053984981284,
+   "_leg": 0.8314158158484011,
+   "_arm": 0.5337349741563169,
+   "_segments": 4,
+   "_resets": 0
+  },
+  "20261015_151030_walk_behaviors__base": {
+   "cadence": 112.5,
+   "step_length": 0.8064948871113241,
+   "torso_lean": -0.857325842364189,
+   "torso_side": 7.37443265525886,
+   "head_pitch": -1.764628884626383,
+   "arm_swing": 0.5850134330093087,
+   "hand_forward": 0.13321883657080713,
+   "hand_height": -0.8761560845225834,
+   "hand_out": 0.18419841616859828,
+   "elbow_bend": 38.133693700231646,
+   "knee_bend": 25.61297079659542,
+   "foot_lift": 0.14998863928850698,
+   "toe_out": 5.440920111476988,
+   "pelvis_height": 0.9626349408715464,
+   "stance_width": 0.17760594227755339,
+   "pelvis_sway": 0.09239434972409807,
+   "head_sway": 0.06141740393216622,
+   "bounce": 0.05883484944829111,
+   "_frames": 840.0,
+   "_speed": 1.2572486202366089,
+   "_leg": 0.8314158070626247,
+   "_arm": 0.5337349643843438,
+   "_segments": 4,
+   "_resets": 0
+  },
+  "20261105_143500_penguin__pen_a": {
+   "cadence": 138.46153846153845,
+   "step_length": 0.31864849311377147,
+   "torso_lean": -0.7603114825550404,
+   "torso_side": 7.832074271723967,
+   "head_pitch": -5.617349972946728,
+   "arm_swing": 0.3076058902337901,
+   "hand_forward": -0.06294299028139458,
+   "hand_height": -0.9332137587323254,
+   "hand_out": 0.31535175442510444,
+   "elbow_bend": 8.56132396025616,
+   "knee_bend": 26.696890602463426,
+   "foot_lift": 0.141696058534115,
+   "toe_out": 14.272647493132432,
+   "pelvis_height": 0.9749246508179248,
+   "stance_width": 0.5385704609055315,
+   "pelvis_sway": 0.07415410085585614,
+   "head_sway": 0.21518730114694215,
+   "bounce": 0.020873361289244254,
+   "_frames": 833.0,
+   "_speed": 0.6113755245439372,
+   "_leg": 0.8314158067411104,
+   "_arm": 0.533734953600764,
+   "_segments": 4,
+   "_resets": 0
+  },
+  "20261105_143500_penguin__pen_b": {
+   "cadence": 144.0,
+   "step_length": 0.3033789081913164,
+   "torso_lean": -2.0841183127679734,
+   "torso_side": 8.518674568003469,
+   "head_pitch": -0.7400033502877477,
+   "arm_swing": 0.10314212500726264,
+   "hand_forward": -0.0868987754775244,
+   "hand_height": -0.9403920594492011,
+   "hand_out": 0.30947430491185285,
+   "elbow_bend": 6.268629999532397,
+   "knee_bend": 27.002016770023282,
+   "foot_lift": 0.12989048501106598,
+   "toe_out": 41.81407920044751,
+   "pelvis_height": 0.9749944760170478,
+   "stance_width": 0.48611217996343625,
+   "pelvis_sway": 0.09267715616579855,
+   "head_sway": 0.254141529809129,
+   "bounce": 0.020585636721974068,
+   "_frames": 836.0,
+   "_speed": 0.6053616525923987,
+   "_leg": 0.8314158140302453,
+   "_arm": 0.5337349538286802,
+   "_segments": 4,
+   "_resets": 0
+  },
+  "20261105_143500_penguin__pen_c": {
+   "cadence": 138.46153846153845,
+   "step_length": 0.31643113748623597,
+   "torso_lean": -2.0349114247744224,
+   "torso_side": 17.84391821722788,
+   "head_pitch": -8.113319091637331,
+   "arm_swing": 0.14162407798736443,
+   "hand_forward": -0.06669538297844675,
+   "hand_height": -0.908249227902474,
+   "hand_out": 0.3009822990729855,
+   "elbow_bend": 8.720610851152415,
+   "knee_bend": 27.25631523572654,
+   "foot_lift": 0.13808978686564133,
+   "toe_out": 41.2419526773235,
+   "pelvis_height": 0.9733590366047113,
+   "stance_width": 0.4948734016819147,
+   "pelvis_sway": 0.04283102128433391,
+   "head_sway": 0.37833654048461024,
+   "bounce": 0.025490428257416896,
+   "_frames": 836.0,
+   "_speed": 0.6071211993415825,
+   "_leg": 0.8314158181081774,
+   "_arm": 0.533734954459566,
+   "_segments": 4,
+   "_resets": 0
+  },
+  "20261105_143500_penguin__pen_d": {
+   "cadence": 150.0,
+   "step_length": 0.2360651390156883,
+   "torso_lean": -3.256563549778603,
+   "torso_side": 17.193557161135367,
+   "head_pitch": -4.5617470571152845,
+   "arm_swing": 0.15410240881357995,
+   "hand_forward": -0.11159993541983543,
+   "hand_height": -0.9560520790426883,
+   "hand_out": 0.06047769764311264,
+   "elbow_bend": 7.598249559882892,
+   "knee_bend": 28.450334912047108,
+   "foot_lift": 0.07463674071377152,
+   "toe_out": 38.80702129509049,
+   "pelvis_height": 0.9774420030009655,
+   "stance_width": 0.3317210165759769,
+   "pelvis_sway": 0.025337067409411756,
+   "head_sway": 0.3238756856697776,
+   "bounce": 0.0220383417048674,
+   "_frames": 830.0,
+   "_speed": 0.4906707216140366,
+   "_leg": 0.8314158094837077,
+   "_arm": 0.5337349665637976,
+   "_segments": 4,
+   "_resets": 0
+  },
+  "20261105_143500_penguin__pen_e": {
+   "cadence": 150.0,
+   "step_length": 0.23678007552245087,
+   "torso_lean": -3.022849108568206,
+   "torso_side": 16.111802417801673,
+   "head_pitch": -0.6646596844802105,
+   "arm_swing": 0.1455727030038819,
+   "hand_forward": -0.10701352300600485,
+   "hand_height": -0.9550614410137526,
+   "hand_out": 0.07021834005657054,
+   "elbow_bend": 9.325006899113227,
+   "knee_bend": 27.134388282470848,
+   "foot_lift": 0.060304969847496614,
+   "toe_out": 34.502947703323834,
+   "pelvis_height": 0.9802752745308233,
+   "stance_width": 0.20427191462822875,
+   "pelvis_sway": 0.047739958112370126,
+   "head_sway": 0.33940024355357656,
+   "bounce": 0.018558661917079677,
+   "_frames": 827.5,
+   "_speed": 0.4921567455676386,
+   "_leg": 0.8314158097664649,
+   "_arm": 0.5337349654846256,
+   "_segments": 4,
+   "_resets": 0
+  }
+ }
+}

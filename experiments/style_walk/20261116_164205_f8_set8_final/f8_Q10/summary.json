@@ -1,0 +1,98 @@
+{
+  "command": "두 팔을 앞으로 90도 들고 걸어: gpt-5.6-terra, 프롬프트 v14이 정한 값 (m_arm 0.3, shoulder_flexion 85, elbow_flexion -30)",
+  "variant": {
+    "key": "f8_Q10",
+    "label": "두 팔을 앞으로 90도 들고 걸어: gpt-5.6-terra, 프롬프트 v14이 정한 값 (m_arm 0.3, shoulder_flexion 85, elbow_flexion -30)",
+    "scales": {
+      "arm_swing": 0.3,
+      "pose": {
+        "right_upper_arm": [
+          -0.0,
+          -85.0,
+          0.0
+        ],
+        "right_lower_arm": [
+          0,
+          0,
+          -30.0
+        ],
+        "left_upper_arm": [
+          0.0,
+          -85.0,
+          -0.0
+        ],
+        "left_lower_arm": [
+          0,
+          0,
+          30.0
+        ]
+      }
+    },
+    "terms": {
+      "track_w": 0.6,
+      "arm_swing": {
+        "scale": 0.3
+      },
+      "pose": {
+        "right_upper_arm": [
+          -0.0,
+          -85.0,
+          0.0
+        ],
+        "right_lower_arm": [
+          0,
+          0,
+          -30.0
+        ],
+        "left_upper_arm": [
+          0.0,
+          -85.0,
+          -0.0
+        ],
+        "left_lower_arm": [
+          0,
+          0,
+          30.0
+        ]
+      },
+      "style": {
+        "w": 0.2
+      },
+      "swing_unit": "/home/jong/TexttoMotion/MimicKit/data/motions/humanoid/humanoid_walk.pkl",
+      "pose_unit": "/home/jong/TexttoMotion/MimicKit/data/motions/humanoid/humanoid_walk.pkl"
+    }
+  },
+  "reference": {
+    "clip": "/home/jong/TexttoMotion/MimicKit/data/motions/humanoid/humanoid_walk.pkl",
+    "duration_s": 10.0
+  },
+  "training": {
+    "iterations": 2000,
+    "num_envs": 1024,
+    "status": "completed",
+    "started": "2026-11-16T21:11:32",
+    "finished": "2026-11-16T21:41:57",
+    "final_log": {
+      "Iteration": 1999.0,
+      "Wall_Time": 0.5038101309537888,
+      "Samples": 65536000.0,
+      "Samples_Per_Second": 36133.541836446755,
+      "Test_Return": 291.5361022949219,
+      "Test_Episode_Length": 297.3876953125,
+      "Test_Episodes": 1024.0,
+      "Train_Return": 277.02435302734375,
+      "Train_Episode_Length": 296.7654724121094,
+      "Train_Episodes": 10360.0,
+      "Critic_Loss": 0.13547763228416443,
+      "Actor_Loss": 0.0005762933287769556,
+      "Clip_Frac": 0.1939697265625,
+      "Imp_Ratio": 0.9995195269584656,
+      "Action_Bound_Loss": 0.0,
+      "Adv_Mean": -0.004540614318102598,
+      "Adv_Std": 0.37750354409217834,
+      "Obs_Norm_Mean": 0.34505757689476013,
+      "Obs_Norm_Std": 0.168456569314003,
+      "Exp_Prob": 1.0
+    }
+  }
+}

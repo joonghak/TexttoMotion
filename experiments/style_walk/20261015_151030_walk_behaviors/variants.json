@@ -1,0 +1,452 @@
+[
+  {
+    "key": "base",
+    "label": "기본 걷기",
+    "scales": {}
+  },
+  {
+    "key": "sneak_a",
+    "label": "살금살금 A",
+    "scales": {
+      "crouch": 20.0,
+      "swing": {
+        "right_shin": 0.7,
+        "left_shin": 0.7
+      },
+      "speed": 0.8,
+      "cadence": 0.6,
+      "arm_swing": 0.3,
+      "pose": {
+        "torso": [
+          0,
+          20,
+          0
+        ],
+        "right_upper_arm": [
+          0,
+          -20,
+          0
+        ],
+        "left_upper_arm": [
+          0,
+          -20,
+          0
+        ],
+        "right_lower_arm": [
+          0,
+          0,
+          40
+        ],
+        "left_lower_arm": [
+          0,
+          0,
+          -40
+        ]
+      }
+    }
+  },
+  {
+    "key": "sneak_b",
+    "label": "살금살금 B",
+    "scales": {
+      "crouch": 25.0,
+      "swing": {
+        "right_shin": 0.6,
+        "left_shin": 0.6
+      },
+      "speed": 0.7,
+      "cadence": 0.6,
+      "arm_swing": 0.2,
+      "pose": {
+        "torso": [
+          0,
+          25,
+          0
+        ],
+        "head": [
+          0,
+          -15,
+          0
+        ],
+        "right_upper_arm": [
+          0,
+          -30,
+          0
+        ],
+        "left_upper_arm": [
+          0,
+          -30,
+          0
+        ],
+        "right_lower_arm": [
+          0,
+          0,
+          50
+        ],
+        "left_lower_arm": [
+          0,
+          0,
+          -50
+        ]
+      }
+    }
+  },
+  {
+    "key": "sneak_c",
+    "label": "살금살금 C",
+    "scales": {
+      "crouch": 15.0,
+      "swing": {
+        "right_shin": 0.8,
+        "left_shin": 0.8
+      },
+      "speed": 1.0,
+      "cadence": 0.5,
+      "arm_swing": 0.3,
+      "pose": {
+        "torso": [
+          0,
+          15,
+          0
+        ],
+        "right_upper_arm": [
+          0,
+          -20,
+          0
+        ],
+        "left_upper_arm": [
+          0,
+          -20,
+          0
+        ],
+        "right_lower_arm": [
+          0,
+          0,
+          40
+        ],
+        "left_lower_arm": [
+          0,
+          0,
+          -40
+        ]
+      }
+    }
+  },
+  {
+    "key": "power",
+    "label": "힘차게",
+    "scales": {
+      "arm_swing": 1.8,
+      "speed": 1.2,
+      "cadence": 1.15,
+      "pose": {
+        "torso": [
+          0,
+          -5,
+          0
+        ],
+        "right_lower_arm": [
+          0,
+          0,
+          45
+        ],
+        "left_lower_arm": [
+          0,
+          0,
+          -45
+        ]
+      }
+    }
+  },
+  {
+    "key": "bouncy",
+    "label": "껑충껑충",
+    "scales": {
+      "crouch": 15.0,
+      "swing": {
+        "right_shin": 1.5,
+        "left_shin": 1.5
+      },
+      "cadence": 1.2,
+      "arm_swing": 1.5
+    }
+  },
+  {
+    "key": "tired",
+    "label": "지쳐서 터벅터벅",
+    "scales": {
+      "swing": {
+        "right_shin": 0.8,
+        "left_shin": 0.8
+      },
+      "speed": 0.8,
+      "cadence": 0.75,
+      "arm_swing": 0.4,
+      "pose": {
+        "torso": [
+          0,
+          15,
+          0
+        ],
+        "head": [
+          0,
+          25,
+          0
+        ]
+      }
+    }
+  },
+  {
+    "key": "proud",
+    "label": "당당하게",
+    "scales": {
+      "speed": 1.15,
+      "arm_swing": 1.4,
+      "pose": {
+        "torso": [
+          0,
+          -12,
+          0
+        ],
+        "head": [
+          0,
+          -10,
+          0
+        ]
+      }
+    }
+  },
+  {
+    "key": "mincing",
+    "label": "종종걸음",
+    "scales": {
+      "speed": 0.5,
+      "cadence": 1.5,
+      "arm_swing": 0.6
+    }
+  },
+  {
+    "key": "striding",
+    "label": "성큼성큼",
+    "scales": {
+      "speed": 1.5,
+      "cadence": 0.85,
+      "arm_swing": 1.3
+    }
+  },
+  {
+    "key": "robot",
+    "label": "로봇처럼",
+    "scales": {
+      "swing": {
+        "torso": 0.0,
+        "right_lower_arm": 0.0,
+        "left_lower_arm": 0.0,
+        "right_shin": 0.7,
+        "left_shin": 0.7
+      },
+      "pose": {
+        "right_lower_arm": [
+          0,
+          0,
+          50
+        ],
+        "left_lower_arm": [
+          0,
+          0,
+          -50
+        ]
+      }
+    }
+  },
+  {
+    "key": "old",
+    "label": "노인처럼",
+    "scales": {
+      "crouch": 10.0,
+      "swing": {
+        "right_shin": 0.8,
+        "left_shin": 0.8
+      },
+      "speed": 0.6,
+      "cadence": 0.8,
+      "arm_swing": 0.4,
+      "pose": {
+        "torso": [
+          0,
+          30,
+          0
+        ],
+        "head": [
+          0,
+          -10,
+          0
+        ]
+      }
+    }
+  },
+  {
+    "key": "sway",
+    "label": "흔들흔들",
+    "scales": {
+      "swing": {
+        "torso": 10.0
+      },
+      "cadence": 0.6
+    }
+  },
+  {
+    "key": "zombie",
+    "label": "좀비처럼",
+    "scales": {
+      "pose": {
+        "right_upper_arm": [
+          0,
+          -85,
+          0
+        ],
+        "left_upper_arm": [
+          0,
+          -85,
+          0
+        ],
+        "right_lower_arm": [
+          0,
+          0,
+          -30
+        ],
+        "left_lower_arm": [
+          0,
+          0,
+          30
+        ],
+        "torso": [
+          0,
+          10,
+          0
+        ]
+      },
+      "swing": {
+        "torso": 5.0
+      },
+      "arm_swing": 0.3,
+      "speed": 0.85,
+      "cadence": 0.6
+    }
+  },
+  {
+    "key": "arm03",
+    "label": "팔 흔들기 0.3배",
+    "scales": {
+      "arm_swing": 0.3
+    }
+  },
+  {
+    "key": "arm18",
+    "label": "팔 흔들기 1.8배",
+    "scales": {
+      "arm_swing": 1.8
+    }
+  },
+  {
+    "key": "knee07",
+    "label": "무릎 흔들림 0.7배",
+    "scales": {
+      "swing": {
+        "right_shin": 0.7,
+        "left_shin": 0.7
+      }
+    }
+  },
+  {
+    "key": "head30",
+    "label": "고개 숙임 30°",
+    "scales": {
+      "pose": {
+        "head": [
+          0,
+          30,
+          0
+        ]
+      }
+    }
+  },
+  {
+    "key": "elbow60",
+    "label": "팔꿈치 60° 굽힘",
+    "scales": {
+      "pose": {
+        "right_lower_arm": [
+          0,
+          0,
+          60
+        ],
+        "left_lower_arm": [
+          0,
+          0,
+          -60
+        ]
+      }
+    }
+  },
+  {
+    "key": "mincing2",
+    "label": "종종걸음 (완화)",
+    "scales": {
+      "speed": 0.6,
+      "cadence": 1.35,
+      "arm_swing": 0.6
+    }
+  },
+  {
+    "key": "robot2",
+    "label": "로봇처럼 (완화)",
+    "scales": {
+      "swing": {
+        "torso": 0.0,
+        "right_lower_arm": 0.0,
+        "left_lower_arm": 0.0,
+        "right_shin": 0.85,
+        "left_shin": 0.85
+      },
+      "pose": {
+        "right_lower_arm": [
+          0,
+          0,
+          50
+        ],
+        "left_lower_arm": [
+          0,
+          0,
+          -50
+        ]
+      }
+    }
+  },
+  {
+    "key": "power2",
+    "label": "힘차게 (완화)",
+    "scales": {
+      "arm_swing": 1.6,
+      "speed": 1.15,
+      "cadence": 1.1,
+      "pose": {
+        "torso": [
+          0,
+          -5,
+          0
+        ],
+        "right_lower_arm": [
+          0,
+          0,
+          45
+        ],
+        "left_lower_arm": [
+          0,
+          0,
+          -45
+        ]
+      }
+    }
+  }
+]

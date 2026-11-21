@@ -1,0 +1,43 @@
+{
+  "command": "힘있게",
+  "variant": {
+    "key": "medium",
+    "label": "힘있게",
+    "scales": [
+      1.6,
+      1.4,
+      0.6
+    ],
+    "terms": {
+      "track_w": 0.6,
+      "reward_key_bodies": [
+        "head"
+      ],
+      "arm_swing": {
+        "w": 0.15,
+        "scale": 1.6,
+        "k": "auto"
+      },
+      "foot_lift": {
+        "w": 0.15,
+        "scale": 1.4,
+        "k": "auto"
+      },
+      "upright": {
+        "w": 0.1,
+        "scale": 0.6,
+        "k": "auto"
+      }
+    }
+  },
+  "reference": {
+    "clip": "/home/jong/TexttoMotion/MimicKit/data/motions/humanoid/humanoid_walk.pkl",
+    "duration_s": 10.0
+  },
+  "training": {
+    "iterations": 1000,
+    "num_envs": 1024,
+    "status": "running",
+    "started": "2026-10-04T18:58:49"
+  }
+}

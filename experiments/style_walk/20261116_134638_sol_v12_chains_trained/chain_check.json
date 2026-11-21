@@ -1,0 +1,56 @@
+{
+ "C2": {
+  "events": [
+   {
+    "run": 1.2333333333333334,
+    "walk": 2.933333333333333,
+    "jump": 2.8833333333333333,
+    "kick": null,
+    "spin": null
+   }
+  ],
+  "pass": [
+   true
+  ],
+  "falls": {
+   "short": 0,
+   "episodes": 28
+  }
+ },
+ "C3": {
+  "events": [
+   {
+    "run": null,
+    "walk": 2.15,
+    "jump": null,
+    "kick": 3.2333333333333334,
+    "spin": null
+   }
+  ],
+  "pass": [
+   true
+  ],
+  "falls": {
+   "short": 0,
+   "episodes": 24
+  }
+ },
+ "C5": {
+  "events": [
+   {
+    "run": null,
+    "walk": 1.6,
+    "jump": 3.183333333333333,
+    "kick": 3.216666666666667,
+    "spin": 3.6166666666666667
+   }
+  ],
+  "pass": [
+   true
+  ],
+  "falls": {
+   "short": 0,
+   "episodes": 24
+  }
+ }
+}

@@ -1,0 +1,91 @@
+{
+  "command": "힘차게 (완화)",
+  "variant": {
+    "key": "power2",
+    "label": "힘차게 (완화)",
+    "scales": {
+      "arm_swing": 1.6,
+      "speed": 1.15,
+      "cadence": 1.1,
+      "pose": {
+        "torso": [
+          0,
+          -5,
+          0
+        ],
+        "right_lower_arm": [
+          0,
+          0,
+          45
+        ],
+        "left_lower_arm": [
+          0,
+          0,
+          -45
+        ]
+      }
+    },
+    "terms": {
+      "track_w": 0.6,
+      "arm_swing": {
+        "scale": 1.6
+      },
+      "speed": {
+        "scale": 1.15
+      },
+      "cadence": {
+        "scale": 1.1
+      },
+      "pose": {
+        "torso": [
+          0,
+          -5,
+          0
+        ],
+        "right_lower_arm": [
+          0,
+          0,
+          45
+        ],
+        "left_lower_arm": [
+          0,
+          0,
+          -45
+        ]
+      }
+    }
+  },
+  "reference": {
+    "clip": "/home/jong/TexttoMotion/MimicKit/data/motions/humanoid/humanoid_walk.pkl",
+    "duration_s": 10.0
+  },
+  "training": {
+    "iterations": 2000,
+    "num_envs": 1024,
+    "status": "completed",
+    "started": "2026-10-16T00:21:24",
+    "finished": "2026-10-16T00:50:54",
+    "final_log": {
+      "Iteration": 1999.0,
+      "Wall_Time": 0.4886490666866303,
+      "Samples": 65536000.0,
+      "Samples_Per_Second": 37254.638728531376,
+      "Test_Return": 291.5243225097656,
+      "Test_Episode_Length": 298.8447570800781,
+      "Test_Episodes": 1024.0,
+      "Train_Return": 277.0116882324219,
+      "Train_Episode_Length": 297.9192199707031,
+      "Train_Episodes": 10319.0,
+      "Critic_Loss": 0.02863001450896263,
+      "Actor_Loss": 0.00030688612605445087,
+      "Clip_Frac": 0.27235108613967896,
+      "Imp_Ratio": 0.998853325843811,
+      "Action_Bound_Loss": 1.1776945711972076e-06,
+      "Adv_Mean": -0.014642342925071716,
+      "Adv_Std": 0.1701134741306305,
+      "Obs_Norm_Mean": 0.34295138716697693,
+      "Obs_Norm_Std": 0.18057289719581604,
+      "Exp_Prob": 1.0
+    }
+  }
+}

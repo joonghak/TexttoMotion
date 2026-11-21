@@ -1,0 +1,23 @@
+{
+ "name": "walk3_spinkick1p28",
+ "segments": [
+  [
+   "walk",
+   3.0
+  ],
+  [
+   "spinkick",
+   1.28
+  ]
+ ],
+ "blend_s": 0.5,
+ "seconds": 4.283333333333333,
+ "junctions_s": [
+  [
+   2.5,
+   3.0
+  ]
+ ],
+ "file": "/home/jong/TexttoMotion/MimicKit/data/motions/humanoid/humanoid_chain_walk3_spinkick1p28.pkl",
+ "strip": "/home/jong/TexttoMotion/experiments/chain/walk3_spinkick1p28_strip.png"
+}

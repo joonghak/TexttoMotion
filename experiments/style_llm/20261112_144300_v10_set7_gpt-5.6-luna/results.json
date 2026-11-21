@@ -1,0 +1,1586 @@
+{
+  "model": "openai/gpt-5.6-luna",
+  "revision": null,
+  "quantize": null,
+  "prompt": "v10",
+  "thinking_budget": null,
+  "test_set": "test_commands_7.json",
+  "seed": 42,
+  "batch_size": 25,
+  "elapsed_s": 87.2,
+  "level1_passed": 25,
+  "commands": 25,
+  "results": [
+    {
+      "id": "N1",
+      "group": "N",
+      "text": "메추라기처럼 종종 걸어",
+      "expect": "accept",
+      "expect_action": "walk",
+      "target": "Quail",
+      "level1": "pass",
+      "tokens": 402,
+      "answer": "{\"look\":\"A small quail-like figure scurries with rapid, tiny steps and a slight waddle.\",\"s\":0.5,\"n\":1.5,\"c\":10,\"m_arm\":0.3,\"m_knee\":0.7,\"m_torso\":5,\"m_elbow\":0,\"shoulder_abduction\":-15,\"stance_width\":8,\"toe_out\":10}",
+      "params": {
+        "action": "walk",
+        "s": 0.5,
+        "n": 1.5,
+        "c": 10.0,
+        "m_arm": 0.3,
+        "m_torso": 5.0,
+        "m_knee": 0.7,
+        "m_elbow": 0.0,
+        "torso_pitch": 0.0,
+        "head_pitch": 0.0,
+        "shoulder_flexion": 0.0,
+        "shoulder_abduction": -15.0,
+        "elbow_flexion": 0.0,
+        "stance_width": 8.0,
+        "toe_out": 10.0,
+        "shoulder_rotation": 0.0,
+        "bounce": 0.0,
+        "look": "A small quail-like figure scurries with rapid, tiny steps and a slight waddle."
+      },
+      "rules": [],
+      "scales": {
+        "speed": 0.5,
+        "cadence": 1.5,
+        "arm_swing": 0.3,
+        "crouch": 10.0,
+        "swing": {
+          "torso": 5.0,
+          "right_shin": 0.7,
+          "left_shin": 0.7,
+          "right_lower_arm": 0.0,
+          "left_lower_arm": 0.0
+        },
+        "pose": {
+          "right_upper_arm": [
+            15.0,
+            -0.0,
+            0.0
+          ],
+          "left_upper_arm": [
+            -15.0,
+            -0.0,
+            -0.0
+          ],
+          "right_thigh": [
+            -8.0,
+            0,
+            -10.0
+          ],
+          "left_thigh": [
+            8.0,
+            0,
+            10.0
+          ],
+          "right_foot": [
+            8.0,
+            0,
+            0
+          ],
+          "left_foot": [
+            -8.0,
+            0,
+            0
+          ]
+        }
+      },
+      "speed_mps": 0.945
+    },
+    {
+      "id": "N2",
+      "group": "N",
+      "text": "고릴라처럼 가슴을 두드리며 걸어",
+      "expect": "accept",
+      "expect_action": "walk",
+      "target": "BeatChest",
+      "level1": "pass",
+      "tokens": 341,
+      "answer": "{\"look\":\"A hunched, wide-legged gorilla walk with heavy bent-knee steps and bent arms held toward the chest.\",\"s\":0.7,\"n\":0.8,\"c\":20,\"m_arm\":0.3,\"m_knee\":0.8,\"m_torso\":3,\"torso_pitch\":25,\"shoulder_flexion\":45,\"elbow_flexion\":50,\"stance_width\":10}",
+      "params": {
+        "action": "walk",
+        "s": 0.7,
+        "n": 0.8,
+        "c": 20.0,
+        "m_arm": 0.3,
+        "m_torso": 3.0,
+        "m_knee": 0.8,
+        "m_elbow": 1.0,
+        "torso_pitch": 25.0,
+        "head_pitch": 0.0,
+        "shoulder_flexion": 45.0,
+        "shoulder_abduction": 0.0,
+        "elbow_flexion": 50.0,
+        "stance_width": 10.0,
+        "toe_out": 0.0,
+        "shoulder_rotation": 0.0,
+        "bounce": 0.0,
+        "look": "A hunched, wide-legged gorilla walk with heavy bent-knee steps and bent arms held toward the chest."
+      },
+      "rules": [],
+      "scales": {
+        "speed": 0.7,
+        "cadence": 0.8,
+        "arm_swing": 0.3,
+        "crouch": 20.0,
+        "swing": {
+          "torso": 3.0,
+          "right_shin": 0.8,
+          "left_shin": 0.8
+        },
+        "pose": {
+          "torso": [
+            0,
+            25.0,
+            0
+          ],
+          "right_upper_arm": [
+            -0.0,
+            -45.0,
+            0.0
+          ],
+          "left_upper_arm": [
+            0.0,
+            -45.0,
+            -0.0
+          ],
+          "right_lower_arm": [
+            0,
+            0,
+            50.0
+          ],
+          "left_lower_arm": [
+            0,
+            0,
+            -50.0
+          ],
+          "right_thigh": [
+            -10.0,
+            0,
+            -0.0
+          ],
+          "left_thigh": [
+            10.0,
+            0,
+            0.0
+          ],
+          "right_foot": [
+            10.0,
+            0,
+            0
+          ],
+          "left_foot": [
+            -10.0,
+            0,
+            0
+          ]
+        }
+      },
+      "speed_mps": 0.706
+    },
+    {
+      "id": "N3",
+      "group": "N",
+      "text": "펭귄 흉내를 내면서 걸어",
+      "expect": "accept",
+      "expect_action": "walk",
+      "target": "Penguin",
+      "level1": "pass",
+      "tokens": 264,
+      "answer": "{\"look\":\"A penguin-like walk with short waddling steps, a wide stance, side-to-side sway, and small flipper movements.\",\"s\":0.7,\"n\":0.9,\"m_torso\":10,\"stance_width\":10,\"m_arm\":0.3,\"shoulder_abduction\":20,\"m_knee\":0.7,\"toe_out\":20}",
+      "params": {
+        "action": "walk",
+        "s": 0.7,
+        "n": 0.9,
+        "c": 0.0,
+        "m_arm": 0.3,
+        "m_torso": 10.0,
+        "m_knee": 0.7,
+        "m_elbow": 1.0,
+        "torso_pitch": 0.0,
+        "head_pitch": 0.0,
+        "shoulder_flexion": 0.0,
+        "shoulder_abduction": 20.0,
+        "elbow_flexion": 0.0,
+        "stance_width": 10.0,
+        "toe_out": 20.0,
+        "shoulder_rotation": 0.0,
+        "bounce": 0.0,
+        "look": "A penguin-like walk with short waddling steps, a wide stance, side-to-side sway, and small flipper movements."
+      },
+      "rules": [],
+      "scales": {
+        "speed": 0.7,
+        "cadence": 0.9,
+        "arm_swing": 0.3,
+        "swing": {
+          "torso": 10.0,
+          "right_shin": 0.7,
+          "left_shin": 0.7
+        },
+        "pose": {
+          "right_upper_arm": [
+            -20.0,
+            -0.0,
+            0.0
+          ],
+          "left_upper_arm": [
+            20.0,
+            -0.0,
+            -0.0
+          ],
+          "right_thigh": [
+            -10.0,
+            0,
+            -20.0
+          ],
+          "left_thigh": [
+            10.0,
+            0,
+            20.0
+          ],
+          "right_foot": [
+            10.0,
+            0,
+            0
+          ],
+          "left_foot": [
+            -10.0,
+            0,
+            0
+          ]
+        }
+      },
+      "speed_mps": 0.794
+    },
+    {
+      "id": "N4",
+      "group": "N",
+      "text": "티라노사우루스처럼 걸어",
+      "expect": "accept",
+      "expect_action": "walk",
+      "target": "Dinosaur",
+      "level1": "pass",
+      "tokens": 315,
+      "answer": "{\"look\":\"A hunched, short-stepping T. rex walk with bent knees, a lowered head, and tiny arms held forward.\",\"s\":0.7,\"n\":1.2,\"c\":15,\"m_knee\":0.8,\"m_arm\":0.3,\"torso_pitch\":30,\"head_pitch\":25,\"shoulder_flexion\":45,\"elbow_flexion\":60,\"stance_width\":6}",
+      "params": {
+        "action": "walk",
+        "s": 0.7,
+        "n": 1.2,
+        "c": 15.0,
+        "m_arm": 0.3,
+        "m_torso": 1.0,
+        "m_knee": 0.8,
+        "m_elbow": 1.0,
+        "torso_pitch": 30.0,
+        "head_pitch": 25.0,
+        "shoulder_flexion": 45.0,
+        "shoulder_abduction": 0.0,
+        "elbow_flexion": 60.0,
+        "stance_width": 6.0,
+        "toe_out": 0.0,
+        "shoulder_rotation": 0.0,
+        "bounce": 0.0,
+        "look": "A hunched, short-stepping T. rex walk with bent knees, a lowered head, and tiny arms held forward."
+      },
+      "rules": [],
+      "scales": {
+        "speed": 0.7,
+        "cadence": 1.2,
+        "arm_swing": 0.3,
+        "crouch": 15.0,
+        "swing": {
+          "right_shin": 0.8,
+          "left_shin": 0.8
+        },
+        "pose": {
+          "torso": [
+            0,
+            30.0,
+            0
+          ],
+          "head": [
+            0,
+            25.0,
+            0
+          ],
+          "right_upper_arm": [
+            -0.0,
+            -45.0,
+            0.0
+          ],
+          "left_upper_arm": [
+            0.0,
+            -45.0,
+            -0.0
+          ],
+          "right_lower_arm": [
+            0,
+            0,
+            60.0
+          ],
+          "left_lower_arm": [
+            0,
+            0,
+            -60.0
+          ],
+          "right_thigh": [
+            -6.0,
+            0,
+            -0.0
+          ],
+          "left_thigh": [
+            6.0,
+            0,
+            0.0
+          ],
+          "right_foot": [
+            6.0,
+            0,
+            0
+          ],
+          "left_foot": [
+            -6.0,
+            0,
+            0
+          ]
+        }
+      },
+      "speed_mps": 1.058
+    },
+    {
+      "id": "N5",
+      "group": "N",
+      "text": "수탉처럼 걸어",
+      "expect": "accept",
+      "expect_action": "walk",
+      "target": "Chicken",
+      "level1": "pass",
+      "tokens": 327,
+      "answer": "{\"look\":\"A proud rooster-like walk with high-stepping legs, chest out, head raised, and wings held slightly open.\",\"s\":1.15,\"c\":15,\"m_knee\":1.5,\"m_arm\":0.3,\"torso_pitch\":-10,\"head_pitch\":-10,\"shoulder_abduction\":45,\"elbow_flexion\":45,\"stance_width\":5,\"toe_out\":20}",
+      "params": {
+        "action": "walk",
+        "s": 1.15,
+        "n": 1.0,
+        "c": 15.0,
+        "m_arm": 0.3,
+        "m_torso": 1.0,
+        "m_knee": 1.5,
+        "m_elbow": 1.0,
+        "torso_pitch": -10.0,
+        "head_pitch": -10.0,
+        "shoulder_flexion": 0.0,
+        "shoulder_abduction": 45.0,
+        "elbow_flexion": 45.0,
+        "stance_width": 5.0,
+        "toe_out": 20.0,
+        "shoulder_rotation": 0.0,
+        "bounce": 0.0,
+        "look": "A proud rooster-like walk with high-stepping legs, chest out, head raised, and wings held slightly open."
+      },
+      "rules": [],
+      "scales": {
+        "speed": 1.15,
+        "arm_swing": 0.3,
+        "crouch": 15.0,
+        "swing": {
+          "right_shin": 1.5,
+          "left_shin": 1.5
+        },
+        "pose": {
+          "torso": [
+            0,
+            -10.0,
+            0
+          ],
+          "head": [
+            0,
+            -10.0,
+            0
+          ],
+          "right_upper_arm": [
+            -45.0,
+            -0.0,
+            0.0
+          ],
+          "left_upper_arm": [
+            45.0,
+            -0.0,
+            -0.0
+          ],
+          "right_lower_arm": [
+            0,
+            0,
+            45.0
+          ],
+          "left_lower_arm": [
+            0,
+            0,
+            -45.0
+          ],
+          "right_thigh": [
+            -5.0,
+            0,
+            -20.0
+          ],
+          "left_thigh": [
+            5.0,
+            0,
+            20.0
+          ],
+          "right_foot": [
+            5.0,
+            0,
+            0
+          ],
+          "left_foot": [
+            -5.0,
+            0,
+            0
+          ]
+        }
+      },
+      "speed_mps": 1.449
+    },
+    {
+      "id": "N6",
+      "group": "N",
+      "text": "고양이처럼 조심스럽게 걸어",
+      "expect": "accept",
+      "expect_action": "walk",
+      "target": "Cat",
+      "level1": "pass",
+      "tokens": 419,
+      "answer": "{\"look\":\"A low, quiet cat-like walk with tiny careful steps and minimal arm movement.\",\"s\":0.7,\"n\":0.6,\"c\":15,\"m_arm\":0.3,\"m_knee\":0.7,\"m_torso\":0,\"torso_pitch\":15,\"shoulder_flexion\":20,\"elbow_flexion\":40,\"stance_width\":-5}",
+      "params": {
+        "action": "walk",
+        "s": 0.7,
+        "n": 0.6,
+        "c": 15.0,
+        "m_arm": 0.3,
+        "m_torso": 0.0,
+        "m_knee": 0.7,
+        "m_elbow": 1.0,
+        "torso_pitch": 15.0,
+        "head_pitch": 0.0,
+        "shoulder_flexion": 20.0,
+        "shoulder_abduction": 0.0,
+        "elbow_flexion": 40.0,
+        "stance_width": -5.0,
+        "toe_out": 0.0,
+        "shoulder_rotation": 0.0,
+        "bounce": 0.0,
+        "look": "A low, quiet cat-like walk with tiny careful steps and minimal arm movement."
+      },
+      "rules": [],
+      "scales": {
+        "speed": 0.7,
+        "cadence": 0.6,
+        "arm_swing": 0.3,
+        "crouch": 15.0,
+        "swing": {
+          "torso": 0.0,
+          "right_shin": 0.7,
+          "left_shin": 0.7
+        },
+        "pose": {
+          "torso": [
+            0,
+            15.0,
+            0
+          ],
+          "right_upper_arm": [
+            -0.0,
+            -20.0,
+            0.0
+          ],
+          "left_upper_arm": [
+            0.0,
+            -20.0,
+            -0.0
+          ],
+          "right_lower_arm": [
+            0,
+            0,
+            40.0
+          ],
+          "left_lower_arm": [
+            0,
+            0,
+            -40.0
+          ],
+          "right_thigh": [
+            5.0,
+            0,
+            -0.0
+          ],
+          "left_thigh": [
+            -5.0,
+            0,
+            0.0
+          ],
+          "right_foot": [
+            -5.0,
+            0,
+            0
+          ],
+          "left_foot": [
+            5.0,
+            0,
+            0
+          ]
+        }
+      },
+      "speed_mps": 0.529
+    },
+    {
+      "id": "P1",
+      "group": "P",
+      "text": "어둠 속에서 손으로 더듬으며 걸어",
+      "expect": "accept",
+      "expect_action": "walk",
+      "target": "InTheDark",
+      "level1": "pass",
+      "tokens": 364,
+      "answer": "{\"look\":\"A cautious, hunched walk with both arms extended forward, feeling the way through the darkness.\",\"s\":0.7,\"n\":0.6,\"c\":15,\"m_arm\":0.3,\"m_knee\":0.8,\"torso_pitch\":15,\"head_pitch\":20,\"shoulder_flexion\":85,\"elbow_flexion\":-30}",
+      "params": {
+        "action": "walk",
+        "s": 0.7,
+        "n": 0.6,
+        "c": 15.0,
+        "m_arm": 0.3,
+        "m_torso": 1.0,
+        "m_knee": 0.8,
+        "m_elbow": 1.0,
+        "torso_pitch": 15.0,
+        "head_pitch": 20.0,
+        "shoulder_flexion": 85.0,
+        "shoulder_abduction": 0.0,
+        "elbow_flexion": -30.0,
+        "stance_width": 0.0,
+        "toe_out": 0.0,
+        "shoulder_rotation": 0.0,
+        "bounce": 0.0,
+        "look": "A cautious, hunched walk with both arms extended forward, feeling the way through the darkness."
+      },
+      "rules": [],
+      "scales": {
+        "speed": 0.7,
+        "cadence": 0.6,
+        "arm_swing": 0.3,
+        "crouch": 15.0,
+        "swing": {
+          "right_shin": 0.8,
+          "left_shin": 0.8
+        },
+        "pose": {
+          "torso": [
+            0,
+            15.0,
+            0
+          ],
+          "head": [
+            0,
+            20.0,
+            0
+          ],
+          "right_upper_arm": [
+            -0.0,
+            -85.0,
+            0.0
+          ],
+          "left_upper_arm": [
+            0.0,
+            -85.0,
+            -0.0
+          ],
+          "right_lower_arm": [
+            0,
+            0,
+            -30.0
+          ],
+          "left_lower_arm": [
+            0,
+            0,
+            30.0
+          ]
+        }
+      },
+      "speed_mps": 0.529
+    },
+    {
+      "id": "P2",
+      "group": "P",
+      "text": "군인처럼 행진하며 걸어",
+      "expect": "accept",
+      "expect_action": "walk",
+      "target": "March",
+      "level1": "pass",
+      "tokens": 288,
+      "answer": "{\"look\":\"A stiff soldier marches upright with high knees and rigid arm swings.\",\"n\":1.1,\"c\":15,\"m_knee\":1.5,\"m_arm\":1.3,\"m_torso\":0,\"m_elbow\":0,\"elbow_flexion\":-20}",
+      "params": {
+        "action": "walk",
+        "s": 1.0,
+        "n": 1.1,
+        "c": 15.0,
+        "m_arm": 1.3,
+        "m_torso": 0.0,
+        "m_knee": 1.5,
+        "m_elbow": 0.0,
+        "torso_pitch": 0.0,
+        "head_pitch": 0.0,
+        "shoulder_flexion": 0.0,
+        "shoulder_abduction": 0.0,
+        "elbow_flexion": -20.0,
+        "stance_width": 0.0,
+        "toe_out": 0.0,
+        "shoulder_rotation": 0.0,
+        "bounce": 0.0,
+        "look": "A stiff soldier marches upright with high knees and rigid arm swings."
+      },
+      "rules": [],
+      "scales": {
+        "cadence": 1.1,
+        "arm_swing": 1.3,
+        "crouch": 15.0,
+        "swing": {
+          "torso": 0.0,
+          "right_shin": 1.5,
+          "left_shin": 1.5,
+          "right_lower_arm": 0.0,
+          "left_lower_arm": 0.0
+        },
+        "pose": {
+          "right_lower_arm": [
+            0,
+            0,
+            -20.0
+          ],
+          "left_lower_arm": [
+            0,
+            0,
+            20.0
+          ]
+        }
+      },
+      "speed_mps": 1.386
+    },
+    {
+      "id": "P3",
+      "group": "P",
+      "text": "요정처럼 사뿐사뿐 걸어",
+      "expect": "accept",
+      "expect_action": "walk",
+      "target": "FairySteps",
+      "level1": "pass",
+      "tokens": 256,
+      "answer": "{\"look\":\"A fairy-like walk with quick, tiny, light steps and delicate restrained movements.\",\"s\":0.7,\"n\":1.2,\"m_arm\":0.3,\"m_knee\":0.7}",
+      "params": {
+        "action": "walk",
+        "s": 0.7,
+        "n": 1.2,
+        "c": 0.0,
+        "m_arm": 0.3,
+        "m_torso": 1.0,
+        "m_knee": 0.7,
+        "m_elbow": 1.0,
+        "torso_pitch": 0.0,
+        "head_pitch": 0.0,
+        "shoulder_flexion": 0.0,
+        "shoulder_abduction": 0.0,
+        "elbow_flexion": 0.0,
+        "stance_width": 0.0,
+        "toe_out": 0.0,
+        "shoulder_rotation": 0.0,
+        "bounce": 0.0,
+        "look": "A fairy-like walk with quick, tiny, light steps and delicate restrained movements."
+      },
+      "rules": [],
+      "scales": {
+        "speed": 0.7,
+        "cadence": 1.2,
+        "arm_swing": 0.3,
+        "swing": {
+          "right_shin": 0.7,
+          "left_shin": 0.7
+        }
+      },
+      "speed_mps": 1.058
+    },
+    {
+      "id": "P4",
+      "group": "P",
+      "text": "덩치 큰 사람처럼 걸어",
+      "expect": "accept",
+      "expect_action": "walk",
+      "target": "Heavyset",
+      "level1": "pass",
+      "tokens": 187,
+      "answer": "{\"look\":\"A broad, heavy person walks with wide, swaying steps.\",\"s\":1.1,\"n\":0.8,\"m_torso\":5,\"m_knee\":0.8,\"m_arm\":1.3,\"stance_width\":10}",
+      "params": {
+        "action": "walk",
+        "s": 1.1,
+        "n": 0.8,
+        "c": 0.0,
+        "m_arm": 1.3,
+        "m_torso": 5.0,
+        "m_knee": 0.8,
+        "m_elbow": 1.0,
+        "torso_pitch": 0.0,
+        "head_pitch": 0.0,
+        "shoulder_flexion": 0.0,
+        "shoulder_abduction": 0.0,
+        "elbow_flexion": 0.0,
+        "stance_width": 10.0,
+        "toe_out": 0.0,
+        "shoulder_rotation": 0.0,
+        "bounce": 0.0,
+        "look": "A broad, heavy person walks with wide, swaying steps."
+      },
+      "rules": [],
+      "scales": {
+        "speed": 1.1,
+        "cadence": 0.8,
+        "arm_swing": 1.3,
+        "swing": {
+          "torso": 5.0,
+          "right_shin": 0.8,
+          "left_shin": 0.8
+        },
+        "pose": {
+          "right_thigh": [
+            -10.0,
+            0,
+            -0.0
+          ],
+          "left_thigh": [
+            10.0,
+            0,
+            0.0
+          ],
+          "right_foot": [
+            10.0,
+            0,
+            0
+          ],
+          "left_foot": [
+            -10.0,
+            0,
+            0
+          ]
+        }
+      },
+      "speed_mps": 1.109
+    },
+    {
+      "id": "P5",
+      "group": "P",
+      "text": "패션모델처럼 뽐내며 걸어",
+      "expect": "accept",
+      "expect_action": "walk",
+      "target": "Strutting",
+      "level1": "pass",
+      "tokens": 207,
+      "answer": "{\"look\":\"A confident fashion-model strut with long, deliberate steps, a proud posture, and a broad arm swing.\",\"s\":1.4,\"n\":0.9,\"m_arm\":1.5,\"torso_pitch\":-10,\"head_pitch\":-10,\"stance_width\":-5,\"toe_out\":10}",
+      "params": {
+        "action": "walk",
+        "s": 1.4,
+        "n": 0.9,
+        "c": 0.0,
+        "m_arm": 1.5,
+        "m_torso": 1.0,
+        "m_knee": 1.0,
+        "m_elbow": 1.0,
+        "torso_pitch": -10.0,
+        "head_pitch": -10.0,
+        "shoulder_flexion": 0.0,
+        "shoulder_abduction": 0.0,
+        "elbow_flexion": 0.0,
+        "stance_width": -5.0,
+        "toe_out": 10.0,
+        "shoulder_rotation": 0.0,
+        "bounce": 0.0,
+        "look": "A confident fashion-model strut with long, deliberate steps, a proud posture, and a broad arm swing."
+      },
+      "rules": [],
+      "scales": {
+        "speed": 1.4,
+        "cadence": 0.9,
+        "arm_swing": 1.5,
+        "pose": {
+          "torso": [
+            0,
+            -10.0,
+            0
+          ],
+          "head": [
+            0,
+            -10.0,
+            0
+          ],
+          "right_thigh": [
+            5.0,
+            0,
+            -10.0
+          ],
+          "left_thigh": [
+            -5.0,
+            0,
+            10.0
+          ],
+          "right_foot": [
+            -5.0,
+            0,
+            0
+          ],
+          "left_foot": [
+            5.0,
+            0,
+            0
+          ]
+        }
+      },
+      "speed_mps": 1.588
+    },
+    {
+      "id": "P6",
+      "group": "P",
+      "text": "특공대원처럼 총을 겨눈 자세로 걸어",
+      "expect": "accept",
+      "expect_action": "walk",
+      "target": "Swat",
+      "level1": "pass",
+      "tokens": 316,
+      "answer": "{\"look\":\"A cautious commando walks in a low, steady stance with both arms extended forward as if aiming a rifle.\",\"s\":0.8,\"n\":0.75,\"c\":15,\"m_arm\":0.3,\"m_knee\":0.8,\"m_torso\":0,\"shoulder_flexion\":85,\"elbow_flexion\":-30}",
+      "params": {
+        "action": "walk",
+        "s": 0.8,
+        "n": 0.75,
+        "c": 15.0,
+        "m_arm": 0.3,
+        "m_torso": 0.0,
+        "m_knee": 0.8,
+        "m_elbow": 1.0,
+        "torso_pitch": 0.0,
+        "head_pitch": 0.0,
+        "shoulder_flexion": 85.0,
+        "shoulder_abduction": 0.0,
+        "elbow_flexion": -30.0,
+        "stance_width": 0.0,
+        "toe_out": 0.0,
+        "shoulder_rotation": 0.0,
+        "bounce": 0.0,
+        "look": "A cautious commando walks in a low, steady stance with both arms extended forward as if aiming a rifle."
+      },
+      "rules": [],
+      "scales": {
+        "speed": 0.8,
+        "cadence": 0.75,
+        "arm_swing": 0.3,
+        "crouch": 15.0,
+        "swing": {
+          "torso": 0.0,
+          "right_shin": 0.8,
+          "left_shin": 0.8
+        },
+        "pose": {
+          "right_upper_arm": [
+            -0.0,
+            -85.0,
+            0.0
+          ],
+          "left_upper_arm": [
+            0.0,
+            -85.0,
+            -0.0
+          ],
+          "right_lower_arm": [
+            0,
+            0,
+            -30.0
+          ],
+          "left_lower_arm": [
+            0,
+            0,
+            30.0
+          ]
+        }
+      },
+      "speed_mps": 0.756
+    },
+    {
+      "id": "F1",
+      "group": "F",
+      "text": "뒷짐을 지고 걸어",
+      "expect": "accept",
+      "expect_action": "walk",
+      "target": "ArmsBehindBack",
+      "level1": "pass",
+      "tokens": 181,
+      "answer": "{\"look\":\"Walking upright with both arms held behind the back.\",\"shoulder_flexion\":-45,\"m_arm\":0.3}",
+      "params": {
+        "action": "walk",
+        "s": 1.0,
+        "n": 1.0,
+        "c": 0.0,
+        "m_arm": 0.3,
+        "m_torso": 1.0,
+        "m_knee": 1.0,
+        "m_elbow": 1.0,
+        "torso_pitch": 0.0,
+        "head_pitch": 0.0,
+        "shoulder_flexion": -45.0,
+        "shoulder_abduction": 0.0,
+        "elbow_flexion": 0.0,
+        "stance_width": 0.0,
+        "toe_out": 0.0,
+        "shoulder_rotation": 0.0,
+        "bounce": 0.0,
+        "look": "Walking upright with both arms held behind the back."
+      },
+      "rules": [],
+      "scales": {
+        "arm_swing": 0.3,
+        "pose": {
+          "right_upper_arm": [
+            -0.0,
+            45.0,
+            0.0
+          ],
+          "left_upper_arm": [
+            0.0,
+            45.0,
+            -0.0
+          ]
+        }
+      },
+      "speed_mps": 1.26
+    },
+    {
+      "id": "F2",
+      "group": "F",
+      "text": "팔짱을 끼고 걸어",
+      "expect": "accept",
+      "expect_action": "walk",
+      "target": "ArmsFolded",
+      "level1": "pass",
+      "tokens": 164,
+      "answer": "{\"look\":\"Walks with both arms folded across the chest.\",\"m_arm\":0.3,\"shoulder_flexion\":45,\"elbow_flexion\":60,\"shoulder_rotation\":45}",
+      "params": {
+        "action": "walk",
+        "s": 1.0,
+        "n": 1.0,
+        "c": 0.0,
+        "m_arm": 0.3,
+        "m_torso": 1.0,
+        "m_knee": 1.0,
+        "m_elbow": 1.0,
+        "torso_pitch": 0.0,
+        "head_pitch": 0.0,
+        "shoulder_flexion": 45.0,
+        "shoulder_abduction": 0.0,
+        "elbow_flexion": 60.0,
+        "stance_width": 0.0,
+        "toe_out": 0.0,
+        "shoulder_rotation": 45.0,
+        "bounce": 0.0,
+        "look": "Walks with both arms folded across the chest."
+      },
+      "rules": [],
+      "scales": {
+        "arm_swing": 0.3,
+        "pose": {
+          "right_upper_arm": [
+            -17.65,
+            -42.62,
+            42.62
+          ],
+          "left_upper_arm": [
+            17.65,
+            -42.62,
+            -42.62
+          ],
+          "right_lower_arm": [
+            0,
+            0,
+            60.0
+          ],
+          "left_lower_arm": [
+            0,
+            0,
+            -60.0
+          ]
+        }
+      },
+      "speed_mps": 1.26
+    },
+    {
+      "id": "F3",
+      "group": "F",
+      "text": "양손을 허리에 짚고 걸어",
+      "expect": "accept",
+      "expect_action": "walk",
+      "target": "Akimbo",
+      "level1": "pass",
+      "tokens": 305,
+      "answer": "{\"look\":\"A confident walk with both hands planted on the hips and elbows sticking outward.\",\"m_arm\":0.3,\"shoulder_flexion\":-20,\"shoulder_abduction\":25,\"elbow_flexion\":50}",
+      "params": {
+        "action": "walk",
+        "s": 1.0,
+        "n": 1.0,
+        "c": 0.0,
+        "m_arm": 0.3,
+        "m_torso": 1.0,
+        "m_knee": 1.0,
+        "m_elbow": 1.0,
+        "torso_pitch": 0.0,
+        "head_pitch": 0.0,
+        "shoulder_flexion": -20.0,
+        "shoulder_abduction": 25.0,
+        "elbow_flexion": 50.0,
+        "stance_width": 0.0,
+        "toe_out": 0.0,
+        "shoulder_rotation": 0.0,
+        "bounce": 0.0,
+        "look": "A confident walk with both hands planted on the hips and elbows sticking outward."
+      },
+      "rules": [],
+      "scales": {
+        "arm_swing": 0.3,
+        "pose": {
+          "right_upper_arm": [
+            -24.74,
+            19.68,
+            4.36
+          ],
+          "left_upper_arm": [
+            24.74,
+            19.68,
+            -4.36
+          ],
+          "right_lower_arm": [
+            0,
+            0,
+            50.0
+          ],
+          "left_lower_arm": [
+            0,
+            0,
+            -50.0
+          ]
+        }
+      },
+      "speed_mps": 1.26
+    },
+    {
+      "id": "F4",
+      "group": "F",
+      "text": "두 팔을 머리 위로 들고 걸어",
+      "expect": "accept",
+      "expect_action": "walk",
+      "target": "ArmsAboveHead",
+      "level1": "pass",
+      "tokens": 135,
+      "answer": "{\"look\":\"Walks with both arms held high overhead.\",\"shoulder_flexion\":85,\"m_arm\":0.3}",
+      "params": {
+        "action": "walk",
+        "s": 1.0,
+        "n": 1.0,
+        "c": 0.0,
+        "m_arm": 0.3,
+        "m_torso": 1.0,
+        "m_knee": 1.0,
+        "m_elbow": 1.0,
+        "torso_pitch": 0.0,
+        "head_pitch": 0.0,
+        "shoulder_flexion": 85.0,
+        "shoulder_abduction": 0.0,
+        "elbow_flexion": 0.0,
+        "stance_width": 0.0,
+        "toe_out": 0.0,
+        "shoulder_rotation": 0.0,
+        "bounce": 0.0,
+        "look": "Walks with both arms held high overhead."
+      },
+      "rules": [],
+      "scales": {
+        "arm_swing": 0.3,
+        "pose": {
+          "right_upper_arm": [
+            -0.0,
+            -85.0,
+            0.0
+          ],
+          "left_upper_arm": [
+            0.0,
+            -85.0,
+            -0.0
+          ]
+        }
+      },
+      "speed_mps": 1.26
+    },
+    {
+      "id": "F5",
+      "group": "F",
+      "text": "발뒤꿈치로 걸어",
+      "expect": "accept",
+      "expect_action": "walk",
+      "target": "OnHeels",
+      "level1": "pass",
+      "tokens": 193,
+      "answer": "{\"look\":\"A walk that lands on the heels with the toes lifted.\"}",
+      "params": {
+        "action": "walk",
+        "s": 1.0,
+        "n": 1.0,
+        "c": 0.0,
+        "m_arm": 1.0,
+        "m_torso": 1.0,
+        "m_knee": 1.0,
+        "m_elbow": 1.0,
+        "torso_pitch": 0.0,
+        "head_pitch": 0.0,
+        "shoulder_flexion": 0.0,
+        "shoulder_abduction": 0.0,
+        "elbow_flexion": 0.0,
+        "stance_width": 0.0,
+        "toe_out": 0.0,
+        "shoulder_rotation": 0.0,
+        "bounce": 0.0,
+        "look": "A walk that lands on the heels with the toes lifted."
+      },
+      "rules": [],
+      "scales": {},
+      "speed_mps": 1.26
+    },
+    {
+      "id": "F6",
+      "group": "F",
+      "text": "무릎을 굽힌 채로 걸어",
+      "expect": "accept",
+      "expect_action": "walk",
+      "target": "BentKnees",
+      "level1": "pass",
+      "tokens": 125,
+      "answer": "{\"look\":\"A crouched walk with the knees visibly bent throughout.\",\"c\":15,\"m_knee\":0.8}",
+      "params": {
+        "action": "walk",
+        "s": 1.0,
+        "n": 1.0,
+        "c": 15.0,
+        "m_arm": 1.0,
+        "m_torso": 1.0,
+        "m_knee": 0.8,
+        "m_elbow": 1.0,
+        "torso_pitch": 0.0,
+        "head_pitch": 0.0,
+        "shoulder_flexion": 0.0,
+        "shoulder_abduction": 0.0,
+        "elbow_flexion": 0.0,
+        "stance_width": 0.0,
+        "toe_out": 0.0,
+        "shoulder_rotation": 0.0,
+        "bounce": 0.0,
+        "look": "A crouched walk with the knees visibly bent throughout."
+      },
+      "rules": [],
+      "scales": {
+        "crouch": 15.0,
+        "swing": {
+          "right_shin": 0.8,
+          "left_shin": 0.8
+        }
+      },
+      "speed_mps": 1.26
+    },
+    {
+      "id": "F7",
+      "group": "F",
+      "text": "상체를 뒤로 젖히고 걸어",
+      "expect": "accept",
+      "expect_action": "walk",
+      "target": "LeanBack",
+      "level1": "pass",
+      "tokens": 70,
+      "answer": "{\"look\":\"A walk with the upper body clearly leaned backward.\",\"torso_pitch\":-12}",
+      "params": {
+        "action": "walk",
+        "s": 1.0,
+        "n": 1.0,
+        "c": 0.0,
+        "m_arm": 1.0,
+        "m_torso": 1.0,
+        "m_knee": 1.0,
+        "m_elbow": 1.0,
+        "torso_pitch": -12.0,
+        "head_pitch": 0.0,
+        "shoulder_flexion": 0.0,
+        "shoulder_abduction": 0.0,
+        "elbow_flexion": 0.0,
+        "stance_width": 0.0,
+        "toe_out": 0.0,
+        "shoulder_rotation": 0.0,
+        "bounce": 0.0,
+        "look": "A walk with the upper body clearly leaned backward."
+      },
+      "rules": [],
+      "scales": {
+        "pose": {
+          "torso": [
+            0,
+            -12.0,
+            0
+          ]
+        }
+      },
+      "speed_mps": 1.26
+    },
+    {
+      "id": "F8",
+      "group": "F",
+      "text": "발을 바닥에 끌면서 걸어",
+      "expect": "accept",
+      "expect_action": "walk",
+      "target": "SlideFeet",
+      "level1": "pass",
+      "tokens": 129,
+      "answer": "{\"look\":\"A walk with the feet dragging close along the ground.\",\"m_knee\":0.4}",
+      "params": {
+        "action": "walk",
+        "s": 1.0,
+        "n": 1.0,
+        "c": 0.0,
+        "m_arm": 1.0,
+        "m_torso": 1.0,
+        "m_knee": 0.4,
+        "m_elbow": 1.0,
+        "torso_pitch": 0.0,
+        "head_pitch": 0.0,
+        "shoulder_flexion": 0.0,
+        "shoulder_abduction": 0.0,
+        "elbow_flexion": 0.0,
+        "stance_width": 0.0,
+        "toe_out": 0.0,
+        "shoulder_rotation": 0.0,
+        "bounce": 0.0,
+        "look": "A walk with the feet dragging close along the ground."
+      },
+      "rules": [],
+      "scales": {
+        "swing": {
+          "right_shin": 0.4,
+          "left_shin": 0.4
+        }
+      },
+      "speed_mps": 1.26
+    },
+    {
+      "id": "M1",
+      "group": "M",
+      "text": "급하게 서둘러 걸어",
+      "expect": "accept",
+      "expect_action": "walk",
+      "target": "Rushed",
+      "level1": "pass",
+      "tokens": 183,
+      "answer": "{\"look\":\"A brisk, hurried walk with quick, purposeful steps.\",\"s\":1.1,\"n\":1.3,\"m_arm\":1.3}",
+      "params": {
+        "action": "walk",
+        "s": 1.1,
+        "n": 1.3,
+        "c": 0.0,
+        "m_arm": 1.3,
+        "m_torso": 1.0,
+        "m_knee": 1.0,
+        "m_elbow": 1.0,
+        "torso_pitch": 0.0,
+        "head_pitch": 0.0,
+        "shoulder_flexion": 0.0,
+        "shoulder_abduction": 0.0,
+        "elbow_flexion": 0.0,
+        "stance_width": 0.0,
+        "toe_out": 0.0,
+        "shoulder_rotation": 0.0,
+        "bounce": 0.0,
+        "look": "A brisk, hurried walk with quick, purposeful steps."
+      },
+      "rules": [],
+      "scales": {
+        "speed": 1.1,
+        "cadence": 1.3,
+        "arm_swing": 1.3
+      },
+      "speed_mps": 1.802
+    },
+    {
+      "id": "M2",
+      "group": "M",
+      "text": "누가 따라오는 것 같아 뒤를 살피며 걸어",
+      "expect": "accept",
+      "expect_action": "walk",
+      "target": "Followed",
+      "level1": "pass",
+      "tokens": 239,
+      "answer": "{\"look\":\"A cautious, sneaky walk with slow, small steps and a tense, lowered posture.\",\"s\":0.8,\"n\":0.6,\"c\":15,\"m_arm\":0.3,\"m_knee\":0.8,\"torso_pitch\":15,\"shoulder_flexion\":20,\"elbow_flexion\":40}",
+      "params": {
+        "action": "walk",
+        "s": 0.8,
+        "n": 0.6,
+        "c": 15.0,
+        "m_arm": 0.3,
+        "m_torso": 1.0,
+        "m_knee": 0.8,
+        "m_elbow": 1.0,
+        "torso_pitch": 15.0,
+        "head_pitch": 0.0,
+        "shoulder_flexion": 20.0,
+        "shoulder_abduction": 0.0,
+        "elbow_flexion": 40.0,
+        "stance_width": 0.0,
+        "toe_out": 0.0,
+        "shoulder_rotation": 0.0,
+        "bounce": 0.0,
+        "look": "A cautious, sneaky walk with slow, small steps and a tense, lowered posture."
+      },
+      "rules": [],
+      "scales": {
+        "speed": 0.8,
+        "cadence": 0.6,
+        "arm_swing": 0.3,
+        "crouch": 15.0,
+        "swing": {
+          "right_shin": 0.8,
+          "left_shin": 0.8
+        },
+        "pose": {
+          "torso": [
+            0,
+            15.0,
+            0
+          ],
+          "right_upper_arm": [
+            -0.0,
+            -20.0,
+            0.0
+          ],
+          "left_upper_arm": [
+            0.0,
+            -20.0,
+            -0.0
+          ],
+          "right_lower_arm": [
+            0,
+            0,
+            40.0
+          ],
+          "left_lower_arm": [
+            0,
+            0,
+            -40.0
+          ]
+        }
+      },
+      "speed_mps": 0.605
+    },
+    {
+      "id": "M3",
+      "group": "M",
+      "text": "우아하게 걸어",
+      "expect": "accept",
+      "expect_action": "walk",
+      "target": "GracefulArms",
+      "level1": "pass",
+      "tokens": 257,
+      "answer": "{\"look\":\"A graceful walk with smooth, measured strides, a poised posture, and gentle restrained arm movement.\",\"s\":1.1,\"n\":0.9,\"m_arm\":0.7,\"m_torso\":0.5,\"m_knee\":0.8,\"torso_pitch\":-3,\"head_pitch\":-5,\"toe_out\":8}",
+      "params": {
+        "action": "walk",
+        "s": 1.1,
+        "n": 0.9,
+        "c": 0.0,
+        "m_arm": 0.7,
+        "m_torso": 0.5,
+        "m_knee": 0.8,
+        "m_elbow": 1.0,
+        "torso_pitch": -3.0,
+        "head_pitch": -5.0,
+        "shoulder_flexion": 0.0,
+        "shoulder_abduction": 0.0,
+        "elbow_flexion": 0.0,
+        "stance_width": 0.0,
+        "toe_out": 8.0,
+        "shoulder_rotation": 0.0,
+        "bounce": 0.0,
+        "look": "A graceful walk with smooth, measured strides, a poised posture, and gentle restrained arm movement."
+      },
+      "rules": [],
+      "scales": {
+        "speed": 1.1,
+        "cadence": 0.9,
+        "arm_swing": 0.7,
+        "swing": {
+          "torso": 0.5,
+          "right_shin": 0.8,
+          "left_shin": 0.8
+        },
+        "pose": {
+          "torso": [
+            0,
+            -3.0,
+            0
+          ],
+          "head": [
+            0,
+            -5.0,
+            0
+          ],
+          "right_thigh": [
+            -0.0,
+            0,
+            -8.0
+          ],
+          "left_thigh": [
+            0.0,
+            0,
+            8.0
+          ]
+        }
+      },
+      "speed_mps": 1.247
+    },
+    {
+      "id": "M4",
+      "group": "M",
+      "text": "외줄을 타듯 균형을 잡으며 걸어",
+      "expect": "accept",
+      "expect_action": "walk",
+      "target": "Balance",
+      "level1": "pass",
+      "tokens": 292,
+      "answer": "{\"look\":\"A cautious tightrope walker takes slow, narrow steps with arms stretched wide for balance.\",\"s\":0.7,\"n\":0.7,\"m_arm\":0.3,\"m_knee\":0.8,\"m_torso\":5,\"shoulder_abduction\":80,\"elbow_flexion\":-20,\"stance_width\":-8}",
+      "params": {
+        "action": "walk",
+        "s": 0.7,
+        "n": 0.7,
+        "c": 0.0,
+        "m_arm": 0.3,
+        "m_torso": 5.0,
+        "m_knee": 0.8,
+        "m_elbow": 1.0,
+        "torso_pitch": 0.0,
+        "head_pitch": 0.0,
+        "shoulder_flexion": 0.0,
+        "shoulder_abduction": 80.0,
+        "elbow_flexion": -20.0,
+        "stance_width": -8.0,
+        "toe_out": 0.0,
+        "shoulder_rotation": 0.0,
+        "bounce": 0.0,
+        "look": "A cautious tightrope walker takes slow, narrow steps with arms stretched wide for balance."
+      },
+      "rules": [],
+      "scales": {
+        "speed": 0.7,
+        "cadence": 0.7,
+        "arm_swing": 0.3,
+        "swing": {
+          "torso": 5.0,
+          "right_shin": 0.8,
+          "left_shin": 0.8
+        },
+        "pose": {
+          "right_upper_arm": [
+            -80.0,
+            -0.0,
+            0.0
+          ],
+          "left_upper_arm": [
+            80.0,
+            -0.0,
+            -0.0
+          ],
+          "right_lower_arm": [
+            0,
+            0,
+            -20.0
+          ],
+          "left_lower_arm": [
+            0,
+            0,
+            20.0
+          ],
+          "right_thigh": [
+            8.0,
+            0,
+            -0.0
+          ],
+          "left_thigh": [
+            -8.0,
+            0,
+            0.0
+          ],
+          "right_foot": [
+            -8.0,
+            0,
+            0
+          ],
+          "left_foot": [
+            8.0,
+            0,
+            0
+          ]
+        }
+      },
+      "speed_mps": 0.617
+    },
+    {
+      "id": "M5",
+      "group": "M",
+      "text": "엉덩이를 씰룩거리며 걸어",
+      "expect": "accept",
+      "expect_action": "walk",
+      "target": "WiggleHips",
+      "level1": "pass",
+      "tokens": 110,
+      "answer": "{\"look\":\"A walk with an exaggerated, playful side-to-side hip wiggle.\",\"m_torso\":10,\"n\":0.8}",
+      "params": {
+        "action": "walk",
+        "s": 1.0,
+        "n": 0.8,
+        "c": 0.0,
+        "m_arm": 1.0,
+        "m_torso": 10.0,
+        "m_knee": 1.0,
+        "m_elbow": 1.0,
+        "torso_pitch": 0.0,
+        "head_pitch": 0.0,
+        "shoulder_flexion": 0.0,
+        "shoulder_abduction": 0.0,
+        "elbow_flexion": 0.0,
+        "stance_width": 0.0,
+        "toe_out": 0.0,
+        "shoulder_rotation": 0.0,
+        "bounce": 0.0,
+        "look": "A walk with an exaggerated, playful side-to-side hip wiggle."
+      },
+      "rules": [],
+      "scales": {
+        "cadence": 0.8,
+        "swing": {
+          "torso": 10.0
+        }
+      },
+      "speed_mps": 1.008
+    }
+  ],
+  "reasoning_effort": "medium",
+  "api_usage": {
+    "requests": 25,
+    "prompt_tokens": 103428,
+    "cached_tokens": 103000,
+    "completion_tokens": 6069,
+    "reasoning_tokens": 4345
+  }
+}

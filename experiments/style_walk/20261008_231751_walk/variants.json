@@ -1,0 +1,75 @@
+[
+  {
+    "key": "base",
+    "label": "그대로",
+    "scales": {}
+  },
+  {
+    "key": "sway",
+    "label": "몸통 흔들림 x5",
+    "scales": {
+      "swing": {
+        "torso": 5.0
+      }
+    }
+  },
+  {
+    "key": "lean",
+    "label": "상체 숙임 20°",
+    "scales": {
+      "pose": {
+        "torso": [
+          0,
+          20,
+          0
+        ]
+      }
+    }
+  },
+  {
+    "key": "crouch",
+    "label": "다리 굽힘 20°",
+    "scales": {
+      "crouch": 20.0
+    }
+  },
+  {
+    "key": "zombie",
+    "label": "좀비 조합",
+    "scales": {
+      "pose": {
+        "right_upper_arm": [
+          0,
+          -85,
+          0
+        ],
+        "left_upper_arm": [
+          0,
+          -85,
+          0
+        ],
+        "right_lower_arm": [
+          0,
+          0,
+          -30
+        ],
+        "left_lower_arm": [
+          0,
+          0,
+          30
+        ],
+        "torso": [
+          0,
+          10,
+          0
+        ]
+      },
+      "swing": {
+        "torso": 5.0
+      },
+      "arm_swing": 0.3,
+      "speed": 0.85,
+      "cadence": 0.6
+    }
+  }
+]

@@ -1,0 +1,89 @@
+{
+  "command": "다리 벌림 10° (발은 바닥과 평행)",
+  "variant": {
+    "key": "stance10",
+    "label": "다리 벌림 10° (발은 바닥과 평행)",
+    "scales": {
+      "pose": {
+        "right_thigh": [
+          -10,
+          0,
+          0
+        ],
+        "left_thigh": [
+          10,
+          0,
+          0
+        ],
+        "right_foot": [
+          10,
+          0,
+          0
+        ],
+        "left_foot": [
+          -10,
+          0,
+          0
+        ]
+      }
+    },
+    "terms": {
+      "track_w": 0.6,
+      "pose": {
+        "right_thigh": [
+          -10,
+          0,
+          0
+        ],
+        "left_thigh": [
+          10,
+          0,
+          0
+        ],
+        "right_foot": [
+          10,
+          0,
+          0
+        ],
+        "left_foot": [
+          -10,
+          0,
+          0
+        ]
+      }
+    }
+  },
+  "reference": {
+    "clip": "/home/jong/TexttoMotion/MimicKit/data/motions/humanoid/humanoid_walk.pkl",
+    "duration_s": 10.0
+  },
+  "training": {
+    "iterations": 2000,
+    "num_envs": 1024,
+    "status": "completed",
+    "started": "2026-10-31T21:44:41",
+    "finished": "2026-10-31T22:12:29",
+    "final_log": {
+      "Iteration": 1999.0,
+      "Wall_Time": 0.4603970600499047,
+      "Samples": 65536000.0,
+      "Samples_Per_Second": 39540.74868000064,
+      "Test_Return": 290.9005432128906,
+      "Test_Episode_Length": 296.5126953125,
+      "Test_Episodes": 1024.0,
+      "Train_Return": 278.0849609375,
+      "Train_Episode_Length": 297.9255065917969,
+      "Train_Episodes": 10313.0,
+      "Critic_Loss": 0.03247920423746109,
+      "Actor_Loss": -0.0032218859996646643,
+      "Clip_Frac": 0.22339478135108948,
+      "Imp_Ratio": 0.9993029832839966,
+      "Action_Bound_Loss": 2.161137473422059e-07,
+      "Adv_Mean": 0.010719578713178635,
+      "Adv_Std": 0.18252545595169067,
+      "Obs_Norm_Mean": 0.34160417318344116,
+      "Obs_Norm_Std": 0.16950994729995728,
+      "Exp_Prob": 1.0
+    }
+  }
+}

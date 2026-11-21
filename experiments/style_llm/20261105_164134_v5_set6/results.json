@@ -1,0 +1,1140 @@
+{
+  "model": "Qwen/Qwen3-4B-Thinking-2507",
+  "revision": "768f209d9ea81521153ed38c47d515654e938aea",
+  "prompt": "v5",
+  "thinking_budget": 4096,
+  "test_set": "test_commands_6.json",
+  "seed": 42,
+  "batch_size": 2,
+  "elapsed_s": 2473.4,
+  "level1_passed": 25,
+  "commands": 25,
+  "results": [
+    {
+      "id": "N1",
+      "group": "N",
+      "text": "펭귄처럼 걸어",
+      "expect": "accept",
+      "expect_action": "walk",
+      "target": "Penguin",
+      "level1": "pass",
+      "tokens": 4138,
+      "answer": "{\"action\": \"walk\", \"n\": 0.6, \"m_torso\": 10}",
+      "params": {
+        "action": "walk",
+        "s": 1.0,
+        "n": 0.6,
+        "c": 0.0,
+        "m_arm": 1.0,
+        "m_torso": 10.0,
+        "m_knee": 1.0,
+        "m_elbow": 1.0,
+        "torso_pitch": 0.0,
+        "head_pitch": 0.0,
+        "shoulder_flexion": 0.0,
+        "shoulder_abduction": 0.0,
+        "elbow_flexion": 0.0,
+        "stance_width": 0.0,
+        "toe_out": 0.0
+      },
+      "rules": [],
+      "scales": {
+        "cadence": 0.6,
+        "swing": {
+          "torso": 10.0
+        }
+      },
+      "speed_mps": 0.756
+    },
+    {
+      "id": "N2",
+      "group": "N",
+      "text": "닭처럼 걸어",
+      "expect": "accept",
+      "expect_action": "walk",
+      "target": "Chicken",
+      "level1": "pass",
+      "tokens": 3624,
+      "answer": "{\"action\": \"walk\", \"s\": 0.7, \"n\": 1.2, \"c\": 20, \"m_arm\": 0.4, \"m_knee\": 0.8}",
+      "params": {
+        "action": "walk",
+        "s": 0.7,
+        "n": 1.2,
+        "c": 20.0,
+        "m_arm": 0.4,
+        "m_torso": 1.0,
+        "m_knee": 0.8,
+        "m_elbow": 1.0,
+        "torso_pitch": 0.0,
+        "head_pitch": 0.0,
+        "shoulder_flexion": 0.0,
+        "shoulder_abduction": 0.0,
+        "elbow_flexion": 0.0,
+        "stance_width": 0.0,
+        "toe_out": 0.0
+      },
+      "rules": [],
+      "scales": {
+        "speed": 0.7,
+        "cadence": 1.2,
+        "arm_swing": 0.4,
+        "crouch": 20.0,
+        "swing": {
+          "right_shin": 0.8,
+          "left_shin": 0.8
+        }
+      },
+      "speed_mps": 1.058
+    },
+    {
+      "id": "N3",
+      "group": "N",
+      "text": "고양이처럼 걸어",
+      "expect": "accept",
+      "expect_action": "walk",
+      "target": "Cat",
+      "level1": "pass",
+      "tokens": 3992,
+      "answer": "{\"action\": \"walk\", \"c\": 15, \"m_knee\": 0.7, \"m_arm\": 0.4, \"torso_pitch\": 10}",
+      "params": {
+        "action": "walk",
+        "s": 1.0,
+        "n": 1.0,
+        "c": 15.0,
+        "m_arm": 0.4,
+        "m_torso": 1.0,
+        "m_knee": 0.7,
+        "m_elbow": 1.0,
+        "torso_pitch": 10.0,
+        "head_pitch": 0.0,
+        "shoulder_flexion": 0.0,
+        "shoulder_abduction": 0.0,
+        "elbow_flexion": 0.0,
+        "stance_width": 0.0,
+        "toe_out": 0.0
+      },
+      "rules": [],
+      "scales": {
+        "arm_swing": 0.4,
+        "crouch": 15.0,
+        "swing": {
+          "right_shin": 0.7,
+          "left_shin": 0.7
+        },
+        "pose": {
+          "torso": [
+            0,
+            10.0,
+            0
+          ]
+        }
+      },
+      "speed_mps": 1.26
+    },
+    {
+      "id": "N4",
+      "group": "N",
+      "text": "공룡처럼 걸어",
+      "expect": "accept",
+      "expect_action": "walk",
+      "target": "Dinosaur",
+      "level1": "pass",
+      "tokens": 4046,
+      "answer": "{\"s\": 0.6, \"n\": 0.8, \"c\": 20, \"m_arm\": 0.4, \"m_knee\": 0.8, \"torso_pitch\": 30, \"head_pitch\": -10}",
+      "params": {
+        "action": "walk",
+        "s": 0.6,
+        "n": 0.8,
+        "c": 20.0,
+        "m_arm": 0.4,
+        "m_torso": 1.0,
+        "m_knee": 0.8,
+        "m_elbow": 1.0,
+        "torso_pitch": 30.0,
+        "head_pitch": -10.0,
+        "shoulder_flexion": 0.0,
+        "shoulder_abduction": 0.0,
+        "elbow_flexion": 0.0,
+        "stance_width": 0.0,
+        "toe_out": 0.0
+      },
+      "rules": [],
+      "scales": {
+        "speed": 0.6,
+        "cadence": 0.8,
+        "arm_swing": 0.4,
+        "crouch": 20.0,
+        "swing": {
+          "right_shin": 0.8,
+          "left_shin": 0.8
+        },
+        "pose": {
+          "torso": [
+            0,
+            30.0,
+            0
+          ],
+          "head": [
+            0,
+            -10.0,
+            0
+          ]
+        }
+      },
+      "speed_mps": 0.605
+    },
+    {
+      "id": "N5",
+      "group": "N",
+      "text": "새처럼 날개를 퍼덕이며 걸어",
+      "expect": "accept",
+      "expect_action": "walk",
+      "target": "Flapping",
+      "level1": "pass",
+      "tokens": 2645,
+      "answer": "{\"action\": \"walk\", \"m_arm\": 1.8}",
+      "params": {
+        "action": "walk",
+        "s": 1.0,
+        "n": 1.0,
+        "c": 0.0,
+        "m_arm": 1.8,
+        "m_torso": 1.0,
+        "m_knee": 1.0,
+        "m_elbow": 1.0,
+        "torso_pitch": 0.0,
+        "head_pitch": 0.0,
+        "shoulder_flexion": 0.0,
+        "shoulder_abduction": 0.0,
+        "elbow_flexion": 0.0,
+        "stance_width": 0.0,
+        "toe_out": 0.0
+      },
+      "rules": [],
+      "scales": {
+        "arm_swing": 1.8
+      },
+      "speed_mps": 1.26
+    },
+    {
+      "id": "N6",
+      "group": "N",
+      "text": "오리처럼 뒤뚱뒤뚱 걸어",
+      "expect": "accept",
+      "expect_action": "walk",
+      "target": "Penguin",
+      "level1": "pass",
+      "tokens": 1367,
+      "answer": "{\"n\": 0.6, \"m_torso\": 10}",
+      "params": {
+        "action": "walk",
+        "s": 1.0,
+        "n": 0.6,
+        "c": 0.0,
+        "m_arm": 1.0,
+        "m_torso": 10.0,
+        "m_knee": 1.0,
+        "m_elbow": 1.0,
+        "torso_pitch": 0.0,
+        "head_pitch": 0.0,
+        "shoulder_flexion": 0.0,
+        "shoulder_abduction": 0.0,
+        "elbow_flexion": 0.0,
+        "stance_width": 0.0,
+        "toe_out": 0.0
+      },
+      "rules": [],
+      "scales": {
+        "cadence": 0.6,
+        "swing": {
+          "torso": 10.0
+        }
+      },
+      "speed_mps": 0.756
+    },
+    {
+      "id": "P1",
+      "group": "P",
+      "text": "좀비처럼 걸어",
+      "expect": "accept",
+      "expect_action": "walk",
+      "target": "Zombie",
+      "level1": "pass",
+      "tokens": 1076,
+      "answer": "{\"s\": 0.85, \"n\": 0.6, \"m_arm\": 0.3, \"m_torso\": 5, \"torso_pitch\": 10, \"shoulder_flexion\": 85, \"elbow_flexion\": -30}",
+      "params": {
+        "action": "walk",
+        "s": 0.85,
+        "n": 0.6,
+        "c": 0.0,
+        "m_arm": 0.3,
+        "m_torso": 5.0,
+        "m_knee": 1.0,
+        "m_elbow": 1.0,
+        "torso_pitch": 10.0,
+        "head_pitch": 0.0,
+        "shoulder_flexion": 85.0,
+        "shoulder_abduction": 0.0,
+        "elbow_flexion": -30.0,
+        "stance_width": 0.0,
+        "toe_out": 0.0
+      },
+      "rules": [],
+      "scales": {
+        "speed": 0.85,
+        "cadence": 0.6,
+        "arm_swing": 0.3,
+        "swing": {
+          "torso": 5.0
+        },
+        "pose": {
+          "torso": [
+            0,
+            10.0,
+            0
+          ],
+          "right_upper_arm": [
+            0,
+            -85.0,
+            0
+          ],
+          "left_upper_arm": [
+            0,
+            -85.0,
+            0
+          ],
+          "right_lower_arm": [
+            0,
+            0,
+            -30.0
+          ],
+          "left_lower_arm": [
+            0,
+            0,
+            30.0
+          ]
+        }
+      },
+      "speed_mps": 0.643
+    },
+    {
+      "id": "P2",
+      "group": "P",
+      "text": "로봇처럼 걸어",
+      "expect": "accept",
+      "expect_action": "walk",
+      "target": "Robot",
+      "level1": "pass",
+      "tokens": 641,
+      "answer": "{\"m_torso\": 0, \"m_knee\": 0.85, \"m_elbow\": 0, \"elbow_flexion\": 50}",
+      "params": {
+        "action": "walk",
+        "s": 1.0,
+        "n": 1.0,
+        "c": 0.0,
+        "m_arm": 1.0,
+        "m_torso": 0.0,
+        "m_knee": 0.85,
+        "m_elbow": 0.0,
+        "torso_pitch": 0.0,
+        "head_pitch": 0.0,
+        "shoulder_flexion": 0.0,
+        "shoulder_abduction": 0.0,
+        "elbow_flexion": 50.0,
+        "stance_width": 0.0,
+        "toe_out": 0.0
+      },
+      "rules": [],
+      "scales": {
+        "swing": {
+          "torso": 0.0,
+          "right_shin": 0.85,
+          "left_shin": 0.85,
+          "right_lower_arm": 0.0,
+          "left_lower_arm": 0.0
+        },
+        "pose": {
+          "right_lower_arm": [
+            0,
+            0,
+            50.0
+          ],
+          "left_lower_arm": [
+            0,
+            0,
+            -50.0
+          ]
+        }
+      },
+      "speed_mps": 1.26
+    },
+    {
+      "id": "P3",
+      "group": "P",
+      "text": "노인처럼 걸어",
+      "expect": "accept",
+      "expect_action": "walk",
+      "target": "Old",
+      "level1": "pass",
+      "tokens": 1520,
+      "answer": "{\"s\": 0.6, \"n\": 0.8, \"c\": 10, \"m_arm\": 0.4, \"m_knee\": 0.8, \"torso_pitch\": 30, \"head_pitch\": -10}",
+      "params": {
+        "action": "walk",
+        "s": 0.6,
+        "n": 0.8,
+        "c": 10.0,
+        "m_arm": 0.4,
+        "m_torso": 1.0,
+        "m_knee": 0.8,
+        "m_elbow": 1.0,
+        "torso_pitch": 30.0,
+        "head_pitch": -10.0,
+        "shoulder_flexion": 0.0,
+        "shoulder_abduction": 0.0,
+        "elbow_flexion": 0.0,
+        "stance_width": 0.0,
+        "toe_out": 0.0
+      },
+      "rules": [],
+      "scales": {
+        "speed": 0.6,
+        "cadence": 0.8,
+        "arm_swing": 0.4,
+        "crouch": 10.0,
+        "swing": {
+          "right_shin": 0.8,
+          "left_shin": 0.8
+        },
+        "pose": {
+          "torso": [
+            0,
+            30.0,
+            0
+          ],
+          "head": [
+            0,
+            -10.0,
+            0
+          ]
+        }
+      },
+      "speed_mps": 0.605
+    },
+    {
+      "id": "P4",
+      "group": "P",
+      "text": "수도승처럼 걸어",
+      "expect": "accept",
+      "expect_action": "walk",
+      "target": "Monk",
+      "level1": "pass",
+      "tokens": 3421,
+      "answer": "{\"action\": \"walk\", \"s\": 0.7, \"n\": 0.8, \"c\": 10, \"m_arm\": 0.4, \"m_knee\": 0.8, \"torso_pitch\": 15, \"head_pitch\": 20}",
+      "params": {
+        "action": "walk",
+        "s": 0.7,
+        "n": 0.8,
+        "c": 10.0,
+        "m_arm": 0.4,
+        "m_torso": 1.0,
+        "m_knee": 0.8,
+        "m_elbow": 1.0,
+        "torso_pitch": 15.0,
+        "head_pitch": 20.0,
+        "shoulder_flexion": 0.0,
+        "shoulder_abduction": 0.0,
+        "elbow_flexion": 0.0,
+        "stance_width": 0.0,
+        "toe_out": 0.0
+      },
+      "rules": [],
+      "scales": {
+        "speed": 0.7,
+        "cadence": 0.8,
+        "arm_swing": 0.4,
+        "crouch": 10.0,
+        "swing": {
+          "right_shin": 0.8,
+          "left_shin": 0.8
+        },
+        "pose": {
+          "torso": [
+            0,
+            15.0,
+            0
+          ],
+          "head": [
+            0,
+            20.0,
+            0
+          ]
+        }
+      },
+      "speed_mps": 0.706
+    },
+    {
+      "id": "P5",
+      "group": "P",
+      "text": "술 취한 사람처럼 걸어",
+      "expect": "accept",
+      "expect_action": "walk",
+      "target": "Drunk",
+      "level1": "pass",
+      "tokens": 2804,
+      "answer": "{\"m_torso\": 10, \"torso_pitch\": 15, \"head_pitch\": 25}",
+      "params": {
+        "action": "walk",
+        "s": 1.0,
+        "n": 1.0,
+        "c": 0.0,
+        "m_arm": 1.0,
+        "m_torso": 10.0,
+        "m_knee": 1.0,
+        "m_elbow": 1.0,
+        "torso_pitch": 15.0,
+        "head_pitch": 25.0,
+        "shoulder_flexion": 0.0,
+        "shoulder_abduction": 0.0,
+        "elbow_flexion": 0.0,
+        "stance_width": 0.0,
+        "toe_out": 0.0
+      },
+      "rules": [],
+      "scales": {
+        "swing": {
+          "torso": 10.0
+        },
+        "pose": {
+          "torso": [
+            0,
+            15.0,
+            0
+          ],
+          "head": [
+            0,
+            25.0,
+            0
+          ]
+        }
+      },
+      "speed_mps": 1.26
+    },
+    {
+      "id": "P6",
+      "group": "P",
+      "text": "슈퍼맨처럼 걸어",
+      "expect": "accept",
+      "expect_action": "walk",
+      "target": "Superman",
+      "level1": "pass",
+      "tokens": 2242,
+      "answer": "{\"s\": 1.15, \"m_arm\": 1.4, \"torso_pitch\": -12, \"head_pitch\": -10}",
+      "params": {
+        "action": "walk",
+        "s": 1.15,
+        "n": 1.0,
+        "c": 0.0,
+        "m_arm": 1.4,
+        "m_torso": 1.0,
+        "m_knee": 1.0,
+        "m_elbow": 1.0,
+        "torso_pitch": -12.0,
+        "head_pitch": -10.0,
+        "shoulder_flexion": 0.0,
+        "shoulder_abduction": 0.0,
+        "elbow_flexion": 0.0,
+        "stance_width": 0.0,
+        "toe_out": 0.0
+      },
+      "rules": [],
+      "scales": {
+        "speed": 1.15,
+        "arm_swing": 1.4,
+        "pose": {
+          "torso": [
+            0,
+            -12.0,
+            0
+          ],
+          "head": [
+            0,
+            -10.0,
+            0
+          ]
+        }
+      },
+      "speed_mps": 1.449
+    },
+    {
+      "id": "F1",
+      "group": "F",
+      "text": "팔자걸음으로 걸어",
+      "expect": "accept",
+      "expect_action": "walk",
+      "target": "DuckFoot",
+      "level1": "pass",
+      "tokens": 2379,
+      "answer": "{\"action\": \"walk\", \"shoulder_abduction\": 80, \"m_arm\": 0.3}",
+      "params": {
+        "action": "walk",
+        "s": 1.0,
+        "n": 1.0,
+        "c": 0.0,
+        "m_arm": 0.3,
+        "m_torso": 1.0,
+        "m_knee": 1.0,
+        "m_elbow": 1.0,
+        "torso_pitch": 0.0,
+        "head_pitch": 0.0,
+        "shoulder_flexion": 0.0,
+        "shoulder_abduction": 80.0,
+        "elbow_flexion": 0.0,
+        "stance_width": 0.0,
+        "toe_out": 0.0
+      },
+      "rules": [],
+      "scales": {
+        "arm_swing": 0.3,
+        "pose": {
+          "right_upper_arm": [
+            -80.0,
+            0,
+            0
+          ],
+          "left_upper_arm": [
+            80.0,
+            0,
+            0
+          ]
+        }
+      },
+      "speed_mps": 1.26
+    },
+    {
+      "id": "F2",
+      "group": "F",
+      "text": "안짱걸음으로 걸어",
+      "expect": "accept",
+      "expect_action": "walk",
+      "target": "PigeonToed",
+      "level1": "pass",
+      "tokens": 4154,
+      "answer": "{\"action\": \"walk\", \"n\": 1.2, \"c\": 15, \"m_arm\": 1.5, \"m_knee\": 1.5}",
+      "params": {
+        "action": "walk",
+        "s": 1.0,
+        "n": 1.2,
+        "c": 15.0,
+        "m_arm": 1.5,
+        "m_torso": 1.0,
+        "m_knee": 1.5,
+        "m_elbow": 1.0,
+        "torso_pitch": 0.0,
+        "head_pitch": 0.0,
+        "shoulder_flexion": 0.0,
+        "shoulder_abduction": 0.0,
+        "elbow_flexion": 0.0,
+        "stance_width": 0.0,
+        "toe_out": 0.0
+      },
+      "rules": [],
+      "scales": {
+        "cadence": 1.2,
+        "arm_swing": 1.5,
+        "crouch": 15.0,
+        "swing": {
+          "right_shin": 1.5,
+          "left_shin": 1.5
+        }
+      },
+      "speed_mps": 1.512
+    },
+    {
+      "id": "F3",
+      "group": "F",
+      "text": "다리를 넓게 벌리고 걸어",
+      "expect": "accept",
+      "expect_action": "walk",
+      "target": "WideLegs",
+      "level1": "pass",
+      "tokens": 609,
+      "answer": "{\"action\": \"walk\", \"stance_width\": 10}",
+      "params": {
+        "action": "walk",
+        "s": 1.0,
+        "n": 1.0,
+        "c": 0.0,
+        "m_arm": 1.0,
+        "m_torso": 1.0,
+        "m_knee": 1.0,
+        "m_elbow": 1.0,
+        "torso_pitch": 0.0,
+        "head_pitch": 0.0,
+        "shoulder_flexion": 0.0,
+        "shoulder_abduction": 0.0,
+        "elbow_flexion": 0.0,
+        "stance_width": 10.0,
+        "toe_out": 0.0
+      },
+      "rules": [],
+      "scales": {
+        "pose": {
+          "right_thigh": [
+            -10.0,
+            0,
+            -0.0
+          ],
+          "left_thigh": [
+            10.0,
+            0,
+            0.0
+          ],
+          "right_foot": [
+            10.0,
+            0,
+            0
+          ],
+          "left_foot": [
+            -10.0,
+            0,
+            0
+          ]
+        }
+      },
+      "speed_mps": 1.26
+    },
+    {
+      "id": "F4",
+      "group": "F",
+      "text": "무릎을 높이 들고 걸어",
+      "expect": "accept",
+      "expect_action": "walk",
+      "target": "HighKnees",
+      "level1": "pass",
+      "tokens": 1955,
+      "answer": "{\"action\": \"walk\", \"m_knee\": 1.5, \"c\": 15}",
+      "params": {
+        "action": "walk",
+        "s": 1.0,
+        "n": 1.0,
+        "c": 15.0,
+        "m_arm": 1.0,
+        "m_torso": 1.0,
+        "m_knee": 1.5,
+        "m_elbow": 1.0,
+        "torso_pitch": 0.0,
+        "head_pitch": 0.0,
+        "shoulder_flexion": 0.0,
+        "shoulder_abduction": 0.0,
+        "elbow_flexion": 0.0,
+        "stance_width": 0.0,
+        "toe_out": 0.0
+      },
+      "rules": [],
+      "scales": {
+        "crouch": 15.0,
+        "swing": {
+          "right_shin": 1.5,
+          "left_shin": 1.5
+        }
+      },
+      "speed_mps": 1.26
+    },
+    {
+      "id": "F5",
+      "group": "F",
+      "text": "까치발로 걸어",
+      "expect": "accept",
+      "expect_action": "walk",
+      "target": "Tiptoe",
+      "level1": "pass",
+      "tokens": 3774,
+      "answer": "{\"n\": 0.6, \"m_torso\": 10}",
+      "params": {
+        "action": "walk",
+        "s": 1.0,
+        "n": 0.6,
+        "c": 0.0,
+        "m_arm": 1.0,
+        "m_torso": 10.0,
+        "m_knee": 1.0,
+        "m_elbow": 1.0,
+        "torso_pitch": 0.0,
+        "head_pitch": 0.0,
+        "shoulder_flexion": 0.0,
+        "shoulder_abduction": 0.0,
+        "elbow_flexion": 0.0,
+        "stance_width": 0.0,
+        "toe_out": 0.0
+      },
+      "rules": [],
+      "scales": {
+        "cadence": 0.6,
+        "swing": {
+          "torso": 10.0
+        }
+      },
+      "speed_mps": 0.756
+    },
+    {
+      "id": "F6",
+      "group": "F",
+      "text": "몸을 웅크리고 걸어",
+      "expect": "accept",
+      "expect_action": "walk",
+      "target": "Crouched",
+      "level1": "pass",
+      "tokens": 4137,
+      "answer": "{\"action\": \"walk\", \"torso_pitch\": 15, \"head_pitch\": 25}",
+      "params": {
+        "action": "walk",
+        "s": 1.0,
+        "n": 1.0,
+        "c": 0.0,
+        "m_arm": 1.0,
+        "m_torso": 1.0,
+        "m_knee": 1.0,
+        "m_elbow": 1.0,
+        "torso_pitch": 15.0,
+        "head_pitch": 25.0,
+        "shoulder_flexion": 0.0,
+        "shoulder_abduction": 0.0,
+        "elbow_flexion": 0.0,
+        "stance_width": 0.0,
+        "toe_out": 0.0
+      },
+      "rules": [],
+      "scales": {
+        "pose": {
+          "torso": [
+            0,
+            15.0,
+            0
+          ],
+          "head": [
+            0,
+            25.0,
+            0
+          ]
+        }
+      },
+      "speed_mps": 1.26
+    },
+    {
+      "id": "F7",
+      "group": "F",
+      "text": "상체를 앞으로 숙이고 걸어",
+      "expect": "accept",
+      "expect_action": "walk",
+      "target": "BentForward",
+      "level1": "pass",
+      "tokens": 1257,
+      "answer": "{\"action\": \"walk\", \"torso_pitch\": 15}",
+      "params": {
+        "action": "walk",
+        "s": 1.0,
+        "n": 1.0,
+        "c": 0.0,
+        "m_arm": 1.0,
+        "m_torso": 1.0,
+        "m_knee": 1.0,
+        "m_elbow": 1.0,
+        "torso_pitch": 15.0,
+        "head_pitch": 0.0,
+        "shoulder_flexion": 0.0,
+        "shoulder_abduction": 0.0,
+        "elbow_flexion": 0.0,
+        "stance_width": 0.0,
+        "toe_out": 0.0
+      },
+      "rules": [],
+      "scales": {
+        "pose": {
+          "torso": [
+            0,
+            15.0,
+            0
+          ]
+        }
+      },
+      "speed_mps": 1.26
+    },
+    {
+      "id": "F8",
+      "group": "F",
+      "text": "비행기처럼 팔을 벌리고 걸어",
+      "expect": "accept",
+      "expect_action": "walk",
+      "target": "Aeroplane",
+      "level1": "pass",
+      "tokens": 2480,
+      "answer": "{\"action\": \"walk\", \"shoulder_abduction\": 80, \"m_arm\": 0.3}",
+      "params": {
+        "action": "walk",
+        "s": 1.0,
+        "n": 1.0,
+        "c": 0.0,
+        "m_arm": 0.3,
+        "m_torso": 1.0,
+        "m_knee": 1.0,
+        "m_elbow": 1.0,
+        "torso_pitch": 0.0,
+        "head_pitch": 0.0,
+        "shoulder_flexion": 0.0,
+        "shoulder_abduction": 80.0,
+        "elbow_flexion": 0.0,
+        "stance_width": 0.0,
+        "toe_out": 0.0
+      },
+      "rules": [],
+      "scales": {
+        "arm_swing": 0.3,
+        "pose": {
+          "right_upper_arm": [
+            -80.0,
+            0,
+            0
+          ],
+          "left_upper_arm": [
+            80.0,
+            0,
+            0
+          ]
+        }
+      },
+      "speed_mps": 1.26
+    },
+    {
+      "id": "M1",
+      "group": "M",
+      "text": "우울하게 걸어",
+      "expect": "accept",
+      "expect_action": "walk",
+      "target": "Depressed",
+      "level1": "pass",
+      "tokens": 1668,
+      "answer": "{\"s\": 0.8, \"n\": 0.75, \"m_arm\": 0.4, \"m_knee\": 0.8, \"torso_pitch\": 15, \"head_pitch\": 25}",
+      "params": {
+        "action": "walk",
+        "s": 0.8,
+        "n": 0.75,
+        "c": 0.0,
+        "m_arm": 0.4,
+        "m_torso": 1.0,
+        "m_knee": 0.8,
+        "m_elbow": 1.0,
+        "torso_pitch": 15.0,
+        "head_pitch": 25.0,
+        "shoulder_flexion": 0.0,
+        "shoulder_abduction": 0.0,
+        "elbow_flexion": 0.0,
+        "stance_width": 0.0,
+        "toe_out": 0.0
+      },
+      "rules": [],
+      "scales": {
+        "speed": 0.8,
+        "cadence": 0.75,
+        "arm_swing": 0.4,
+        "swing": {
+          "right_shin": 0.8,
+          "left_shin": 0.8
+        },
+        "pose": {
+          "torso": [
+            0,
+            15.0,
+            0
+          ],
+          "head": [
+            0,
+            25.0,
+            0
+          ]
+        }
+      },
+      "speed_mps": 0.756
+    },
+    {
+      "id": "M2",
+      "group": "M",
+      "text": "신나게 걸어",
+      "expect": "accept",
+      "expect_action": "walk",
+      "target": "Elated",
+      "level1": "pass",
+      "tokens": 4159,
+      "answer": "{\"s\": 1.2, \"n\": 1.15, \"m_arm\": 1.8, \"torso_pitch\": -5, \"elbow_flexion\": 45}",
+      "params": {
+        "action": "walk",
+        "s": 1.2,
+        "n": 1.15,
+        "c": 0.0,
+        "m_arm": 1.8,
+        "m_torso": 1.0,
+        "m_knee": 1.0,
+        "m_elbow": 1.0,
+        "torso_pitch": -5.0,
+        "head_pitch": 0.0,
+        "shoulder_flexion": 0.0,
+        "shoulder_abduction": 0.0,
+        "elbow_flexion": 45.0,
+        "stance_width": 0.0,
+        "toe_out": 0.0
+      },
+      "rules": [],
+      "scales": {
+        "speed": 1.2,
+        "cadence": 1.15,
+        "arm_swing": 1.8,
+        "pose": {
+          "torso": [
+            0,
+            -5.0,
+            0
+          ],
+          "right_lower_arm": [
+            0,
+            0,
+            45.0
+          ],
+          "left_lower_arm": [
+            0,
+            0,
+            -45.0
+          ]
+        }
+      },
+      "speed_mps": 1.739
+    },
+    {
+      "id": "M3",
+      "group": "M",
+      "text": "화가 나서 쿵쿵 걸어",
+      "expect": "accept",
+      "expect_action": "walk",
+      "target": "Angry",
+      "level1": "pass",
+      "tokens": 4156,
+      "answer": "{\"action\": \"walk\", \"s\": 1.2, \"n\": 1.15, \"m_knee\": 0.8, \"torso_pitch\": 15}",
+      "params": {
+        "action": "walk",
+        "s": 1.2,
+        "n": 1.15,
+        "c": 0.0,
+        "m_arm": 1.0,
+        "m_torso": 1.0,
+        "m_knee": 0.8,
+        "m_elbow": 1.0,
+        "torso_pitch": 15.0,
+        "head_pitch": 0.0,
+        "shoulder_flexion": 0.0,
+        "shoulder_abduction": 0.0,
+        "elbow_flexion": 0.0,
+        "stance_width": 0.0,
+        "toe_out": 0.0
+      },
+      "rules": [],
+      "scales": {
+        "speed": 1.2,
+        "cadence": 1.15,
+        "swing": {
+          "right_shin": 0.8,
+          "left_shin": 0.8
+        },
+        "pose": {
+          "torso": [
+            0,
+            15.0,
+            0
+          ]
+        }
+      },
+      "speed_mps": 1.739
+    },
+    {
+      "id": "M4",
+      "group": "M",
+      "text": "당당하게 걸어",
+      "expect": "accept",
+      "expect_action": "walk",
+      "target": "Proud",
+      "level1": "pass",
+      "tokens": 544,
+      "answer": "{\"action\": \"walk\", \"s\": 1.15, \"m_arm\": 1.4, \"torso_pitch\": -12, \"head_pitch\": -10}",
+      "params": {
+        "action": "walk",
+        "s": 1.15,
+        "n": 1.0,
+        "c": 0.0,
+        "m_arm": 1.4,
+        "m_torso": 1.0,
+        "m_knee": 1.0,
+        "m_elbow": 1.0,
+        "torso_pitch": -12.0,
+        "head_pitch": -10.0,
+        "shoulder_flexion": 0.0,
+        "shoulder_abduction": 0.0,
+        "elbow_flexion": 0.0,
+        "stance_width": 0.0,
+        "toe_out": 0.0
+      },
+      "rules": [],
+      "scales": {
+        "speed": 1.15,
+        "arm_swing": 1.4,
+        "pose": {
+          "torso": [
+            0,
+            -12.0,
+            0
+          ],
+          "head": [
+            0,
+            -10.0,
+            0
+          ]
+        }
+      },
+      "speed_mps": 1.449
+    },
+    {
+      "id": "M5",
+      "group": "M",
+      "text": "뻣뻣하게 걸어",
+      "expect": "accept",
+      "expect_action": "walk",
+      "target": "Stiff",
+      "level1": "pass",
+      "tokens": 2685,
+      "answer": "{\"m_torso\": 0, \"m_elbow\": 0, \"m_arm\": 0.3}",
+      "params": {
+        "action": "walk",
+        "s": 1.0,
+        "n": 1.0,
+        "c": 0.0,
+        "m_arm": 0.3,
+        "m_torso": 0.0,
+        "m_knee": 1.0,
+        "m_elbow": 0.0,
+        "torso_pitch": 0.0,
+        "head_pitch": 0.0,
+        "shoulder_flexion": 0.0,
+        "shoulder_abduction": 0.0,
+        "elbow_flexion": 0.0,
+        "stance_width": 0.0,
+        "toe_out": 0.0
+      },
+      "rules": [],
+      "scales": {
+        "arm_swing": 0.3,
+        "swing": {
+          "torso": 0.0,
+          "right_lower_arm": 0.0,
+          "left_lower_arm": 0.0
+        }
+      },
+      "speed_mps": 1.26
+    }
+  ]
+}

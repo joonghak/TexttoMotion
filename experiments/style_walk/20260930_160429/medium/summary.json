@@ -1,0 +1,66 @@
+{
+  "command": "힘있게",
+  "variant": {
+    "key": "medium",
+    "label": "힘있게",
+    "scales": [
+      1.6,
+      1.4,
+      0.6
+    ],
+    "terms": {
+      "track_w": 0.6,
+      "reward_key_bodies": [
+        "head"
+      ],
+      "arm_swing": {
+        "w": 0.15,
+        "scale": 1.6,
+        "k": 20.0
+      },
+      "foot_lift": {
+        "w": 0.15,
+        "scale": 1.4,
+        "k": 100.0
+      },
+      "upright": {
+        "w": 0.1,
+        "scale": 0.6,
+        "k": 20.0
+      }
+    }
+  },
+  "reference": {
+    "clip": "/home/jong/TexttoMotion/MimicKit/data/motions/humanoid/humanoid_walk.pkl",
+    "duration_s": 10.0
+  },
+  "training": {
+    "iterations": 1000,
+    "num_envs": 1024,
+    "status": "completed",
+    "started": "2026-09-30T16:49:19",
+    "finished": "2026-09-30T17:10:59",
+    "final_log": {
+      "Iteration": 999.0,
+      "Wall_Time": 0.3579551057683097,
+      "Samples": 32768000.0,
+      "Samples_Per_Second": 25428.390531503504,
+      "Test_Return": 280.37445068359375,
+      "Test_Episode_Length": 296.8066711425781,
+      "Test_Episodes": 1024.0,
+      "Train_Return": 272.3905944824219,
+      "Train_Episode_Length": 297.3683776855469,
+      "Train_Episodes": 10332.0,
+      "Critic_Loss": 0.047239892184734344,
+      "Actor_Loss": -0.007250989321619272,
+      "Clip_Frac": 0.21858520805835724,
+      "Imp_Ratio": 0.9998981356620789,
+      "Action_Bound_Loss": 0.0,
+      "Adv_Mean": 0.02405441179871559,
+      "Adv_Std": 0.2235378473997116,
+      "Obs_Norm_Mean": 0.3444628119468689,
+      "Obs_Norm_Std": 0.1747616082429886,
+      "Exp_Prob": 1.0
+    }
+  }
+}

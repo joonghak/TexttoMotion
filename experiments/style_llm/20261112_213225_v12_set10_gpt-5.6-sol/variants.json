@@ -1,0 +1,187 @@
+[
+  {
+    "key": "base",
+    "label": "기본 걷기",
+    "scales": {}
+  },
+  {
+    "key": "C1",
+    "label": "천천히 걷다가 갑자기 막 뛰어",
+    "scales": {
+      "cadence": 0.75
+    },
+    "clip": "chain_walk3_run3"
+  },
+  {
+    "key": "C2",
+    "label": "뛰어가다가 앞으로 크게 점프해",
+    "scales": {
+      "speed": 1.4
+    },
+    "clip": "chain_run2p4_jump1p77"
+  },
+  {
+    "key": "C3",
+    "label": "걸어가다가 앞차기 한 번 해",
+    "scales": {},
+    "clip": "chain_walk3_kick1p53"
+  },
+  {
+    "key": "C4",
+    "label": "점프 두 번 하고 나서 걸어",
+    "scales": {},
+    "clip": "chain_jump3p54_walk3"
+  },
+  {
+    "key": "C5",
+    "label": "걷다가 돌려차기 해",
+    "scales": {},
+    "clip": "chain_walk3_spinkick1p28"
+  },
+  {
+    "key": "C6",
+    "label": "달리다가 멈춰서 발차기해",
+    "scales": {},
+    "clip": "chain_run2p4_kick1p53"
+  },
+  {
+    "key": "C7",
+    "label": "걷다가 뛰다가 마지막에 점프해",
+    "scales": {},
+    "clip": "chain_walk3_run3_jump3p54"
+  },
+  {
+    "key": "C8",
+    "label": "지쳐서 터벅터벅 걷다가 힘을 내서 달려",
+    "scales": {},
+    "clip": "chain_walk3_run3"
+  },
+  {
+    "key": "T1",
+    "label": "까치발을 들고 사뿐사뿐 걸어",
+    "scales": {
+      "speed": 0.8,
+      "cadence": 0.8,
+      "arm_swing": 0.4,
+      "foot_pitch": 25.0,
+      "swing": {
+        "right_shin": 0.7,
+        "left_shin": 0.7
+      }
+    },
+    "clip": "walk"
+  },
+  {
+    "key": "T2",
+    "label": "발뒤꿈치로만 걸어",
+    "scales": {
+      "foot_pitch": -20.0
+    },
+    "clip": "walk"
+  },
+  {
+    "key": "T3",
+    "label": "하이힐을 신은 것처럼 걸어",
+    "scales": {
+      "speed": 0.65,
+      "cadence": 0.85,
+      "foot_pitch": 25.0,
+      "swing": {
+        "torso": 5.0,
+        "right_shin": 0.8,
+        "left_shin": 0.8
+      },
+      "pose": {
+        "right_thigh": [
+          6.0,
+          0,
+          -0.0
+        ],
+        "right_foot": [
+          -6.0,
+          0,
+          0
+        ],
+        "left_thigh": [
+          -6.0,
+          0,
+          0.0
+        ],
+        "left_foot": [
+          6.0,
+          0,
+          0
+        ]
+      }
+    },
+    "clip": "walk"
+  },
+  {
+    "key": "T4",
+    "label": "발레리나처럼 발끝으로 걸어",
+    "scales": {
+      "speed": 0.6,
+      "cadence": 0.85,
+      "arm_swing": 0.3,
+      "foot_pitch": 30.0,
+      "swing": {
+        "torso": 0.0,
+        "right_shin": 0.7,
+        "left_shin": 0.7
+      },
+      "pose": {
+        "torso": [
+          0,
+          -10.0,
+          0
+        ],
+        "head": [
+          0,
+          -10.0,
+          0
+        ],
+        "right_upper_arm": [
+          -55.0,
+          -0.0,
+          0.0
+        ],
+        "right_lower_arm": [
+          0,
+          0,
+          40.0
+        ],
+        "right_thigh": [
+          8.0,
+          0,
+          -30.0
+        ],
+        "right_foot": [
+          -8.0,
+          0,
+          0
+        ],
+        "left_upper_arm": [
+          55.0,
+          -0.0,
+          -0.0
+        ],
+        "left_lower_arm": [
+          0,
+          0,
+          -40.0
+        ],
+        "left_thigh": [
+          -8.0,
+          0,
+          30.0
+        ],
+        "left_foot": [
+          8.0,
+          0,
+          0
+        ]
+      }
+    },
+    "clip": "walk"
+  }
+]

@@ -1,0 +1,46 @@
+[
+ {
+  "key": "base",
+  "label": "기본 걷기",
+  "scales": {}
+ },
+ {
+  "key": "q8_N1",
+  "label": "펭귄처럼 걸어: Qwen3-8B 4비트, 프롬프트 v8이 정한 값 (s 0.6, n 1.25, m_torso 6, 상체 숙임 15, 다리 벌림 10, 발끝 벌림 30)",
+  "scales": {
+   "speed": 0.6,
+   "cadence": 1.25,
+   "swing": {
+    "torso": 6.0
+   },
+   "pose": {
+    "torso": [
+     0,
+     15.0,
+     0
+    ],
+    "right_thigh": [
+     -10.0,
+     0,
+     -30.0
+    ],
+    "left_thigh": [
+     10.0,
+     0,
+     30.0
+    ],
+    "right_foot": [
+     10.0,
+     0,
+     0
+    ],
+    "left_foot": [
+     -10.0,
+     0,
+     0
+    ]
+   }
+  },
+  "clip": "walk"
+ }
+]

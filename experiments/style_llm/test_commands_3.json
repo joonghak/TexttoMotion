@@ -1,0 +1,35 @@
+{
+  "note": "Third held-out set, written after the level-3 results of set 2 and before prompt v3. Sets 1 and 2 have been seen and now serve as development sets. Group A takes Robot, Elderly, Swaying and Zombie, which appeared once in sets 1 and 2, and six of the eight styles that appeared twice; Cautious and Tired are left out because both of their earlier paraphrases reproduced the few-shot values exactly. Do not edit after its first run.",
+  "groups": {
+    "A": "다른 말로 바꾼 12종 스타일: 수락해야 함. ref는 2단계 평가에서 비교할 퓨샷 스타일",
+    "B": "12종에 없는 새 스타일: 수락해야 함",
+    "C": "현재 파라미터로 표현할 수 없는 명령: 거절해야 함"
+  },
+  "commands": [
+    {"id": "A1", "group": "A", "text": "도둑처럼 몸을 숙이고 숨죽여 걸어", "expect": "accept", "ref": "Sneaky"},
+    {"id": "A2", "group": "A", "text": "기세 좋게 팔을 휘저으며 걸어", "expect": "accept", "ref": "Energetic"},
+    {"id": "A3", "group": "A", "text": "다리를 번쩍번쩍 들어 올리며 걸어", "expect": "accept", "ref": "HighKnees"},
+    {"id": "A4", "group": "A", "text": "왕처럼 위엄 있게 걸어", "expect": "accept", "ref": "Proud"},
+    {"id": "A5", "group": "A", "text": "발을 조금씩 바삐 옮기며 걸어", "expect": "accept", "ref": "Mincing"},
+    {"id": "A6", "group": "A", "text": "보폭을 넓게 해서 시원시원하게 걸어", "expect": "accept", "ref": "BigSteps"},
+    {"id": "A7", "group": "A", "text": "태엽 인형처럼 딱딱하게 걸어", "expect": "accept", "ref": "Robot"},
+    {"id": "A8", "group": "A", "text": "나이 많은 어르신처럼 구부정하게 천천히 걸어", "expect": "accept", "ref": "Elderly"},
+    {"id": "A9", "group": "A", "text": "상체를 좌우로 기우뚱거리며 걸어", "expect": "accept", "ref": "Swaying"},
+    {"id": "A10", "group": "A", "text": "되살아난 시체처럼 걸어", "expect": "accept", "ref": "Zombie"},
+    {"id": "B1", "group": "B", "text": "모델처럼 런웨이를 걷듯이 걸어", "expect": "accept"},
+    {"id": "B2", "group": "B", "text": "겁에 질려서 움츠린 채로 걸어", "expect": "accept"},
+    {"id": "B3", "group": "B", "text": "주머니에 손을 넣고 건들건들 걸어", "expect": "accept"},
+    {"id": "B4", "group": "B", "text": "휴대폰을 들여다보면서 걸어", "expect": "accept"},
+    {"id": "B5", "group": "B", "text": "등산하듯 몸을 앞으로 숙이고 힘차게 걸어", "expect": "accept"},
+    {"id": "B6", "group": "B", "text": "아기처럼 아장아장 걸어", "expect": "accept"},
+    {"id": "B7", "group": "B", "text": "경보 선수처럼 빠르게 걸어", "expect": "accept"},
+    {"id": "B8", "group": "B", "text": "무릎을 굽힌 채 엉거주춤하게 걸어", "expect": "accept"},
+    {"id": "B9", "group": "B", "text": "외줄 타듯이 두 팔을 양옆으로 벌리고 걸어", "expect": "accept"},
+    {"id": "B10", "group": "B", "text": "보폭을 평소의 절반으로 줄여서 걸어", "expect": "accept", "check": "s within 0.5 ± 10%"},
+    {"id": "C1", "group": "C", "text": "두 팔을 하늘로 쭉 뻗은 채로 걸어", "expect": "reject", "why": "팔을 머리 위로 들면 조기 종료 (4.9절)"},
+    {"id": "C2", "group": "C", "text": "왼팔만 크게 휘두르며 걸어", "expect": "reject", "why": "파라미터가 좌우 대칭"},
+    {"id": "C3", "group": "C", "text": "엎드려서 네 발로 기어가", "expect": "reject", "why": "보행이 아닌 동작"},
+    {"id": "C4", "group": "C", "text": "스케이트 타듯이 미끄러지며 가", "expect": "reject", "why": "보행이 아닌 동작 (발이 지면에서 미끄러짐)"},
+    {"id": "C5", "group": "C", "text": "지그재그로 걸어", "expect": "reject", "why": "진행 방향을 바꾸는 파라미터가 없음"}
+  ]
+}

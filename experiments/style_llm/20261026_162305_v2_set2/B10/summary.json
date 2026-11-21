@@ -1,0 +1,49 @@
+{
+  "command": "1분에 140걸음 걷는 빠르기로 걸어",
+  "variant": {
+    "key": "B10",
+    "label": "1분에 140걸음 걷는 빠르기로 걸어",
+    "scales": {
+      "cadence": 1.2
+    },
+    "terms": {
+      "track_w": 0.6,
+      "cadence": {
+        "scale": 1.2
+      }
+    }
+  },
+  "reference": {
+    "clip": "/home/jong/TexttoMotion/MimicKit/data/motions/humanoid/humanoid_walk.pkl",
+    "duration_s": 10.0
+  },
+  "training": {
+    "iterations": 2000,
+    "num_envs": 1024,
+    "status": "completed",
+    "started": "2026-10-26T19:52:17",
+    "finished": "2026-10-26T20:19:10",
+    "final_log": {
+      "Iteration": 1999.0,
+      "Wall_Time": 0.445106398595704,
+      "Samples": 65536000.0,
+      "Samples_Per_Second": 40899.085031980816,
+      "Test_Return": 290.38543701171875,
+      "Test_Episode_Length": 297.09375,
+      "Test_Episodes": 1024.0,
+      "Train_Return": 277.78192138671875,
+      "Train_Episode_Length": 298.2713928222656,
+      "Train_Episodes": 10302.0,
+      "Critic_Loss": 0.03775213286280632,
+      "Actor_Loss": -0.005488935858011246,
+      "Clip_Frac": 0.25162965059280396,
+      "Imp_Ratio": 0.999328076839447,
+      "Action_Bound_Loss": 1.3865253549738554e-06,
+      "Adv_Mean": -0.009236959740519524,
+      "Adv_Std": 0.1997203528881073,
+      "Obs_Norm_Mean": 0.34221017360687256,
+      "Obs_Norm_Std": 0.1735461801290512,
+      "Exp_Prob": 1.0
+    }
+  }
+}

@@ -1,0 +1,416 @@
+[
+  {
+    "key": "base",
+    "label": "기본 걷기",
+    "scales": {}
+  },
+  {
+    "key": "A1",
+    "label": "발소리가 나지 않게 몰래 걸어",
+    "scales": {
+      "arm_swing": 0.3,
+      "swing": {
+        "right_shin": 0.7,
+        "left_shin": 0.7
+      }
+    }
+  },
+  {
+    "key": "A2",
+    "label": "넘어지지 않게 한 발 한 발 신중하게 걸어",
+    "scales": {
+      "cadence": 0.5,
+      "arm_swing": 0.3,
+      "crouch": 15.0,
+      "swing": {
+        "right_shin": 0.8,
+        "left_shin": 0.8
+      },
+      "pose": {
+        "torso": [
+          0,
+          15.0,
+          0
+        ],
+        "right_upper_arm": [
+          0,
+          -20.0,
+          0
+        ],
+        "left_upper_arm": [
+          0,
+          -20.0,
+          0
+        ],
+        "right_lower_arm": [
+          0,
+          0,
+          40.0
+        ],
+        "left_lower_arm": [
+          0,
+          0,
+          -40.0
+        ]
+      }
+    }
+  },
+  {
+    "key": "A3",
+    "label": "활기차고 씩씩하게 걸어",
+    "scales": {
+      "speed": 1.2,
+      "cadence": 1.15,
+      "arm_swing": 1.8,
+      "swing": {
+        "torso": 8.0
+      },
+      "pose": {
+        "torso": [
+          0,
+          -5.0,
+          0
+        ]
+      }
+    }
+  },
+  {
+    "key": "A4",
+    "label": "허벅지를 높이 들면서 걸어",
+    "scales": {
+      "crouch": 15.0,
+      "swing": {
+        "right_shin": 1.5,
+        "left_shin": 1.5
+      }
+    }
+  },
+  {
+    "key": "A5",
+    "label": "기진맥진해서 축 처진 채로 걸어",
+    "scales": {
+      "speed": 0.75,
+      "cadence": 0.7,
+      "arm_swing": 0.4,
+      "crouch": 15.0,
+      "swing": {
+        "right_shin": 0.8,
+        "left_shin": 0.8
+      },
+      "pose": {
+        "torso": [
+          0,
+          20.0,
+          0
+        ],
+        "head": [
+          0,
+          25.0,
+          0
+        ]
+      }
+    }
+  },
+  {
+    "key": "A6",
+    "label": "턱을 치켜들고 거만하게 걸어",
+    "scales": {
+      "arm_swing": 0.4,
+      "swing": {
+        "right_shin": 0.8,
+        "left_shin": 0.8
+      },
+      "pose": {
+        "head": [
+          0,
+          -10.0,
+          0
+        ]
+      }
+    }
+  },
+  {
+    "key": "A7",
+    "label": "잰걸음으로 바쁘게 걸어",
+    "scales": {
+      "speed": 0.7,
+      "cadence": 1.2,
+      "arm_swing": 1.5,
+      "crouch": 15.0,
+      "swing": {
+        "right_shin": 1.5,
+        "left_shin": 1.5
+      }
+    }
+  },
+  {
+    "key": "A8",
+    "label": "한 걸음 한 걸음 크게 내디디며 걸어",
+    "scales": {
+      "speed": 1.4
+    }
+  },
+  {
+    "key": "A9",
+    "label": "몸을 좌우로 크게 흔들면서 걸어",
+    "scales": {
+      "swing": {
+        "torso": 10.0
+      }
+    }
+  },
+  {
+    "key": "A10",
+    "label": "두 팔을 앞으로 나란히 뻗고 천천히 걸어",
+    "scales": {
+      "cadence": 0.6,
+      "arm_swing": 0.3,
+      "pose": {
+        "right_upper_arm": [
+          0,
+          -85.0,
+          0
+        ],
+        "left_upper_arm": [
+          0,
+          -85.0,
+          0
+        ]
+      }
+    }
+  },
+  {
+    "key": "B1",
+    "label": "긴장해서 몸이 굳은 채로 걸어",
+    "scales": {
+      "arm_swing": 0.3,
+      "swing": {
+        "torso": 0.0,
+        "right_lower_arm": 0.0,
+        "left_lower_arm": 0.0
+      }
+    }
+  },
+  {
+    "key": "B2",
+    "label": "우아하게 천천히 걸어",
+    "scales": {
+      "speed": 0.8,
+      "cadence": 0.75,
+      "arm_swing": 0.5,
+      "crouch": 10.0,
+      "swing": {
+        "torso": 5.0,
+        "right_shin": 0.8,
+        "left_shin": 0.8
+      },
+      "pose": {
+        "torso": [
+          0,
+          5.0,
+          0
+        ]
+      }
+    }
+  },
+  {
+    "key": "B3",
+    "label": "배가 아파서 배를 움켜쥐고 걸어",
+    "scales": {
+      "speed": 0.8,
+      "cadence": 0.75,
+      "arm_swing": 0.4,
+      "crouch": 10.0,
+      "swing": {
+        "right_shin": 0.8,
+        "left_shin": 0.8
+      },
+      "pose": {
+        "torso": [
+          0,
+          15.0,
+          0
+        ],
+        "head": [
+          0,
+          25.0,
+          0
+        ],
+        "right_upper_arm": [
+          0,
+          -20.0,
+          0
+        ],
+        "left_upper_arm": [
+          0,
+          -20.0,
+          0
+        ],
+        "right_lower_arm": [
+          0,
+          0,
+          40.0
+        ],
+        "left_lower_arm": [
+          0,
+          0,
+          -40.0
+        ]
+      }
+    }
+  },
+  {
+    "key": "B4",
+    "label": "졸려서 꾸벅꾸벅 졸면서 걸어",
+    "scales": {
+      "speed": 0.8,
+      "cadence": 0.75,
+      "arm_swing": 0.4,
+      "swing": {
+        "right_shin": 0.8,
+        "left_shin": 0.8
+      },
+      "pose": {
+        "torso": [
+          0,
+          15.0,
+          0
+        ],
+        "head": [
+          0,
+          25.0,
+          0
+        ]
+      }
+    }
+  },
+  {
+    "key": "B5",
+    "label": "운동하듯 파워 워킹해",
+    "scales": {
+      "speed": 1.2,
+      "cadence": 1.1,
+      "arm_swing": 1.4,
+      "swing": {
+        "right_shin": 1.2,
+        "left_shin": 1.2
+      },
+      "pose": {
+        "torso": [
+          0,
+          10.0,
+          0
+        ],
+        "right_lower_arm": [
+          0,
+          0,
+          40.0
+        ],
+        "left_lower_arm": [
+          0,
+          0,
+          -40.0
+        ]
+      }
+    }
+  },
+  {
+    "key": "B6",
+    "label": "펭귄처럼 뒤뚱뒤뚱 걸어",
+    "scales": {
+      "cadence": 0.6,
+      "swing": {
+        "torso": 10.0
+      }
+    }
+  },
+  {
+    "key": "B7",
+    "label": "고양이처럼 사뿐사뿐 걸어",
+    "scales": {
+      "speed": 0.8,
+      "arm_swing": 0.4,
+      "crouch": 10.0,
+      "swing": {
+        "torso": 2.0,
+        "right_shin": 0.8,
+        "left_shin": 0.8
+      },
+      "pose": {
+        "torso": [
+          0,
+          10.0,
+          0
+        ],
+        "head": [
+          0,
+          -10.0,
+          0
+        ]
+      }
+    }
+  },
+  {
+    "key": "B8",
+    "label": "어깨를 움츠리고 소심하게 걸어",
+    "scales": {
+      "cadence": 0.5,
+      "arm_swing": 0.3,
+      "crouch": 15.0,
+      "swing": {
+        "right_shin": 0.8,
+        "left_shin": 0.8
+      },
+      "pose": {
+        "torso": [
+          0,
+          15.0,
+          0
+        ],
+        "right_upper_arm": [
+          0,
+          -15.0,
+          0
+        ],
+        "left_upper_arm": [
+          0,
+          -15.0,
+          0
+        ],
+        "right_lower_arm": [
+          0,
+          0,
+          40.0
+        ],
+        "left_lower_arm": [
+          0,
+          0,
+          -40.0
+        ]
+      }
+    }
+  },
+  {
+    "key": "B9",
+    "label": "비를 맞으며 고개를 숙이고 서둘러 걸어",
+    "scales": {
+      "speed": 1.15,
+      "cadence": 1.15,
+      "arm_swing": 1.5,
+      "pose": {
+        "head": [
+          0,
+          25.0,
+          0
+        ]
+      }
+    }
+  },
+  {
+    "key": "B10",
+    "label": "1분에 140걸음 걷는 빠르기로 걸어",
+    "scales": {
+      "cadence": 1.2
+    }
+  }
+]

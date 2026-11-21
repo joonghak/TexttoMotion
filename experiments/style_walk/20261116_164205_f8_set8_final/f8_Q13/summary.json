@@ -1,0 +1,74 @@
+{
+  "command": "발끝을 30도 더 바깥으로 돌리고 걸어: gpt-5.6-terra, 프롬프트 v14이 정한 값 (toe_out 30)",
+  "variant": {
+    "key": "f8_Q13",
+    "label": "발끝을 30도 더 바깥으로 돌리고 걸어: gpt-5.6-terra, 프롬프트 v14이 정한 값 (toe_out 30)",
+    "scales": {
+      "pose": {
+        "right_thigh": [
+          -0.0,
+          0,
+          -30.0
+        ],
+        "left_thigh": [
+          0.0,
+          0,
+          30.0
+        ]
+      }
+    },
+    "terms": {
+      "track_w": 0.6,
+      "pose": {
+        "right_thigh": [
+          -0.0,
+          0,
+          -30.0
+        ],
+        "left_thigh": [
+          0.0,
+          0,
+          30.0
+        ]
+      },
+      "style": {
+        "w": 0.2
+      },
+      "swing_unit": "/home/jong/TexttoMotion/MimicKit/data/motions/humanoid/humanoid_walk.pkl",
+      "pose_unit": "/home/jong/TexttoMotion/MimicKit/data/motions/humanoid/humanoid_walk.pkl"
+    }
+  },
+  "reference": {
+    "clip": "/home/jong/TexttoMotion/MimicKit/data/motions/humanoid/humanoid_walk.pkl",
+    "duration_s": 10.0
+  },
+  "training": {
+    "iterations": 2000,
+    "num_envs": 1024,
+    "status": "completed",
+    "started": "2026-11-16T22:43:33",
+    "finished": "2026-11-16T23:15:05",
+    "final_log": {
+      "Iteration": 1999.0,
+      "Wall_Time": 0.5222488755649991,
+      "Samples": 65536000.0,
+      "Samples_Per_Second": 34857.795384910736,
+      "Test_Return": 284.0736083984375,
+      "Test_Episode_Length": 297.96484375,
+      "Test_Episodes": 1024.0,
+      "Train_Return": 268.1059875488281,
+      "Train_Episode_Length": 297.05438232421875,
+      "Train_Episodes": 10351.0,
+      "Critic_Loss": 0.1260571926832199,
+      "Actor_Loss": -0.002002217574045062,
+      "Clip_Frac": 0.26774293184280396,
+      "Imp_Ratio": 0.9995594024658203,
+      "Action_Bound_Loss": 3.278690883234958e-07,
+      "Adv_Mean": -0.019350843504071236,
+      "Adv_Std": 0.3718378245830536,
+      "Obs_Norm_Mean": 0.34319591522216797,
+      "Obs_Norm_Std": 0.17028608918190002,
+      "Exp_Prob": 1.0
+    }
+  }
+}

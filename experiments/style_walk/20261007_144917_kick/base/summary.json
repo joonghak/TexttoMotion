@@ -1,0 +1,42 @@
+{
+  "command": "s = 1, n = 1",
+  "variant": {
+    "key": "base",
+    "label": "s = 1, n = 1",
+    "scales": {},
+    "terms": null
+  },
+  "reference": {
+    "clip": "/home/jong/TexttoMotion/MimicKit/data/motions/humanoid/humanoid_kick.pkl",
+    "duration_s": 10.0
+  },
+  "training": {
+    "iterations": 1500,
+    "num_envs": 1024,
+    "status": "completed",
+    "started": "2026-10-07T18:18:08",
+    "finished": "2026-10-07T18:42:53",
+    "final_log": {
+      "Iteration": 1499.0,
+      "Wall_Time": 0.4094958557685216,
+      "Samples": 49152000.0,
+      "Samples_Per_Second": 33341.810768046555,
+      "Test_Return": 17.766094207763672,
+      "Test_Episode_Length": 19.663387298583984,
+      "Test_Episodes": 1726.0,
+      "Train_Return": 20.19196319580078,
+      "Train_Episode_Length": 23.435514450073242,
+      "Train_Episodes": 137744.0,
+      "Critic_Loss": 0.03626488894224167,
+      "Actor_Loss": -0.004081479739397764,
+      "Clip_Frac": 0.29595947265625,
+      "Imp_Ratio": 0.9994403719902039,
+      "Action_Bound_Loss": 3.88332500733668e-06,
+      "Adv_Mean": 0.002270839177072048,
+      "Adv_Std": 0.19060444831848145,
+      "Obs_Norm_Mean": 0.37621280550956726,
+      "Obs_Norm_Std": 0.25278618931770325,
+      "Exp_Prob": 1.0
+    }
+  }
+}

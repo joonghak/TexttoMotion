@@ -1,0 +1,62 @@
+{
+  "command": "통통 튀는 걸음을 노린 새 항 확인 (사람이 정한 값): 위아래 출렁임 25°, 무릎 흔들림 1.4배",
+  "variant": {
+    "key": "w_bounce",
+    "label": "통통 튀는 걸음을 노린 새 항 확인 (사람이 정한 값): 위아래 출렁임 25°, 무릎 흔들림 1.4배",
+    "scales": {
+      "bounce": 25,
+      "swing": {
+        "right_shin": 1.4,
+        "left_shin": 1.4
+      }
+    },
+    "terms": {
+      "track_w": 0.6,
+      "bounce": {
+        "angle": 25
+      },
+      "swing": {
+        "right_shin": 1.4,
+        "left_shin": 1.4
+      },
+      "style": {
+        "w": 0.2
+      },
+      "swing_unit": "/home/jong/TexttoMotion/MimicKit/data/motions/humanoid/humanoid_walk.pkl",
+      "pose_unit": "/home/jong/TexttoMotion/MimicKit/data/motions/humanoid/humanoid_walk.pkl"
+    }
+  },
+  "reference": {
+    "clip": "/home/jong/TexttoMotion/MimicKit/data/motions/humanoid/humanoid_walk.pkl",
+    "duration_s": 10.0
+  },
+  "training": {
+    "iterations": 2000,
+    "num_envs": 1024,
+    "status": "completed",
+    "started": "2026-11-11T22:27:10",
+    "finished": "2026-11-11T23:00:13",
+    "final_log": {
+      "Iteration": 1999.0,
+      "Wall_Time": 0.5475651137034099,
+      "Samples": 65536000.0,
+      "Samples_Per_Second": 33246.17290046154,
+      "Test_Return": 267.6764221191406,
+      "Test_Episode_Length": 295.953125,
+      "Test_Episodes": 1024.0,
+      "Train_Return": 254.5436553955078,
+      "Train_Episode_Length": 297.9075012207031,
+      "Train_Episodes": 10317.0,
+      "Critic_Loss": 0.06939351558685303,
+      "Actor_Loss": -0.00119798316154629,
+      "Clip_Frac": 0.2728332579135895,
+      "Imp_Ratio": 0.9991751909255981,
+      "Action_Bound_Loss": 5.306260391080286e-07,
+      "Adv_Mean": 0.005249425768852234,
+      "Adv_Std": 0.2768419682979584,
+      "Obs_Norm_Mean": 0.34229204058647156,
+      "Obs_Norm_Std": 0.17414405941963196,
+      "Exp_Prob": 1.0
+    }
+  }
+}

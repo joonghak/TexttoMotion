@@ -1,0 +1,69 @@
+{
+  "command": "팔 벌림 80°",
+  "variant": {
+    "key": "arms_out",
+    "label": "팔 벌림 80°",
+    "scales": {
+      "pose": {
+        "right_upper_arm": [
+          -80,
+          0,
+          0
+        ],
+        "left_upper_arm": [
+          80,
+          0,
+          0
+        ]
+      }
+    },
+    "terms": {
+      "track_w": 0.6,
+      "pose": {
+        "right_upper_arm": [
+          -80,
+          0,
+          0
+        ],
+        "left_upper_arm": [
+          80,
+          0,
+          0
+        ]
+      }
+    }
+  },
+  "reference": {
+    "clip": "/home/jong/TexttoMotion/MimicKit/data/motions/humanoid/humanoid_jump.pkl",
+    "duration_s": 10.0
+  },
+  "training": {
+    "iterations": 1500,
+    "num_envs": 1024,
+    "status": "completed",
+    "started": "2026-10-09T02:03:25",
+    "finished": "2026-10-09T02:41:29",
+    "final_log": {
+      "Iteration": 1499.0,
+      "Wall_Time": 0.6316861936118867,
+      "Samples": 49152000.0,
+      "Samples_Per_Second": 21614.10756069501,
+      "Test_Return": 267.76446533203125,
+      "Test_Episode_Length": 295.6455078125,
+      "Test_Episodes": 1024.0,
+      "Train_Return": 245.01907348632812,
+      "Train_Episode_Length": 288.35302734375,
+      "Train_Episodes": 10714.0,
+      "Critic_Loss": 0.9504722356796265,
+      "Actor_Loss": -0.013298707082867622,
+      "Clip_Frac": 0.17192994058132172,
+      "Imp_Ratio": 0.999104917049408,
+      "Action_Bound_Loss": 7.986309356056154e-06,
+      "Adv_Mean": -0.004768557846546173,
+      "Adv_Std": 1.1978576183319092,
+      "Obs_Norm_Mean": 0.36285078525543213,
+      "Obs_Norm_Std": 0.22594910860061646,
+      "Exp_Prob": 1.0
+    }
+  }
+}

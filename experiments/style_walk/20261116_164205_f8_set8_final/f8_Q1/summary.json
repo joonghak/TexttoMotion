@@ -1,0 +1,64 @@
+{
+  "command": "상체를 20도 앞으로 숙이고 걸어: gpt-5.6-terra, 프롬프트 v14이 정한 값 (torso_pitch 20)",
+  "variant": {
+    "key": "f8_Q1",
+    "label": "상체를 20도 앞으로 숙이고 걸어: gpt-5.6-terra, 프롬프트 v14이 정한 값 (torso_pitch 20)",
+    "scales": {
+      "pose": {
+        "torso": [
+          0,
+          20.0,
+          0
+        ]
+      }
+    },
+    "terms": {
+      "track_w": 0.6,
+      "pose": {
+        "torso": [
+          0,
+          20.0,
+          0
+        ]
+      },
+      "style": {
+        "w": 0.2
+      },
+      "swing_unit": "/home/jong/TexttoMotion/MimicKit/data/motions/humanoid/humanoid_walk.pkl",
+      "pose_unit": "/home/jong/TexttoMotion/MimicKit/data/motions/humanoid/humanoid_walk.pkl"
+    }
+  },
+  "reference": {
+    "clip": "/home/jong/TexttoMotion/MimicKit/data/motions/humanoid/humanoid_walk.pkl",
+    "duration_s": 10.0
+  },
+  "training": {
+    "iterations": 2000,
+    "num_envs": 1024,
+    "status": "completed",
+    "started": "2026-11-16T16:42:05",
+    "finished": "2026-11-16T17:13:25",
+    "final_log": {
+      "Iteration": 1999.0,
+      "Wall_Time": 0.519047747320599,
+      "Samples": 65536000.0,
+      "Samples_Per_Second": 35072.77420703292,
+      "Test_Return": 289.75872802734375,
+      "Test_Episode_Length": 295.3740539550781,
+      "Test_Episodes": 1024.0,
+      "Train_Return": 278.5403137207031,
+      "Train_Episode_Length": 296.8033142089844,
+      "Train_Episodes": 10356.0,
+      "Critic_Loss": 0.02999347820878029,
+      "Actor_Loss": -0.006125188898295164,
+      "Clip_Frac": 0.23317261040210724,
+      "Imp_Ratio": 0.9991645812988281,
+      "Action_Bound_Loss": 0.0,
+      "Adv_Mean": -0.01755235530436039,
+      "Adv_Std": 0.17335614562034607,
+      "Obs_Norm_Mean": 0.34245818853378296,
+      "Obs_Norm_Std": 0.16942444443702698,
+      "Exp_Prob": 1.0
+    }
+  }
+}

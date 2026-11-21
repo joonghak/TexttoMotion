@@ -1,0 +1,23 @@
+{
+ "name": "run2p4_kick1p53",
+ "segments": [
+  [
+   "run",
+   2.4
+  ],
+  [
+   "kick",
+   1.53
+  ]
+ ],
+ "blend_s": 0.5,
+ "seconds": 3.933333333333333,
+ "junctions_s": [
+  [
+   1.9,
+   2.4
+  ]
+ ],
+ "file": "/home/jong/TexttoMotion/MimicKit/data/motions/humanoid/humanoid_chain_run2p4_kick1p53.pkl",
+ "strip": "/home/jong/TexttoMotion/experiments/chain/run2p4_kick1p53_strip.png"
+}

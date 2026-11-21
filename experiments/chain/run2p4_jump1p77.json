@@ -1,0 +1,23 @@
+{
+ "name": "run2p4_jump1p77",
+ "segments": [
+  [
+   "run",
+   2.4
+  ],
+  [
+   "jump",
+   1.77
+  ]
+ ],
+ "blend_s": 0.5,
+ "seconds": 4.166666666666667,
+ "junctions_s": [
+  [
+   1.9,
+   2.4
+  ]
+ ],
+ "file": "/home/jong/TexttoMotion/MimicKit/data/motions/humanoid/humanoid_chain_run2p4_jump1p77.pkl",
+ "strip": "/home/jong/TexttoMotion/experiments/chain/run2p4_jump1p77_strip.png"
+}

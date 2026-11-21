@@ -1,0 +1,33 @@
+{
+  "note": "Fourth set, for prompt v4 (the LLM also chooses the action). Written before prompt v4 and before any v4 output. Group A uses the plain action or a parameter whose effect on that action was measured before (midterm 4.5 and 4.6: s and n on run, jump, kick and spinkick; torso lean, knee bend and sway on the run; arms sideways on the jump); group B combines styles and actions that were never trained; group W are walks, to check that the action stays walk; group C should be rejected. expect_action is the reference clip the command should choose. Corrected before the first run: the knee bend, the sway and the cadence on the run had been trained on 2026-10-07/08, so those three commands moved from B to A (A8-A10). Do not edit after its first run.",
+  "groups": {
+    "A": "걷기 외 동작 그대로이거나, 그 동작에서 효과를 이미 확인한 파라미터를 쓰는 명령: 수락해야 함",
+    "B": "학습한 적 없는 스타일과 동작의 조합: 수락해야 함",
+    "W": "걷기 명령: 수락하고 동작은 walk여야 함",
+    "C": "지원하지 않는 동작이나 표현할 수 없는 명령: 거절해야 함"
+  },
+  "commands": [
+    {"id": "A1", "group": "A", "text": "상체를 앞으로 기울인 채 뛰어", "expect": "accept", "expect_action": "run"},
+    {"id": "A2", "group": "A", "text": "최대한 빠르게 달려", "expect": "accept", "expect_action": "run", "check": "s * n > 1"},
+    {"id": "A3", "group": "A", "text": "앞으로 멀리 점프해", "expect": "accept", "expect_action": "jump", "check": "s > 1"},
+    {"id": "A4", "group": "A", "text": "양팔을 쫙 펴고 점프해", "expect": "accept", "expect_action": "jump"},
+    {"id": "A5", "group": "A", "text": "그 자리에서 발차기해", "expect": "accept", "expect_action": "kick", "check": "s < 1"},
+    {"id": "A6", "group": "A", "text": "천천히 달려", "expect": "accept", "expect_action": "run", "check": "s * n < 1"},
+    {"id": "A7", "group": "A", "text": "한 바퀴 돌면서 발차기해", "expect": "accept", "expect_action": "spinkick"},
+    {"id": "A8", "group": "A", "text": "무릎을 굽히고 낮은 자세로 달려", "expect": "accept", "expect_action": "run"},
+    {"id": "A9", "group": "A", "text": "몸을 좌우로 흔들면서 달려", "expect": "accept", "expect_action": "run"},
+    {"id": "A10", "group": "A", "text": "1분에 180걸음 속도로 달려", "expect": "accept", "expect_action": "run", "check": "150 * n within 180 steps/min ± 10%"},
+    {"id": "B1", "group": "B", "text": "지쳐서 터벅터벅 달려", "expect": "accept", "expect_action": "run"},
+    {"id": "B2", "group": "B", "text": "좀비처럼 팔을 앞으로 뻗고 달려", "expect": "accept", "expect_action": "run"},
+    {"id": "B3", "group": "B", "text": "고개를 푹 숙이고 점프해", "expect": "accept", "expect_action": "jump"},
+    {"id": "B4", "group": "B", "text": "팔꿈치를 굽히고 힘차게 발차기해", "expect": "accept", "expect_action": "kick"},
+    {"id": "B5", "group": "B", "text": "상체를 뒤로 젖힌 채 발차기해", "expect": "accept", "expect_action": "kick"},
+    {"id": "B6", "group": "B", "text": "무릎을 굽히고 낮게 점프해", "expect": "accept", "expect_action": "jump"},
+    {"id": "W1", "group": "W", "text": "팔을 크게 흔들며 걸어", "expect": "accept", "expect_action": "walk"},
+    {"id": "W2", "group": "W", "text": "느릿느릿 걸어", "expect": "accept", "expect_action": "walk"},
+    {"id": "C1", "group": "C", "text": "수영해", "expect": "reject", "why": "참조 모션이 없는 동작"},
+    {"id": "C2", "group": "C", "text": "뒤로 공중제비 돌아", "expect": "reject", "why": "이번에 지원하지 않는 동작 (보상식을 확인하지 않음)"},
+    {"id": "C3", "group": "C", "text": "오른발로만 깡충깡충 뛰어", "expect": "reject", "why": "파라미터가 좌우 대칭"},
+    {"id": "C4", "group": "C", "text": "달리다가 점프해", "expect": "reject", "why": "명령 하나에 동작 하나만 고를 수 있음"}
+  ]
+}

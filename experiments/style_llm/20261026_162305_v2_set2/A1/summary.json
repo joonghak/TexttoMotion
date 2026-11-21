@@ -1,0 +1,55 @@
+{
+  "command": "발소리가 나지 않게 몰래 걸어",
+  "variant": {
+    "key": "A1",
+    "label": "발소리가 나지 않게 몰래 걸어",
+    "scales": {
+      "arm_swing": 0.3,
+      "swing": {
+        "torso": 0.0
+      }
+    },
+    "terms": {
+      "track_w": 0.6,
+      "arm_swing": {
+        "scale": 0.3
+      },
+      "swing": {
+        "torso": 0.0
+      }
+    }
+  },
+  "reference": {
+    "clip": "/home/jong/TexttoMotion/MimicKit/data/motions/humanoid/humanoid_walk.pkl",
+    "duration_s": 10.0
+  },
+  "training": {
+    "iterations": 2000,
+    "num_envs": 1024,
+    "status": "completed",
+    "started": "2026-10-26T17:49:39",
+    "finished": "2026-10-26T18:18:29",
+    "final_log": {
+      "Iteration": 1999.0,
+      "Wall_Time": 0.475727977487776,
+      "Samples": 65536000.0,
+      "Samples_Per_Second": 38266.49956678702,
+      "Test_Return": 291.56500244140625,
+      "Test_Episode_Length": 297.3876953125,
+      "Test_Episodes": 1024.0,
+      "Train_Return": 277.2646179199219,
+      "Train_Episode_Length": 297.1044616699219,
+      "Train_Episodes": 10342.0,
+      "Critic_Loss": 0.035807862877845764,
+      "Actor_Loss": -0.0049584475345909595,
+      "Clip_Frac": 0.26472169160842896,
+      "Imp_Ratio": 0.9974567294120789,
+      "Action_Bound_Loss": 0.0,
+      "Adv_Mean": -0.006728640291839838,
+      "Adv_Std": 0.18929874897003174,
+      "Obs_Norm_Mean": 0.3414880335330963,
+      "Obs_Norm_Std": 0.1636710911989212,
+      "Exp_Prob": 1.0
+    }
+  }
+}

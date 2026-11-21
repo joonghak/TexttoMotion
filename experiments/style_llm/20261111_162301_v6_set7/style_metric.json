@@ -1,0 +1,1191 @@
+{
+ "run": "20261111_162301_v6_set7",
+ "prompt": "v6",
+ "results": [
+  {
+   "id": "N1",
+   "text": "메추라기처럼 종종 걸어",
+   "target": "Quail",
+   "top": [
+    [
+     "TogetherStep",
+     0.629
+    ],
+    [
+     "StartStop",
+     0.586
+    ],
+    [
+     "Penguin",
+     0.539
+    ]
+   ],
+   "similarity": 0.21,
+   "rank": 22,
+   "strength": 1.138,
+   "size": 3.79,
+   "answer": {
+    "action": "walk",
+    "s": 0.35,
+    "n": 1.45,
+    "c": 0.0,
+    "m_arm": 1.0,
+    "m_torso": 6.0,
+    "m_knee": 1.0,
+    "m_elbow": 1.0,
+    "torso_pitch": 0.0,
+    "head_pitch": 0.0,
+    "shoulder_flexion": 0.0,
+    "shoulder_abduction": 0.0,
+    "elbow_flexion": 0.0,
+    "stance_width": 0.0,
+    "toe_out": 0.0,
+    "shoulder_rotation": 0.0,
+    "bounce": 0.0,
+    "features": {
+     "step": "very_short",
+     "pace": "very_quick",
+     "sway": "strong"
+    }
+   }
+  },
+  {
+   "id": "N2",
+   "text": "고릴라처럼 가슴을 두드리며 걸어",
+   "target": "BeatChest",
+   "top": [
+    [
+     "ArmsAboveHead",
+     0.849
+    ],
+    [
+     "Zombie",
+     0.748
+    ],
+    [
+     "InTheDark",
+     0.736
+    ]
+   ],
+   "similarity": 0.539,
+   "rank": 9,
+   "strength": 1.02,
+   "size": 5.08,
+   "answer": {
+    "action": "walk",
+    "s": 1.0,
+    "n": 0.75,
+    "c": 0.0,
+    "m_arm": 0.4,
+    "m_torso": 1.0,
+    "m_knee": 1.0,
+    "m_elbow": 1.0,
+    "torso_pitch": 0.0,
+    "head_pitch": 0.0,
+    "shoulder_flexion": 85.0,
+    "shoulder_abduction": 0.0,
+    "elbow_flexion": 0.0,
+    "stance_width": 0.0,
+    "toe_out": 0.0,
+    "shoulder_rotation": 0.0,
+    "bounce": 0.0,
+    "features": {
+     "arm_swing": "small",
+     "arm_position": "forward",
+     "pace": "slow"
+    }
+   }
+  },
+  {
+   "id": "N3",
+   "text": "펭귄 흉내를 내면서 걸어",
+   "target": "Penguin",
+   "top": [
+    [
+     "Old",
+     0.834
+    ],
+    [
+     "StartStop",
+     0.798
+    ],
+    [
+     "Sweep",
+     0.66
+    ]
+   ],
+   "similarity": 0.086,
+   "rank": 63,
+   "strength": 1.214,
+   "size": 4.53,
+   "answer": {
+    "action": "walk",
+    "s": 1.0,
+    "n": 0.55,
+    "c": 0.0,
+    "m_arm": 1.0,
+    "m_torso": 10.0,
+    "m_knee": 1.0,
+    "m_elbow": 1.0,
+    "torso_pitch": 35.0,
+    "head_pitch": 0.0,
+    "shoulder_flexion": 0.0,
+    "shoulder_abduction": 0.0,
+    "elbow_flexion": 0.0,
+    "stance_width": 0.0,
+    "toe_out": 0.0,
+    "shoulder_rotation": 0.0,
+    "bounce": 0.0,
+    "features": {
+     "sway": "very_strong",
+     "pace": "very_slow",
+     "torso": "bent_over"
+    }
+   }
+  },
+  {
+   "id": "N4",
+   "text": "티라노사우루스처럼 걸어",
+   "target": "Dinosaur",
+   "top": [
+    [
+     "BentKnees",
+     0.888
+    ],
+    [
+     "Lunge",
+     0.718
+    ],
+    [
+     "Roadrunner",
+     0.717
+    ]
+   ],
+   "similarity": 0.648,
+   "rank": 6,
+   "strength": 1.313,
+   "size": 9.57,
+   "answer": {
+    "action": "walk",
+    "s": 0.6,
+    "n": 0.55,
+    "c": 30.0,
+    "m_arm": 0.0,
+    "m_torso": 1.0,
+    "m_knee": 0.8,
+    "m_elbow": 0.0,
+    "torso_pitch": 15.0,
+    "head_pitch": -15.0,
+    "shoulder_flexion": 0.0,
+    "shoulder_abduction": 0.0,
+    "elbow_flexion": 0.0,
+    "stance_width": 10.0,
+    "toe_out": 0.0,
+    "shoulder_rotation": 0.0,
+    "bounce": 0.0,
+    "features": {
+     "stance": "wide",
+     "knees": "deeply_bent",
+     "feet_lift": "low",
+     "pace": "very_slow",
+     "step": "short",
+     "torso": "leaning_forward",
+     "head": "raised",
+     "arm_swing": "none",
+     "elbow_motion": "stiff"
+    }
+   }
+  },
+  {
+   "id": "N5",
+   "text": "수탉처럼 걸어",
+   "target": "Chicken",
+   "top": [
+    [
+     "LookUp",
+     0.533
+    ],
+    [
+     "SpinAntiClock",
+     0.382
+    ],
+    [
+     "RightHop",
+     0.364
+    ]
+   ],
+   "similarity": -0.158,
+   "rank": 59,
+   "strength": 0.492,
+   "size": 2.83,
+   "answer": {
+    "action": "walk",
+    "s": 0.6,
+    "n": 1.25,
+    "c": 0.0,
+    "m_arm": 1.0,
+    "m_torso": 0.0,
+    "m_knee": 1.0,
+    "m_elbow": 0.0,
+    "torso_pitch": -10.0,
+    "head_pitch": -15.0,
+    "shoulder_flexion": 0.0,
+    "shoulder_abduction": 0.0,
+    "elbow_flexion": 0.0,
+    "stance_width": 0.0,
+    "toe_out": 0.0,
+    "shoulder_rotation": 0.0,
+    "bounce": 0.0,
+    "features": {
+     "head": "raised",
+     "sway": "none",
+     "elbow_motion": "stiff",
+     "step": "short",
+     "pace": "quick"
+    }
+   }
+  },
+  {
+   "id": "N6",
+   "text": "고양이처럼 조심스럽게 걸어",
+   "target": "Cat",
+   "top": [
+    [
+     "Penguin",
+     0.389
+    ],
+    [
+     "LookUp",
+     0.382
+    ],
+    [
+     "Robot",
+     0.343
+    ]
+   ],
+   "similarity": -0.398,
+   "rank": 89,
+   "strength": 0.822,
+   "size": 3.65,
+   "answer": {
+    "action": "walk",
+    "s": 0.6,
+    "n": 0.75,
+    "c": 0.0,
+    "m_arm": 0.4,
+    "m_torso": 3.0,
+    "m_knee": 0.8,
+    "m_elbow": 1.0,
+    "torso_pitch": -10.0,
+    "head_pitch": -15.0,
+    "shoulder_flexion": 0.0,
+    "shoulder_abduction": 0.0,
+    "elbow_flexion": 0.0,
+    "stance_width": 0.0,
+    "toe_out": 0.0,
+    "shoulder_rotation": 0.0,
+    "bounce": 0.0,
+    "features": {
+     "step": "short",
+     "pace": "slow",
+     "feet_lift": "low",
+     "arm_swing": "small",
+     "head": "raised",
+     "sway": "some"
+    }
+   }
+  },
+  {
+   "id": "P1",
+   "text": "어둠 속에서 손으로 더듬으며 걸어",
+   "target": "InTheDark",
+   "top": [
+    [
+     "Zombie",
+     0.678
+    ],
+    [
+     "Superman",
+     0.651
+    ],
+    [
+     "InTheDark",
+     0.623
+    ]
+   ],
+   "similarity": 0.623,
+   "rank": 3,
+   "strength": 1.511,
+   "size": 6.45,
+   "answer": {
+    "action": "walk",
+    "s": 0.6,
+    "n": 0.75,
+    "c": 0.0,
+    "m_arm": 0.4,
+    "m_torso": 1.0,
+    "m_knee": 1.0,
+    "m_elbow": 1.0,
+    "torso_pitch": 15.0,
+    "head_pitch": 25.0,
+    "shoulder_flexion": 85.0,
+    "shoulder_abduction": 0.0,
+    "elbow_flexion": 0.0,
+    "stance_width": 0.0,
+    "toe_out": 0.0,
+    "shoulder_rotation": 0.0,
+    "bounce": 0.0,
+    "features": {
+     "arm_swing": "small",
+     "arm_position": "forward",
+     "pace": "slow",
+     "step": "short",
+     "torso": "leaning_forward",
+     "head": "lowered"
+    }
+   }
+  },
+  {
+   "id": "P2",
+   "text": "군인처럼 행진하며 걸어",
+   "target": "March",
+   "top": [
+    [
+     "InTheDark",
+     0.556
+    ],
+    [
+     "Swimming",
+     0.466
+    ],
+    [
+     "ArmsAboveHead",
+     0.465
+    ]
+   ],
+   "similarity": 0.167,
+   "rank": 29,
+   "strength": 1.283,
+   "size": 3.89,
+   "answer": {
+    "action": "walk",
+    "s": 1.4,
+    "n": 1.25,
+    "c": 0.0,
+    "m_arm": 1.5,
+    "m_torso": 0.0,
+    "m_knee": 1.0,
+    "m_elbow": 1.0,
+    "torso_pitch": -10.0,
+    "head_pitch": -15.0,
+    "shoulder_flexion": 30.0,
+    "shoulder_abduction": 0.0,
+    "elbow_flexion": 0.0,
+    "stance_width": 0.0,
+    "toe_out": 0.0,
+    "shoulder_rotation": 0.0,
+    "bounce": 0.0,
+    "features": {
+     "arm_swing": "large",
+     "step": "long",
+     "pace": "quick",
+     "sway": "none",
+     "head": "raised",
+     "arm_position": "slightly_forward"
+    }
+   }
+  },
+  {
+   "id": "P3",
+   "text": "요정처럼 사뿐사뿐 걸어",
+   "target": "FairySteps",
+   "top": [
+    [
+     "OnHeels",
+     0.602
+    ],
+    [
+     "SpinAntiClock",
+     0.56
+    ],
+    [
+     "TogetherStep",
+     0.546
+    ]
+   ],
+   "similarity": 0.419,
+   "rank": 9,
+   "strength": 0.928,
+   "size": 4.12,
+   "answer": {
+    "action": "walk",
+    "s": 0.35,
+    "n": 1.25,
+    "c": 0.0,
+    "m_arm": 1.8,
+    "m_torso": 6.0,
+    "m_knee": 0.7,
+    "m_elbow": 1.0,
+    "torso_pitch": 15.0,
+    "head_pitch": -15.0,
+    "shoulder_flexion": 0.0,
+    "shoulder_abduction": 0.0,
+    "elbow_flexion": 0.0,
+    "stance_width": 0.0,
+    "toe_out": 0.0,
+    "shoulder_rotation": 0.0,
+    "bounce": 0.0,
+    "features": {
+     "step": "very_short",
+     "pace": "quick",
+     "feet_lift": "shuffling",
+     "arm_swing": "very_large",
+     "sway": "strong",
+     "torso": "leaning_forward",
+     "head": "raised"
+    }
+   }
+  },
+  {
+   "id": "P4",
+   "text": "덩치 큰 사람처럼 걸어",
+   "target": "Heavyset",
+   "top": [
+    [
+     "BentKnees",
+     0.905
+    ],
+    [
+     "Roadrunner",
+     0.75
+    ],
+    [
+     "Lunge",
+     0.742
+    ]
+   ],
+   "similarity": 0.214,
+   "rank": 28,
+   "strength": 4.88,
+   "size": 9.77,
+   "answer": {
+    "action": "walk",
+    "s": 1.0,
+    "n": 1.0,
+    "c": 30.0,
+    "m_arm": 1.0,
+    "m_torso": 1.0,
+    "m_knee": 1.0,
+    "m_elbow": 1.0,
+    "torso_pitch": 0.0,
+    "head_pitch": 0.0,
+    "shoulder_flexion": 0.0,
+    "shoulder_abduction": 0.0,
+    "elbow_flexion": 0.0,
+    "stance_width": 10.0,
+    "toe_out": 0.0,
+    "shoulder_rotation": 0.0,
+    "bounce": 0.0,
+    "features": {
+     "stance": "wide",
+     "knees": "deeply_bent"
+    }
+   }
+  },
+  {
+   "id": "P5",
+   "text": "패션모델처럼 뽐내며 걸어",
+   "target": "Strutting",
+   "top": [
+    [
+     "LookUp",
+     0.663
+    ],
+    [
+     "Strutting",
+     0.578
+    ],
+    [
+     "SpinClock",
+     0.441
+    ]
+   ],
+   "similarity": 0.578,
+   "rank": 2,
+   "strength": 1.341,
+   "size": 2.94,
+   "answer": {
+    "action": "walk",
+    "s": 1.4,
+    "n": 1.0,
+    "c": 0.0,
+    "m_arm": 1.5,
+    "m_torso": 1.0,
+    "m_knee": 1.0,
+    "m_elbow": 1.0,
+    "torso_pitch": -15.0,
+    "head_pitch": -15.0,
+    "shoulder_flexion": 0.0,
+    "shoulder_abduction": 0.0,
+    "elbow_flexion": 0.0,
+    "stance_width": 0.0,
+    "toe_out": 0.0,
+    "shoulder_rotation": 0.0,
+    "bounce": 0.0,
+    "features": {
+     "step": "long",
+     "arm_swing": "large",
+     "torso": "leaning_back",
+     "head": "raised"
+    }
+   }
+  },
+  {
+   "id": "P6",
+   "text": "특공대원처럼 총을 겨눈 자세로 걸어",
+   "target": "Swat",
+   "top": [
+    [
+     "RaisedRightArm",
+     0.851
+    ],
+    [
+     "Flapping",
+     0.805
+    ],
+    [
+     "RaisedLeftArm",
+     0.762
+    ]
+   ],
+   "similarity": 0.176,
+   "rank": 29,
+   "strength": 0.864,
+   "size": 5.28,
+   "answer": {
+    "action": "walk",
+    "s": 1.0,
+    "n": 1.0,
+    "c": 0.0,
+    "m_arm": 0.4,
+    "m_torso": 1.0,
+    "m_knee": 1.0,
+    "m_elbow": 0.0,
+    "torso_pitch": 15.0,
+    "head_pitch": -15.0,
+    "shoulder_flexion": 0.0,
+    "shoulder_abduction": 85.0,
+    "elbow_flexion": 0.0,
+    "stance_width": 0.0,
+    "toe_out": 0.0,
+    "shoulder_rotation": 0.0,
+    "bounce": 0.0,
+    "features": {
+     "arm_position": "sideways",
+     "head": "raised",
+     "elbow_motion": "stiff",
+     "torso": "leaning_forward",
+     "arm_swing": "small"
+    }
+   }
+  },
+  {
+   "id": "F1",
+   "text": "뒷짐을 지고 걸어",
+   "target": "ArmsBehindBack",
+   "top": [
+    [
+     "WideLegs",
+     0.648
+    ],
+    [
+     "LegsApart",
+     0.639
+    ],
+    [
+     "Star",
+     0.528
+    ]
+   ],
+   "similarity": 0.159,
+   "rank": 22,
+   "strength": 1.138,
+   "size": 3.46,
+   "answer": {
+    "action": "walk",
+    "s": 1.0,
+    "n": 1.0,
+    "c": 0.0,
+    "m_arm": 1.0,
+    "m_torso": 1.0,
+    "m_knee": 1.0,
+    "m_elbow": 1.0,
+    "torso_pitch": 15.0,
+    "head_pitch": 0.0,
+    "shoulder_flexion": 0.0,
+    "shoulder_abduction": 0.0,
+    "elbow_flexion": 0.0,
+    "stance_width": 10.0,
+    "toe_out": 0.0,
+    "shoulder_rotation": 0.0,
+    "bounce": 0.0,
+    "features": {
+     "stance": "wide",
+     "torso": "leaning_forward"
+    }
+   }
+  },
+  {
+   "id": "F2",
+   "text": "팔짱을 끼고 걸어",
+   "target": "ArmsFolded",
+   "top": [
+    [
+     "ArmsAboveHead",
+     0.875
+    ],
+    [
+     "InTheDark",
+     0.794
+    ],
+    [
+     "Zombie",
+     0.735
+    ]
+   ],
+   "similarity": 0.412,
+   "rank": 17,
+   "strength": 1.131,
+   "size": 5.0,
+   "answer": {
+    "action": "walk",
+    "s": 1.0,
+    "n": 1.0,
+    "c": 0.0,
+    "m_arm": 0.4,
+    "m_torso": 1.0,
+    "m_knee": 1.0,
+    "m_elbow": 1.0,
+    "torso_pitch": 0.0,
+    "head_pitch": 0.0,
+    "shoulder_flexion": 85.0,
+    "shoulder_abduction": 0.0,
+    "elbow_flexion": 0.0,
+    "stance_width": 0.0,
+    "toe_out": 0.0,
+    "shoulder_rotation": 0.0,
+    "bounce": 0.0,
+    "features": {
+     "arm_position": "forward",
+     "arm_swing": "small"
+    }
+   }
+  },
+  {
+   "id": "F3",
+   "text": "양손을 허리에 짚고 걸어",
+   "target": "Akimbo",
+   "top": [
+    [
+     "InTheDark",
+     0.825
+    ],
+    [
+     "Zombie",
+     0.787
+    ],
+    [
+     "Swimming",
+     0.676
+    ]
+   ],
+   "similarity": -0.004,
+   "rank": 53,
+   "strength": 0.837,
+   "size": 2.1,
+   "answer": {
+    "action": "walk",
+    "s": 1.0,
+    "n": 1.0,
+    "c": 0.0,
+    "m_arm": 1.0,
+    "m_torso": 1.0,
+    "m_knee": 1.0,
+    "m_elbow": 1.0,
+    "torso_pitch": 0.0,
+    "head_pitch": 0.0,
+    "shoulder_flexion": 30.0,
+    "shoulder_abduction": 0.0,
+    "elbow_flexion": 0.0,
+    "stance_width": 0.0,
+    "toe_out": 0.0,
+    "shoulder_rotation": 0.0,
+    "bounce": 0.0,
+    "features": {
+     "arm_position": "slightly_forward"
+    }
+   }
+  },
+  {
+   "id": "F4",
+   "text": "두 팔을 머리 위로 들고 걸어",
+   "target": "ArmsAboveHead",
+   "top": [
+    [
+     "ArmsAboveHead",
+     0.873
+    ],
+    [
+     "InTheDark",
+     0.793
+    ],
+    [
+     "Zombie",
+     0.734
+    ]
+   ],
+   "similarity": 0.873,
+   "rank": 1,
+   "strength": 0.779,
+   "size": 5.02,
+   "answer": {
+    "action": "walk",
+    "s": 1.0,
+    "n": 1.0,
+    "c": 0.0,
+    "m_arm": 0.0,
+    "m_torso": 1.0,
+    "m_knee": 1.0,
+    "m_elbow": 1.0,
+    "torso_pitch": 0.0,
+    "head_pitch": 0.0,
+    "shoulder_flexion": 85.0,
+    "shoulder_abduction": 0.0,
+    "elbow_flexion": 0.0,
+    "stance_width": 0.0,
+    "toe_out": 0.0,
+    "shoulder_rotation": 0.0,
+    "bounce": 0.0,
+    "features": {
+     "arm_swing": "none",
+     "arm_position": "forward"
+    }
+   }
+  },
+  {
+   "id": "F5",
+   "text": "발뒤꿈치로 걸어",
+   "target": "OnHeels",
+   "top": [
+    [
+     "Kick",
+     0.795
+    ],
+    [
+     "HighKnees",
+     0.771
+    ],
+    [
+     "FlickLegs",
+     0.741
+    ]
+   ],
+   "similarity": -0.58,
+   "rank": 99,
+   "strength": 0.443,
+   "size": 1.33,
+   "answer": {
+    "action": "walk",
+    "s": 1.0,
+    "n": 1.0,
+    "c": 0.0,
+    "m_arm": 1.0,
+    "m_torso": 1.0,
+    "m_knee": 1.3,
+    "m_elbow": 1.0,
+    "torso_pitch": 0.0,
+    "head_pitch": 0.0,
+    "shoulder_flexion": 0.0,
+    "shoulder_abduction": 0.0,
+    "elbow_flexion": 0.0,
+    "stance_width": 0.0,
+    "toe_out": 0.0,
+    "shoulder_rotation": 0.0,
+    "bounce": 0.0,
+    "features": {
+     "feet_lift": "high"
+    }
+   }
+  },
+  {
+   "id": "F6",
+   "text": "무릎을 굽힌 채로 걸어",
+   "target": "BentKnees",
+   "top": [
+    [
+     "BentKnees",
+     0.885
+    ],
+    [
+     "Roadrunner",
+     0.792
+    ],
+    [
+     "Chicken",
+     0.706
+    ]
+   ],
+   "similarity": 0.885,
+   "rank": 1,
+   "strength": 1.015,
+   "size": 3.71,
+   "answer": {
+    "action": "walk",
+    "s": 1.0,
+    "n": 1.0,
+    "c": 15.0,
+    "m_arm": 1.0,
+    "m_torso": 1.0,
+    "m_knee": 1.0,
+    "m_elbow": 1.0,
+    "torso_pitch": 0.0,
+    "head_pitch": 0.0,
+    "shoulder_flexion": 0.0,
+    "shoulder_abduction": 0.0,
+    "elbow_flexion": 0.0,
+    "stance_width": 0.0,
+    "toe_out": 0.0,
+    "shoulder_rotation": 0.0,
+    "bounce": 0.0,
+    "features": {
+     "knees": "bent"
+    }
+   }
+  },
+  {
+   "id": "F7",
+   "text": "상체를 뒤로 젖히고 걸어",
+   "target": "LeanBack",
+   "top": [
+    [
+     "LookUp",
+     0.588
+    ],
+    [
+     "InTheDark",
+     0.418
+    ],
+    [
+     "Strutting",
+     0.36
+    ]
+   ],
+   "similarity": 0.247,
+   "rank": 10,
+   "strength": 0.318,
+   "size": 1.14,
+   "answer": {
+    "action": "walk",
+    "s": 1.0,
+    "n": 1.0,
+    "c": 0.0,
+    "m_arm": 1.0,
+    "m_torso": 1.0,
+    "m_knee": 1.0,
+    "m_elbow": 1.0,
+    "torso_pitch": -15.0,
+    "head_pitch": 0.0,
+    "shoulder_flexion": 0.0,
+    "shoulder_abduction": 0.0,
+    "elbow_flexion": 0.0,
+    "stance_width": 0.0,
+    "toe_out": 0.0,
+    "shoulder_rotation": 0.0,
+    "bounce": 0.0,
+    "features": {
+     "torso": "leaning_back"
+    }
+   }
+  },
+  {
+   "id": "F8",
+   "text": "발을 바닥에 끌면서 걸어",
+   "target": "SlideFeet",
+   "top": [
+    [
+     "StartStop",
+     0.636
+    ],
+    [
+     "FairySteps",
+     0.571
+    ],
+    [
+     "Penguin",
+     0.544
+    ]
+   ],
+   "similarity": 0.202,
+   "rank": 16,
+   "strength": 0.93,
+   "size": 2.79,
+   "answer": {
+    "action": "walk",
+    "s": 0.6,
+    "n": 0.75,
+    "c": 0.0,
+    "m_arm": 1.0,
+    "m_torso": 1.0,
+    "m_knee": 0.7,
+    "m_elbow": 1.0,
+    "torso_pitch": 0.0,
+    "head_pitch": 0.0,
+    "shoulder_flexion": 0.0,
+    "shoulder_abduction": 0.0,
+    "elbow_flexion": 0.0,
+    "stance_width": 0.0,
+    "toe_out": 0.0,
+    "shoulder_rotation": 0.0,
+    "bounce": 0.0,
+    "features": {
+     "feet_lift": "shuffling",
+     "pace": "slow",
+     "step": "short"
+    }
+   }
+  },
+  {
+   "id": "M1",
+   "text": "급하게 서둘러 걸어",
+   "target": "Rushed",
+   "top": [
+    [
+     "Rushed",
+     0.729
+    ],
+    [
+     "Followed",
+     0.537
+    ],
+    [
+     "Drunk",
+     0.53
+    ]
+   ],
+   "similarity": 0.729,
+   "rank": 1,
+   "strength": 0.813,
+   "size": 3.09,
+   "answer": {
+    "action": "walk",
+    "s": 1.4,
+    "n": 1.45,
+    "c": 0.0,
+    "m_arm": 1.8,
+    "m_torso": 1.0,
+    "m_knee": 1.0,
+    "m_elbow": 1.0,
+    "torso_pitch": 0.0,
+    "head_pitch": 0.0,
+    "shoulder_flexion": 0.0,
+    "shoulder_abduction": 0.0,
+    "elbow_flexion": 0.0,
+    "stance_width": 0.0,
+    "toe_out": 0.0,
+    "shoulder_rotation": 0.0,
+    "bounce": 0.0,
+    "features": {
+     "pace": "very_quick",
+     "step": "long",
+     "arm_swing": "very_large"
+    }
+   }
+  },
+  {
+   "id": "M2",
+   "text": "누가 따라오는 것 같아 뒤를 살피며 걸어",
+   "target": "Followed",
+   "top": [
+    [
+     "LeanRight",
+     0.852
+    ],
+    [
+     "Depressed",
+     0.845
+    ],
+    [
+     "Monk",
+     0.776
+    ]
+   ],
+   "similarity": 0.195,
+   "rank": 30,
+   "strength": 0.761,
+   "size": 2.48,
+   "answer": {
+    "action": "walk",
+    "s": 1.0,
+    "n": 1.0,
+    "c": 0.0,
+    "m_arm": 1.0,
+    "m_torso": 1.0,
+    "m_knee": 1.0,
+    "m_elbow": 1.0,
+    "torso_pitch": 0.0,
+    "head_pitch": 25.0,
+    "shoulder_flexion": 0.0,
+    "shoulder_abduction": 0.0,
+    "elbow_flexion": 0.0,
+    "stance_width": 0.0,
+    "toe_out": 0.0,
+    "shoulder_rotation": 0.0,
+    "bounce": 0.0,
+    "features": {
+     "head": "lowered"
+    }
+   }
+  },
+  {
+   "id": "M3",
+   "text": "우아하게 걸어",
+   "target": "GracefulArms",
+   "top": [
+    [
+     "Rushed",
+     0.649
+    ],
+    [
+     "SwingShoulders",
+     0.514
+    ],
+    [
+     "Strutting",
+     0.441
+    ]
+   ],
+   "similarity": 0.144,
+   "rank": 36,
+   "strength": 0.563,
+   "size": 2.13,
+   "answer": {
+    "action": "walk",
+    "s": 1.4,
+    "n": 1.0,
+    "c": 0.0,
+    "m_arm": 1.5,
+    "m_torso": 0.0,
+    "m_knee": 1.0,
+    "m_elbow": 1.0,
+    "torso_pitch": 15.0,
+    "head_pitch": -15.0,
+    "shoulder_flexion": 0.0,
+    "shoulder_abduction": 0.0,
+    "elbow_flexion": 0.0,
+    "stance_width": 0.0,
+    "toe_out": 0.0,
+    "shoulder_rotation": 0.0,
+    "bounce": 0.0,
+    "features": {
+     "sway": "none",
+     "arm_swing": "large",
+     "step": "long",
+     "torso": "leaning_forward",
+     "head": "raised"
+    }
+   }
+  },
+  {
+   "id": "M4",
+   "text": "외줄을 타듯 균형을 잡으며 걸어",
+   "target": "Balance",
+   "top": [
+    [
+     "BentKnees",
+     0.956
+    ],
+    [
+     "Lunge",
+     0.776
+    ],
+    [
+     "Roadrunner",
+     0.747
+    ]
+   ],
+   "similarity": -0.142,
+   "rank": 88,
+   "strength": 1.65,
+   "size": 9.49,
+   "answer": {
+    "action": "walk",
+    "s": 1.0,
+    "n": 1.0,
+    "c": 30.0,
+    "m_arm": 1.0,
+    "m_torso": 0.0,
+    "m_knee": 0.8,
+    "m_elbow": 1.0,
+    "torso_pitch": 0.0,
+    "head_pitch": 0.0,
+    "shoulder_flexion": 0.0,
+    "shoulder_abduction": 0.0,
+    "elbow_flexion": 0.0,
+    "stance_width": 0.0,
+    "toe_out": 0.0,
+    "shoulder_rotation": 0.0,
+    "bounce": 0.0,
+    "features": {
+     "sway": "none",
+     "knees": "deeply_bent",
+     "feet_lift": "low"
+    }
+   }
+  },
+  {
+   "id": "M5",
+   "text": "엉덩이를 씰룩거리며 걸어",
+   "target": "WiggleHips",
+   "top": [
+    [
+     "Followed",
+     0.806
+    ],
+    [
+     "SpinClock",
+     0.698
+    ],
+    [
+     "Old",
+     0.672
+    ]
+   ],
+   "similarity": 0.353,
+   "rank": 25,
+   "strength": 0.821,
+   "size": 3.27,
+   "answer": {
+    "action": "walk",
+    "s": 1.0,
+    "n": 1.0,
+    "c": 0.0,
+    "m_arm": 1.0,
+    "m_torso": 10.0,
+    "m_knee": 1.0,
+    "m_elbow": 1.0,
+    "torso_pitch": 0.0,
+    "head_pitch": 0.0,
+    "shoulder_flexion": 0.0,
+    "shoulder_abduction": 0.0,
+    "elbow_flexion": 0.0,
+    "stance_width": 0.0,
+    "toe_out": 0.0,
+    "shoulder_rotation": 0.0,
+    "bounce": 0.0,
+    "features": {
+     "sway": "very_strong"
+    }
+   }
+  }
+ ]
+}

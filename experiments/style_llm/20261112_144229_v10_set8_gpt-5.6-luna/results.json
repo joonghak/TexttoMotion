@@ -1,0 +1,628 @@
+{
+  "model": "openai/gpt-5.6-luna",
+  "revision": null,
+  "quantize": null,
+  "prompt": "v10",
+  "thinking_budget": null,
+  "test_set": "test_commands_8.json",
+  "seed": 42,
+  "batch_size": 25,
+  "elapsed_s": 31.7,
+  "level1_passed": 14,
+  "commands": 14,
+  "results": [
+    {
+      "id": "Q1",
+      "group": "Q",
+      "text": "상체를 20도 앞으로 숙이고 걸어",
+      "en": "A person walks forward with the upper body leaning forward by 20 degrees.",
+      "expect": "accept",
+      "expect_action": "walk",
+      "measure": "torso_lean_change",
+      "value": 20,
+      "level1": "pass",
+      "tokens": 61,
+      "answer": "{\"look\":\"A walk with the upper body clearly leaned 20 degrees forward.\",\"torso_pitch\":20}",
+      "params": {
+        "action": "walk",
+        "s": 1.0,
+        "n": 1.0,
+        "c": 0.0,
+        "m_arm": 1.0,
+        "m_torso": 1.0,
+        "m_knee": 1.0,
+        "m_elbow": 1.0,
+        "torso_pitch": 20.0,
+        "head_pitch": 0.0,
+        "shoulder_flexion": 0.0,
+        "shoulder_abduction": 0.0,
+        "elbow_flexion": 0.0,
+        "stance_width": 0.0,
+        "toe_out": 0.0,
+        "shoulder_rotation": 0.0,
+        "bounce": 0.0,
+        "look": "A walk with the upper body clearly leaned 20 degrees forward."
+      },
+      "rules": [],
+      "scales": {
+        "pose": {
+          "torso": [
+            0,
+            20.0,
+            0
+          ]
+        }
+      },
+      "speed_mps": 1.26
+    },
+    {
+      "id": "Q2",
+      "group": "Q",
+      "text": "상체를 40도 앞으로 숙이고 걸어",
+      "en": "A person walks forward with the upper body leaning forward by 40 degrees.",
+      "expect": "accept",
+      "expect_action": "walk",
+      "measure": "torso_lean_change",
+      "value": 40,
+      "level1": "pass",
+      "tokens": 70,
+      "answer": "{\"look\":\"A walk with the upper body bent sharply forward.\",\"torso_pitch\":40}",
+      "params": {
+        "action": "walk",
+        "s": 1.0,
+        "n": 1.0,
+        "c": 0.0,
+        "m_arm": 1.0,
+        "m_torso": 1.0,
+        "m_knee": 1.0,
+        "m_elbow": 1.0,
+        "torso_pitch": 40.0,
+        "head_pitch": 0.0,
+        "shoulder_flexion": 0.0,
+        "shoulder_abduction": 0.0,
+        "elbow_flexion": 0.0,
+        "stance_width": 0.0,
+        "toe_out": 0.0,
+        "shoulder_rotation": 0.0,
+        "bounce": 0.0,
+        "look": "A walk with the upper body bent sharply forward."
+      },
+      "rules": [],
+      "scales": {
+        "pose": {
+          "torso": [
+            0,
+            40.0,
+            0
+          ]
+        }
+      },
+      "speed_mps": 1.26
+    },
+    {
+      "id": "Q3",
+      "group": "Q",
+      "text": "고개를 30도 숙이고 걸어",
+      "en": "A person walks forward with the head bowed down by 30 degrees.",
+      "expect": "accept",
+      "expect_action": "walk",
+      "measure": "head_pitch_change",
+      "value": 30,
+      "level1": "pass",
+      "tokens": 62,
+      "answer": "{\"look\":\"Walks with the head lowered sharply by 30 degrees.\",\"head_pitch\":30}",
+      "params": {
+        "action": "walk",
+        "s": 1.0,
+        "n": 1.0,
+        "c": 0.0,
+        "m_arm": 1.0,
+        "m_torso": 1.0,
+        "m_knee": 1.0,
+        "m_elbow": 1.0,
+        "torso_pitch": 0.0,
+        "head_pitch": 30.0,
+        "shoulder_flexion": 0.0,
+        "shoulder_abduction": 0.0,
+        "elbow_flexion": 0.0,
+        "stance_width": 0.0,
+        "toe_out": 0.0,
+        "shoulder_rotation": 0.0,
+        "bounce": 0.0,
+        "look": "Walks with the head lowered sharply by 30 degrees."
+      },
+      "rules": [],
+      "scales": {
+        "pose": {
+          "head": [
+            0,
+            30.0,
+            0
+          ]
+        }
+      },
+      "speed_mps": 1.26
+    },
+    {
+      "id": "Q4",
+      "group": "Q",
+      "text": "1분에 140걸음으로 걸어",
+      "en": "A person walks forward at 140 steps per minute.",
+      "expect": "accept",
+      "expect_action": "walk",
+      "measure": "cadence",
+      "value": 140,
+      "level1": "pass",
+      "tokens": 83,
+      "answer": "{\"look\":\"A brisk walk with about 140 steps per minute.\",\"n\":1.21}",
+      "params": {
+        "action": "walk",
+        "s": 1.0,
+        "n": 1.21,
+        "c": 0.0,
+        "m_arm": 1.0,
+        "m_torso": 1.0,
+        "m_knee": 1.0,
+        "m_elbow": 1.0,
+        "torso_pitch": 0.0,
+        "head_pitch": 0.0,
+        "shoulder_flexion": 0.0,
+        "shoulder_abduction": 0.0,
+        "elbow_flexion": 0.0,
+        "stance_width": 0.0,
+        "toe_out": 0.0,
+        "shoulder_rotation": 0.0,
+        "bounce": 0.0,
+        "look": "A brisk walk with about 140 steps per minute."
+      },
+      "rules": [],
+      "scales": {
+        "cadence": 1.21
+      },
+      "speed_mps": 1.525
+    },
+    {
+      "id": "Q5",
+      "group": "Q",
+      "text": "1분에 90걸음으로 걸어",
+      "en": "A person walks forward at 90 steps per minute.",
+      "expect": "accept",
+      "expect_action": "walk",
+      "measure": "cadence",
+      "value": 90,
+      "level1": "pass",
+      "tokens": 115,
+      "answer": "{\"look\":\"A slow walk at 90 steps per minute.\",\"n\":0.776}",
+      "params": {
+        "action": "walk",
+        "s": 1.0,
+        "n": 0.776,
+        "c": 0.0,
+        "m_arm": 1.0,
+        "m_torso": 1.0,
+        "m_knee": 1.0,
+        "m_elbow": 1.0,
+        "torso_pitch": 0.0,
+        "head_pitch": 0.0,
+        "shoulder_flexion": 0.0,
+        "shoulder_abduction": 0.0,
+        "elbow_flexion": 0.0,
+        "stance_width": 0.0,
+        "toe_out": 0.0,
+        "shoulder_rotation": 0.0,
+        "bounce": 0.0,
+        "look": "A slow walk at 90 steps per minute."
+      },
+      "rules": [],
+      "scales": {
+        "cadence": 0.776
+      },
+      "speed_mps": 0.978
+    },
+    {
+      "id": "Q6",
+      "group": "Q",
+      "text": "초속 0.6미터로 걸어",
+      "en": "A person walks forward at a speed of 0.6 meters per second.",
+      "expect": "accept",
+      "expect_action": "walk",
+      "measure": "speed",
+      "value": 0.6,
+      "level1": "pass",
+      "tokens": 238,
+      "answer": "{\"look\":\"A very slow walk at about 0.6 meters per second.\",\"s\":0.8,\"n\":0.595}",
+      "params": {
+        "action": "walk",
+        "s": 0.8,
+        "n": 0.595,
+        "c": 0.0,
+        "m_arm": 1.0,
+        "m_torso": 1.0,
+        "m_knee": 1.0,
+        "m_elbow": 1.0,
+        "torso_pitch": 0.0,
+        "head_pitch": 0.0,
+        "shoulder_flexion": 0.0,
+        "shoulder_abduction": 0.0,
+        "elbow_flexion": 0.0,
+        "stance_width": 0.0,
+        "toe_out": 0.0,
+        "shoulder_rotation": 0.0,
+        "bounce": 0.0,
+        "look": "A very slow walk at about 0.6 meters per second."
+      },
+      "rules": [],
+      "scales": {
+        "speed": 0.8,
+        "cadence": 0.595
+      },
+      "speed_mps": 0.6
+    },
+    {
+      "id": "Q7",
+      "group": "Q",
+      "text": "초속 1.8미터로 걸어",
+      "en": "A person walks forward at a speed of 1.8 meters per second.",
+      "expect": "accept",
+      "expect_action": "walk",
+      "measure": "speed",
+      "value": 1.8,
+      "level1": "pass",
+      "tokens": 156,
+      "answer": "{\"look\":\"A brisk walk with noticeably long strides at 1.8 meters per second.\",\"s\":1.428571}",
+      "params": {
+        "action": "walk",
+        "s": 1.428571,
+        "n": 1.0,
+        "c": 0.0,
+        "m_arm": 1.0,
+        "m_torso": 1.0,
+        "m_knee": 1.0,
+        "m_elbow": 1.0,
+        "torso_pitch": 0.0,
+        "head_pitch": 0.0,
+        "shoulder_flexion": 0.0,
+        "shoulder_abduction": 0.0,
+        "elbow_flexion": 0.0,
+        "stance_width": 0.0,
+        "toe_out": 0.0,
+        "shoulder_rotation": 0.0,
+        "bounce": 0.0,
+        "look": "A brisk walk with noticeably long strides at 1.8 meters per second."
+      },
+      "rules": [],
+      "scales": {
+        "speed": 1.428571
+      },
+      "speed_mps": 1.8
+    },
+    {
+      "id": "Q8",
+      "group": "Q",
+      "text": "보폭을 평소의 1.5배로 해서 걸어",
+      "en": "A person walks forward with steps 1.5 times longer than usual.",
+      "expect": "accept",
+      "expect_action": "walk",
+      "measure": "step_length_ratio",
+      "value": 1.5,
+      "level1": "pass",
+      "tokens": 68,
+      "answer": "{\"look\":\"A walk with strides one and a half times the usual length.\",\"s\":1.5}",
+      "params": {
+        "action": "walk",
+        "s": 1.5,
+        "n": 1.0,
+        "c": 0.0,
+        "m_arm": 1.0,
+        "m_torso": 1.0,
+        "m_knee": 1.0,
+        "m_elbow": 1.0,
+        "torso_pitch": 0.0,
+        "head_pitch": 0.0,
+        "shoulder_flexion": 0.0,
+        "shoulder_abduction": 0.0,
+        "elbow_flexion": 0.0,
+        "stance_width": 0.0,
+        "toe_out": 0.0,
+        "shoulder_rotation": 0.0,
+        "bounce": 0.0,
+        "look": "A walk with strides one and a half times the usual length."
+      },
+      "rules": [],
+      "scales": {
+        "speed": 1.5
+      },
+      "speed_mps": 1.89
+    },
+    {
+      "id": "Q9",
+      "group": "Q",
+      "text": "무릎을 30도 더 굽힌 채로 걸어",
+      "en": "A person walks forward with the knees bent 30 degrees more than usual.",
+      "expect": "accept",
+      "expect_action": "walk",
+      "measure": "knee_bend_change",
+      "value": 30,
+      "level1": "pass",
+      "tokens": 70,
+      "answer": "{\"look\":\"A walk with the knees deeply bent throughout.\",\"c\":30}",
+      "params": {
+        "action": "walk",
+        "s": 1.0,
+        "n": 1.0,
+        "c": 30.0,
+        "m_arm": 1.0,
+        "m_torso": 1.0,
+        "m_knee": 1.0,
+        "m_elbow": 1.0,
+        "torso_pitch": 0.0,
+        "head_pitch": 0.0,
+        "shoulder_flexion": 0.0,
+        "shoulder_abduction": 0.0,
+        "elbow_flexion": 0.0,
+        "stance_width": 0.0,
+        "toe_out": 0.0,
+        "shoulder_rotation": 0.0,
+        "bounce": 0.0,
+        "look": "A walk with the knees deeply bent throughout."
+      },
+      "rules": [],
+      "scales": {
+        "crouch": 30.0
+      },
+      "speed_mps": 1.26
+    },
+    {
+      "id": "Q10",
+      "group": "Q",
+      "text": "두 팔을 앞으로 90도 들고 걸어",
+      "en": "A person walks forward with both arms raised forward to 90 degrees.",
+      "expect": "accept",
+      "expect_action": "walk",
+      "measure": "arm_flexion",
+      "value": 90,
+      "level1": "pass",
+      "tokens": 147,
+      "answer": "{\"look\":\"Walks with both arms held straight forward at shoulder height.\",\"m_arm\":0.3,\"shoulder_flexion\":85}",
+      "params": {
+        "action": "walk",
+        "s": 1.0,
+        "n": 1.0,
+        "c": 0.0,
+        "m_arm": 0.3,
+        "m_torso": 1.0,
+        "m_knee": 1.0,
+        "m_elbow": 1.0,
+        "torso_pitch": 0.0,
+        "head_pitch": 0.0,
+        "shoulder_flexion": 85.0,
+        "shoulder_abduction": 0.0,
+        "elbow_flexion": 0.0,
+        "stance_width": 0.0,
+        "toe_out": 0.0,
+        "shoulder_rotation": 0.0,
+        "bounce": 0.0,
+        "look": "Walks with both arms held straight forward at shoulder height."
+      },
+      "rules": [],
+      "scales": {
+        "arm_swing": 0.3,
+        "pose": {
+          "right_upper_arm": [
+            -0.0,
+            -85.0,
+            0.0
+          ],
+          "left_upper_arm": [
+            0.0,
+            -85.0,
+            -0.0
+          ]
+        }
+      },
+      "speed_mps": 1.26
+    },
+    {
+      "id": "Q11",
+      "group": "Q",
+      "text": "두 팔을 옆으로 45도 벌리고 걸어",
+      "en": "A person walks forward with both arms raised sideways to 45 degrees.",
+      "expect": "accept",
+      "expect_action": "walk",
+      "measure": "arm_abduction",
+      "value": 45,
+      "level1": "pass",
+      "tokens": 86,
+      "answer": "{\"look\":\"Walks with both arms held out to the sides at a 45-degree angle.\",\"shoulder_abduction\":45,\"m_arm\":0.3}",
+      "params": {
+        "action": "walk",
+        "s": 1.0,
+        "n": 1.0,
+        "c": 0.0,
+        "m_arm": 0.3,
+        "m_torso": 1.0,
+        "m_knee": 1.0,
+        "m_elbow": 1.0,
+        "torso_pitch": 0.0,
+        "head_pitch": 0.0,
+        "shoulder_flexion": 0.0,
+        "shoulder_abduction": 45.0,
+        "elbow_flexion": 0.0,
+        "stance_width": 0.0,
+        "toe_out": 0.0,
+        "shoulder_rotation": 0.0,
+        "bounce": 0.0,
+        "look": "Walks with both arms held out to the sides at a 45-degree angle."
+      },
+      "rules": [],
+      "scales": {
+        "arm_swing": 0.3,
+        "pose": {
+          "right_upper_arm": [
+            -45.0,
+            -0.0,
+            0.0
+          ],
+          "left_upper_arm": [
+            45.0,
+            -0.0,
+            -0.0
+          ]
+        }
+      },
+      "speed_mps": 1.26
+    },
+    {
+      "id": "Q12",
+      "group": "Q",
+      "text": "두 다리를 각각 10도씩 벌리고 걸어",
+      "en": "A person walks forward with each leg spread 10 degrees outward.",
+      "expect": "accept",
+      "expect_action": "walk",
+      "measure": "leg_abduction_change",
+      "value": 10,
+      "level1": "pass",
+      "tokens": 84,
+      "answer": "{\"look\":\"A walk with both legs noticeably spread outward.\",\"stance_width\":10}",
+      "params": {
+        "action": "walk",
+        "s": 1.0,
+        "n": 1.0,
+        "c": 0.0,
+        "m_arm": 1.0,
+        "m_torso": 1.0,
+        "m_knee": 1.0,
+        "m_elbow": 1.0,
+        "torso_pitch": 0.0,
+        "head_pitch": 0.0,
+        "shoulder_flexion": 0.0,
+        "shoulder_abduction": 0.0,
+        "elbow_flexion": 0.0,
+        "stance_width": 10.0,
+        "toe_out": 0.0,
+        "shoulder_rotation": 0.0,
+        "bounce": 0.0,
+        "look": "A walk with both legs noticeably spread outward."
+      },
+      "rules": [],
+      "scales": {
+        "pose": {
+          "right_thigh": [
+            -10.0,
+            0,
+            -0.0
+          ],
+          "left_thigh": [
+            10.0,
+            0,
+            0.0
+          ],
+          "right_foot": [
+            10.0,
+            0,
+            0
+          ],
+          "left_foot": [
+            -10.0,
+            0,
+            0
+          ]
+        }
+      },
+      "speed_mps": 1.26
+    },
+    {
+      "id": "Q13",
+      "group": "Q",
+      "text": "발끝을 30도 더 바깥으로 돌리고 걸어",
+      "en": "A person walks forward with the toes turned 30 degrees further outward.",
+      "expect": "accept",
+      "expect_action": "walk",
+      "measure": "toe_out_change",
+      "value": 30,
+      "level1": "pass",
+      "tokens": 52,
+      "answer": "{\"look\":\"The character walks with the toes turned clearly outward.\",\"toe_out\":30}",
+      "params": {
+        "action": "walk",
+        "s": 1.0,
+        "n": 1.0,
+        "c": 0.0,
+        "m_arm": 1.0,
+        "m_torso": 1.0,
+        "m_knee": 1.0,
+        "m_elbow": 1.0,
+        "torso_pitch": 0.0,
+        "head_pitch": 0.0,
+        "shoulder_flexion": 0.0,
+        "shoulder_abduction": 0.0,
+        "elbow_flexion": 0.0,
+        "stance_width": 0.0,
+        "toe_out": 30.0,
+        "shoulder_rotation": 0.0,
+        "bounce": 0.0,
+        "look": "The character walks with the toes turned clearly outward."
+      },
+      "rules": [],
+      "scales": {
+        "pose": {
+          "right_thigh": [
+            -0.0,
+            0,
+            -30.0
+          ],
+          "left_thigh": [
+            0.0,
+            0,
+            30.0
+          ]
+        }
+      },
+      "speed_mps": 1.26
+    },
+    {
+      "id": "Q0",
+      "group": "Q",
+      "text": "걸어",
+      "en": "A person walks forward.",
+      "expect": "accept",
+      "expect_action": "walk",
+      "measure": "plain",
+      "value": null,
+      "level1": "pass",
+      "tokens": 22,
+      "answer": "{\"look\":\"A plain upright walk at a natural pace.\",\"action\":\"walk\"}",
+      "params": {
+        "action": "walk",
+        "s": 1.0,
+        "n": 1.0,
+        "c": 0.0,
+        "m_arm": 1.0,
+        "m_torso": 1.0,
+        "m_knee": 1.0,
+        "m_elbow": 1.0,
+        "torso_pitch": 0.0,
+        "head_pitch": 0.0,
+        "shoulder_flexion": 0.0,
+        "shoulder_abduction": 0.0,
+        "elbow_flexion": 0.0,
+        "stance_width": 0.0,
+        "toe_out": 0.0,
+        "shoulder_rotation": 0.0,
+        "bounce": 0.0,
+        "look": "A plain upright walk at a natural pace."
+      },
+      "rules": [],
+      "scales": {},
+      "speed_mps": 1.26
+    }
+  ],
+  "reasoning_effort": "medium",
+  "api_usage": {
+    "requests": 14,
+    "prompt_tokens": 57935,
+    "cached_tokens": 53560,
+    "completion_tokens": 1314,
+    "reasoning_tokens": 844
+  }
+}

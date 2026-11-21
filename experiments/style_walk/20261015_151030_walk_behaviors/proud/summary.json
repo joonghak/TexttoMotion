@@ -1,0 +1,77 @@
+{
+  "command": "당당하게",
+  "variant": {
+    "key": "proud",
+    "label": "당당하게",
+    "scales": {
+      "speed": 1.15,
+      "arm_swing": 1.4,
+      "pose": {
+        "torso": [
+          0,
+          -12,
+          0
+        ],
+        "head": [
+          0,
+          -10,
+          0
+        ]
+      }
+    },
+    "terms": {
+      "track_w": 0.6,
+      "speed": {
+        "scale": 1.15
+      },
+      "arm_swing": {
+        "scale": 1.4
+      },
+      "pose": {
+        "torso": [
+          0,
+          -12,
+          0
+        ],
+        "head": [
+          0,
+          -10,
+          0
+        ]
+      }
+    }
+  },
+  "reference": {
+    "clip": "/home/jong/TexttoMotion/MimicKit/data/motions/humanoid/humanoid_walk.pkl",
+    "duration_s": 10.0
+  },
+  "training": {
+    "iterations": 2000,
+    "num_envs": 1024,
+    "status": "completed",
+    "started": "2026-10-15T18:24:27",
+    "finished": "2026-10-15T18:53:45",
+    "final_log": {
+      "Iteration": 1999.0,
+      "Wall_Time": 0.4854656649298138,
+      "Samples": 65536000.0,
+      "Samples_Per_Second": 37498.93300296809,
+      "Test_Return": 291.34881591796875,
+      "Test_Episode_Length": 297.4052734375,
+      "Test_Episodes": 1024.0,
+      "Train_Return": 277.9540100097656,
+      "Train_Episode_Length": 298.03106689453125,
+      "Train_Episodes": 10314.0,
+      "Critic_Loss": 0.03800193592905998,
+      "Actor_Loss": -0.0003822143189609051,
+      "Clip_Frac": 0.2594970762729645,
+      "Imp_Ratio": 0.9979408383369446,
+      "Action_Bound_Loss": 1.3418456035196868e-07,
+      "Adv_Mean": -0.008070041425526142,
+      "Adv_Std": 0.20037586987018585,
+      "Obs_Norm_Mean": 0.3426053524017334,
+      "Obs_Norm_Std": 0.17424209415912628,
+      "Exp_Prob": 1.0
+    }
+  }
+}

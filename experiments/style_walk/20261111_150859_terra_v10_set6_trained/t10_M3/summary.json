@@ -1,0 +1,122 @@
+{
+  "command": "화가 나서 쿵쿵 걸어: gpt-5.6-terra, 프롬프트 v10이 정한 값 (s 1.2, n 1.2, c 15, m_arm 1.5, m_knee 1.4, torso_pitch 10, head_pitch 15, elbow_flexion 45, bounce 20)",
+  "variant": {
+    "key": "t10_M3",
+    "label": "화가 나서 쿵쿵 걸어: gpt-5.6-terra, 프롬프트 v10이 정한 값 (s 1.2, n 1.2, c 15, m_arm 1.5, m_knee 1.4, torso_pitch 10, head_pitch 15, elbow_flexion 45, bounce 20)",
+    "scales": {
+      "speed": 1.2,
+      "cadence": 1.2,
+      "arm_swing": 1.5,
+      "crouch": 15.0,
+      "bounce": 20.0,
+      "swing": {
+        "right_shin": 1.4,
+        "left_shin": 1.4
+      },
+      "pose": {
+        "torso": [
+          0,
+          10.0,
+          0
+        ],
+        "head": [
+          0,
+          15.0,
+          0
+        ],
+        "right_lower_arm": [
+          0,
+          0,
+          45.0
+        ],
+        "left_lower_arm": [
+          0,
+          0,
+          -45.0
+        ]
+      }
+    },
+    "terms": {
+      "track_w": 0.6,
+      "speed": {
+        "scale": 1.2
+      },
+      "cadence": {
+        "scale": 1.2
+      },
+      "arm_swing": {
+        "scale": 1.5
+      },
+      "crouch": {
+        "angle": 15.0
+      },
+      "bounce": {
+        "angle": 20.0
+      },
+      "swing": {
+        "right_shin": 1.4,
+        "left_shin": 1.4
+      },
+      "pose": {
+        "torso": [
+          0,
+          10.0,
+          0
+        ],
+        "head": [
+          0,
+          15.0,
+          0
+        ],
+        "right_lower_arm": [
+          0,
+          0,
+          45.0
+        ],
+        "left_lower_arm": [
+          0,
+          0,
+          -45.0
+        ]
+      },
+      "style": {
+        "w": 0.2
+      },
+      "swing_unit": "/home/jong/TexttoMotion/MimicKit/data/motions/humanoid/humanoid_walk.pkl",
+      "pose_unit": "/home/jong/TexttoMotion/MimicKit/data/motions/humanoid/humanoid_walk.pkl"
+    }
+  },
+  "reference": {
+    "clip": "/home/jong/TexttoMotion/MimicKit/data/motions/humanoid/humanoid_walk.pkl",
+    "duration_s": 10.0
+  },
+  "training": {
+    "iterations": 2000,
+    "num_envs": 1024,
+    "status": "completed",
+    "started": "2026-11-11T19:02:31",
+    "finished": "2026-11-11T19:38:39",
+    "final_log": {
+      "Iteration": 1999.0,
+      "Wall_Time": 0.5989245969057083,
+      "Samples": 65536000.0,
+      "Samples_Per_Second": 30395.21926215106,
+      "Test_Return": 265.76971435546875,
+      "Test_Episode_Length": 298.2568359375,
+      "Test_Episodes": 1024.0,
+      "Train_Return": 251.79959106445312,
+      "Train_Episode_Length": 298.8899230957031,
+      "Train_Episodes": 10280.0,
+      "Critic_Loss": 1.0463570356369019,
+      "Actor_Loss": -0.021486256271600723,
+      "Clip_Frac": 0.10533447563648224,
+      "Imp_Ratio": 1.0014575719833374,
+      "Action_Bound_Loss": 1.4060190096643055e-06,
+      "Adv_Mean": -0.013242563232779503,
+      "Adv_Std": 1.0292571783065796,
+      "Obs_Norm_Mean": 0.3458888530731201,
+      "Obs_Norm_Std": 0.18709486722946167,
+      "Exp_Prob": 1.0
+    }
+  }
+}

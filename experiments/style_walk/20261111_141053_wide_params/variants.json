@@ -1,0 +1,110 @@
+[
+ {
+  "key": "base",
+  "label": "기본 걷기",
+  "scales": {}
+ },
+ {
+  "key": "w_armsback",
+  "label": "뒷짐 지고 걷기를 노린 새 범위 확인 (사람이 정한 값): 어깨 뒤로 40°, 어깨 안쪽 회전 30°, 팔꿈치 40°, 팔 흔들기 0",
+  "scales": {
+   "arm_swing": 0,
+   "pose": {
+    "right_upper_arm": [
+     10.47,
+     39.07,
+     28.76
+    ],
+    "left_upper_arm": [
+     -10.47,
+     39.07,
+     -28.76
+    ],
+    "right_lower_arm": [
+     0,
+     0,
+     40
+    ],
+    "left_lower_arm": [
+     0,
+     0,
+     -40
+    ]
+   }
+  },
+  "params": {
+   "shoulder_flexion": -40,
+   "shoulder_rotation": 30,
+   "elbow_flexion": 40,
+   "m_arm": 0
+  }
+ },
+ {
+  "key": "w_toein",
+  "label": "안짱걸음을 노린 새 범위 확인 (사람이 정한 값): 발끝 안쪽 35°",
+  "scales": {
+   "pose": {
+    "right_thigh": [
+     -0.0,
+     0,
+     35
+    ],
+    "left_thigh": [
+     0.0,
+     0,
+     -35
+    ]
+   }
+  },
+  "params": {
+   "toe_out": -35
+  }
+ },
+ {
+  "key": "w_together",
+  "label": "다리를 모아 교차하는 걸음을 노린 새 범위 확인 (사람이 정한 값): 다리 안쪽 8°, 발끝 안쪽 20°",
+  "scales": {
+   "pose": {
+    "right_thigh": [
+     8,
+     0,
+     20
+    ],
+    "left_thigh": [
+     -8,
+     0,
+     -20
+    ],
+    "right_foot": [
+     -8,
+     0,
+     0
+    ],
+    "left_foot": [
+     8,
+     0,
+     0
+    ]
+   }
+  },
+  "params": {
+   "stance_width": -8,
+   "toe_out": -20
+  }
+ },
+ {
+  "key": "w_bounce",
+  "label": "통통 튀는 걸음을 노린 새 항 확인 (사람이 정한 값): 위아래 출렁임 25°, 무릎 흔들림 1.4배",
+  "scales": {
+   "bounce": 25,
+   "swing": {
+    "right_shin": 1.4,
+    "left_shin": 1.4
+   }
+  },
+  "params": {
+   "bounce": 25,
+   "m_knee": 1.4
+  }
+ }
+]

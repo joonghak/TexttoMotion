@@ -1,0 +1,54 @@
+{
+  "command": "무릎을 30도 더 굽힌 채로 걸어: gpt-5.6-terra, 프롬프트 v14이 정한 값 (c 15)",
+  "variant": {
+    "key": "f8_Q9",
+    "label": "무릎을 30도 더 굽힌 채로 걸어: gpt-5.6-terra, 프롬프트 v14이 정한 값 (c 15)",
+    "scales": {
+      "crouch": 15.0
+    },
+    "terms": {
+      "track_w": 0.6,
+      "crouch": {
+        "angle": 15.0
+      },
+      "style": {
+        "w": 0.2
+      },
+      "swing_unit": "/home/jong/TexttoMotion/MimicKit/data/motions/humanoid/humanoid_walk.pkl",
+      "pose_unit": "/home/jong/TexttoMotion/MimicKit/data/motions/humanoid/humanoid_walk.pkl"
+    }
+  },
+  "reference": {
+    "clip": "/home/jong/TexttoMotion/MimicKit/data/motions/humanoid/humanoid_walk.pkl",
+    "duration_s": 10.0
+  },
+  "training": {
+    "iterations": 2000,
+    "num_envs": 1024,
+    "status": "completed",
+    "started": "2026-11-16T20:38:46",
+    "finished": "2026-11-16T21:11:18",
+    "final_log": {
+      "Iteration": 1999.0,
+      "Wall_Time": 0.5390853215588464,
+      "Samples": 65536000.0,
+      "Samples_Per_Second": 33769.1339690043,
+      "Test_Return": 288.99957275390625,
+      "Test_Episode_Length": 297.6748046875,
+      "Test_Episodes": 1024.0,
+      "Train_Return": 274.40203857421875,
+      "Train_Episode_Length": 297.51123046875,
+      "Train_Episodes": 10327.0,
+      "Critic_Loss": 0.03089677356183529,
+      "Actor_Loss": -0.003578853327780962,
+      "Clip_Frac": 0.2764526307582855,
+      "Imp_Ratio": 0.9992420077323914,
+      "Action_Bound_Loss": 0.0,
+      "Adv_Mean": -0.024507027119398117,
+      "Adv_Std": 0.17433030903339386,
+      "Obs_Norm_Mean": 0.34256160259246826,
+      "Obs_Norm_Std": 0.16913048923015594,
+      "Exp_Prob": 1.0
+    }
+  }
+}

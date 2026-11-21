@@ -1,0 +1,94 @@
+{
+  "command": "두 다리를 각각 10도씩 벌리고 걸어: gpt-5.6-terra, 프롬프트 v14이 정한 값 (stance_width 10)",
+  "variant": {
+    "key": "f8_Q12",
+    "label": "두 다리를 각각 10도씩 벌리고 걸어: gpt-5.6-terra, 프롬프트 v14이 정한 값 (stance_width 10)",
+    "scales": {
+      "pose": {
+        "right_thigh": [
+          -10.0,
+          0,
+          -0.0
+        ],
+        "right_foot": [
+          10.0,
+          0,
+          0
+        ],
+        "left_thigh": [
+          10.0,
+          0,
+          0.0
+        ],
+        "left_foot": [
+          -10.0,
+          0,
+          0
+        ]
+      }
+    },
+    "terms": {
+      "track_w": 0.6,
+      "pose": {
+        "right_thigh": [
+          -10.0,
+          0,
+          -0.0
+        ],
+        "right_foot": [
+          10.0,
+          0,
+          0
+        ],
+        "left_thigh": [
+          10.0,
+          0,
+          0.0
+        ],
+        "left_foot": [
+          -10.0,
+          0,
+          0
+        ]
+      },
+      "style": {
+        "w": 0.2
+      },
+      "swing_unit": "/home/jong/TexttoMotion/MimicKit/data/motions/humanoid/humanoid_walk.pkl",
+      "pose_unit": "/home/jong/TexttoMotion/MimicKit/data/motions/humanoid/humanoid_walk.pkl"
+    }
+  },
+  "reference": {
+    "clip": "/home/jong/TexttoMotion/MimicKit/data/motions/humanoid/humanoid_walk.pkl",
+    "duration_s": 10.0
+  },
+  "training": {
+    "iterations": 2000,
+    "num_envs": 1024,
+    "status": "completed",
+    "started": "2026-11-16T22:12:53",
+    "finished": "2026-11-16T22:43:19",
+    "final_log": {
+      "Iteration": 1999.0,
+      "Wall_Time": 0.504202874104182,
+      "Samples": 65536000.0,
+      "Samples_Per_Second": 36105.39602097333,
+      "Test_Return": 289.1658020019531,
+      "Test_Episode_Length": 296.515625,
+      "Test_Episodes": 1024.0,
+      "Train_Return": 272.9532165527344,
+      "Train_Episode_Length": 297.1052551269531,
+      "Train_Episodes": 10342.0,
+      "Critic_Loss": 0.02885073609650135,
+      "Actor_Loss": -0.00880917813628912,
+      "Clip_Frac": 0.26979371905326843,
+      "Imp_Ratio": 0.9993802309036255,
+      "Action_Bound_Loss": 7.218842767997558e-08,
+      "Adv_Mean": -0.003851226530969143,
+      "Adv_Std": 0.17002418637275696,
+      "Obs_Norm_Mean": 0.3419528305530548,
+      "Obs_Norm_Std": 0.17228031158447266,
+      "Exp_Prob": 1.0
+    }
+  }
+}

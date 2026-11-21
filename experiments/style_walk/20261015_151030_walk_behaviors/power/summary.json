@@ -1,0 +1,91 @@
+{
+  "command": "힘차게",
+  "variant": {
+    "key": "power",
+    "label": "힘차게",
+    "scales": {
+      "arm_swing": 1.8,
+      "speed": 1.2,
+      "cadence": 1.15,
+      "pose": {
+        "torso": [
+          0,
+          -5,
+          0
+        ],
+        "right_lower_arm": [
+          0,
+          0,
+          45
+        ],
+        "left_lower_arm": [
+          0,
+          0,
+          -45
+        ]
+      }
+    },
+    "terms": {
+      "track_w": 0.6,
+      "arm_swing": {
+        "scale": 1.8
+      },
+      "speed": {
+        "scale": 1.2
+      },
+      "cadence": {
+        "scale": 1.15
+      },
+      "pose": {
+        "torso": [
+          0,
+          -5,
+          0
+        ],
+        "right_lower_arm": [
+          0,
+          0,
+          45
+        ],
+        "left_lower_arm": [
+          0,
+          0,
+          -45
+        ]
+      }
+    }
+  },
+  "reference": {
+    "clip": "/home/jong/TexttoMotion/MimicKit/data/motions/humanoid/humanoid_walk.pkl",
+    "duration_s": 10.0
+  },
+  "training": {
+    "iterations": 2000,
+    "num_envs": 1024,
+    "status": "completed",
+    "started": "2026-10-15T16:53:46",
+    "finished": "2026-10-15T17:23:34",
+    "final_log": {
+      "Iteration": 1999.0,
+      "Wall_Time": 0.493692074086931,
+      "Samples": 65536000.0,
+      "Samples_Per_Second": 36874.08690551297,
+      "Test_Return": 290.34271240234375,
+      "Test_Episode_Length": 297.9677734375,
+      "Test_Episodes": 1024.0,
+      "Train_Return": 276.77838134765625,
+      "Train_Episode_Length": 298.1445617675781,
+      "Train_Episodes": 10308.0,
+      "Critic_Loss": 0.11045851558446884,
+      "Actor_Loss": -0.00709946034476161,
+      "Clip_Frac": 0.21828003227710724,
+      "Imp_Ratio": 0.9983465075492859,
+      "Action_Bound_Loss": 5.524660082301125e-06,
+      "Adv_Mean": 0.03614191710948944,
+      "Adv_Std": 0.4339973032474518,
+      "Obs_Norm_Mean": 0.34366247057914734,
+      "Obs_Norm_Std": 0.1861449033021927,
+      "Exp_Prob": 1.0
+    }
+  }
+}

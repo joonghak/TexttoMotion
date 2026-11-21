@@ -1,0 +1,25 @@
+[
+  {
+    "key": "base",
+    "label": "그대로",
+    "scales": {}
+  },
+  {
+    "key": "arms_out",
+    "label": "팔 벌림 80°",
+    "scales": {
+      "pose": {
+        "right_upper_arm": [
+          -80,
+          0,
+          0
+        ],
+        "left_upper_arm": [
+          80,
+          0,
+          0
+        ]
+      }
+    }
+  }
+]

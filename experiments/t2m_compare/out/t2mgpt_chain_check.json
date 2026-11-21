@@ -1,0 +1,242 @@
+{
+ "C1": {
+  "events": [
+   {
+    "run": null,
+    "walk": 2.6,
+    "jump": null,
+    "kick": null,
+    "spin": null
+   },
+   {
+    "run": null,
+    "walk": 2.425,
+    "jump": null,
+    "kick": null,
+    "spin": null
+   },
+   {
+    "run": null,
+    "walk": 2.35,
+    "jump": null,
+    "kick": null,
+    "spin": null
+   }
+  ],
+  "pass": [
+   false,
+   false,
+   false
+  ]
+ },
+ "C2": {
+  "events": [
+   {
+    "run": null,
+    "walk": null,
+    "jump": 1.5,
+    "kick": null,
+    "spin": null
+   },
+   {
+    "run": null,
+    "walk": 3.3,
+    "jump": 3.2,
+    "kick": null,
+    "spin": null
+   },
+   {
+    "run": null,
+    "walk": 3.525,
+    "jump": 3.0,
+    "kick": null,
+    "spin": null
+   }
+  ],
+  "pass": [
+   false,
+   false,
+   false
+  ]
+ },
+ "C3": {
+  "events": [
+   {
+    "run": null,
+    "walk": null,
+    "jump": null,
+    "kick": 3.7,
+    "spin": null
+   },
+   {
+    "run": null,
+    "walk": null,
+    "jump": null,
+    "kick": null,
+    "spin": null
+   },
+   {
+    "run": null,
+    "walk": 1.125,
+    "jump": null,
+    "kick": 1.025,
+    "spin": null
+   }
+  ],
+  "pass": [
+   false,
+   false,
+   false
+  ]
+ },
+ "C4": {
+  "events": [
+   {
+    "run": null,
+    "walk": null,
+    "jump": 8.05,
+    "kick": 8.15,
+    "spin": null
+   },
+   {
+    "run": null,
+    "walk": 0.625,
+    "jump": 3.625,
+    "kick": 5.975,
+    "spin": null
+   },
+   {
+    "run": null,
+    "walk": 0.6,
+    "jump": 8.375,
+    "kick": 8.6,
+    "spin": null
+   }
+  ],
+  "pass": [
+   false,
+   false,
+   false
+  ]
+ },
+ "C5": {
+  "events": [
+   {
+    "run": null,
+    "walk": 1.1,
+    "jump": 1.75,
+    "kick": 3.425,
+    "spin": 2.05
+   },
+   {
+    "run": null,
+    "walk": 3.225,
+    "jump": null,
+    "kick": 1.975,
+    "spin": 1.225
+   },
+   {
+    "run": null,
+    "walk": null,
+    "jump": null,
+    "kick": 4.225,
+    "spin": 6.025
+   }
+  ],
+  "pass": [
+   true,
+   false,
+   false
+  ]
+ },
+ "C6": {
+  "events": [
+   {
+    "run": null,
+    "walk": 0.55,
+    "jump": null,
+    "kick": null,
+    "spin": null
+   },
+   {
+    "run": null,
+    "walk": null,
+    "jump": null,
+    "kick": null,
+    "spin": null
+   },
+   {
+    "run": null,
+    "walk": 0.475,
+    "jump": null,
+    "kick": null,
+    "spin": null
+   }
+  ],
+  "pass": [
+   false,
+   false,
+   false
+  ]
+ },
+ "C7": {
+  "events": [
+   {
+    "run": null,
+    "walk": 3.825,
+    "jump": 3.725,
+    "kick": null,
+    "spin": null
+   },
+   {
+    "run": null,
+    "walk": null,
+    "jump": 1.8,
+    "kick": null,
+    "spin": null
+   },
+   {
+    "run": null,
+    "walk": null,
+    "jump": 1.4,
+    "kick": null,
+    "spin": null
+   }
+  ],
+  "pass": [
+   false,
+   false,
+   false
+  ]
+ },
+ "C8": {
+  "events": [
+   {
+    "run": null,
+    "walk": 7.475,
+    "jump": 7.175,
+    "kick": null,
+    "spin": 7.125
+   },
+   {
+    "run": 5.1,
+    "walk": 6.1,
+    "jump": null,
+    "kick": null,
+    "spin": null
+   },
+   {
+    "run": 3.525,
+    "walk": 8.05,
+    "jump": null,
+    "kick": null,
+    "spin": 6.925
+   }
+  ],
+  "pass": [
+   false,
+   false,
+   false
+  ]
+ }
+}

@@ -1,0 +1,91 @@
+{
+  "command": "고양이처럼 사뿐사뿐 걸어",
+  "variant": {
+    "key": "B7",
+    "label": "고양이처럼 사뿐사뿐 걸어",
+    "scales": {
+      "speed": 0.8,
+      "arm_swing": 0.4,
+      "crouch": 10.0,
+      "swing": {
+        "torso": 2.0,
+        "right_shin": 0.8,
+        "left_shin": 0.8
+      },
+      "pose": {
+        "torso": [
+          0,
+          10.0,
+          0
+        ],
+        "head": [
+          0,
+          -10.0,
+          0
+        ]
+      }
+    },
+    "terms": {
+      "track_w": 0.6,
+      "speed": {
+        "scale": 0.8
+      },
+      "arm_swing": {
+        "scale": 0.4
+      },
+      "crouch": {
+        "angle": 10.0
+      },
+      "swing": {
+        "torso": 2.0,
+        "right_shin": 0.8,
+        "left_shin": 0.8
+      },
+      "pose": {
+        "torso": [
+          0,
+          10.0,
+          0
+        ],
+        "head": [
+          0,
+          -10.0,
+          0
+        ]
+      }
+    }
+  },
+  "reference": {
+    "clip": "/home/jong/TexttoMotion/MimicKit/data/motions/humanoid/humanoid_walk.pkl",
+    "duration_s": 10.0
+  },
+  "training": {
+    "iterations": 2000,
+    "num_envs": 1024,
+    "status": "completed",
+    "started": "2026-10-27T22:22:03",
+    "finished": "2026-10-27T22:55:36",
+    "final_log": {
+      "Iteration": 1999.0,
+      "Wall_Time": 0.5561270728376176,
+      "Samples": 65536000.0,
+      "Samples_Per_Second": 32734.325181395943,
+      "Test_Return": 291.8769836425781,
+      "Test_Episode_Length": 296.8008117675781,
+      "Test_Episodes": 1024.0,
+      "Train_Return": 278.77685546875,
+      "Train_Episode_Length": 297.43890380859375,
+      "Train_Episodes": 10331.0,
+      "Critic_Loss": 0.02345305308699608,
+      "Actor_Loss": -0.008903296664357185,
+      "Clip_Frac": 0.224090576171875,
+      "Imp_Ratio": 0.9988961219787598,
+      "Action_Bound_Loss": 0.0,
+      "Adv_Mean": 0.013791235163807869,
+      "Adv_Std": 0.15237629413604736,
+      "Obs_Norm_Mean": 0.3425567150115967,
+      "Obs_Norm_Std": 0.15705381333827972,
+      "Exp_Prob": 1.0
+    }
+  }
+}

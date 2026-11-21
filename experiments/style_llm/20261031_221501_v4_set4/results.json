@@ -1,0 +1,691 @@
+{
+  "model": "Qwen/Qwen3-4B-Thinking-2507",
+  "revision": "768f209d9ea81521153ed38c47d515654e938aea",
+  "prompt": "v4",
+  "thinking_budget": 4096,
+  "test_set": "test_commands_4.json",
+  "seed": 42,
+  "batch_size": 2,
+  "elapsed_s": 1372.4,
+  "level1_passed": 22,
+  "commands": 22,
+  "results": [
+    {
+      "id": "A1",
+      "group": "A",
+      "text": "상체를 앞으로 기울인 채 뛰어",
+      "expect": "accept",
+      "expect_action": "run",
+      "level1": "pass",
+      "tokens": 1840,
+      "answer": "{\"action\": \"run\", \"torso_pitch\": 20}",
+      "params": {
+        "action": "run",
+        "s": 1.0,
+        "n": 1.0,
+        "c": 0.0,
+        "m_arm": 1.0,
+        "m_torso": 1.0,
+        "m_knee": 1.0,
+        "m_elbow": 1.0,
+        "torso_pitch": 20.0,
+        "head_pitch": 0.0,
+        "shoulder_flexion": 0.0,
+        "shoulder_abduction": 0.0,
+        "elbow_flexion": 0.0
+      },
+      "rules": [],
+      "scales": {
+        "pose": {
+          "torso": [
+            0,
+            20.0,
+            0
+          ]
+        }
+      },
+      "speed_mps": 3.56
+    },
+    {
+      "id": "A2",
+      "group": "A",
+      "text": "최대한 빠르게 달려",
+      "expect": "accept",
+      "expect_action": "run",
+      "check": "s * n > 1",
+      "level1": "pass",
+      "tokens": 2683,
+      "answer": "{\"action\": \"run\", \"s\": 2.0, \"n\": 1.5}",
+      "params": {
+        "action": "run",
+        "s": 2.0,
+        "n": 1.5,
+        "c": 0.0,
+        "m_arm": 1.0,
+        "m_torso": 1.0,
+        "m_knee": 1.0,
+        "m_elbow": 1.0,
+        "torso_pitch": 0.0,
+        "head_pitch": 0.0,
+        "shoulder_flexion": 0.0,
+        "shoulder_abduction": 0.0,
+        "elbow_flexion": 0.0
+      },
+      "rules": [],
+      "scales": {
+        "speed": 2.0,
+        "cadence": 1.5
+      },
+      "speed_mps": 10.68
+    },
+    {
+      "id": "A3",
+      "group": "A",
+      "text": "앞으로 멀리 점프해",
+      "expect": "accept",
+      "expect_action": "jump",
+      "check": "s > 1",
+      "level1": "pass",
+      "tokens": 1096,
+      "answer": "{\"action\": \"jump\", \"s\": 1.25}",
+      "params": {
+        "action": "jump",
+        "s": 1.25,
+        "n": 1.0,
+        "c": 0.0,
+        "m_arm": 1.0,
+        "m_torso": 1.0,
+        "m_knee": 1.0,
+        "m_elbow": 1.0,
+        "torso_pitch": 0.0,
+        "head_pitch": 0.0,
+        "shoulder_flexion": 0.0,
+        "shoulder_abduction": 0.0,
+        "elbow_flexion": 0.0
+      },
+      "rules": [],
+      "scales": {
+        "speed": 1.25
+      },
+      "speed_mps": 0.762
+    },
+    {
+      "id": "A4",
+      "group": "A",
+      "text": "양팔을 쫙 펴고 점프해",
+      "expect": "accept",
+      "expect_action": "jump",
+      "level1": "pass",
+      "tokens": 946,
+      "answer": "{\"action\": \"jump\", \"shoulder_abduction\": 80}",
+      "params": {
+        "action": "jump",
+        "s": 1.0,
+        "n": 1.0,
+        "c": 0.0,
+        "m_arm": 1.0,
+        "m_torso": 1.0,
+        "m_knee": 1.0,
+        "m_elbow": 1.0,
+        "torso_pitch": 0.0,
+        "head_pitch": 0.0,
+        "shoulder_flexion": 0.0,
+        "shoulder_abduction": 80.0,
+        "elbow_flexion": 0.0
+      },
+      "rules": [
+        "m_arm 1 -> 0.3 (팔을 80° 듦)"
+      ],
+      "scales": {
+        "arm_swing": 0.3,
+        "pose": {
+          "right_upper_arm": [
+            -80.0,
+            0,
+            0
+          ],
+          "left_upper_arm": [
+            80.0,
+            0,
+            0
+          ]
+        }
+      },
+      "speed_mps": 0.61
+    },
+    {
+      "id": "A5",
+      "group": "A",
+      "text": "그 자리에서 발차기해",
+      "expect": "accept",
+      "expect_action": "kick",
+      "check": "s < 1",
+      "level1": "pass",
+      "tokens": 1321,
+      "answer": "{\"action\": \"kick\"}",
+      "params": {
+        "action": "kick",
+        "s": 1.0,
+        "n": 1.0,
+        "c": 0.0,
+        "m_arm": 1.0,
+        "m_torso": 1.0,
+        "m_knee": 1.0,
+        "m_elbow": 1.0,
+        "torso_pitch": 0.0,
+        "head_pitch": 0.0,
+        "shoulder_flexion": 0.0,
+        "shoulder_abduction": 0.0,
+        "elbow_flexion": 0.0
+      },
+      "rules": [],
+      "scales": {},
+      "speed_mps": 0.73
+    },
+    {
+      "id": "A6",
+      "group": "A",
+      "text": "천천히 달려",
+      "expect": "accept",
+      "expect_action": "run",
+      "check": "s * n < 1",
+      "level1": "pass",
+      "tokens": 2870,
+      "answer": "{\"action\": \"run\", \"n\": 0.75}",
+      "params": {
+        "action": "run",
+        "s": 1.0,
+        "n": 0.75,
+        "c": 0.0,
+        "m_arm": 1.0,
+        "m_torso": 1.0,
+        "m_knee": 1.0,
+        "m_elbow": 1.0,
+        "torso_pitch": 0.0,
+        "head_pitch": 0.0,
+        "shoulder_flexion": 0.0,
+        "shoulder_abduction": 0.0,
+        "elbow_flexion": 0.0
+      },
+      "rules": [],
+      "scales": {
+        "cadence": 0.75
+      },
+      "speed_mps": 2.67
+    },
+    {
+      "id": "A7",
+      "group": "A",
+      "text": "한 바퀴 돌면서 발차기해",
+      "expect": "accept",
+      "expect_action": "spinkick",
+      "level1": "pass",
+      "tokens": 1820,
+      "answer": "{\"action\": \"spinkick\"}",
+      "params": {
+        "action": "spinkick",
+        "s": 1.0,
+        "n": 1.0,
+        "c": 0.0,
+        "m_arm": 1.0,
+        "m_torso": 1.0,
+        "m_knee": 1.0,
+        "m_elbow": 1.0,
+        "torso_pitch": 0.0,
+        "head_pitch": 0.0,
+        "shoulder_flexion": 0.0,
+        "shoulder_abduction": 0.0,
+        "elbow_flexion": 0.0
+      },
+      "rules": [],
+      "scales": {},
+      "speed_mps": 0.38
+    },
+    {
+      "id": "A8",
+      "group": "A",
+      "text": "무릎을 굽히고 낮은 자세로 달려",
+      "expect": "accept",
+      "expect_action": "run",
+      "level1": "pass",
+      "tokens": 1238,
+      "answer": "{\"action\": \"run\", \"c\": 20}",
+      "params": {
+        "action": "run",
+        "s": 1.0,
+        "n": 1.0,
+        "c": 20.0,
+        "m_arm": 1.0,
+        "m_torso": 1.0,
+        "m_knee": 1.0,
+        "m_elbow": 1.0,
+        "torso_pitch": 0.0,
+        "head_pitch": 0.0,
+        "shoulder_flexion": 0.0,
+        "shoulder_abduction": 0.0,
+        "elbow_flexion": 0.0
+      },
+      "rules": [],
+      "scales": {
+        "crouch": 20.0
+      },
+      "speed_mps": 3.56
+    },
+    {
+      "id": "A9",
+      "group": "A",
+      "text": "몸을 좌우로 흔들면서 달려",
+      "expect": "accept",
+      "expect_action": "run",
+      "level1": "pass",
+      "tokens": 1369,
+      "answer": "{\"action\": \"run\", \"m_torso\": 2}",
+      "params": {
+        "action": "run",
+        "s": 1.0,
+        "n": 1.0,
+        "c": 0.0,
+        "m_arm": 1.0,
+        "m_torso": 2.0,
+        "m_knee": 1.0,
+        "m_elbow": 1.0,
+        "torso_pitch": 0.0,
+        "head_pitch": 0.0,
+        "shoulder_flexion": 0.0,
+        "shoulder_abduction": 0.0,
+        "elbow_flexion": 0.0
+      },
+      "rules": [],
+      "scales": {
+        "swing": {
+          "torso": 2.0
+        }
+      },
+      "speed_mps": 3.56
+    },
+    {
+      "id": "A10",
+      "group": "A",
+      "text": "1분에 180걸음 속도로 달려",
+      "expect": "accept",
+      "expect_action": "run",
+      "check": "150 * n within 180 steps/min ± 10%",
+      "level1": "pass",
+      "tokens": 1156,
+      "answer": "{\"action\": \"run\", \"n\": 1.2}",
+      "params": {
+        "action": "run",
+        "s": 1.0,
+        "n": 1.2,
+        "c": 0.0,
+        "m_arm": 1.0,
+        "m_torso": 1.0,
+        "m_knee": 1.0,
+        "m_elbow": 1.0,
+        "torso_pitch": 0.0,
+        "head_pitch": 0.0,
+        "shoulder_flexion": 0.0,
+        "shoulder_abduction": 0.0,
+        "elbow_flexion": 0.0
+      },
+      "rules": [],
+      "scales": {
+        "cadence": 1.2
+      },
+      "speed_mps": 4.272
+    },
+    {
+      "id": "B1",
+      "group": "B",
+      "text": "지쳐서 터벅터벅 달려",
+      "expect": "accept",
+      "expect_action": "run",
+      "level1": "pass",
+      "tokens": 3168,
+      "answer": "{\"action\": \"run\", \"s\": 0.8, \"n\": 0.75, \"m_arm\": 0.4, \"m_knee\": 0.8, \"torso_pitch\": 15, \"head_pitch\": 25}",
+      "params": {
+        "action": "run",
+        "s": 0.8,
+        "n": 0.75,
+        "c": 0.0,
+        "m_arm": 0.4,
+        "m_torso": 1.0,
+        "m_knee": 0.8,
+        "m_elbow": 1.0,
+        "torso_pitch": 15.0,
+        "head_pitch": 25.0,
+        "shoulder_flexion": 0.0,
+        "shoulder_abduction": 0.0,
+        "elbow_flexion": 0.0
+      },
+      "rules": [],
+      "scales": {
+        "speed": 0.8,
+        "cadence": 0.75,
+        "arm_swing": 0.4,
+        "swing": {
+          "right_shin": 0.8,
+          "left_shin": 0.8
+        },
+        "pose": {
+          "torso": [
+            0,
+            15.0,
+            0
+          ],
+          "head": [
+            0,
+            25.0,
+            0
+          ]
+        }
+      },
+      "speed_mps": 2.136
+    },
+    {
+      "id": "B2",
+      "group": "B",
+      "text": "좀비처럼 팔을 앞으로 뻗고 달려",
+      "expect": "accept",
+      "expect_action": "run",
+      "level1": "pass",
+      "tokens": 2365,
+      "answer": "{\"action\": \"run\", \"s\": 0.85, \"n\": 0.6, \"m_arm\": 0.3, \"m_torso\": 5, \"torso_pitch\": 10, \"shoulder_flexion\": 85, \"elbow_flexion\": -30}",
+      "params": {
+        "action": "run",
+        "s": 0.85,
+        "n": 0.6,
+        "c": 0.0,
+        "m_arm": 0.3,
+        "m_torso": 5.0,
+        "m_knee": 1.0,
+        "m_elbow": 1.0,
+        "torso_pitch": 10.0,
+        "head_pitch": 0.0,
+        "shoulder_flexion": 85.0,
+        "shoulder_abduction": 0.0,
+        "elbow_flexion": -30.0
+      },
+      "rules": [],
+      "scales": {
+        "speed": 0.85,
+        "cadence": 0.6,
+        "arm_swing": 0.3,
+        "swing": {
+          "torso": 5.0
+        },
+        "pose": {
+          "torso": [
+            0,
+            10.0,
+            0
+          ],
+          "right_upper_arm": [
+            0,
+            -85.0,
+            0
+          ],
+          "left_upper_arm": [
+            0,
+            -85.0,
+            0
+          ],
+          "right_lower_arm": [
+            0,
+            0,
+            -30.0
+          ],
+          "left_lower_arm": [
+            0,
+            0,
+            30.0
+          ]
+        }
+      },
+      "speed_mps": 1.816
+    },
+    {
+      "id": "B3",
+      "group": "B",
+      "text": "고개를 푹 숙이고 점프해",
+      "expect": "accept",
+      "expect_action": "jump",
+      "level1": "pass",
+      "tokens": 1061,
+      "answer": "{\"action\": \"jump\", \"head_pitch\": 25}",
+      "params": {
+        "action": "jump",
+        "s": 1.0,
+        "n": 1.0,
+        "c": 0.0,
+        "m_arm": 1.0,
+        "m_torso": 1.0,
+        "m_knee": 1.0,
+        "m_elbow": 1.0,
+        "torso_pitch": 0.0,
+        "head_pitch": 25.0,
+        "shoulder_flexion": 0.0,
+        "shoulder_abduction": 0.0,
+        "elbow_flexion": 0.0
+      },
+      "rules": [],
+      "scales": {
+        "pose": {
+          "head": [
+            0,
+            25.0,
+            0
+          ]
+        }
+      },
+      "speed_mps": 0.61
+    },
+    {
+      "id": "B4",
+      "group": "B",
+      "text": "팔꿈치를 굽히고 힘차게 발차기해",
+      "expect": "accept",
+      "expect_action": "kick",
+      "level1": "pass",
+      "tokens": 3838,
+      "answer": "{\"action\": \"kick\", \"c\": 20, \"s\": 1.2, \"n\": 1.15}",
+      "params": {
+        "action": "kick",
+        "s": 1.2,
+        "n": 1.15,
+        "c": 20.0,
+        "m_arm": 1.0,
+        "m_torso": 1.0,
+        "m_knee": 1.0,
+        "m_elbow": 1.0,
+        "torso_pitch": 0.0,
+        "head_pitch": 0.0,
+        "shoulder_flexion": 0.0,
+        "shoulder_abduction": 0.0,
+        "elbow_flexion": 0.0
+      },
+      "rules": [],
+      "scales": {
+        "speed": 1.2,
+        "cadence": 1.15,
+        "crouch": 20.0
+      },
+      "speed_mps": 1.007
+    },
+    {
+      "id": "B5",
+      "group": "B",
+      "text": "상체를 뒤로 젖힌 채 발차기해",
+      "expect": "accept",
+      "expect_action": "kick",
+      "level1": "pass",
+      "tokens": 1175,
+      "answer": "{\"action\": \"kick\", \"torso_pitch\": -10}",
+      "params": {
+        "action": "kick",
+        "s": 1.0,
+        "n": 1.0,
+        "c": 0.0,
+        "m_arm": 1.0,
+        "m_torso": 1.0,
+        "m_knee": 1.0,
+        "m_elbow": 1.0,
+        "torso_pitch": -10.0,
+        "head_pitch": 0.0,
+        "shoulder_flexion": 0.0,
+        "shoulder_abduction": 0.0,
+        "elbow_flexion": 0.0
+      },
+      "rules": [],
+      "scales": {
+        "pose": {
+          "torso": [
+            0,
+            -10.0,
+            0
+          ]
+        }
+      },
+      "speed_mps": 0.73
+    },
+    {
+      "id": "B6",
+      "group": "B",
+      "text": "무릎을 굽히고 낮게 점프해",
+      "expect": "accept",
+      "expect_action": "jump",
+      "level1": "pass",
+      "tokens": 1760,
+      "answer": "{\"action\": \"jump\", \"c\": 20, \"n\": 1.25}",
+      "params": {
+        "action": "jump",
+        "s": 1.0,
+        "n": 1.25,
+        "c": 20.0,
+        "m_arm": 1.0,
+        "m_torso": 1.0,
+        "m_knee": 1.0,
+        "m_elbow": 1.0,
+        "torso_pitch": 0.0,
+        "head_pitch": 0.0,
+        "shoulder_flexion": 0.0,
+        "shoulder_abduction": 0.0,
+        "elbow_flexion": 0.0
+      },
+      "rules": [],
+      "scales": {
+        "cadence": 1.25,
+        "crouch": 20.0
+      },
+      "speed_mps": 0.762
+    },
+    {
+      "id": "W1",
+      "group": "W",
+      "text": "팔을 크게 흔들며 걸어",
+      "expect": "accept",
+      "expect_action": "walk",
+      "level1": "pass",
+      "tokens": 1473,
+      "answer": "{\"action\": \"walk\", \"m_arm\": 1.5}",
+      "params": {
+        "action": "walk",
+        "s": 1.0,
+        "n": 1.0,
+        "c": 0.0,
+        "m_arm": 1.5,
+        "m_torso": 1.0,
+        "m_knee": 1.0,
+        "m_elbow": 1.0,
+        "torso_pitch": 0.0,
+        "head_pitch": 0.0,
+        "shoulder_flexion": 0.0,
+        "shoulder_abduction": 0.0,
+        "elbow_flexion": 0.0
+      },
+      "rules": [],
+      "scales": {
+        "arm_swing": 1.5
+      },
+      "speed_mps": 1.26
+    },
+    {
+      "id": "W2",
+      "group": "W",
+      "text": "느릿느릿 걸어",
+      "expect": "accept",
+      "expect_action": "walk",
+      "level1": "pass",
+      "tokens": 2277,
+      "answer": "{\"n\": 0.75}",
+      "params": {
+        "action": "walk",
+        "s": 1.0,
+        "n": 0.75,
+        "c": 0.0,
+        "m_arm": 1.0,
+        "m_torso": 1.0,
+        "m_knee": 1.0,
+        "m_elbow": 1.0,
+        "torso_pitch": 0.0,
+        "head_pitch": 0.0,
+        "shoulder_flexion": 0.0,
+        "shoulder_abduction": 0.0,
+        "elbow_flexion": 0.0
+      },
+      "rules": [],
+      "scales": {
+        "cadence": 0.75
+      },
+      "speed_mps": 0.945
+    },
+    {
+      "id": "C1",
+      "group": "C",
+      "text": "수영해",
+      "expect": "reject",
+      "why": "참조 모션이 없는 동작",
+      "level1": "pass",
+      "tokens": 271,
+      "answer": "{\"error\": \"not_supported\"}",
+      "rejection": "not_supported",
+      "message": "[not_supported] 지원하지 않는 동작입니다."
+    },
+    {
+      "id": "C2",
+      "group": "C",
+      "text": "뒤로 공중제비 돌아",
+      "expect": "reject",
+      "why": "이번에 지원하지 않는 동작 (보상식을 확인하지 않음)",
+      "level1": "pass",
+      "tokens": 695,
+      "answer": "{\"error\": \"not_supported\"}",
+      "rejection": "not_supported",
+      "message": "[not_supported] 지원하지 않는 동작입니다."
+    },
+    {
+      "id": "C3",
+      "group": "C",
+      "text": "오른발로만 깡충깡충 뛰어",
+      "expect": "reject",
+      "why": "파라미터가 좌우 대칭",
+      "level1": "pass",
+      "tokens": 541,
+      "answer": "{\"error\": \"not_expressible\"}",
+      "rejection": "not_expressible",
+      "message": "[not_expressible] 현재 스타일 파라미터로 표현할 수 없는 동작입니다."
+    },
+    {
+      "id": "C4",
+      "group": "C",
+      "text": "달리다가 점프해",
+      "expect": "reject",
+      "why": "명령 하나에 동작 하나만 고를 수 있음",
+      "level1": "pass",
+      "tokens": 542,
+      "answer": "{\"error\": \"not_expressible\"}",
+      "rejection": "not_expressible",
+      "message": "[not_expressible] 현재 스타일 파라미터로 표현할 수 없는 동작입니다."
+    }
+  ]
+}

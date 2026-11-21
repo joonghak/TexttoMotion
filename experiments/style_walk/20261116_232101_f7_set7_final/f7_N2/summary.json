@@ -1,0 +1,157 @@
+{
+  "command": "고릴라처럼 가슴을 두드리며 걸어: gpt-5.6-terra, 프롬프트 v14이 정한 값 (s 0.7, n 0.75, c 20, m_arm 1.5, m_torso 6, m_knee 0.8, torso_pitch 25, head_pitch 15, shoulder_flexion 45, elbow_flexion 60, stance_width 10, shoulder_rotation 60)",
+  "variant": {
+    "key": "f7_N2",
+    "label": "고릴라처럼 가슴을 두드리며 걸어: gpt-5.6-terra, 프롬프트 v14이 정한 값 (s 0.7, n 0.75, c 20, m_arm 1.5, m_torso 6, m_knee 0.8, torso_pitch 25, head_pitch 15, shoulder_flexion 45, elbow_flexion 60, stance_width 10, shoulder_rotation 60)",
+    "scales": {
+      "speed": 0.7,
+      "cadence": 0.75,
+      "arm_swing": 0.3,
+      "crouch": 20.0,
+      "swing": {
+        "torso": 6.0,
+        "right_shin": 0.8,
+        "left_shin": 0.8
+      },
+      "pose": {
+        "torso": [
+          0,
+          25.0,
+          0
+        ],
+        "head": [
+          0,
+          15.0,
+          0
+        ],
+        "right_upper_arm": [
+          -23.51,
+          -40.73,
+          56.77
+        ],
+        "right_lower_arm": [
+          0,
+          0,
+          60.0
+        ],
+        "right_thigh": [
+          -10.0,
+          0,
+          -0.0
+        ],
+        "right_foot": [
+          10.0,
+          0,
+          0
+        ],
+        "left_upper_arm": [
+          23.51,
+          -40.73,
+          -56.77
+        ],
+        "left_lower_arm": [
+          0,
+          0,
+          -60.0
+        ],
+        "left_thigh": [
+          10.0,
+          0,
+          0.0
+        ],
+        "left_foot": [
+          -10.0,
+          0,
+          0
+        ]
+      }
+    },
+    "terms": {
+      "track_w": 0.6,
+      "speed": {
+        "scale": 0.7
+      },
+      "cadence": {
+        "scale": 0.75
+      },
+      "arm_swing": {
+        "scale": 0.3
+      },
+      "crouch": {
+        "angle": 20.0
+      },
+      "swing": {
+        "torso": 6.0,
+        "right_shin": 0.8,
+        "left_shin": 0.8
+      },
+      "pose": {
+        "torso": [
+          0,
+          25.0,
+          0
+        ],
+        "head": [
+          0,
+          15.0,
+          0
+        ],
+        "right_upper_arm": [
+          -23.51,
+          -40.73,
+          56.77
+        ],
+        "right_lower_arm": [
+          0,
+          0,
+          60.0
+        ],
+        "right_thigh": [
+          -10.0,
+          0,
+          -0.0
+        ],
+        "right_foot": [
+          10.0,
+          0,
+          0
+        ],
+        "left_upper_arm": [
+          23.51,
+          -40.73,
+          -56.77
+        ],
+        "left_lower_arm": [
+          0,
+          0,
+          -60.0
+        ],
+        "left_thigh": [
+          10.0,
+          0,
+          0.0
+        ],
+        "left_foot": [
+          -10.0,
+          0,
+          0
+        ]
+      },
+      "style": {
+        "w": 0.2
+      },
+      "swing_unit": "/home/jong/TexttoMotion/MimicKit/data/motions/humanoid/humanoid_walk.pkl",
+      "pose_unit": "/home/jong/TexttoMotion/MimicKit/data/motions/humanoid/humanoid_walk.pkl"
+    }
+  },
+  "reference": {
+    "clip": "/home/jong/TexttoMotion/MimicKit/data/motions/humanoid/humanoid_walk.pkl",
+    "duration_s": 10.0
+  },
+  "training": {
+    "iterations": 2000,
+    "num_envs": 1024,
+    "status": "running",
+    "started": "2026-11-16T23:59:09"
+  }
+}

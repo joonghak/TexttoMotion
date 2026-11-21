@@ -1,0 +1,54 @@
+{
+  "command": "까치발 걸음을 노린 새 항 확인 (사람이 정한 값): 발끝 세우기 25°",
+  "variant": {
+    "key": "toe25",
+    "label": "까치발 걸음을 노린 새 항 확인 (사람이 정한 값): 발끝 세우기 25°",
+    "scales": {
+      "foot_pitch": 25
+    },
+    "terms": {
+      "track_w": 0.6,
+      "foot_pitch": {
+        "angle": 25
+      },
+      "style": {
+        "w": 0.2
+      },
+      "swing_unit": "/home/jong/TexttoMotion/MimicKit/data/motions/humanoid/humanoid_walk.pkl",
+      "pose_unit": "/home/jong/TexttoMotion/MimicKit/data/motions/humanoid/humanoid_walk.pkl"
+    }
+  },
+  "reference": {
+    "clip": "/home/jong/TexttoMotion/MimicKit/data/motions/humanoid/humanoid_walk.pkl",
+    "duration_s": 10.0
+  },
+  "training": {
+    "iterations": 2000,
+    "num_envs": 1024,
+    "status": "completed",
+    "started": "2026-11-16T12:40:53",
+    "finished": "2026-11-16T13:12:48",
+    "final_log": {
+      "Iteration": 1999.0,
+      "Wall_Time": 0.5286699295043945,
+      "Samples": 65536000.0,
+      "Samples_Per_Second": 34434.42387863886,
+      "Test_Return": 268.81768798828125,
+      "Test_Episode_Length": 298.8398742675781,
+      "Test_Episodes": 1024.0,
+      "Train_Return": 254.27035522460938,
+      "Train_Episode_Length": 298.28411865234375,
+      "Train_Episodes": 10306.0,
+      "Critic_Loss": 0.10417380928993225,
+      "Actor_Loss": -0.013828689232468605,
+      "Clip_Frac": 0.24444580078125,
+      "Imp_Ratio": 0.9989515542984009,
+      "Action_Bound_Loss": 9.29052293940913e-06,
+      "Adv_Mean": -0.0018523004837334156,
+      "Adv_Std": 0.38642510771751404,
+      "Obs_Norm_Mean": 0.34083932638168335,
+      "Obs_Norm_Std": 0.1761220544576645,
+      "Exp_Prob": 1.0
+    }
+  }
+}

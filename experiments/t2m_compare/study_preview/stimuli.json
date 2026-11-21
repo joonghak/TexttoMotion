@@ -1,0 +1,34 @@
+[
+ {
+  "key": "set8_Q2",
+  "text": "상체를 40도 앞으로 숙이고 걸어",
+  "videos": {
+   "A": "set8_Q2_t2mgpt.mp4",
+   "B": "set8_Q2_mdm.mp4",
+   "C": "set8_Q2_ours.mp4",
+   "D": "set8_Q2_momask.mp4"
+  },
+  "answer_key": {
+   "A": "t2mgpt",
+   "B": "mdm",
+   "C": "ours",
+   "D": "momask"
+  }
+ },
+ {
+  "key": "set8_Q4",
+  "text": "1분에 140걸음으로 걸어",
+  "videos": {
+   "A": "set8_Q4_ours.mp4",
+   "B": "set8_Q4_momask.mp4",
+   "C": "set8_Q4_mdm.mp4",
+   "D": "set8_Q4_t2mgpt.mp4"
+  },
+  "answer_key": {
+   "A": "ours",
+   "B": "momask",
+   "C": "mdm",
+   "D": "t2mgpt"
+  }
+ }
+]

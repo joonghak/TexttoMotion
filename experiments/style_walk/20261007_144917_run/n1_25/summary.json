@@ -1,0 +1,49 @@
+{
+  "command": "n = 1.25",
+  "variant": {
+    "key": "n1_25",
+    "label": "n = 1.25",
+    "scales": {
+      "cadence": 1.25
+    },
+    "terms": {
+      "track_w": 0.6,
+      "cadence": {
+        "scale": 1.25
+      }
+    }
+  },
+  "reference": {
+    "clip": "/home/jong/TexttoMotion/MimicKit/data/motions/humanoid/humanoid_run.pkl",
+    "duration_s": 10.0
+  },
+  "training": {
+    "iterations": 1500,
+    "num_envs": 1024,
+    "status": "completed",
+    "started": "2026-10-07T15:32:15",
+    "finished": "2026-10-07T15:52:59",
+    "final_log": {
+      "Iteration": 1499.0,
+      "Wall_Time": 0.34248239643043943,
+      "Samples": 49152000.0,
+      "Samples_Per_Second": 39865.79595224954,
+      "Test_Return": 261.1001281738281,
+      "Test_Episode_Length": 288.1842041015625,
+      "Test_Episodes": 1026.0,
+      "Train_Return": 247.48512268066406,
+      "Train_Episode_Length": 287.2728271484375,
+      "Train_Episodes": 10712.0,
+      "Critic_Loss": 0.02489481121301651,
+      "Actor_Loss": 0.001002474338747561,
+      "Clip_Frac": 0.3049560487270355,
+      "Imp_Ratio": 0.9992027282714844,
+      "Action_Bound_Loss": 5.885929203941487e-05,
+      "Adv_Mean": 0.006497405003756285,
+      "Adv_Std": 0.1601860523223877,
+      "Obs_Norm_Mean": 0.3600623607635498,
+      "Obs_Norm_Std": 0.31126344203948975,
+      "Exp_Prob": 1.0
+    }
+  }
+}

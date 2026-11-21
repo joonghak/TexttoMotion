@@ -1,0 +1,180 @@
+[
+  {
+    "key": "base",
+    "label": "기본",
+    "scales": {}
+  },
+  {
+    "key": "lean_m15",
+    "label": "상체 뒤로 15°",
+    "scales": {
+      "pose": {
+        "torso": [
+          0,
+          -15,
+          0
+        ]
+      }
+    }
+  },
+  {
+    "key": "lean20",
+    "label": "상체 앞으로 20°",
+    "scales": {
+      "pose": {
+        "torso": [
+          0,
+          20,
+          0
+        ]
+      }
+    }
+  },
+  {
+    "key": "lean40",
+    "label": "상체 앞으로 40°",
+    "scales": {
+      "pose": {
+        "torso": [
+          0,
+          40,
+          0
+        ]
+      }
+    }
+  },
+  {
+    "key": "crouch15",
+    "label": "다리 굽힘 15°",
+    "scales": {
+      "crouch": 15.0
+    }
+  },
+  {
+    "key": "crouch30",
+    "label": "다리 굽힘 30°",
+    "scales": {
+      "crouch": 30.0
+    }
+  },
+  {
+    "key": "sway5",
+    "label": "몸통 흔들림 5배",
+    "scales": {
+      "swing": {
+        "torso": 5.0
+      }
+    }
+  },
+  {
+    "key": "sway10",
+    "label": "몸통 흔들림 10배",
+    "scales": {
+      "swing": {
+        "torso": 10.0
+      }
+    }
+  },
+  {
+    "key": "sway10_slow",
+    "label": "몸통 흔들림 10배, 걸음 수 0.6배",
+    "scales": {
+      "swing": {
+        "torso": 10.0
+      },
+      "cadence": 0.6
+    }
+  },
+  {
+    "key": "arms45",
+    "label": "팔 옆으로 45°",
+    "scales": {
+      "pose": {
+        "right_upper_arm": [
+          -45,
+          0,
+          0
+        ],
+        "left_upper_arm": [
+          45,
+          0,
+          0
+        ]
+      }
+    }
+  },
+  {
+    "key": "arms90",
+    "label": "팔 옆으로 90°",
+    "scales": {
+      "pose": {
+        "right_upper_arm": [
+          -90,
+          0,
+          0
+        ],
+        "left_upper_arm": [
+          90,
+          0,
+          0
+        ]
+      }
+    }
+  },
+  {
+    "key": "zombie",
+    "label": "좀비 조합",
+    "scales": {
+      "pose": {
+        "right_upper_arm": [
+          0,
+          -85,
+          0
+        ],
+        "left_upper_arm": [
+          0,
+          -85,
+          0
+        ],
+        "right_lower_arm": [
+          0,
+          0,
+          -30
+        ],
+        "left_lower_arm": [
+          0,
+          0,
+          30
+        ],
+        "torso": [
+          0,
+          10,
+          0
+        ]
+      },
+      "swing": {
+        "torso": 5.0
+      },
+      "arm_swing": 0.3,
+      "speed": 0.85,
+      "cadence": 0.6
+    }
+  },
+  {
+    "key": "sneak",
+    "label": "살금살금 조합",
+    "scales": {
+      "crouch": 30.0,
+      "pose": {
+        "torso": [
+          0,
+          20,
+          0
+        ]
+      },
+      "arm_swing": 0.3,
+      "speed": 0.6,
+      "cadence": 0.7
+    }
+  }
+]

@@ -1,0 +1,234 @@
+[
+  {
+    "key": "base",
+    "label": "기본 걷기",
+    "scales": {}
+  },
+  {
+    "key": "S1",
+    "label": "오른쪽 다리를 절뚝거리며 걸어",
+    "scales": {
+      "swing": {
+        "right_shin": 0.4
+      }
+    },
+    "clip": "walk"
+  },
+  {
+    "key": "S2",
+    "label": "왼손을 번쩍 들고 걸어",
+    "scales": {
+      "swing": {
+        "left_upper_arm": 0.3,
+        "left_lower_arm": 0.3
+      },
+      "pose": {
+        "left_upper_arm": [
+          0.0,
+          -85.0,
+          -0.0
+        ]
+      }
+    },
+    "clip": "walk"
+  },
+  {
+    "key": "S3",
+    "label": "오른손으로 전화를 받으면서 걸어",
+    "scales": {
+      "swing": {
+        "right_upper_arm": 0.3,
+        "right_lower_arm": 0.3
+      },
+      "pose": {
+        "right_upper_arm": [
+          -43.56,
+          -33.16,
+          -13.74
+        ],
+        "right_lower_arm": [
+          0,
+          0,
+          60.0
+        ]
+      }
+    },
+    "clip": "walk"
+  },
+  {
+    "key": "S4",
+    "label": "왼쪽 다리를 질질 끌면서 걸어",
+    "scales": {
+      "swing": {
+        "left_shin": 0.4
+      }
+    },
+    "clip": "walk"
+  },
+  {
+    "key": "S5",
+    "label": "오른손에 지팡이를 짚고 걸어",
+    "scales": {
+      "speed": 0.7,
+      "cadence": 0.7,
+      "arm_swing": 0.4,
+      "swing": {
+        "right_upper_arm": 0.0,
+        "right_lower_arm": 0.0,
+        "right_shin": 0.8,
+        "left_shin": 0.8
+      },
+      "pose": {
+        "torso": [
+          19.89,
+          14.85,
+          -2.62
+        ],
+        "right_upper_arm": [
+          -0.0,
+          -20.0,
+          0.0
+        ],
+        "right_lower_arm": [
+          0,
+          0,
+          40.0
+        ]
+      }
+    },
+    "clip": "walk"
+  },
+  {
+    "key": "S6",
+    "label": "몸을 오른쪽으로 기울인 채 걸어",
+    "scales": {
+      "pose": {
+        "torso": [
+          20.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    "clip": "walk"
+  },
+  {
+    "key": "S7",
+    "label": "다친 왼팔을 감싸 쥐고 걸어",
+    "scales": {
+      "swing": {
+        "right_upper_arm": 0.0,
+        "right_lower_arm": 0.0,
+        "left_upper_arm": 0.0,
+        "left_lower_arm": 0.0
+      },
+      "pose": {
+        "right_upper_arm": [
+          -21.56,
+          -52.06,
+          41.42
+        ],
+        "right_lower_arm": [
+          0,
+          0,
+          60.0
+        ],
+        "left_upper_arm": [
+          6.54,
+          -24.42,
+          -29.52
+        ],
+        "left_lower_arm": [
+          0,
+          0,
+          -50.0
+        ]
+      }
+    },
+    "clip": "walk"
+  },
+  {
+    "key": "S8",
+    "label": "무거운 가방을 왼쪽 어깨에 메고 걸어",
+    "scales": {
+      "speed": 0.85,
+      "cadence": 0.8,
+      "swing": {
+        "left_upper_arm": 0.3,
+        "left_lower_arm": 0.3
+      },
+      "pose": {
+        "torso": [
+          15.0,
+          0.0,
+          0.0
+        ],
+        "head": [
+          12.0,
+          0.0,
+          0.0
+        ],
+        "left_upper_arm": [
+          0.0,
+          -45.0,
+          -0.0
+        ],
+        "left_lower_arm": [
+          0,
+          0,
+          -60.0
+        ]
+      }
+    },
+    "clip": "walk"
+  },
+  {
+    "key": "S9",
+    "label": "고개를 왼쪽으로 갸웃한 채 걸어",
+    "scales": {
+      "pose": {
+        "head": [
+          -20.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    "clip": "walk"
+  },
+  {
+    "key": "S10",
+    "label": "한쪽 다리가 나무 의족인 해적처럼 걸어",
+    "scales": {
+      "speed": 0.8,
+      "cadence": 0.75,
+      "swing": {
+        "torso": 6.0,
+        "right_shin": 0.4
+      },
+      "pose": {
+        "right_thigh": [
+          -6.0,
+          0,
+          -0.0
+        ],
+        "right_foot": [
+          6.0,
+          0,
+          0
+        ],
+        "left_thigh": [
+          6.0,
+          0,
+          0.0
+        ],
+        "left_foot": [
+          -6.0,
+          0,
+          0
+        ]
+      }
+    },
+    "clip": "walk"
+  }
+]

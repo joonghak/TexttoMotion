@@ -1,0 +1,125 @@
+{
+ "title": "기존 걷기 정책과 100STYLE (2026-11-05)",
+ "note": "Targets fixed before the first evaluation: a target is given only where the command names the 100STYLE style or its meaning directly; tired is mapped to Depressed as the nearest name. Others report only the nearest styles. All base walks in the walk experiments are the same policy (20261006_234135/s1; the other plain-walk model files are byte-identical copies), so no seed-to-seed noise floor is available; the policy-vs-clip difference is used as a rough one.",
+ "items": [
+  {
+   "label": "zombie",
+   "command": "좀비처럼 걸어",
+   "rollout": "20261015_151030_walk_behaviors__zombie",
+   "base": "20261015_151030_walk_behaviors__base",
+   "target": "Zombie"
+  },
+  {
+   "label": "old",
+   "command": "노인처럼 걸어",
+   "rollout": "20261015_151030_walk_behaviors__old",
+   "base": "20261015_151030_walk_behaviors__base",
+   "target": "Old"
+  },
+  {
+   "label": "proud",
+   "command": "당당하게 걸어",
+   "rollout": "20261015_151030_walk_behaviors__proud",
+   "base": "20261015_151030_walk_behaviors__base",
+   "target": "Proud"
+  },
+  {
+   "label": "robot2",
+   "command": "로봇처럼 걸어",
+   "rollout": "20261015_151030_walk_behaviors__robot2",
+   "base": "20261015_151030_walk_behaviors__base",
+   "target": "Robot"
+  },
+  {
+   "label": "striding",
+   "command": "성큼성큼 걸어",
+   "rollout": "20261015_151030_walk_behaviors__striding",
+   "base": "20261015_151030_walk_behaviors__base",
+   "target": "BigSteps"
+  },
+  {
+   "label": "tired",
+   "command": "지쳐서 터벅터벅 걸어",
+   "rollout": "20261015_151030_walk_behaviors__tired",
+   "base": "20261015_151030_walk_behaviors__base",
+   "target": "Depressed"
+  },
+  {
+   "label": "stance10",
+   "command": "다리를 벌리고 걸어",
+   "rollout": "20261031_211553_new_params__stance10",
+   "base": "20261015_151030_walk_behaviors__base",
+   "target": "LegsApart"
+  },
+  {
+   "label": "hip16",
+   "command": "허벅지를 높이 들며 걸어 (허벅지 진폭 1.6배)",
+   "rollout": "20261031_211553_new_params__hip16",
+   "base": "20261015_151030_walk_behaviors__base",
+   "target": "HighKnees"
+  },
+  {
+   "label": "n_walk_zombie",
+   "command": "좀비처럼 걸어 (고정한 수식)",
+   "rollout": "20261101_225050_general_formula__n_walk_zombie",
+   "base": "20261015_151030_walk_behaviors__base",
+   "target": "Zombie"
+  },
+  {
+   "label": "n_walk_tired",
+   "command": "지쳐서 터벅터벅 걸어 (고정한 수식)",
+   "rollout": "20261101_225050_general_formula__n_walk_tired",
+   "base": "20261015_151030_walk_behaviors__base",
+   "target": "Depressed"
+  },
+  {
+   "label": "sneak_a",
+   "command": "살금살금 걸어",
+   "rollout": "20261015_151030_walk_behaviors__sneak_a",
+   "base": "20261015_151030_walk_behaviors__base",
+   "target": null
+  },
+  {
+   "label": "sneak_c",
+   "command": "조심조심 걸어",
+   "rollout": "20261015_151030_walk_behaviors__sneak_c",
+   "base": "20261015_151030_walk_behaviors__base",
+   "target": null
+  },
+  {
+   "label": "power",
+   "command": "힘차게 걸어",
+   "rollout": "20261015_151030_walk_behaviors__power",
+   "base": "20261015_151030_walk_behaviors__base",
+   "target": null
+  },
+  {
+   "label": "bouncy",
+   "command": "껑충껑충 걸어",
+   "rollout": "20261015_151030_walk_behaviors__bouncy",
+   "base": "20261015_151030_walk_behaviors__base",
+   "target": null
+  },
+  {
+   "label": "mincing",
+   "command": "종종걸음으로 걸어",
+   "rollout": "20261015_151030_walk_behaviors__mincing",
+   "base": "20261015_151030_walk_behaviors__base",
+   "target": null
+  },
+  {
+   "label": "sway",
+   "command": "흔들흔들 걸어",
+   "rollout": "20261015_151030_walk_behaviors__sway",
+   "base": "20261015_151030_walk_behaviors__base",
+   "target": null
+  },
+  {
+   "label": "n_walk_sneak",
+   "command": "살금살금 걸어 (고정한 수식)",
+   "rollout": "20261101_225050_general_formula__n_walk_sneak",
+   "base": "20261015_151030_walk_behaviors__base",
+   "target": null
+  }
+ ]
+}

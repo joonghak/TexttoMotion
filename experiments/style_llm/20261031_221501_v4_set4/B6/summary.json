@@ -1,0 +1,53 @@
+{
+  "command": "무릎을 굽히고 낮게 점프해",
+  "variant": {
+    "key": "B6",
+    "label": "무릎을 굽히고 낮게 점프해",
+    "scales": {
+      "cadence": 1.25,
+      "crouch": 20.0
+    },
+    "terms": {
+      "track_w": 0.6,
+      "cadence": {
+        "scale": 1.25
+      },
+      "crouch": {
+        "angle": 20.0
+      }
+    }
+  },
+  "reference": {
+    "clip": "/home/jong/TexttoMotion/MimicKit/data/motions/humanoid/humanoid_jump.pkl",
+    "duration_s": 10.0
+  },
+  "training": {
+    "iterations": 1500,
+    "num_envs": 1024,
+    "status": "completed",
+    "started": "2026-11-01T00:45:26",
+    "finished": "2026-11-01T01:11:57",
+    "final_log": {
+      "Iteration": 1499.0,
+      "Wall_Time": 0.4390593698951933,
+      "Samples": 49152000.0,
+      "Samples_Per_Second": 31096.781596057233,
+      "Test_Return": 241.45835876464844,
+      "Test_Episode_Length": 281.8118896484375,
+      "Test_Episodes": 1026.0,
+      "Train_Return": 221.40042114257812,
+      "Train_Episode_Length": 276.28521728515625,
+      "Train_Episodes": 11215.0,
+      "Critic_Loss": 1.050482153892517,
+      "Actor_Loss": -0.021220175549387932,
+      "Clip_Frac": 0.18703614175319672,
+      "Imp_Ratio": 0.9996628761291504,
+      "Action_Bound_Loss": 5.449377908917086e-07,
+      "Adv_Mean": 0.0007056836038827896,
+      "Adv_Std": 1.0852996110916138,
+      "Obs_Norm_Mean": 0.3607276976108551,
+      "Obs_Norm_Std": 0.23121260106563568,
+      "Exp_Prob": 1.0
+    }
+  }
+}

@@ -1,0 +1,423 @@
+{
+  "variants": [
+    "base_kick",
+    "B4",
+    "B5"
+  ],
+  "replicas": 128,
+  "seconds_per_character": 30.0,
+  "cycle_steps": 46,
+  "results": {
+    "base_kick": {
+      "command_error_pct": null,
+      "command_error_by_term_pct": {},
+      "success_pct": 100.0,
+      "episodes_ended": 4890,
+      "pose_err_deg": 6.3958001136779785,
+      "position_err_cm": 3.3263377845287323,
+      "side_gap_pct": {
+        "foot_clearance": 174.5192674281677,
+        "stance_time": 47.18028197180283
+      },
+      "stance_share_right_left": [
+        0.5306770833333333,
+        0.8583506944444445
+      ],
+      "falls": 0,
+      "episodes": 5014,
+      "falls_on_ground": 0,
+      "episode_s": {
+        "mean": 0.771029311520109,
+        "std": 0.44028048660947244
+      },
+      "failed_episode_s": {
+        "mean": null,
+        "std": null
+      },
+      "failed_episode_max_s": null,
+      "falls_per_min": 0.0,
+      "arm_swing_m": {
+        "mean": 0.5195420304579395,
+        "std": 0.03994613523111021
+      },
+      "arm_swing_right_left_m": [
+        0.5591197070621309,
+        0.47996435385374797
+      ],
+      "arm_swing_target_right_left_m": [
+        0.5237760543823242,
+        0.4382287263870239
+      ],
+      "foot_clearance_m": {
+        "mean": 0.6079196425243503,
+        "std": 0.5305759654454155
+      },
+      "foot_clearance_right_left_m": [
+        1.1383880958670662,
+        0.07745118918163436
+      ],
+      "foot_clearance_target_right_left_m": [
+        1.142896056175232,
+        0.04033076763153076
+      ],
+      "torso_tilt_deg": {
+        "mean": 46.549485710362596,
+        "std": 21.624086895375886
+      },
+      "torso_tilt_target_deg": 46.18831253051758,
+      "pelvis_height_diff_cm": -0.4249079152941704,
+      "stance_knee_deg": 52.1400032043457,
+      "stance_knee_reference_deg": 55.5844612121582,
+      "speed_mps": {
+        "mean": 0.563305548128631,
+        "std": 0.25333975735982
+      },
+      "speed_overall_mps": 0.673436244781777,
+      "speed_target_mps": 0.7721000987908059,
+      "steps_per_min": 409.8137827918988,
+      "steps_per_min_target": 78.26086510331986,
+      "foot_strikes_per_min": 82.953125,
+      "touchdowns_per_step": 1.5161047278206818,
+      "step_length_m": 0.09859642692257779,
+      "heading_drift_dps": {
+        "mean": 72.36601809787112,
+        "std": 36.85802189121287
+      },
+      "joint_accel_rad_s2": {
+        "mean": 20.89781681519588,
+        "std": 8.01596662048497
+      },
+      "foot_slide_mps": {
+        "mean": 0.11552516443276588,
+        "std": 0.05420579615232349
+      },
+      "joint_err_deg": {
+        "torso_head": 6.053384780883789,
+        "arms": 3.1448659896850586,
+        "hips_ankles": 10.392796516418457,
+        "knees": 5.246090888977051
+      },
+      "scales": {
+        "arm_swing": 1.0,
+        "speed": 1.0,
+        "cadence": 1.0,
+        "foot_lift": 1.0,
+        "upright": 1.0
+      },
+      "head_sway_cm": {
+        "mean": 15.935518438441472,
+        "std": 0.6193187003176188
+      },
+      "pelvis_sway_cm": {
+        "mean": 26.788468010948794,
+        "std": 0.9754963601888954
+      },
+      "chest_roll_range_deg": {
+        "mean": 67.83562823704311,
+        "std": 0.9056118746271081
+      },
+      "chest_pitch_deg": 36.173011779785156,
+      "pelvis_height_m": 0.8180680274963379,
+      "pelvis_up_down_cm": {
+        "mean": 24.127049957002914,
+        "std": 0.6448470507368912
+      },
+      "knee_deg": 56.60865020751953,
+      "hand_forward_m": 0.20087987184524536,
+      "hand_apart_m": 0.2635513246059418,
+      "hand_up_m": 0.21344168484210968,
+      "head_pitch_deg": 32.46946716308594,
+      "elbow_deg": 86.62224578857422,
+      "knee_swing_deg": {
+        "mean": 63.67771357581729,
+        "std": 0.41610735317930614
+      },
+      "arm_target_err_deg": [
+        3.2080347537994385,
+        2.336486339569092,
+        3.7193145751953125,
+        3.31557559967041
+      ],
+      "foot_target_err_cm": [
+        3.2771847248077393,
+        2.1890766620635986
+      ],
+      "tilt_target_err_deg": 2.423243761062622
+    },
+    "B4": {
+      "command_error_pct": 177.3747845332747,
+      "command_error_by_term_pct": {
+        "speed": 11.74271009635545,
+        "cadence": 343.00685897019395
+      },
+      "success_pct": 100.0,
+      "episodes_ended": 5594,
+      "pose_err_deg": 8.520435333251953,
+      "position_err_cm": 5.475445091724396,
+      "side_gap_pct": {
+        "foot_clearance": 159.37400132482648,
+        "stance_time": 32.80042535525177
+      },
+      "stance_share_right_left": [
+        0.4981770833333333,
+        0.6936371527777778
+      ],
+      "falls": 0,
+      "episodes": 5711,
+      "falls_on_ground": 0,
+      "episode_s": {
+        "mean": 0.6766773924442856,
+        "std": 0.3858266005572123
+      },
+      "failed_episode_s": {
+        "mean": null,
+        "std": null
+      },
+      "failed_episode_max_s": null,
+      "falls_per_min": 0.0,
+      "arm_swing_m": {
+        "mean": 0.4896266256387417,
+        "std": 0.02727760046646513
+      },
+      "arm_swing_right_left_m": [
+        0.51664576622156,
+        0.4626074850559235
+      ],
+      "arm_swing_target_right_left_m": [
+        0.5237760543823242,
+        0.4382287263870239
+      ],
+      "foot_clearance_m": {
+        "mean": 0.4481070564343379,
+        "std": 0.3573129961072895
+      },
+      "foot_clearance_right_left_m": [
+        0.8051901294634892,
+        0.09102398340518658
+      ],
+      "foot_clearance_target_right_left_m": [
+        1.142896056175232,
+        0.04033076763153076
+      ],
+      "torso_tilt_deg": {
+        "mean": 46.094498977905346,
+        "std": 21.07764295802236
+      },
+      "torso_tilt_target_deg": 46.04012680053711,
+      "pelvis_height_diff_cm": -11.986081302165985,
+      "stance_knee_deg": 87.75010681152344,
+      "stance_knee_reference_deg": 54.5806770324707,
+      "speed_mps": {
+        "mean": 0.8062270613333724,
+        "std": 0.3243168063419933
+      },
+      "speed_overall_mps": 0.9403797790998559,
+      "speed_target_mps": 1.065498136331312,
+      "steps_per_min": 398.7061503416856,
+      "steps_per_min_target": 89.99999486881784,
+      "foot_strikes_per_min": 104.375,
+      "touchdowns_per_step": 2.263622754491018,
+      "step_length_m": 0.14151471377513944,
+      "heading_drift_dps": {
+        "mean": 92.7033373797141,
+        "std": 80.64002192353375
+      },
+      "joint_accel_rad_s2": {
+        "mean": 31.878213289714893,
+        "std": 8.402583725802815
+      },
+      "foot_slide_mps": {
+        "mean": 0.24850796312312226,
+        "std": 0.1389908396698125
+      },
+      "joint_err_deg": {
+        "torso_head": 10.204545974731445,
+        "arms": 4.330356597900391,
+        "hips_ankles": 23.231592178344727,
+        "knees": 34.53907012939453
+      },
+      "scales": {
+        "arm_swing": 1.0,
+        "speed": 1.2,
+        "cadence": 1.15,
+        "foot_lift": 1.0,
+        "upright": 1.0
+      },
+      "head_sway_cm": {
+        "mean": 11.133536076801954,
+        "std": 0.44233927333755174
+      },
+      "pelvis_sway_cm": {
+        "mean": 32.83578164470381,
+        "std": 0.5160604012636343
+      },
+      "chest_roll_range_deg": {
+        "mean": 70.18101548414964,
+        "std": 0.9175152622008799
+      },
+      "chest_pitch_deg": 34.47115707397461,
+      "pelvis_height_m": 0.702093780040741,
+      "pelvis_up_down_cm": {
+        "mean": 21.670069236021774,
+        "std": 0.3648882779648196
+      },
+      "knee_deg": 92.28973388671875,
+      "hand_forward_m": 0.2013094276189804,
+      "hand_apart_m": 0.27756452560424805,
+      "hand_up_m": 0.21218010783195496,
+      "head_pitch_deg": 38.948890686035156,
+      "elbow_deg": 87.69728088378906,
+      "knee_swing_deg": {
+        "mean": 61.50474384014423,
+        "std": 0.5086338321606312
+      },
+      "arm_target_err_deg": [
+        4.409537315368652,
+        4.022758483886719,
+        4.676795959472656,
+        4.212323188781738
+      ],
+      "foot_target_err_cm": [
+        6.536017417907715,
+        3.3599653244018555
+      ],
+      "tilt_target_err_deg": 3.3039627075195312
+    },
+    "B5": {
+      "command_error_pct": null,
+      "command_error_by_term_pct": {},
+      "success_pct": 100.0,
+      "episodes_ended": 4875,
+      "pose_err_deg": 6.569856643676758,
+      "position_err_cm": 3.659360855817795,
+      "side_gap_pct": {
+        "foot_clearance": 177.8485315670505,
+        "stance_time": 49.24865743705966
+      },
+      "stance_share_right_left": [
+        0.5312152777777778,
+        0.8782986111111111
+      ],
+      "falls": 0,
+      "episodes": 4998,
+      "falls_on_ground": 0,
+      "episode_s": {
+        "mean": 0.7742017094017094,
+        "std": 0.4385936840769343
+      },
+      "failed_episode_s": {
+        "mean": null,
+        "std": null
+      },
+      "failed_episode_max_s": null,
+      "falls_per_min": 0.0,
+      "arm_swing_m": {
+        "mean": 0.4928000370083853,
+        "std": 0.012643345237133929
+      },
+      "arm_swing_right_left_m": [
+        0.5045812171559001,
+        0.48101885686087054
+      ],
+      "arm_swing_target_right_left_m": [
+        0.5237760543823242,
+        0.4382287263870239
+      ],
+      "foot_clearance_m": {
+        "mean": 0.592786610602986,
+        "std": 0.5271541640697589
+      },
+      "foot_clearance_right_left_m": [
+        1.119917751744736,
+        0.06565546946123589
+      ],
+      "foot_clearance_target_right_left_m": [
+        1.142896056175232,
+        0.04033076763153076
+      ],
+      "torso_tilt_deg": {
+        "mean": 44.38737036588705,
+        "std": 21.533867577326898
+      },
+      "torso_tilt_target_deg": 46.1029052734375,
+      "pelvis_height_diff_cm": -0.7457714062184095,
+      "stance_knee_deg": 52.80244064331055,
+      "stance_knee_reference_deg": 55.633941650390625,
+      "speed_mps": {
+        "mean": 0.5713121365422494,
+        "std": 0.2430375778772498
+      },
+      "speed_overall_mps": 0.6745560755247361,
+      "speed_target_mps": 0.7721000987908059,
+      "steps_per_min": 405.22824814670304,
+      "steps_per_min_target": 78.26086510331986,
+      "foot_strikes_per_min": 80.0625,
+      "touchdowns_per_step": 1.4449648711943794,
+      "step_length_m": 0.09987794463142108,
+      "heading_drift_dps": {
+        "mean": 73.12971623042661,
+        "std": 37.53826320229826
+      },
+      "joint_accel_rad_s2": {
+        "mean": 20.630856102406355,
+        "std": 7.794976528988103
+      },
+      "foot_slide_mps": {
+        "mean": 0.11247917346426457,
+        "std": 0.06012305345063704
+      },
+      "joint_err_deg": {
+        "torso_head": 8.276897430419922,
+        "arms": 3.491394281387329,
+        "hips_ankles": 10.329976081848145,
+        "knees": 5.269894599914551
+      },
+      "scales": {
+        "arm_swing": 1.0,
+        "speed": 1.0,
+        "cadence": 1.0,
+        "foot_lift": 1.0,
+        "upright": 1.0
+      },
+      "head_sway_cm": {
+        "mean": 17.466943619835316,
+        "std": 0.424632394313291
+      },
+      "pelvis_sway_cm": {
+        "mean": 26.841294613994695,
+        "std": 0.6747135363371395
+      },
+      "chest_roll_range_deg": {
+        "mean": 66.57478079684945,
+        "std": 1.7645656105443206
+      },
+      "chest_pitch_deg": 30.908416748046875,
+      "pelvis_height_m": 0.8146328330039978,
+      "pelvis_up_down_cm": {
+        "mean": 22.794023779935614,
+        "std": 0.6861261083403798
+      },
+      "knee_deg": 57.278411865234375,
+      "hand_forward_m": 0.20832955837249756,
+      "hand_apart_m": 0.28968530893325806,
+      "hand_up_m": 0.22695402801036835,
+      "head_pitch_deg": 28.01883888244629,
+      "elbow_deg": 87.81619262695312,
+      "knee_swing_deg": {
+        "mean": 63.99785201494084,
+        "std": 0.3196573424319114
+      },
+      "arm_target_err_deg": [
+        3.3410303592681885,
+        2.205648899078369,
+        4.5613226890563965,
+        3.8576152324676514
+      ],
+      "foot_target_err_cm": [
+        3.1462743282318115,
+        2.165285587310791
+      ],
+      "tilt_target_err_deg": 2.959926128387451
+    }
+  }
+}

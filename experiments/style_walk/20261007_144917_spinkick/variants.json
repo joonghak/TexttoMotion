@@ -1,0 +1,21 @@
+[
+  {
+    "key": "base",
+    "label": "s = 1, n = 1",
+    "scales": {}
+  },
+  {
+    "key": "s1_25",
+    "label": "s = 1.25",
+    "scales": {
+      "speed": 1.25
+    }
+  },
+  {
+    "key": "n1_25",
+    "label": "n = 1.25",
+    "scales": {
+      "cadence": 1.25
+    }
+  }
+]

@@ -1,0 +1,35 @@
+{
+  "note": "Written and committed before the style prompt and its few-shot examples. Do not edit after the first run; add a new set instead.",
+  "groups": {
+    "A": "다른 말로 바꾼 12종 스타일: 수락해야 함. ref는 2단계 평가에서 비교할 퓨샷 스타일",
+    "B": "12종에 없는 새 스타일: 수락해야 함",
+    "C": "현재 파라미터로 표현할 수 없는 명령: 거절해야 함"
+  },
+  "commands": [
+    {"id": "A1", "group": "A", "text": "들키지 않게 몸을 낮추고 조용히 걸어", "expect": "accept", "ref": "Sneaky"},
+    {"id": "A2", "group": "A", "text": "미끄러운 빙판 위를 걷듯이 조심스럽게 걸어", "expect": "accept", "ref": "Cautious"},
+    {"id": "A3", "group": "A", "text": "기운차게 팔을 크게 흔들면서 걸어", "expect": "accept", "ref": "Energetic"},
+    {"id": "A4", "group": "A", "text": "무릎을 높이 들어 올리면서 걸어", "expect": "accept", "ref": "HighKnees"},
+    {"id": "A5", "group": "A", "text": "하루 종일 일해서 녹초가 된 사람처럼 걸어", "expect": "accept", "ref": "Tired"},
+    {"id": "A6", "group": "A", "text": "가슴을 펴고 자신감 있게 걸어", "expect": "accept", "ref": "Proud"},
+    {"id": "A7", "group": "A", "text": "보폭을 아주 좁게 해서 총총 걸어", "expect": "accept", "ref": "Mincing"},
+    {"id": "A8", "group": "A", "text": "다리를 쭉쭉 뻗어서 큰 보폭으로 걸어", "expect": "accept", "ref": "BigSteps"},
+    {"id": "A9", "group": "A", "text": "기계처럼 뻣뻣하게 걸어", "expect": "accept", "ref": "Robot"},
+    {"id": "A10", "group": "A", "text": "허리가 굽은 할머니처럼 걸어", "expect": "accept", "ref": "Old"},
+    {"id": "B1", "group": "B", "text": "화가 나서 씩씩거리며 걸어", "expect": "accept"},
+    {"id": "B2", "group": "B", "text": "슬퍼서 고개를 떨구고 걸어", "expect": "accept"},
+    {"id": "B3", "group": "B", "text": "신이 나서 경쾌하게 걸어", "expect": "accept"},
+    {"id": "B4", "group": "B", "text": "추워서 몸을 잔뜩 웅크리고 걸어", "expect": "accept"},
+    {"id": "B5", "group": "B", "text": "늦어서 급하게 서둘러 걸어", "expect": "accept"},
+    {"id": "B6", "group": "B", "text": "공원을 산책하듯 느긋하게 걸어", "expect": "accept"},
+    {"id": "B7", "group": "B", "text": "군인처럼 절도 있게 행진해", "expect": "accept"},
+    {"id": "B8", "group": "B", "text": "무거운 짐을 짊어진 것처럼 힘겹게 걸어", "expect": "accept"},
+    {"id": "B9", "group": "B", "text": "양손을 앞으로 공손하게 모으고 걸어", "expect": "accept"},
+    {"id": "B10", "group": "B", "text": "시속 3 km로 걸어", "expect": "accept", "check": "1.26 * s * n within 0.83 m/s ± 20%"},
+    {"id": "C1", "group": "C", "text": "양팔을 머리 위로 들고 걸어", "expect": "reject", "why": "팔을 100° 넘게 들면 조기 종료 (4.9절)"},
+    {"id": "C2", "group": "C", "text": "왼쪽 다리를 절뚝거리며 걸어", "expect": "reject", "why": "파라미터가 좌우 대칭"},
+    {"id": "C3", "group": "C", "text": "두 발을 모아 콩콩 뛰면서 앞으로 가", "expect": "reject", "why": "체공 구간과 다른 보행 패턴"},
+    {"id": "C4", "group": "C", "text": "뒤로 걸어", "expect": "reject", "why": "진행 방향을 바꾸는 파라미터가 없음"},
+    {"id": "C5", "group": "C", "text": "전속력으로 달려", "expect": "reject", "why": "보행이 아닌 동작"}
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "command": "몸통 흔들림 x5",
+  "variant": {
+    "key": "sway",
+    "label": "몸통 흔들림 x5",
+    "scales": {
+      "swing": {
+        "torso": 5.0
+      }
+    },
+    "terms": {
+      "track_w": 0.6,
+      "swing": {
+        "torso": 5.0
+      }
+    }
+  },
+  "reference": {
+    "clip": "/home/jong/TexttoMotion/MimicKit/data/motions/humanoid/humanoid_walk.pkl",
+    "duration_s": 10.0
+  },
+  "training": {
+    "iterations": 1500,
+    "num_envs": 1024,
+    "status": "completed",
+    "started": "2026-10-08T23:17:51",
+    "finished": "2026-10-08T23:40:05",
+    "final_log": {
+      "Iteration": 1499.0,
+      "Wall_Time": 0.3677561263905631,
+      "Samples": 49152000.0,
+      "Samples_Per_Second": 37126.052711446246,
+      "Test_Return": 288.5557556152344,
+      "Test_Episode_Length": 296.23046875,
+      "Test_Episodes": 1024.0,
+      "Train_Return": 274.63555908203125,
+      "Train_Episode_Length": 297.7291564941406,
+      "Train_Episodes": 10325.0,
+      "Critic_Loss": 0.7936828136444092,
+      "Actor_Loss": -0.024985089898109436,
+      "Clip_Frac": 0.19686280190944672,
+      "Imp_Ratio": 1.0002737045288086,
+      "Action_Bound_Loss": 0.0,
+      "Adv_Mean": -0.027754999697208405,
+      "Adv_Std": 1.03480064868927,
+      "Obs_Norm_Mean": 0.34255483746528625,
+      "Obs_Norm_Std": 0.16769376397132874,
+      "Exp_Prob": 1.0
+    }
+  }
+}

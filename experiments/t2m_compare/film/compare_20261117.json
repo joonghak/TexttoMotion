@@ -1,0 +1,253 @@
+{
+ "out": "experiments/t2m_compare/film/compare_20261117",
+ "pairs": [
+  {
+   "key": "dinosaur",
+   "run": "experiments/style_walk/20261111_150859_terra_v10_set6_trained/t10_N4",
+   "ours": "",
+   "clips": [
+    {
+     "type": "hml",
+     "file": "experiments/t2m_compare/out/momask/set6_N4_r0.npy",
+     "method": "momask",
+     "label": "",
+     "align": true
+    },
+    {
+     "type": "hml",
+     "file": "experiments/t2m_compare/out/t2mgpt/set6_N4_r0.npy",
+     "method": "t2mgpt",
+     "label": "",
+     "align": true
+    },
+    {
+     "type": "hml",
+     "file": "experiments/t2m_compare/out/mdm/set6_N4_r0.npy",
+     "method": "mdm",
+     "label": "",
+     "align": true
+    }
+   ],
+   "seconds": 6.0,
+   "no_text": true,
+   "caption": ""
+  },
+  {
+   "key": "penguin",
+   "run": "experiments/style_walk/20261111_150859_terra_v10_set6_trained/t10_N1",
+   "ours": "",
+   "clips": [
+    {
+     "type": "hml",
+     "file": "experiments/t2m_compare/out/momask/set6_N1_r0.npy",
+     "method": "momask",
+     "label": "",
+     "align": true
+    },
+    {
+     "type": "hml",
+     "file": "experiments/t2m_compare/out/t2mgpt/set6_N1_r0.npy",
+     "method": "t2mgpt",
+     "label": "",
+     "align": true
+    },
+    {
+     "type": "hml",
+     "file": "experiments/t2m_compare/out/mdm/set6_N1_r0.npy",
+     "method": "mdm",
+     "label": "",
+     "align": true
+    }
+   ],
+   "seconds": 6.0,
+   "no_text": true,
+   "caption": ""
+  },
+  {
+   "key": "lean40",
+   "run": "experiments/style_walk/20261116_164205_f8_set8_final/f8_Q2",
+   "ours": "",
+   "clips": [
+    {
+     "type": "hml",
+     "file": "experiments/t2m_compare/out/momask/set8_Q2_r0.npy",
+     "method": "momask",
+     "label": "",
+     "align": true
+    },
+    {
+     "type": "hml",
+     "file": "experiments/t2m_compare/out/t2mgpt/set8_Q2_r0.npy",
+     "method": "t2mgpt",
+     "label": "",
+     "align": true
+    },
+    {
+     "type": "hml",
+     "file": "experiments/t2m_compare/out/mdm/set8_Q2_r0.npy",
+     "method": "mdm",
+     "label": "",
+     "align": true
+    }
+   ],
+   "seconds": 6.0,
+   "no_text": true,
+   "caption": ""
+  },
+  {
+   "key": "arms_forward90",
+   "run": "experiments/style_walk/20261116_164205_f8_set8_final/f8_Q10",
+   "ours": "",
+   "clips": [
+    {
+     "type": "hml",
+     "file": "experiments/t2m_compare/out/momask/set8_Q10_r0.npy",
+     "method": "momask",
+     "label": "",
+     "align": true
+    },
+    {
+     "type": "hml",
+     "file": "experiments/t2m_compare/out/t2mgpt/set8_Q10_r0.npy",
+     "method": "t2mgpt",
+     "label": "",
+     "align": true
+    },
+    {
+     "type": "hml",
+     "file": "experiments/t2m_compare/out/mdm/set8_Q10_r0.npy",
+     "method": "mdm",
+     "label": "",
+     "align": true
+    }
+   ],
+   "seconds": 6.0,
+   "no_text": true,
+   "caption": ""
+  },
+  {
+   "key": "limp_right",
+   "run": "experiments/style_walk/20261112_221819_terra_v11_set9_trained/t11_S1",
+   "ours": "",
+   "clips": [
+    {
+     "type": "hml",
+     "file": "experiments/t2m_compare/out/momask/set9_S1_r0.npy",
+     "method": "momask",
+     "label": "",
+     "align": true
+    },
+    {
+     "type": "hml",
+     "file": "experiments/t2m_compare/out/t2mgpt/set9_S1_r0.npy",
+     "method": "t2mgpt",
+     "label": "",
+     "align": true
+    },
+    {
+     "type": "hml",
+     "file": "experiments/t2m_compare/out/mdm/set9_S1_r0.npy",
+     "method": "mdm",
+     "label": "",
+     "align": true
+    }
+   ],
+   "seconds": 6.0,
+   "no_text": true,
+   "caption": ""
+  },
+  {
+   "key": "left_hand_up",
+   "run": "experiments/style_walk/20261112_221819_terra_v11_set9_trained/t11_S2",
+   "ours": "",
+   "clips": [
+    {
+     "type": "hml",
+     "file": "experiments/t2m_compare/out/momask/set9_S2_r0.npy",
+     "method": "momask",
+     "label": "",
+     "align": true
+    },
+    {
+     "type": "hml",
+     "file": "experiments/t2m_compare/out/t2mgpt/set9_S2_r0.npy",
+     "method": "t2mgpt",
+     "label": "",
+     "align": true
+    },
+    {
+     "type": "hml",
+     "file": "experiments/t2m_compare/out/mdm/set9_S2_r0.npy",
+     "method": "mdm",
+     "label": "",
+     "align": true
+    }
+   ],
+   "seconds": 6.0,
+   "no_text": true,
+   "caption": ""
+  },
+  {
+   "key": "run_then_jump",
+   "run": "experiments/style_walk/20261116_134638_sol_v12_chains_trained/s12_C2",
+   "ours": "",
+   "clips": [
+    {
+     "type": "hml",
+     "file": "experiments/t2m_compare/out/momask/set10_C2_r0.npy",
+     "method": "momask",
+     "label": "",
+     "align": true
+    },
+    {
+     "type": "hml",
+     "file": "experiments/t2m_compare/out/t2mgpt/set10_C2_r0.npy",
+     "method": "t2mgpt",
+     "label": "",
+     "align": true
+    },
+    {
+     "type": "hml",
+     "file": "experiments/t2m_compare/out/mdm/set10_C2_r0.npy",
+     "method": "mdm",
+     "label": "",
+     "align": true
+    }
+   ],
+   "seconds": 8.0,
+   "no_text": true,
+   "caption": ""
+  },
+  {
+   "key": "walk_then_spinkick",
+   "run": "experiments/style_walk/20261116_134638_sol_v12_chains_trained/s12_C5",
+   "ours": "",
+   "clips": [
+    {
+     "type": "hml",
+     "file": "experiments/t2m_compare/out/momask/set10_C5_r0.npy",
+     "method": "momask",
+     "label": "",
+     "align": true
+    },
+    {
+     "type": "hml",
+     "file": "experiments/t2m_compare/out/t2mgpt/set10_C5_r0.npy",
+     "method": "t2mgpt",
+     "label": "",
+     "align": true
+    },
+    {
+     "type": "hml",
+     "file": "experiments/t2m_compare/out/mdm/set10_C5_r0.npy",
+     "method": "mdm",
+     "label": "",
+     "align": true
+    }
+   ],
+   "seconds": 8.0,
+   "no_text": true,
+   "caption": ""
+  }
+ ]
+}

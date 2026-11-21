@@ -1,0 +1,69 @@
+{
+  "command": "팔 옆으로 45°",
+  "variant": {
+    "key": "arms45",
+    "label": "팔 옆으로 45°",
+    "scales": {
+      "pose": {
+        "right_upper_arm": [
+          -45,
+          0,
+          0
+        ],
+        "left_upper_arm": [
+          45,
+          0,
+          0
+        ]
+      }
+    },
+    "terms": {
+      "track_w": 0.6,
+      "pose": {
+        "right_upper_arm": [
+          -45,
+          0,
+          0
+        ],
+        "left_upper_arm": [
+          45,
+          0,
+          0
+        ]
+      }
+    }
+  },
+  "reference": {
+    "clip": "/home/jong/TexttoMotion/MimicKit/data/motions/humanoid/humanoid_walk.pkl",
+    "duration_s": 10.0
+  },
+  "training": {
+    "iterations": 2000,
+    "num_envs": 1024,
+    "status": "completed",
+    "started": "2026-10-11T23:59:23",
+    "finished": "2026-10-12T00:50:59",
+    "final_log": {
+      "Iteration": 1999.0,
+      "Wall_Time": 0.8570243085755243,
+      "Samples": 65536000.0,
+      "Samples_Per_Second": 21241.45635344041,
+      "Test_Return": 292.4176330566406,
+      "Test_Episode_Length": 297.966796875,
+      "Test_Episodes": 1024.0,
+      "Train_Return": 278.29931640625,
+      "Train_Episode_Length": 297.2876892089844,
+      "Train_Episodes": 10338.0,
+      "Critic_Loss": 0.0717824250459671,
+      "Actor_Loss": -0.016060328111052513,
+      "Clip_Frac": 0.20157471299171448,
+      "Imp_Ratio": 0.9988856315612793,
+      "Action_Bound_Loss": 1.6024463320718496e-06,
+      "Adv_Mean": -0.016781112179160118,
+      "Adv_Std": 0.27957868576049805,
+      "Obs_Norm_Mean": 0.34265005588531494,
+      "Obs_Norm_Std": 0.16435226798057556,
+      "Exp_Prob": 1.0
+    }
+  }
+}

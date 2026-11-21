@@ -1,0 +1,59 @@
+{
+  "command": "상체 뒤로 15°",
+  "variant": {
+    "key": "lean_m15",
+    "label": "상체 뒤로 15°",
+    "scales": {
+      "pose": {
+        "torso": [
+          0,
+          -15,
+          0
+        ]
+      }
+    },
+    "terms": {
+      "track_w": 0.6,
+      "pose": {
+        "torso": [
+          0,
+          -15,
+          0
+        ]
+      }
+    }
+  },
+  "reference": {
+    "clip": "/home/jong/TexttoMotion/MimicKit/data/motions/humanoid/humanoid_walk.pkl",
+    "duration_s": 10.0
+  },
+  "training": {
+    "iterations": 2000,
+    "num_envs": 1024,
+    "status": "completed",
+    "started": "2026-10-11T20:10:54",
+    "finished": "2026-10-11T20:52:27",
+    "final_log": {
+      "Iteration": 1999.0,
+      "Wall_Time": 0.6886937766604954,
+      "Samples": 65536000.0,
+      "Samples_Per_Second": 26433.293085235284,
+      "Test_Return": 291.2962341308594,
+      "Test_Episode_Length": 296.8037414550781,
+      "Test_Episodes": 1024.0,
+      "Train_Return": 277.7022399902344,
+      "Train_Episode_Length": 297.1952819824219,
+      "Train_Episodes": 10343.0,
+      "Critic_Loss": 0.04374338686466217,
+      "Actor_Loss": -0.005907856859266758,
+      "Clip_Frac": 0.23552246391773224,
+      "Imp_Ratio": 0.9994844794273376,
+      "Action_Bound_Loss": 0.0,
+      "Adv_Mean": -0.0010013736318796873,
+      "Adv_Std": 0.21542830765247345,
+      "Obs_Norm_Mean": 0.34171977639198303,
+      "Obs_Norm_Std": 0.16608574986457825,
+      "Exp_Prob": 1.0
+    }
+  }
+}

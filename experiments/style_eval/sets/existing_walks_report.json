@@ -1,0 +1,1218 @@
+{
+ "results": [
+  {
+   "label": "zombie",
+   "command": "\uc880\ube44\ucc98\ub7fc \uac78\uc5b4",
+   "rollout": "20261015_151030_walk_behaviors__zombie",
+   "base": "20261015_151030_walk_behaviors__base",
+   "target": "Zombie",
+   "top": [
+    [
+     "Zombie",
+     0.825
+    ],
+    [
+     "InTheDark",
+     0.692
+    ],
+    [
+     "ArmsAboveHead",
+     0.61
+    ]
+   ],
+   "similarity": 0.825,
+   "rank": 1,
+   "strength": 0.837,
+   "delta": {
+    "step_length": -0.1445,
+    "cadence": -0.5232,
+    "torso_lean": 3.7791,
+    "torso_side": -2.6989,
+    "head_pitch": 5.5494,
+    "arm_swing": -0.3554,
+    "hand_forward": 0.7712,
+    "hand_height": 0.6268,
+    "hand_out": 0.1234,
+    "elbow_bend": -29.3138,
+    "knee_bend": 2.0796,
+    "pelvis_height": 0.0036,
+    "foot_lift": -0.0261,
+    "stance_width": -0.0346,
+    "pelvis_sway": -0.0341,
+    "head_sway": 0.128,
+    "bounce": 0.0028,
+    "toe_out": 1.3495
+   },
+   "size": 4.961
+  },
+  {
+   "label": "old",
+   "command": "\ub178\uc778\ucc98\ub7fc \uac78\uc5b4",
+   "rollout": "20261015_151030_walk_behaviors__old",
+   "base": "20261015_151030_walk_behaviors__base",
+   "target": "Old",
+   "top": [
+    [
+     "Quail",
+     0.757
+    ],
+    [
+     "Chicken",
+     0.748
+    ],
+    [
+     "BentKnees",
+     0.727
+    ]
+   ],
+   "similarity": 0.134,
+   "rank": 40,
+   "strength": 0.519,
+   "delta": {
+    "step_length": -0.5336,
+    "cadence": -0.1978,
+    "torso_lean": 12.5408,
+    "torso_side": -2.5992,
+    "head_pitch": 6.5613,
+    "arm_swing": -0.413,
+    "hand_forward": -0.2207,
+    "hand_height": -0.0061,
+    "hand_out": 0.0269,
+    "elbow_bend": 1.5411,
+    "knee_bend": 22.878,
+    "pelvis_height": -0.0301,
+    "foot_lift": 0.0067,
+    "stance_width": 0.0065,
+    "pelvis_sway": -0.0141,
+    "head_sway": -0.0095,
+    "bounce": -0.0008,
+    "toe_out": 2.1656
+   },
+   "size": 3.412
+  },
+  {
+   "label": "proud",
+   "command": "\ub2f9\ub2f9\ud558\uac8c \uac78\uc5b4",
+   "rollout": "20261015_151030_walk_behaviors__proud",
+   "base": "20261015_151030_walk_behaviors__base",
+   "target": "Proud",
+   "top": [
+    [
+     "LookUp",
+     0.657
+    ],
+    [
+     "Strutting",
+     0.616
+    ],
+    [
+     "SpinAntiClock",
+     0.464
+    ]
+   ],
+   "similarity": 0.252,
+   "rank": 14,
+   "strength": 0.956,
+   "delta": {
+    "step_length": 0.1402,
+    "cadence": 0.0,
+    "torso_lean": -5.7495,
+    "torso_side": 1.1428,
+    "head_pitch": -13.0693,
+    "arm_swing": 0.1461,
+    "hand_forward": 0.0748,
+    "hand_height": 0.0829,
+    "hand_out": -0.0148,
+    "elbow_bend": 0.9298,
+    "knee_bend": -0.4131,
+    "pelvis_height": -0.0067,
+    "foot_lift": -0.0215,
+    "stance_width": -0.0113,
+    "pelvis_sway": 0.0061,
+    "head_sway": 0.0084,
+    "bounce": 0.0081,
+    "toe_out": 3.2746
+   },
+   "size": 1.667
+  },
+  {
+   "label": "robot2",
+   "command": "\ub85c\ubd07\ucc98\ub7fc \uac78\uc5b4",
+   "rollout": "20261015_151030_walk_behaviors__robot2",
+   "base": "20261015_151030_walk_behaviors__base",
+   "target": "Robot",
+   "top": [
+    [
+     "BeatChest",
+     0.898
+    ],
+    [
+     "ArmsFolded",
+     0.862
+    ],
+    [
+     "OnPhoneLeft",
+     0.857
+    ]
+   ],
+   "similarity": 0.626,
+   "rank": 16,
+   "strength": 0.548,
+   "delta": {
+    "step_length": 0.061,
+    "cadence": -0.0606,
+    "torso_lean": 0.222,
+    "torso_side": 0.3466,
+    "head_pitch": -1.3118,
+    "arm_swing": -0.2436,
+    "hand_forward": 0.1894,
+    "hand_height": 0.2888,
+    "hand_out": -0.1719,
+    "elbow_bend": 49.7154,
+    "knee_bend": -1.9764,
+    "pelvis_height": 0.0012,
+    "foot_lift": -0.0306,
+    "stance_width": 0.0006,
+    "pelvis_sway": 0.0014,
+    "head_sway": -0.0128,
+    "bounce": -0.0009,
+    "toe_out": 0.8079
+   },
+   "size": 2.394
+  },
+  {
+   "label": "striding",
+   "command": "\uc131\ud07c\uc131\ud07c \uac78\uc5b4",
+   "rollout": "20261015_151030_walk_behaviors__striding",
+   "base": "20261015_151030_walk_behaviors__base",
+   "target": "BigSteps",
+   "top": [
+    [
+     "BigSteps",
+     0.789
+    ],
+    [
+     "Lunge",
+     0.65
+    ],
+    [
+     "Rushed",
+     0.581
+    ]
+   ],
+   "similarity": 0.789,
+   "rank": 1,
+   "strength": 0.548,
+   "delta": {
+    "step_length": 0.4154,
+    "cadence": -0.1719,
+    "torso_lean": -0.913,
+    "torso_side": 2.4111,
+    "head_pitch": 0.7811,
+    "arm_swing": 0.0699,
+    "hand_forward": -0.0016,
+    "hand_height": 0.0309,
+    "hand_out": 0.0002,
+    "elbow_bend": 3.0104,
+    "knee_bend": -1.5672,
+    "pelvis_height": -0.0275,
+    "foot_lift": -0.0268,
+    "stance_width": -0.0186,
+    "pelvis_sway": 0.0223,
+    "head_sway": -0.0008,
+    "bounce": 0.0542,
+    "toe_out": 9.1838
+   },
+   "size": 2.282
+  },
+  {
+   "label": "tired",
+   "command": "\uc9c0\uccd0\uc11c \ud130\ubc85\ud130\ubc85 \uac78\uc5b4",
+   "rollout": "20261015_151030_walk_behaviors__tired",
+   "base": "20261015_151030_walk_behaviors__base",
+   "target": "Depressed",
+   "top": [
+    [
+     "Monk",
+     0.738
+    ],
+    [
+     "LeanRight",
+     0.697
+    ],
+    [
+     "Depressed",
+     0.69
+    ]
+   ],
+   "similarity": 0.69,
+   "rank": 3,
+   "strength": 0.895,
+   "delta": {
+    "step_length": -0.2378,
+    "cadence": -0.2719,
+    "torso_lean": 6.3238,
+    "torso_side": -1.6424,
+    "head_pitch": 26.6169,
+    "arm_swing": -0.4472,
+    "hand_forward": -0.1075,
+    "hand_height": -0.0345,
+    "hand_out": 0.0246,
+    "elbow_bend": 2.3825,
+    "knee_bend": 1.7203,
+    "pelvis_height": 0.0059,
+    "foot_lift": -0.0448,
+    "stance_width": -0.0043,
+    "pelvis_sway": -0.0106,
+    "head_sway": 0.0124,
+    "bounce": -0.0026,
+    "toe_out": 0.7342
+   },
+   "size": 3.276
+  },
+  {
+   "label": "stance10",
+   "command": "\ub2e4\ub9ac\ub97c \ubc8c\ub9ac\uace0 \uac78\uc5b4",
+   "rollout": "20261031_211553_new_params__stance10",
+   "base": "20261015_151030_walk_behaviors__base",
+   "target": "LegsApart",
+   "top": [
+    [
+     "WideLegs",
+     0.878
+    ],
+    [
+     "LegsApart",
+     0.863
+    ],
+    [
+     "Star",
+     0.754
+    ]
+   ],
+   "similarity": 0.863,
+   "rank": 2,
+   "strength": 0.495,
+   "delta": {
+    "step_length": 0.0008,
+    "cadence": 0.0,
+    "torso_lean": 0.0322,
+    "torso_side": -1.9046,
+    "head_pitch": 2.8672,
+    "arm_swing": 0.0171,
+    "hand_forward": -0.0088,
+    "hand_height": -0.0022,
+    "hand_out": 0.0078,
+    "elbow_bend": -0.9187,
+    "knee_bend": -1.188,
+    "pelvis_height": -0.0003,
+    "foot_lift": 0.0433,
+    "stance_width": 0.2929,
+    "pelvis_sway": 0.0477,
+    "head_sway": 0.0686,
+    "bounce": 0.0063,
+    "toe_out": 5.7549
+   },
+   "size": 3.695
+  },
+  {
+   "label": "hip16",
+   "command": "\ud5c8\ubc85\uc9c0\ub97c \ub192\uc774 \ub4e4\uba70 \uac78\uc5b4 (\ud5c8\ubc85\uc9c0 \uc9c4\ud3ed 1.6\ubc30)",
+   "rollout": "20261031_211553_new_params__hip16",
+   "base": "20261015_151030_walk_behaviors__base",
+   "target": "HighKnees",
+   "top": [
+    [
+     "BigSteps",
+     0.622
+    ],
+    [
+     "Rushed",
+     0.558
+    ],
+    [
+     "LeanBack",
+     0.553
+    ]
+   ],
+   "similarity": 0.169,
+   "rank": 40,
+   "strength": 0.241,
+   "delta": {
+    "step_length": -0.0008,
+    "cadence": 0.0,
+    "torso_lean": -0.7685,
+    "torso_side": 1.3246,
+    "head_pitch": 1.6773,
+    "arm_swing": -0.028,
+    "hand_forward": 0.0013,
+    "hand_height": 0.0054,
+    "hand_out": 0.0126,
+    "elbow_bend": 0.3014,
+    "knee_bend": 3.2398,
+    "pelvis_height": -0.014,
+    "foot_lift": 0.0194,
+    "stance_width": -0.0327,
+    "pelvis_sway": 0.014,
+    "head_sway": -0.0006,
+    "bounce": 0.0152,
+    "toe_out": 5.8526
+   },
+   "size": 1.164
+  },
+  {
+   "label": "n_walk_zombie",
+   "command": "\uc880\ube44\ucc98\ub7fc \uac78\uc5b4 (\uace0\uc815\ud55c \uc218\uc2dd)",
+   "rollout": "20261101_225050_general_formula__n_walk_zombie",
+   "base": "20261015_151030_walk_behaviors__base",
+   "target": "Zombie",
+   "top": [
+    [
+     "Zombie",
+     0.8
+    ],
+    [
+     "InTheDark",
+     0.669
+    ],
+    [
+     "ArmsAboveHead",
+     0.592
+    ]
+   ],
+   "similarity": 0.8,
+   "rank": 1,
+   "strength": 0.854,
+   "delta": {
+    "step_length": -0.1847,
+    "cadence": -0.4855,
+    "torso_lean": 4.1376,
+    "torso_side": -2.9533,
+    "head_pitch": 4.1163,
+    "arm_swing": -0.3914,
+    "hand_forward": 0.7771,
+    "hand_height": 0.6224,
+    "hand_out": 0.1277,
+    "elbow_bend": -29.1784,
+    "knee_bend": 0.737,
+    "pelvis_height": 0.0025,
+    "foot_lift": -0.0422,
+    "stance_width": -0.0405,
+    "pelvis_sway": -0.0407,
+    "head_sway": 0.1166,
+    "bounce": 0.0063,
+    "toe_out": -1.2865
+   },
+   "size": 5.062
+  },
+  {
+   "label": "n_walk_tired",
+   "command": "\uc9c0\uccd0\uc11c \ud130\ubc85\ud130\ubc85 \uac78\uc5b4 (\uace0\uc815\ud55c \uc218\uc2dd)",
+   "rollout": "20261101_225050_general_formula__n_walk_tired",
+   "base": "20261015_151030_walk_behaviors__base",
+   "target": "Depressed",
+   "top": [
+    [
+     "Monk",
+     0.768
+    ],
+    [
+     "Depressed",
+     0.75
+    ],
+    [
+     "LeanRight",
+     0.748
+    ]
+   ],
+   "similarity": 0.75,
+   "rank": 2,
+   "strength": 1.085,
+   "delta": {
+    "step_length": -0.2367,
+    "cadence": -0.2719,
+    "torso_lean": 6.6646,
+    "torso_side": -0.2849,
+    "head_pitch": 34.7379,
+    "arm_swing": -0.4577,
+    "hand_forward": -0.1127,
+    "hand_height": -0.0387,
+    "hand_out": 0.0261,
+    "elbow_bend": 0.8039,
+    "knee_bend": 1.0787,
+    "pelvis_height": 0.0067,
+    "foot_lift": -0.0402,
+    "stance_width": -0.0183,
+    "pelvis_sway": -0.0101,
+    "head_sway": 0.0194,
+    "bounce": -0.002,
+    "toe_out": 0.8086
+   },
+   "size": 3.97
+  },
+  {
+   "label": "sneak_a",
+   "command": "\uc0b4\uae08\uc0b4\uae08 \uac78\uc5b4",
+   "rollout": "20261015_151030_walk_behaviors__sneak_a",
+   "base": "20261015_151030_walk_behaviors__base",
+   "target": null,
+   "top": [
+    [
+     "BentKnees",
+     0.869
+    ],
+    [
+     "Dinosaur",
+     0.809
+    ],
+    [
+     "OnToesCrouched",
+     0.725
+    ]
+   ],
+   "delta": {
+    "step_length": -0.2036,
+    "cadence": -0.5232,
+    "torso_lean": 9.5937,
+    "torso_side": -3.884,
+    "head_pitch": 12.7952,
+    "arm_swing": -0.5092,
+    "hand_forward": 0.3356,
+    "hand_height": 0.2069,
+    "hand_out": -0.1289,
+    "elbow_bend": 40.4703,
+    "knee_bend": 40.9228,
+    "pelvis_height": -0.1146,
+    "foot_lift": -0.0341,
+    "stance_width": -0.0637,
+    "pelvis_sway": -0.0239,
+    "head_sway": 0.0344,
+    "bounce": 0.0098,
+    "toe_out": 3.7229
+   },
+   "size": 7.022
+  },
+  {
+   "label": "sneak_c",
+   "command": "\uc870\uc2ec\uc870\uc2ec \uac78\uc5b4",
+   "rollout": "20261015_151030_walk_behaviors__sneak_c",
+   "base": "20261015_151030_walk_behaviors__base",
+   "target": null,
+   "top": [
+    [
+     "Dinosaur",
+     0.838
+    ],
+    [
+     "BentKnees",
+     0.773
+    ],
+    [
+     "ShieldedRight",
+     0.693
+    ]
+   ],
+   "delta": {
+    "step_length": -0.0087,
+    "cadence": -0.6774,
+    "torso_lean": 6.9587,
+    "torso_side": -0.9871,
+    "head_pitch": 8.0081,
+    "arm_swing": -0.4643,
+    "hand_forward": 0.3564,
+    "hand_height": 0.2474,
+    "hand_out": -0.1263,
+    "elbow_bend": 40.705,
+    "knee_bend": 29.8402,
+    "pelvis_height": -0.0811,
+    "foot_lift": -0.0404,
+    "stance_width": -0.0878,
+    "pelvis_sway": -0.0353,
+    "head_sway": 0.0519,
+    "bounce": 0.0068,
+    "toe_out": 2.9811
+   },
+   "size": 5.706
+  },
+  {
+   "label": "power",
+   "command": "\ud798\ucc28\uac8c \uac78\uc5b4",
+   "rollout": "20261015_151030_walk_behaviors__power",
+   "base": "20261015_151030_walk_behaviors__base",
+   "target": null,
+   "top": [
+    [
+     "OnPhoneRight",
+     0.874
+    ],
+    [
+     "OnPhoneLeft",
+     0.86
+    ],
+    [
+     "ArmsFolded",
+     0.846
+    ]
+   ],
+   "delta": {
+    "step_length": 0.1523,
+    "cadence": 0.1699,
+    "torso_lean": -2.8807,
+    "torso_side": 1.0111,
+    "head_pitch": -0.3843,
+    "arm_swing": -0.0373,
+    "hand_forward": 0.1657,
+    "hand_height": 0.3299,
+    "hand_out": -0.1877,
+    "elbow_bend": 46.0143,
+    "knee_bend": -0.8833,
+    "pelvis_height": -0.008,
+    "foot_lift": -0.0164,
+    "stance_width": 0.0059,
+    "pelvis_sway": 0.0169,
+    "head_sway": -0.0233,
+    "bounce": 0.0021,
+    "toe_out": 2.949
+   },
+   "size": 2.425
+  },
+  {
+   "label": "bouncy",
+   "command": "\uaed1\ucda9\uaed1\ucda9 \uac78\uc5b4",
+   "rollout": "20261015_151030_walk_behaviors__bouncy",
+   "base": "20261015_151030_walk_behaviors__base",
+   "target": null,
+   "top": [
+    [
+     "HighKnees",
+     0.691
+    ],
+    [
+     "Roadrunner",
+     0.674
+    ],
+    [
+     "Kick",
+     0.643
+    ]
+   ],
+   "delta": {
+    "step_length": -0.0253,
+    "cadence": 0.2076,
+    "torso_lean": 1.668,
+    "torso_side": 0.4362,
+    "head_pitch": 3.2902,
+    "arm_swing": 0.2669,
+    "hand_forward": -0.0012,
+    "hand_height": 0.0279,
+    "hand_out": -0.0213,
+    "elbow_bend": 1.5431,
+    "knee_bend": 28.5142,
+    "pelvis_height": -0.0433,
+    "foot_lift": 0.2396,
+    "stance_width": -0.0077,
+    "pelvis_sway": 0.0104,
+    "head_sway": 0.0023,
+    "bounce": -0.0039,
+    "toe_out": 9.9533
+   },
+   "size": 4.605
+  },
+  {
+   "label": "mincing",
+   "command": "\uc885\uc885\uac78\uc74c\uc73c\ub85c \uac78\uc5b4",
+   "rollout": "20261015_151030_walk_behaviors__mincing",
+   "base": "20261015_151030_walk_behaviors__base",
+   "target": null,
+   "top": [
+    [
+     "Penguin",
+     0.646
+    ],
+    [
+     "Robot",
+     0.567
+    ],
+    [
+     "DragRightLeg",
+     0.474
+    ]
+   ],
+   "delta": {
+    "step_length": -0.6599,
+    "cadence": 0.3747,
+    "torso_lean": 1.4561,
+    "torso_side": -3.631,
+    "head_pitch": -1.9176,
+    "arm_swing": -0.1905,
+    "hand_forward": 0.0132,
+    "hand_height": -0.0114,
+    "hand_out": 0.0119,
+    "elbow_bend": 2.2979,
+    "knee_bend": 1.3971,
+    "pelvis_height": 0.0182,
+    "foot_lift": -0.002,
+    "stance_width": 0.0325,
+    "pelvis_sway": -0.0254,
+    "head_sway": 0.0116,
+    "bounce": -0.0349,
+    "toe_out": 1.9928
+   },
+   "size": 2.315
+  },
+  {
+   "label": "sway",
+   "command": "\ud754\ub4e4\ud754\ub4e4 \uac78\uc5b4",
+   "rollout": "20261015_151030_walk_behaviors__sway",
+   "base": "20261015_151030_walk_behaviors__base",
+   "target": null,
+   "top": [
+    [
+     "Old",
+     0.71
+    ],
+    [
+     "SlideFeet",
+     0.619
+    ],
+    [
+     "StartStop",
+     0.571
+    ]
+   ],
+   "delta": {
+    "step_length": 0.0158,
+    "cadence": -0.5232,
+    "torso_lean": -1.5402,
+    "torso_side": 6.1516,
+    "head_pitch": 0.2617,
+    "arm_swing": -0.1238,
+    "hand_forward": 0.0096,
+    "hand_height": 0.0532,
+    "hand_out": 0.028,
+    "elbow_bend": 2.9546,
+    "knee_bend": 1.861,
+    "pelvis_height": -0.0057,
+    "foot_lift": -0.0387,
+    "stance_width": -0.0276,
+    "pelvis_sway": -0.0347,
+    "head_sway": 0.3098,
+    "bounce": 0.0157,
+    "toe_out": 1.8572
+   },
+   "size": 3.08
+  },
+  {
+   "label": "n_walk_sneak",
+   "command": "\uc0b4\uae08\uc0b4\uae08 \uac78\uc5b4 (\uace0\uc815\ud55c \uc218\uc2dd)",
+   "rollout": "20261101_225050_general_formula__n_walk_sneak",
+   "base": "20261015_151030_walk_behaviors__base",
+   "target": null,
+   "top": [
+    [
+     "BentKnees",
+     0.846
+    ],
+    [
+     "Dinosaur",
+     0.842
+    ],
+    [
+     "ShieldedRight",
+     0.737
+    ]
+   ],
+   "delta": {
+    "step_length": NaN,
+    "cadence": NaN,
+    "torso_lean": 8.5898,
+    "torso_side": -2.4877,
+    "head_pitch": 12.599,
+    "arm_swing": -0.4952,
+    "hand_forward": 0.3376,
+    "hand_height": 0.2069,
+    "hand_out": -0.118,
+    "elbow_bend": 38.7569,
+    "knee_bend": 36.0575,
+    "pelvis_height": -0.0993,
+    "foot_lift": -0.03,
+    "stance_width": -0.0614,
+    "pelvis_sway": -0.0195,
+    "head_sway": 0.0396,
+    "bounce": 0.0183,
+    "toe_out": 6.9226
+   },
+   "size": 6.208
+  }
+ ],
+ "features": {
+  "20261015_151030_walk_behaviors__zombie": {
+   "cadence": 66.66666666666667,
+   "step_length": 0.6980145150004208,
+   "torso_lean": 2.921795190412243,
+   "torso_side": 4.675511020361283,
+   "head_pitch": 3.7847247629744807,
+   "arm_swing": 0.22966290858848906,
+   "hand_forward": 0.9043933956302094,
+   "hand_height": -0.2493488233247571,
+   "hand_out": 0.30755271655977184,
+   "elbow_bend": 8.819886974192487,
+   "knee_bend": 27.69253467127798,
+   "foot_lift": 0.1238391507090143,
+   "toe_out": 6.7904335403456395,
+   "pelvis_height": 0.9662487065138803,
+   "stance_width": 0.14300483510093753,
+   "pelvis_sway": 0.05833117760672661,
+   "head_sway": 0.1894347404939055,
+   "bounce": 0.06158891446661327,
+   "_frames": 828.0,
+   "_speed": 0.6448225554885688,
+   "_leg": 0.8314158050701307,
+   "_arm": 0.533734945434365,
+   "_segments": 4,
+   "_resets": 0
+  },
+  "20261015_151030_walk_behaviors__base": {
+   "cadence": 112.5,
+   "step_length": 0.8064948871113241,
+   "torso_lean": -0.857325842364189,
+   "torso_side": 7.37443265525886,
+   "head_pitch": -1.764628884626383,
+   "arm_swing": 0.5850134330093087,
+   "hand_forward": 0.13321883657080713,
+   "hand_height": -0.8761560845225834,
+   "hand_out": 0.18419841616859828,
+   "elbow_bend": 38.133693700231646,
+   "knee_bend": 25.61297079659542,
+   "foot_lift": 0.14998863928850698,
+   "toe_out": 5.440920111476988,
+   "pelvis_height": 0.9626349408715464,
+   "stance_width": 0.17760594227755339,
+   "pelvis_sway": 0.09239434972409807,
+   "head_sway": 0.06141740393216622,
+   "bounce": 0.05883484944829111,
+   "_frames": 840.0,
+   "_speed": 1.2572486202366089,
+   "_leg": 0.8314158070626247,
+   "_arm": 0.5337349643843438,
+   "_segments": 4,
+   "_resets": 0
+  },
+  "20261015_151030_walk_behaviors__old": {
+   "cadence": 92.30769230769232,
+   "step_length": 0.47299333636562646,
+   "torso_lean": 11.683492082366813,
+   "torso_side": 4.775229587175484,
+   "head_pitch": 4.796630102320929,
+   "arm_swing": 0.1719677110102939,
+   "hand_forward": -0.08752979328202709,
+   "hand_height": -0.8822834913023907,
+   "hand_out": 0.21110235271474212,
+   "elbow_bend": 39.67480739219836,
+   "knee_bend": 48.490992699349135,
+   "foot_lift": 0.15666448119088655,
+   "toe_out": 7.60651434862832,
+   "pelvis_height": 0.9325502822389876,
+   "stance_width": 0.18406296040406142,
+   "pelvis_sway": 0.07832237997846948,
+   "head_sway": 0.05192064267769981,
+   "bounce": 0.05808253144556165,
+   "_frames": 839.0,
+   "_speed": 0.6050063680970516,
+   "_leg": 0.8314158129262013,
+   "_arm": 0.5337349572998814,
+   "_segments": 4,
+   "_resets": 0
+  },
+  "20261015_151030_walk_behaviors__proud": {
+   "cadence": 112.5,
+   "step_length": 0.9279104220207457,
+   "torso_lean": -6.606858166000879,
+   "torso_side": 8.517196067713645,
+   "head_pitch": -14.833926795396644,
+   "arm_swing": 0.7311438507075085,
+   "hand_forward": 0.2080527239236571,
+   "hand_height": -0.7932357912853516,
+   "hand_out": 0.16940018912465904,
+   "elbow_bend": 39.06347647983733,
+   "knee_bend": 25.19989808855778,
+   "foot_lift": 0.12851861320954,
+   "toe_out": 8.715478516721664,
+   "pelvis_height": 0.9559469590575462,
+   "stance_width": 0.16629255926825387,
+   "pelvis_sway": 0.0984685672931267,
+   "head_sway": 0.06985893776046201,
+   "bounce": 0.06698068711837776,
+   "_frames": 840.0,
+   "_speed": 1.4465238531327238,
+   "_leg": 0.8314158026777376,
+   "_arm": 0.5337349662452443,
+   "_segments": 4,
+   "_resets": 0
+  },
+  "20261015_151030_walk_behaviors__robot2": {
+   "cadence": 105.88235294117648,
+   "step_length": 0.8572368644271041,
+   "torso_lean": -0.6353747297012002,
+   "torso_side": 7.721032447664794,
+   "head_pitch": -3.0763791593028533,
+   "arm_swing": 0.3413884029399776,
+   "hand_forward": 0.3225759954918348,
+   "hand_height": -0.5873256416937901,
+   "hand_out": 0.012314484637278675,
+   "elbow_bend": 87.84907164522889,
+   "knee_bend": 23.636600676552533,
+   "foot_lift": 0.11942852439018625,
+   "toe_out": 6.248775579758997,
+   "pelvis_height": 0.9638811457805392,
+   "stance_width": 0.1781716842803746,
+   "pelvis_sway": 0.09382046654651874,
+   "head_sway": 0.048618012640502244,
+   "bounce": 0.05797680164028015,
+   "_frames": 840.0,
+   "_speed": 1.2577416885034522,
+   "_leg": 0.8314158195100081,
+   "_arm": 0.5337349985014004,
+   "_segments": 4,
+   "_resets": 0
+  },
+  "20261015_151030_walk_behaviors__striding": {
+   "cadence": 94.73684210526316,
+   "step_length": 1.2218159527005812,
+   "torso_lean": -1.770355487191709,
+   "torso_side": 9.785498636128557,
+   "head_pitch": -0.9835718487336709,
+   "arm_swing": 0.6549378750107747,
+   "hand_forward": 0.13159203548994064,
+   "hand_height": -0.8452154806594238,
+   "hand_out": 0.18439937728776779,
+   "elbow_bend": 41.144064190510946,
+   "knee_bend": 24.045792346495176,
+   "foot_lift": 0.12315886031253168,
+   "toe_out": 14.62476694289943,
+   "pelvis_height": 0.9351135547737135,
+   "stance_width": 0.15902628905966176,
+   "pelvis_sway": 0.11472619102679397,
+   "head_sway": 0.060658342084484534,
+   "bounce": 0.11306301702182318,
+   "_frames": 840.0,
+   "_speed": 1.6039533503451255,
+   "_leg": 0.831415827924024,
+   "_arm": 0.5337349621888121,
+   "_segments": 4,
+   "_resets": 0
+  },
+  "20261015_151030_walk_behaviors__tired": {
+   "cadence": 85.71428571428572,
+   "step_length": 0.6358388411547381,
+   "torso_lean": 5.466517149230811,
+   "torso_side": 5.732079903084269,
+   "head_pitch": 24.852269088520146,
+   "arm_swing": 0.1378185524866464,
+   "hand_forward": 0.025767505846195828,
+   "hand_height": -0.9106419486933434,
+   "hand_out": 0.2088048215251863,
+   "elbow_bend": 40.51622277089782,
+   "knee_bend": 27.333318751159588,
+   "foot_lift": 0.10514263366996462,
+   "toe_out": 6.175113031422485,
+   "pelvis_height": 0.9685525250440508,
+   "stance_width": 0.17330350199365857,
+   "pelvis_sway": 0.08182088691342675,
+   "head_sway": 0.07383659565203235,
+   "bounce": 0.05627273718819898,
+   "_frames": 839.0,
+   "_speed": 0.7552092314985029,
+   "_leg": 0.8314158051258546,
+   "_arm": 0.5337349615255239,
+   "_segments": 4,
+   "_resets": 0
+  },
+  "20261031_211553_new_params__stance10": {
+   "cadence": 112.5,
+   "step_length": 0.807151032105415,
+   "torso_lean": -0.8251395729849991,
+   "torso_side": 5.469845151232391,
+   "head_pitch": 1.1025828431231055,
+   "arm_swing": 0.6020650468129711,
+   "hand_forward": 0.12439804171734671,
+   "hand_height": -0.8783828644485638,
+   "hand_out": 0.1920365934583708,
+   "elbow_bend": 37.21499299375361,
+   "knee_bend": 24.42497334737923,
+   "foot_lift": 0.19331478559146412,
+   "toe_out": 11.195857564321278,
+   "pelvis_height": 0.9623771243187477,
+   "stance_width": 0.47051214651524154,
+   "pelvis_sway": 0.14007765206972356,
+   "head_sway": 0.13003551680512496,
+   "bounce": 0.0651715358331535,
+   "_frames": 840.0,
+   "_speed": 1.2582714997949365,
+   "_leg": 0.8314158150470131,
+   "_arm": 0.5337349582314209,
+   "_segments": 4,
+   "_resets": 0
+  },
+  "20261031_211553_new_params__hip16": {
+   "cadence": 112.5,
+   "step_length": 0.8058342187454419,
+   "torso_lean": -1.625840766058012,
+   "torso_side": 8.699008836599063,
+   "head_pitch": -0.08733785396682753,
+   "arm_swing": 0.5569718129824373,
+   "hand_forward": 0.13452645224125317,
+   "hand_height": -0.870799098694446,
+   "hand_out": 0.19675489312695776,
+   "elbow_bend": 38.435064737390995,
+   "knee_bend": 28.852764172411753,
+   "foot_lift": 0.16941850911925302,
+   "toe_out": 11.293521704963432,
+   "pelvis_height": 0.9485907062263346,
+   "stance_width": 0.144923140546675,
+   "pelvis_sway": 0.10636804757175969,
+   "head_sway": 0.06079003049306262,
+   "bounce": 0.07401614627751224,
+   "_frames": 840.0,
+   "_speed": 1.2562187156197908,
+   "_leg": 0.8314158165686851,
+   "_arm": 0.5337349621132976,
+   "_segments": 4,
+   "_resets": 0
+  },
+  "20261101_225050_general_formula__n_walk_zombie": {
+   "cadence": 69.23076923076923,
+   "step_length": 0.6705074715170534,
+   "torso_lean": 3.2802912241633715,
+   "torso_side": 4.421117580498677,
+   "head_pitch": 2.3517055795959982,
+   "arm_swing": 0.193572043933315,
+   "hand_forward": 0.9103044228443982,
+   "hand_height": -0.25377325017161556,
+   "hand_out": 0.3119284559210145,
+   "elbow_bend": 8.95525994257213,
+   "knee_bend": 26.34997325373452,
+   "foot_lift": 0.10782503128195067,
+   "toe_out": 4.154402652820792,
+   "pelvis_height": 0.9651844982835011,
+   "stance_width": 0.13709998507832336,
+   "pelvis_sway": 0.051646413497799755,
+   "head_sway": 0.17802069588075653,
+   "bounce": 0.06516723308403083,
+   "_frames": 838.0,
+   "_speed": 0.6432351974339735,
+   "_leg": 0.8314157979201605,
+   "_arm": 0.533734966417859,
+   "_segments": 4,
+   "_resets": 0
+  },
+  "20261101_225050_general_formula__n_walk_tired": {
+   "cadence": 85.71428571428572,
+   "step_length": 0.6365107879221128,
+   "torso_lean": 5.807278949985977,
+   "torso_side": 7.089494185291561,
+   "head_pitch": 32.97328393798855,
+   "arm_swing": 0.12727535574215013,
+   "hand_forward": 0.020566990077944346,
+   "hand_height": -0.9148510495611206,
+   "hand_out": 0.2102522161455414,
+   "elbow_bend": 38.937633487694015,
+   "knee_bend": 26.691667145073367,
+   "foot_lift": 0.1098176503090171,
+   "toe_out": 6.249495817423738,
+   "pelvis_height": 0.9693332600316962,
+   "stance_width": 0.15932550196325773,
+   "pelvis_sway": 0.08229031579428686,
+   "head_sway": 0.08080440565113892,
+   "bounce": 0.05681540669078201,
+   "_frames": 838.0,
+   "_speed": 0.7560073280647182,
+   "_leg": 0.8314158058073035,
+   "_arm": 0.5337349541444991,
+   "_segments": 4,
+   "_resets": 0
+  },
+  "20261015_151030_walk_behaviors__sneak_a": {
+   "cadence": 66.66666666666667,
+   "step_length": 0.6579378584602157,
+   "torso_lean": 8.736395125084341,
+   "torso_side": 3.490474920139573,
+   "head_pitch": 11.030575173224719,
+   "arm_swing": 0.07576658506621996,
+   "hand_forward": 0.46883613863804957,
+   "hand_height": -0.6692790657429515,
+   "hand_out": 0.05526958474800549,
+   "elbow_bend": 78.60398043038485,
+   "knee_bend": 66.53577398095649,
+   "foot_lift": 0.11592450883174076,
+   "toe_out": 9.163851390165236,
+   "pelvis_height": 0.8480833988565324,
+   "stance_width": 0.11386825301262206,
+   "pelvis_sway": 0.06849422552115468,
+   "head_sway": 0.09579300450202977,
+   "bounce": 0.06861287363616816,
+   "_frames": 829.0,
+   "_speed": 0.6077999484145626,
+   "_leg": 0.8314158343970511,
+   "_arm": 0.5337349726848221,
+   "_segments": 4,
+   "_resets": 0
+  },
+  "20261015_151030_walk_behaviors__sneak_c": {
+   "cadence": 57.14285714285714,
+   "step_length": 0.7995007956139679,
+   "torso_lean": 6.101326548745988,
+   "torso_side": 6.387309035579179,
+   "head_pitch": 6.243494980854184,
+   "arm_swing": 0.12073055751441966,
+   "hand_forward": 0.4896055144135265,
+   "hand_height": -0.6287578534451836,
+   "hand_out": 0.05787934499856133,
+   "elbow_bend": 78.83865813277721,
+   "knee_bend": 55.45317879465273,
+   "foot_lift": 0.10961810822979412,
+   "toe_out": 8.422009163297172,
+   "pelvis_height": 0.8815792710901103,
+   "stance_width": 0.08983408400897873,
+   "pelvis_sway": 0.057071565940354396,
+   "head_sway": 0.11335950780916655,
+   "bounce": 0.06561307928304322,
+   "_frames": 840.0,
+   "_speed": 0.6330643905031126,
+   "_leg": 0.831415820565637,
+   "_arm": 0.5337349847770969,
+   "_segments": 4,
+   "_resets": 0
+  },
+  "20261015_151030_walk_behaviors__power": {
+   "cadence": 133.33333333333334,
+   "step_length": 0.9392141409210167,
+   "torso_lean": -3.73800466879183,
+   "torso_side": 8.385556840666064,
+   "head_pitch": -2.1489348118413596,
+   "arm_swing": 0.5476708623017377,
+   "hand_forward": 0.2989584111928271,
+   "hand_height": -0.5462268969198163,
+   "hand_out": -0.0035149983908934522,
+   "elbow_bend": 84.14801604229329,
+   "knee_bend": 24.729670529792784,
+   "foot_lift": 0.13361572533141705,
+   "toe_out": 8.389910545500587,
+   "pelvis_height": 0.9546703116428272,
+   "stance_width": 0.1835118989576038,
+   "pelvis_sway": 0.10924902730443517,
+   "head_sway": 0.03810033460431205,
+   "bounce": 0.06092458395825118,
+   "_frames": 840.0,
+   "_speed": 1.735283313840899,
+   "_leg": 0.8314158158464863,
+   "_arm": 0.5337349755435402,
+   "_segments": 4,
+   "_resets": 0
+  },
+  "20261015_151030_walk_behaviors__bouncy": {
+   "cadence": 138.46153846153845,
+   "step_length": 0.786320187496038,
+   "torso_lean": 0.810722528625289,
+   "torso_side": 7.810652802018484,
+   "head_pitch": 1.525605510718285,
+   "arm_swing": 0.8518726936901175,
+   "hand_forward": 0.13206564312752664,
+   "hand_height": -0.8482371991202761,
+   "hand_out": 0.16293319160603456,
+   "elbow_bend": 39.67681605656449,
+   "knee_bend": 54.12718998654666,
+   "foot_lift": 0.3896097823535257,
+   "toe_out": 15.394225232811785,
+   "pelvis_height": 0.9193125642691258,
+   "stance_width": 0.16986227130731596,
+   "pelvis_sway": 0.1027483279065577,
+   "head_sway": 0.06375210022913011,
+   "bounce": 0.05496325113664863,
+   "_frames": 840.0,
+   "_speed": 1.5086747312232365,
+   "_leg": 0.8314158285554643,
+   "_arm": 0.5337349671108551,
+   "_segments": 4,
+   "_resets": 0
+  },
+  "20261015_151030_walk_behaviors__mincing": {
+   "cadence": 163.63636363636365,
+   "step_length": 0.416888264142949,
+   "torso_lean": 0.5988217301107052,
+   "torso_side": 3.7433945012164846,
+   "head_pitch": -3.682223081758949,
+   "arm_swing": 0.3945064752267521,
+   "hand_forward": 0.1463985811324668,
+   "hand_height": -0.8875504477756191,
+   "hand_out": 0.19611330617210027,
+   "elbow_bend": 40.43157683577941,
+   "knee_bend": 27.01011197073423,
+   "foot_lift": 0.14802474594733603,
+   "toe_out": 7.433687943413942,
+   "pelvis_height": 0.9808788544490739,
+   "stance_width": 0.21015360682358528,
+   "pelvis_sway": 0.0669606071320274,
+   "head_sway": 0.0729773401220204,
+   "bounce": 0.023926213466183628,
+   "_frames": 831.0,
+   "_speed": 0.9452931578460787,
+   "_leg": 0.8314158037592816,
+   "_arm": 0.5337349618144951,
+   "_segments": 4,
+   "_resets": 0
+  },
+  "20261015_151030_walk_behaviors__sway": {
+   "cadence": 66.66666666666667,
+   "step_length": 0.8193431561716797,
+   "torso_lean": -2.397545584496287,
+   "torso_side": 13.526060338222486,
+   "head_pitch": -1.5029217512675133,
+   "arm_swing": 0.46125204634073536,
+   "hand_forward": 0.14278215555664545,
+   "hand_height": -0.8229502073871925,
+   "hand_out": 0.21216318609172696,
+   "elbow_bend": 41.08826221854781,
+   "knee_bend": 27.473964794223058,
+   "foot_lift": 0.11127079325106363,
+   "toe_out": 7.298136503964104,
+   "pelvis_height": 0.9569405624878848,
+   "stance_width": 0.1499943161494155,
+   "pelvis_sway": 0.0576778087325791,
+   "head_sway": 0.3712436065882572,
+   "bounce": 0.07454046391634693,
+   "_frames": 829.0,
+   "_speed": 0.7569053984981284,
+   "_leg": 0.8314158158484011,
+   "_arm": 0.5337349741563169,
+   "_segments": 4,
+   "_resets": 0
+  },
+  "20261101_225050_general_formula__n_walk_sneak": {
+   "cadence": NaN,
+   "step_length": NaN,
+   "torso_lean": 7.732469617272107,
+   "torso_side": 4.886739965995915,
+   "head_pitch": 10.83438674685171,
+   "arm_swing": 0.08982830963916597,
+   "hand_forward": 0.4708458118548668,
+   "hand_height": -0.6692912022429767,
+   "hand_out": 0.06617767377982552,
+   "elbow_bend": 76.89054764141447,
+   "knee_bend": 61.670479016712086,
+   "foot_lift": 0.12001534061807033,
+   "toe_out": 12.363566672376642,
+   "pelvis_height": 0.8633649387584745,
+   "stance_width": 0.11620193685114213,
+   "pelvis_sway": 0.07290644386502065,
+   "head_sway": 0.10097802507686002,
+   "bounce": 0.07713871881734144,
+   "_frames": 639.0,
+   "_speed": 0.6086051060897821,
+   "_leg": 0.8314158138306798,
+   "_arm": 0.5337349707038391,
+   "_segments": 4,
+   "_resets": 0
+  }
+ }
+}

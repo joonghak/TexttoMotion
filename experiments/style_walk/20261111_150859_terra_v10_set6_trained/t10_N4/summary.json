@@ -1,0 +1,180 @@
+{
+  "command": "공룡처럼 걸어: gpt-5.6-terra, 프롬프트 v10이 정한 값 (s 1.4, n 0.7, c 20, m_arm 0.3, m_torso 6, m_knee 1.2, torso_pitch 15, head_pitch -10, shoulder_flexion 35, elbow_flexion 60, stance_width 8, toe_out 20)",
+  "variant": {
+    "key": "t10_N4",
+    "label": "공룡처럼 걸어: gpt-5.6-terra, 프롬프트 v10이 정한 값 (s 1.4, n 0.7, c 20, m_arm 0.3, m_torso 6, m_knee 1.2, torso_pitch 15, head_pitch -10, shoulder_flexion 35, elbow_flexion 60, stance_width 8, toe_out 20)",
+    "scales": {
+      "speed": 1.4,
+      "cadence": 0.7,
+      "arm_swing": 0.3,
+      "crouch": 20.0,
+      "swing": {
+        "torso": 6.0,
+        "right_shin": 1.2,
+        "left_shin": 1.2
+      },
+      "pose": {
+        "torso": [
+          0,
+          15.0,
+          0
+        ],
+        "head": [
+          0,
+          -10.0,
+          0
+        ],
+        "right_upper_arm": [
+          -0.0,
+          -35.0,
+          0.0
+        ],
+        "left_upper_arm": [
+          0.0,
+          -35.0,
+          -0.0
+        ],
+        "right_lower_arm": [
+          0,
+          0,
+          60.0
+        ],
+        "left_lower_arm": [
+          0,
+          0,
+          -60.0
+        ],
+        "right_thigh": [
+          -8.0,
+          0,
+          -20.0
+        ],
+        "left_thigh": [
+          8.0,
+          0,
+          20.0
+        ],
+        "right_foot": [
+          8.0,
+          0,
+          0
+        ],
+        "left_foot": [
+          -8.0,
+          0,
+          0
+        ]
+      }
+    },
+    "terms": {
+      "track_w": 0.6,
+      "speed": {
+        "scale": 1.4
+      },
+      "cadence": {
+        "scale": 0.7
+      },
+      "arm_swing": {
+        "scale": 0.3
+      },
+      "crouch": {
+        "angle": 20.0
+      },
+      "swing": {
+        "torso": 6.0,
+        "right_shin": 1.2,
+        "left_shin": 1.2
+      },
+      "pose": {
+        "torso": [
+          0,
+          15.0,
+          0
+        ],
+        "head": [
+          0,
+          -10.0,
+          0
+        ],
+        "right_upper_arm": [
+          -0.0,
+          -35.0,
+          0.0
+        ],
+        "left_upper_arm": [
+          0.0,
+          -35.0,
+          -0.0
+        ],
+        "right_lower_arm": [
+          0,
+          0,
+          60.0
+        ],
+        "left_lower_arm": [
+          0,
+          0,
+          -60.0
+        ],
+        "right_thigh": [
+          -8.0,
+          0,
+          -20.0
+        ],
+        "left_thigh": [
+          8.0,
+          0,
+          20.0
+        ],
+        "right_foot": [
+          8.0,
+          0,
+          0
+        ],
+        "left_foot": [
+          -8.0,
+          0,
+          0
+        ]
+      },
+      "style": {
+        "w": 0.2
+      },
+      "swing_unit": "/home/jong/TexttoMotion/MimicKit/data/motions/humanoid/humanoid_walk.pkl",
+      "pose_unit": "/home/jong/TexttoMotion/MimicKit/data/motions/humanoid/humanoid_walk.pkl"
+    }
+  },
+  "reference": {
+    "clip": "/home/jong/TexttoMotion/MimicKit/data/motions/humanoid/humanoid_walk.pkl",
+    "duration_s": 10.0
+  },
+  "training": {
+    "iterations": 2000,
+    "num_envs": 1024,
+    "status": "completed",
+    "started": "2026-11-11T17:13:54",
+    "finished": "2026-11-11T17:50:50",
+    "final_log": {
+      "Iteration": 1999.0,
+      "Wall_Time": 0.6123166653182771,
+      "Samples": 65536000.0,
+      "Samples_Per_Second": 29730.440923050697,
+      "Test_Return": 272.9961242675781,
+      "Test_Episode_Length": 297.0986328125,
+      "Test_Episodes": 1024.0,
+      "Train_Return": 259.97845458984375,
+      "Train_Episode_Length": 298.0862731933594,
+      "Train_Episodes": 10308.0,
+      "Critic_Loss": 0.05055342614650726,
+      "Actor_Loss": -0.0065751830115914345,
+      "Clip_Frac": 0.26416015625,
+      "Imp_Ratio": 0.9995698928833008,
+      "Action_Bound_Loss": 0.0,
+      "Adv_Mean": 0.004510692320764065,
+      "Adv_Std": 0.22487464547157288,
+      "Obs_Norm_Mean": 0.3452219069004059,
+      "Obs_Norm_Std": 0.16792981326580048,
+      "Exp_Prob": 1.0
+    }
+  }
+}

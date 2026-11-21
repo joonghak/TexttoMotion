@@ -1,0 +1,258 @@
+[
+ {
+  "key": "set7_N1",
+  "text": "메추라기처럼 종종 걸어",
+  "videos": {
+   "A": "set7_N1_t2mgpt.mp4",
+   "B": "set7_N1_mdm.mp4",
+   "C": "set7_N1_ours.mp4",
+   "D": "set7_N1_momask.mp4"
+  },
+  "answer_key": {
+   "A": "t2mgpt",
+   "B": "mdm",
+   "C": "ours",
+   "D": "momask"
+  }
+ },
+ {
+  "key": "set7_N2",
+  "text": "고릴라처럼 가슴을 두드리며 걸어",
+  "videos": {
+   "A": "set7_N2_ours.mp4",
+   "B": "set7_N2_momask.mp4",
+   "C": "set7_N2_mdm.mp4",
+   "D": "set7_N2_t2mgpt.mp4"
+  },
+  "answer_key": {
+   "A": "ours",
+   "B": "momask",
+   "C": "mdm",
+   "D": "t2mgpt"
+  }
+ },
+ {
+  "key": "set7_N3",
+  "text": "펭귄 흉내를 내면서 걸어",
+  "videos": {
+   "A": "set7_N3_momask.mp4",
+   "B": "set7_N3_mdm.mp4",
+   "C": "set7_N3_t2mgpt.mp4",
+   "D": "set7_N3_ours.mp4"
+  },
+  "answer_key": {
+   "A": "momask",
+   "B": "mdm",
+   "C": "t2mgpt",
+   "D": "ours"
+  }
+ },
+ {
+  "key": "set7_N4",
+  "text": "티라노사우루스처럼 걸어",
+  "videos": {
+   "A": "set7_N4_mdm.mp4",
+   "B": "set7_N4_momask.mp4",
+   "C": "set7_N4_t2mgpt.mp4",
+   "D": "set7_N4_ours.mp4"
+  },
+  "answer_key": {
+   "A": "mdm",
+   "B": "momask",
+   "C": "t2mgpt",
+   "D": "ours"
+  }
+ },
+ {
+  "key": "set7_N5",
+  "text": "수탉처럼 걸어",
+  "videos": {
+   "A": "set7_N5_ours.mp4",
+   "B": "set7_N5_mdm.mp4",
+   "C": "set7_N5_t2mgpt.mp4",
+   "D": "set7_N5_momask.mp4"
+  },
+  "answer_key": {
+   "A": "ours",
+   "B": "mdm",
+   "C": "t2mgpt",
+   "D": "momask"
+  }
+ },
+ {
+  "key": "set7_N6",
+  "text": "고양이처럼 조심스럽게 걸어",
+  "videos": {
+   "A": "set7_N6_ours.mp4",
+   "B": "set7_N6_momask.mp4",
+   "C": "set7_N6_mdm.mp4",
+   "D": "set7_N6_t2mgpt.mp4"
+  },
+  "answer_key": {
+   "A": "ours",
+   "B": "momask",
+   "C": "mdm",
+   "D": "t2mgpt"
+  }
+ },
+ {
+  "key": "set7_P1",
+  "text": "어둠 속에서 손으로 더듬으며 걸어",
+  "videos": {
+   "A": "set7_P1_t2mgpt.mp4",
+   "B": "set7_P1_momask.mp4",
+   "C": "set7_P1_mdm.mp4",
+   "D": "set7_P1_ours.mp4"
+  },
+  "answer_key": {
+   "A": "t2mgpt",
+   "B": "momask",
+   "C": "mdm",
+   "D": "ours"
+  }
+ },
+ {
+  "key": "set7_P2",
+  "text": "군인처럼 행진하며 걸어",
+  "videos": {
+   "A": "set7_P2_t2mgpt.mp4",
+   "B": "set7_P2_ours.mp4",
+   "C": "set7_P2_momask.mp4",
+   "D": "set7_P2_mdm.mp4"
+  },
+  "answer_key": {
+   "A": "t2mgpt",
+   "B": "ours",
+   "C": "momask",
+   "D": "mdm"
+  }
+ },
+ {
+  "key": "set7_P3",
+  "text": "요정처럼 사뿐사뿐 걸어",
+  "videos": {
+   "A": "set7_P3_momask.mp4",
+   "B": "set7_P3_t2mgpt.mp4",
+   "C": "set7_P3_ours.mp4",
+   "D": "set7_P3_mdm.mp4"
+  },
+  "answer_key": {
+   "A": "momask",
+   "B": "t2mgpt",
+   "C": "ours",
+   "D": "mdm"
+  }
+ },
+ {
+  "key": "set7_P4",
+  "text": "덩치 큰 사람처럼 걸어",
+  "videos": {
+   "A": "set7_P4_mdm.mp4",
+   "B": "set7_P4_ours.mp4",
+   "C": "set7_P4_t2mgpt.mp4",
+   "D": "set7_P4_momask.mp4"
+  },
+  "answer_key": {
+   "A": "mdm",
+   "B": "ours",
+   "C": "t2mgpt",
+   "D": "momask"
+  }
+ },
+ {
+  "key": "set7_P5",
+  "text": "패션모델처럼 뽐내며 걸어",
+  "videos": {
+   "A": "set7_P5_t2mgpt.mp4",
+   "B": "set7_P5_momask.mp4",
+   "C": "set7_P5_mdm.mp4",
+   "D": "set7_P5_ours.mp4"
+  },
+  "answer_key": {
+   "A": "t2mgpt",
+   "B": "momask",
+   "C": "mdm",
+   "D": "ours"
+  }
+ },
+ {
+  "key": "set7_P6",
+  "text": "특공대원처럼 총을 겨눈 자세로 걸어",
+  "videos": {
+   "A": "set7_P6_momask.mp4",
+   "B": "set7_P6_ours.mp4",
+   "C": "set7_P6_t2mgpt.mp4",
+   "D": "set7_P6_mdm.mp4"
+  },
+  "answer_key": {
+   "A": "momask",
+   "B": "ours",
+   "C": "t2mgpt",
+   "D": "mdm"
+  }
+ },
+ {
+  "key": "set8_Q2",
+  "text": "상체를 40도 앞으로 숙이고 걸어",
+  "videos": {
+   "A": "set8_Q2_mdm.mp4",
+   "B": "set8_Q2_ours.mp4",
+   "C": "set8_Q2_t2mgpt.mp4",
+   "D": "set8_Q2_momask.mp4"
+  },
+  "answer_key": {
+   "A": "mdm",
+   "B": "ours",
+   "C": "t2mgpt",
+   "D": "momask"
+  }
+ },
+ {
+  "key": "set8_Q4",
+  "text": "1분에 140걸음으로 걸어",
+  "videos": {
+   "A": "set8_Q4_mdm.mp4",
+   "B": "set8_Q4_ours.mp4",
+   "C": "set8_Q4_t2mgpt.mp4",
+   "D": "set8_Q4_momask.mp4"
+  },
+  "answer_key": {
+   "A": "mdm",
+   "B": "ours",
+   "C": "t2mgpt",
+   "D": "momask"
+  }
+ },
+ {
+  "key": "set10_C2",
+  "text": "뛰어가다가 앞으로 크게 점프해",
+  "videos": {
+   "A": "set10_C2_momask.mp4",
+   "B": "set10_C2_t2mgpt.mp4",
+   "C": "set10_C2_ours.mp4",
+   "D": "set10_C2_mdm.mp4"
+  },
+  "answer_key": {
+   "A": "momask",
+   "B": "t2mgpt",
+   "C": "ours",
+   "D": "mdm"
+  }
+ },
+ {
+  "key": "set10_C5",
+  "text": "걷다가 돌려차기 해",
+  "videos": {
+   "A": "set10_C5_t2mgpt.mp4",
+   "B": "set10_C5_momask.mp4",
+   "C": "set10_C5_mdm.mp4",
+   "D": "set10_C5_ours.mp4"
+  },
+  "answer_key": {
+   "A": "t2mgpt",
+   "B": "momask",
+   "C": "mdm",
+   "D": "ours"
+  }
+ }
+]

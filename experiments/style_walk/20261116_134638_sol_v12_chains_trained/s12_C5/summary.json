@@ -1,0 +1,42 @@
+{
+  "command": "걷다가 돌려차기 해: gpt-5.6-sol, 프롬프트 v12이 정한 값 (walk 3s -> spinkick 1.28s: 기본값)",
+  "variant": {
+    "key": "s12_C5",
+    "label": "걷다가 돌려차기 해: gpt-5.6-sol, 프롬프트 v12이 정한 값 (walk 3s -> spinkick 1.28s: 기본값)",
+    "scales": {},
+    "terms": null
+  },
+  "reference": {
+    "clip": "/home/jong/TexttoMotion/MimicKit/data/motions/humanoid/humanoid_chain_walk3_spinkick1p28.pkl",
+    "duration_s": 10.0
+  },
+  "training": {
+    "iterations": 2000,
+    "num_envs": 1024,
+    "status": "completed",
+    "started": "2026-11-16T15:29:15",
+    "finished": "2026-11-16T16:03:04",
+    "final_log": {
+      "Iteration": 1999.0,
+      "Wall_Time": 0.5608098343345854,
+      "Samples": 65536000.0,
+      "Samples_Per_Second": 32460.993602304537,
+      "Test_Return": 45.50429153442383,
+      "Test_Episode_Length": 53.413204193115234,
+      "Test_Episodes": 1774.0,
+      "Train_Return": 51.06324768066406,
+      "Train_Episode_Length": 64.02515411376953,
+      "Train_Episodes": 49974.0,
+      "Critic_Loss": 4.972014904022217,
+      "Actor_Loss": -0.005601766984909773,
+      "Clip_Frac": 0.19439697265625,
+      "Imp_Ratio": 1.000182867050171,
+      "Action_Bound_Loss": 1.1686778833563949e-07,
+      "Adv_Mean": -0.05008672922849655,
+      "Adv_Std": 2.2279605865478516,
+      "Obs_Norm_Mean": 0.3498835861682892,
+      "Obs_Norm_Std": 0.3178176283836365,
+      "Exp_Prob": 1.0
+    }
+  }
+}

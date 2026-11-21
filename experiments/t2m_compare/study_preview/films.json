@@ -1,0 +1,55 @@
+{
+ "out": "experiments/t2m_compare/study_preview/videos",
+ "pairs": [
+  {
+   "key": "set8_Q2",
+   "run": "experiments/style_walk/20261116_164205_f8_set8_final/f8_Q2",
+   "ours": "",
+   "clips": [
+    {
+     "type": "hml",
+     "file": "experiments/t2m_compare/out/momask/set8_Q2_r0.npy",
+     "method": "momask"
+    },
+    {
+     "type": "hml",
+     "file": "experiments/t2m_compare/out/t2mgpt/set8_Q2_r0.npy",
+     "method": "t2mgpt"
+    },
+    {
+     "type": "hml",
+     "file": "experiments/t2m_compare/out/mdm/set8_Q2_r0.npy",
+     "method": "mdm"
+    }
+   ],
+   "seconds": 6.0,
+   "blind": true,
+   "caption": ""
+  },
+  {
+   "key": "set8_Q4",
+   "run": "experiments/style_walk/20261116_164205_f8_set8_final/f8_Q4",
+   "ours": "",
+   "clips": [
+    {
+     "type": "hml",
+     "file": "experiments/t2m_compare/out/momask/set8_Q4_r0.npy",
+     "method": "momask"
+    },
+    {
+     "type": "hml",
+     "file": "experiments/t2m_compare/out/t2mgpt/set8_Q4_r0.npy",
+     "method": "t2mgpt"
+    },
+    {
+     "type": "hml",
+     "file": "experiments/t2m_compare/out/mdm/set8_Q4_r0.npy",
+     "method": "mdm"
+    }
+   ],
+   "seconds": 6.0,
+   "blind": true,
+   "caption": ""
+  }
+ ]
+}

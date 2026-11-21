@@ -1,0 +1,49 @@
+{
+  "command": "s = 1.25",
+  "variant": {
+    "key": "s1_25",
+    "label": "s = 1.25",
+    "scales": {
+      "speed": 1.25
+    },
+    "terms": {
+      "track_w": 0.6,
+      "speed": {
+        "scale": 1.25
+      }
+    }
+  },
+  "reference": {
+    "clip": "/home/jong/TexttoMotion/MimicKit/data/motions/humanoid/humanoid_jump.pkl",
+    "duration_s": 10.0
+  },
+  "training": {
+    "iterations": 1500,
+    "num_envs": 1024,
+    "status": "completed",
+    "started": "2026-10-07T17:27:51",
+    "finished": "2026-10-07T17:52:39",
+    "final_log": {
+      "Iteration": 1499.0,
+      "Wall_Time": 0.41043277548419105,
+      "Samples": 49152000.0,
+      "Samples_Per_Second": 33265.69940041065,
+      "Test_Return": 256.9004211425781,
+      "Test_Episode_Length": 287.8946533203125,
+      "Test_Episodes": 1025.0,
+      "Train_Return": 229.91954040527344,
+      "Train_Episode_Length": 276.0367126464844,
+      "Train_Episodes": 11247.0,
+      "Critic_Loss": 2.77994966506958,
+      "Actor_Loss": -0.02558164857327938,
+      "Clip_Frac": 0.19245605170726776,
+      "Imp_Ratio": 1.001448392868042,
+      "Action_Bound_Loss": 1.3578722246165853e-05,
+      "Adv_Mean": -0.055112846195697784,
+      "Adv_Std": 1.938605785369873,
+      "Obs_Norm_Mean": 0.3600165843963623,
+      "Obs_Norm_Std": 0.23643125593662262,
+      "Exp_Prob": 1.0
+    }
+  }
+}

@@ -1,0 +1,278 @@
+[
+  {
+    "key": "base",
+    "label": "기본 걷기",
+    "scales": {}
+  },
+  {
+    "key": "S1",
+    "label": "오른쪽 다리를 절뚝거리며 걸어",
+    "scales": {
+      "swing": {
+        "right_shin": 0.4
+      }
+    },
+    "clip": "walk"
+  },
+  {
+    "key": "S2",
+    "label": "왼손을 번쩍 들고 걸어",
+    "scales": {
+      "swing": {
+        "left_upper_arm": 0.3,
+        "left_lower_arm": 0.3
+      },
+      "pose": {
+        "left_upper_arm": [
+          160.0,
+          -0.0,
+          -0.0
+        ]
+      }
+    },
+    "clip": "walk"
+  },
+  {
+    "key": "S3",
+    "label": "오른손으로 전화를 받으면서 걸어",
+    "scales": {
+      "swing": {
+        "right_upper_arm": 0.3,
+        "right_lower_arm": 0.3
+      },
+      "pose": {
+        "right_upper_arm": [
+          -69.25,
+          -12.21,
+          -17.44
+        ],
+        "right_lower_arm": [
+          0,
+          0,
+          60.0
+        ]
+      }
+    },
+    "clip": "walk"
+  },
+  {
+    "key": "S4",
+    "label": "왼쪽 다리를 질질 끌면서 걸어",
+    "scales": {
+      "speed": 0.75,
+      "cadence": 0.8,
+      "arm_swing": 0.6,
+      "swing": {
+        "left_shin": 0.4
+      },
+      "pose": {
+        "torso": [
+          -12.0,
+          0.0,
+          0.0
+        ],
+        "left_thigh": [
+          0.0,
+          0,
+          -10.0
+        ]
+      }
+    },
+    "clip": "walk"
+  },
+  {
+    "key": "S5",
+    "label": "오른손에 지팡이를 짚고 걸어",
+    "scales": {
+      "speed": 0.75,
+      "cadence": 0.7,
+      "arm_swing": 0.4,
+      "swing": {
+        "right_upper_arm": 0.0,
+        "right_lower_arm": 0.0,
+        "right_shin": 0.8,
+        "left_shin": 0.8
+      },
+      "pose": {
+        "torso": [
+          9.94,
+          14.96,
+          -1.31
+        ],
+        "right_upper_arm": [
+          -0.0,
+          20.0,
+          0.0
+        ],
+        "right_lower_arm": [
+          0,
+          0,
+          35.0
+        ]
+      }
+    },
+    "clip": "walk"
+  },
+  {
+    "key": "S6",
+    "label": "몸을 오른쪽으로 기울인 채 걸어",
+    "scales": {
+      "pose": {
+        "torso": [
+          20.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    "clip": "walk"
+  },
+  {
+    "key": "S7",
+    "label": "다친 왼팔을 감싸 쥐고 걸어",
+    "scales": {
+      "cadence": 0.8,
+      "arm_swing": 0.5,
+      "swing": {
+        "right_upper_arm": 0.3,
+        "right_lower_arm": 0.3,
+        "left_upper_arm": 0.0,
+        "left_lower_arm": 0.0
+      },
+      "pose": {
+        "right_upper_arm": [
+          -13.74,
+          -33.16,
+          43.56
+        ],
+        "right_lower_arm": [
+          0,
+          0,
+          60.0
+        ],
+        "left_upper_arm": [
+          17.65,
+          -42.62,
+          -42.62
+        ],
+        "left_lower_arm": [
+          0,
+          0,
+          -60.0
+        ]
+      }
+    },
+    "clip": "walk"
+  },
+  {
+    "key": "S8",
+    "label": "무거운 가방을 왼쪽 어깨에 메고 걸어",
+    "scales": {
+      "speed": 0.85,
+      "cadence": 0.85,
+      "arm_swing": 0.7,
+      "swing": {
+        "left_upper_arm": 0.1,
+        "left_lower_arm": 0.1
+      },
+      "pose": {
+        "torso": [
+          -15.0,
+          0.0,
+          0.0
+        ],
+        "right_thigh": [
+          -5.0,
+          0,
+          -0.0
+        ],
+        "right_foot": [
+          5.0,
+          0,
+          0
+        ],
+        "left_upper_arm": [
+          0.0,
+          -20.0,
+          -0.0
+        ],
+        "left_lower_arm": [
+          0,
+          0,
+          -60.0
+        ],
+        "left_thigh": [
+          5.0,
+          0,
+          0.0
+        ],
+        "left_foot": [
+          -5.0,
+          0,
+          0
+        ]
+      }
+    },
+    "clip": "walk"
+  },
+  {
+    "key": "S9",
+    "label": "고개를 왼쪽으로 갸웃한 채 걸어",
+    "scales": {
+      "pose": {
+        "head": [
+          -20.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    "clip": "walk"
+  },
+  {
+    "key": "S10",
+    "label": "한쪽 다리가 나무 의족인 해적처럼 걸어",
+    "scales": {
+      "speed": 0.8,
+      "cadence": 0.75,
+      "arm_swing": 0.8,
+      "swing": {
+        "torso": 5.0,
+        "right_shin": 0.4
+      },
+      "pose": {
+        "torso": [
+          0,
+          -10.0,
+          0
+        ],
+        "head": [
+          0,
+          -10.0,
+          0
+        ],
+        "right_thigh": [
+          -6.0,
+          0,
+          -15.0
+        ],
+        "right_foot": [
+          6.0,
+          0,
+          0
+        ],
+        "left_thigh": [
+          6.0,
+          0,
+          0.0
+        ],
+        "left_foot": [
+          -6.0,
+          0,
+          0
+        ]
+      }
+    },
+    "clip": "walk"
+  }
+]

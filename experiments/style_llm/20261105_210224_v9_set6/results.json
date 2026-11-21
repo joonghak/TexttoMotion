@@ -1,0 +1,2075 @@
+{
+  "model": "Qwen/Qwen3-4B-Thinking-2507",
+  "revision": "768f209d9ea81521153ed38c47d515654e938aea",
+  "prompt": "v9",
+  "thinking_budget": 4096,
+  "test_set": "test_commands_6.json",
+  "seed": 42,
+  "batch_size": 2,
+  "elapsed_s": 3582.9,
+  "level1_passed": 25,
+  "commands": 25,
+  "results": [
+    {
+      "id": "N1",
+      "group": "N",
+      "text": "펭귄처럼 걸어",
+      "expect": "accept",
+      "expect_action": "walk",
+      "target": "Penguin",
+      "level1": "pass",
+      "tokens": 3501,
+      "answer": "{\"features\": {\"step\": \"very_short\", \"feet_lift\": \"shuffling\", \"feet_direction\": \"toes_in\", \"sway\": \"very_strong\", \"head\": \"lowered\", \"arm_position\": \"pressed_to_sides\", \"arm_swing\": \"small\", \"knees\": \"bent\", \"stance\": \"wide\", \"elbow_motion\": \"stiff\"}}",
+      "params": {
+        "action": "walk",
+        "s": 0.3,
+        "n": 1.0,
+        "c": 15.0,
+        "m_arm": 0.4,
+        "m_torso": 10.0,
+        "m_knee": 0.4,
+        "m_elbow": 0.0,
+        "torso_pitch": 0.0,
+        "head_pitch": 25.0,
+        "shoulder_flexion": 0.0,
+        "shoulder_abduction": -15.0,
+        "elbow_flexion": 0.0,
+        "stance_width": 10.0,
+        "toe_out": -15.0,
+        "features": {
+          "step": "very_short",
+          "feet_lift": "shuffling",
+          "feet_direction": "toes_in",
+          "sway": "very_strong",
+          "head": "lowered",
+          "arm_position": "pressed_to_sides",
+          "arm_swing": "small",
+          "knees": "bent",
+          "stance": "wide",
+          "elbow_motion": "stiff"
+        },
+        "description": "The person takes **extremely short, stiff steps** that barely advance them, bouncing **sideways** with each footfall like a wobbly pendulum. **Feet lift impossibly low**—almost touching the ground—while **toes point straight ahead** with no natural forward sweep, creating a rigid, almost vertical foot strike. **Knees stay rigidly bent** at a fixed angle, refusing to flex naturally, and the **torso rocks violently side-to-side** in a pronounced, waddling rhythm. Their **head stays low and still**, barely moving, while **arms swing stiffly close to the body** with no natural pendulum motion, clamped tightly to the sides like penguin flippers. This movement feels like a clumsy, exaggerated waddle where every step emphasizes lateral instability over forward progress."
+      },
+      "rules": [],
+      "scales": {
+        "speed": 0.3,
+        "arm_swing": 0.4,
+        "crouch": 15.0,
+        "swing": {
+          "torso": 10.0,
+          "right_shin": 0.4,
+          "left_shin": 0.4,
+          "right_lower_arm": 0.0,
+          "left_lower_arm": 0.0
+        },
+        "pose": {
+          "head": [
+            0,
+            25.0,
+            0
+          ],
+          "right_upper_arm": [
+            15.0,
+            0,
+            0
+          ],
+          "left_upper_arm": [
+            -15.0,
+            0,
+            0
+          ],
+          "right_thigh": [
+            -10.0,
+            0,
+            15.0
+          ],
+          "left_thigh": [
+            10.0,
+            0,
+            -15.0
+          ],
+          "right_foot": [
+            10.0,
+            0,
+            0
+          ],
+          "left_foot": [
+            -10.0,
+            0,
+            0
+          ]
+        }
+      },
+      "speed_mps": 0.378
+    },
+    {
+      "id": "N2",
+      "group": "N",
+      "text": "닭처럼 걸어",
+      "expect": "accept",
+      "expect_action": "walk",
+      "target": "Chicken",
+      "level1": "pass",
+      "tokens": 4009,
+      "answer": "{\"features\": {\"step\": \"very_short\", \"pace\": \"very_quick\", \"feet_lift\": \"low\", \"feet_direction\": \"toes_out\", \"knees\": \"bent\", \"sway\": \"none\", \"arm_swing\": \"none\", \"arm_position\": \"pressed_to_sides\", \"elbow_motion\": \"stiff\", \"head\": \"hanging\"}}",
+      "params": {
+        "action": "walk",
+        "s": 0.3,
+        "n": 1.45,
+        "c": 15.0,
+        "m_arm": 0.0,
+        "m_torso": 0.0,
+        "m_knee": 0.8,
+        "m_elbow": 0.0,
+        "torso_pitch": 0.0,
+        "head_pitch": 30.0,
+        "shoulder_flexion": 0.0,
+        "shoulder_abduction": -15.0,
+        "elbow_flexion": 0.0,
+        "stance_width": 0.0,
+        "toe_out": 30.0,
+        "features": {
+          "step": "very_short",
+          "pace": "very_quick",
+          "feet_lift": "low",
+          "feet_direction": "toes_out",
+          "knees": "bent",
+          "sway": "none",
+          "arm_swing": "none",
+          "arm_position": "pressed_to_sides",
+          "elbow_motion": "stiff",
+          "head": "hanging"
+        },
+        "description": "The chicken's steps are tiny, rapid *twitches*—no smooth progression, just frantic, spiky hops that barely advance the body. Feet lift impossibly low, almost grazing the ground, with toes stubbornly pointed *downward* rather than forward, like tiny claws gripping dust. Knees snap stiffly and abruptly, never bending fluidly, while the torso remains rigidly upright with zero side-to-side rocking—only a minute, jerky forward lean. The head bobs violently up and down in a frantic, almost comical pendulum motion, and there is *no* arm swing at all; instead, the legs move with stiff, splayed motions that feel like they’re barely touching the earth."
+      },
+      "rules": [],
+      "scales": {
+        "speed": 0.3,
+        "cadence": 1.45,
+        "arm_swing": 0.0,
+        "crouch": 15.0,
+        "swing": {
+          "torso": 0.0,
+          "right_shin": 0.8,
+          "left_shin": 0.8,
+          "right_lower_arm": 0.0,
+          "left_lower_arm": 0.0
+        },
+        "pose": {
+          "head": [
+            0,
+            30.0,
+            0
+          ],
+          "right_upper_arm": [
+            15.0,
+            0,
+            0
+          ],
+          "left_upper_arm": [
+            -15.0,
+            0,
+            0
+          ],
+          "right_thigh": [
+            -0.0,
+            0,
+            -30.0
+          ],
+          "left_thigh": [
+            0.0,
+            0,
+            30.0
+          ]
+        }
+      },
+      "speed_mps": 0.548
+    },
+    {
+      "id": "N3",
+      "group": "N",
+      "text": "고양이처럼 걸어",
+      "expect": "accept",
+      "expect_action": "walk",
+      "target": "Cat",
+      "level1": "pass",
+      "tokens": 4186,
+      "answer": "{\"action\": \"walk\", \"features\": {\"step\": \"very_short\", \"pace\": \"very_quick\", \"feet_lift\": \"very_high\", \"knees\": \"bent\", \"sway\": \"none\", \"head\": \"lowered\", \"arm_swing\": \"small\", \"arm_position\": \"pressed_to_sides\"}}",
+      "params": {
+        "action": "walk",
+        "s": 0.3,
+        "n": 1.45,
+        "c": 15.0,
+        "m_arm": 0.4,
+        "m_torso": 0.0,
+        "m_knee": 1.5,
+        "m_elbow": 1.0,
+        "torso_pitch": 0.0,
+        "head_pitch": 25.0,
+        "shoulder_flexion": 0.0,
+        "shoulder_abduction": -15.0,
+        "elbow_flexion": 0.0,
+        "stance_width": 0.0,
+        "toe_out": 0.0,
+        "features": {
+          "step": "very_short",
+          "pace": "very_quick",
+          "feet_lift": "very_high",
+          "knees": "bent",
+          "sway": "none",
+          "head": "lowered",
+          "arm_swing": "small",
+          "arm_position": "pressed_to_sides"
+        },
+        "description": "The person takes impossibly short, rapid steps—just two inches long—like a cat’s tiny paws hitting the ground with a springy *tap*, never letting the foot drag. Their feet lift high, nearly to hip level, with toes rigidly pointing straight forward, never bending or splaying. Knees snap stiffly upward with each step, locking like coiled springs before the body explodes forward with minimal knee bend. The torso stays unnaturally upright and still, with zero side-to-side rocking, while the head remains fixed in a sharp, forward tilt, barely swaying. Arms swing close to the body in quick, tight arcs—no wide pendulum motion—like cat claws brushing the air just above the hips."
+      },
+      "rules": [],
+      "scales": {
+        "speed": 0.3,
+        "cadence": 1.45,
+        "arm_swing": 0.4,
+        "crouch": 15.0,
+        "swing": {
+          "torso": 0.0,
+          "right_shin": 1.5,
+          "left_shin": 1.5
+        },
+        "pose": {
+          "head": [
+            0,
+            25.0,
+            0
+          ],
+          "right_upper_arm": [
+            15.0,
+            0,
+            0
+          ],
+          "left_upper_arm": [
+            -15.0,
+            0,
+            0
+          ]
+        }
+      },
+      "speed_mps": 0.548
+    },
+    {
+      "id": "N4",
+      "group": "N",
+      "text": "공룡처럼 걸어",
+      "expect": "accept",
+      "expect_action": "walk",
+      "target": "Dinosaur",
+      "level1": "pass",
+      "tokens": 4210,
+      "answer": "{\"action\": \"walk\", \"features\": {\"step\": \"very_long\", \"pace\": \"very_slow\", \"feet_lift\": \"low\", \"feet_direction\": \"toes_in\", \"torso\": \"leaning_forward\", \"head\": \"raised\", \"arm_swing\": \"small\", \"arm_position\": \"pressed_to_sides\", \"elbows\": \"straight\", \"elbow_motion\": \"stiff\", \"sway\": \"some\"}}",
+      "params": {
+        "action": "walk",
+        "s": 1.8,
+        "n": 0.55,
+        "c": 0.0,
+        "m_arm": 0.4,
+        "m_torso": 3.0,
+        "m_knee": 0.8,
+        "m_elbow": 0.0,
+        "torso_pitch": 15.0,
+        "head_pitch": -15.0,
+        "shoulder_flexion": 0.0,
+        "shoulder_abduction": -15.0,
+        "elbow_flexion": -30.0,
+        "stance_width": 0.0,
+        "toe_out": -15.0,
+        "features": {
+          "step": "very_long",
+          "pace": "very_slow",
+          "feet_lift": "low",
+          "feet_direction": "toes_in",
+          "torso": "leaning_forward",
+          "head": "raised",
+          "arm_swing": "small",
+          "arm_position": "pressed_to_sides",
+          "elbows": "straight",
+          "elbow_motion": "stiff",
+          "sway": "some"
+        },
+        "description": "The steps are impossibly long, dragging the ground like a slow-motion landslide, with a deliberate, earth-shaking pace that makes the earth itself groan under the weight. Toes point straight ahead, flat and rigid as ancient stone, never curling or splaying, while the feet lift only a few inches off the ground—too low to clear a blade of grass. Knees lock rigidly in a near-straight line, like unyielding stone pillars, with zero give, and the torso leans slightly forward with a barely perceptible, slow-motion rocking motion that barely shifts side-to-side. The head remains high and still, tilted forward with deliberate slowness, while arms swing in stiff, short arcs close to the body, almost tucked beneath the chest like dormant branches."
+      },
+      "rules": [],
+      "scales": {
+        "speed": 1.8,
+        "cadence": 0.55,
+        "arm_swing": 0.4,
+        "swing": {
+          "torso": 3.0,
+          "right_shin": 0.8,
+          "left_shin": 0.8,
+          "right_lower_arm": 0.0,
+          "left_lower_arm": 0.0
+        },
+        "pose": {
+          "torso": [
+            0,
+            15.0,
+            0
+          ],
+          "head": [
+            0,
+            -15.0,
+            0
+          ],
+          "right_upper_arm": [
+            15.0,
+            0,
+            0
+          ],
+          "left_upper_arm": [
+            -15.0,
+            0,
+            0
+          ],
+          "right_lower_arm": [
+            0,
+            0,
+            -30.0
+          ],
+          "left_lower_arm": [
+            0,
+            0,
+            30.0
+          ],
+          "right_thigh": [
+            -0.0,
+            0,
+            15.0
+          ],
+          "left_thigh": [
+            0.0,
+            0,
+            -15.0
+          ]
+        }
+      },
+      "speed_mps": 1.247
+    },
+    {
+      "id": "N5",
+      "group": "N",
+      "text": "새처럼 날개를 퍼덕이며 걸어",
+      "expect": "accept",
+      "expect_action": "walk",
+      "target": "Flapping",
+      "level1": "pass",
+      "tokens": 4209,
+      "answer": "{\"action\": \"walk\", \"features\": {\"step\": \"very_short\", \"pace\": \"very_quick\", \"feet_lift\": \"very_high\", \"feet_direction\": \"toes_out\", \"knees\": \"deeply_bent\", \"torso\": \"leaning_forward\", \"arm_swing\": \"very_large\", \"arm_position\": \"sideways\", \"elbows\": \"sharply_bent\", \"sway\": \"none\"}}",
+      "params": {
+        "action": "walk",
+        "s": 0.3,
+        "n": 1.45,
+        "c": 30.0,
+        "m_arm": 1.8,
+        "m_torso": 0.0,
+        "m_knee": 1.5,
+        "m_elbow": 1.0,
+        "torso_pitch": 15.0,
+        "head_pitch": 0.0,
+        "shoulder_flexion": 0.0,
+        "shoulder_abduction": 85.0,
+        "elbow_flexion": 60.0,
+        "stance_width": 0.0,
+        "toe_out": 30.0,
+        "features": {
+          "step": "very_short",
+          "pace": "very_quick",
+          "feet_lift": "very_high",
+          "feet_direction": "toes_out",
+          "knees": "deeply_bent",
+          "torso": "leaning_forward",
+          "arm_swing": "very_large",
+          "arm_position": "sideways",
+          "elbows": "sharply_bent",
+          "sway": "none"
+        },
+        "description": "The person takes impossibly short, frantic steps with a rapid, almost skipping pace, each foot barely touching the ground. Their feet lift impossibly high off the floor, toes pointed sharply upward in a jerky, bird-like flapping motion. Knees snap abruptly forward with bouncy, jerky extensions, creating a stiff, hop-like gait. The torso stays rigidly upright with a slight forward lean, barely rocking side-to-side at all. Arms flap violently in a wild, up-and-down motion—elbows bent high, fingers splayed like frantic wings—instead of the smooth, coordinated swing seen in normal walking."
+      },
+      "rules": [
+        "m_arm 1.8 -> 0.3 (팔을 85° 듦)"
+      ],
+      "scales": {
+        "speed": 0.3,
+        "cadence": 1.45,
+        "arm_swing": 0.3,
+        "crouch": 30.0,
+        "swing": {
+          "torso": 0.0,
+          "right_shin": 1.5,
+          "left_shin": 1.5
+        },
+        "pose": {
+          "torso": [
+            0,
+            15.0,
+            0
+          ],
+          "right_upper_arm": [
+            -85.0,
+            0,
+            0
+          ],
+          "left_upper_arm": [
+            85.0,
+            0,
+            0
+          ],
+          "right_lower_arm": [
+            0,
+            0,
+            60.0
+          ],
+          "left_lower_arm": [
+            0,
+            0,
+            -60.0
+          ],
+          "right_thigh": [
+            -0.0,
+            0,
+            -30.0
+          ],
+          "left_thigh": [
+            0.0,
+            0,
+            30.0
+          ]
+        }
+      },
+      "speed_mps": 0.548
+    },
+    {
+      "id": "N6",
+      "group": "N",
+      "text": "오리처럼 뒤뚱뒤뚱 걸어",
+      "expect": "accept",
+      "expect_action": "walk",
+      "target": "Penguin",
+      "level1": "pass",
+      "tokens": 3507,
+      "answer": "{\"action\": \"walk\", \"features\": {\"step\": \"short\", \"pace\": \"very_slow\", \"feet_lift\": \"shuffling\", \"feet_direction\": \"toes_out\", \"knees\": \"bent\", \"sway\": \"very_strong\", \"head\": \"hanging\", \"arm_swing\": \"very_large\", \"elbow_motion\": \"stiff\", \"arm_position\": \"sideways\"}}",
+      "params": {
+        "action": "walk",
+        "s": 0.6,
+        "n": 0.55,
+        "c": 15.0,
+        "m_arm": 1.8,
+        "m_torso": 10.0,
+        "m_knee": 0.4,
+        "m_elbow": 0.0,
+        "torso_pitch": 0.0,
+        "head_pitch": 30.0,
+        "shoulder_flexion": 0.0,
+        "shoulder_abduction": 85.0,
+        "elbow_flexion": 0.0,
+        "stance_width": 0.0,
+        "toe_out": 30.0,
+        "features": {
+          "step": "short",
+          "pace": "very_slow",
+          "feet_lift": "shuffling",
+          "feet_direction": "toes_out",
+          "knees": "bent",
+          "sway": "very_strong",
+          "head": "hanging",
+          "arm_swing": "very_large",
+          "elbow_motion": "stiff",
+          "arm_position": "sideways"
+        },
+        "description": "The steps are short, uneven, and bouncy like frogs jumping—each foot lands with a distinct *thump* as it barely lifts off the ground, toes splayed outward at a 45-degree angle. Knees buckle slightly inward with every wobble, creating a visible, uncoordinated sway that makes the legs seem to hop rather than stride. The torso rocks side-to-side in a slow, pendulum-like motion, while the head tilts awkwardly in sync with the waddle, as if trying to follow the uneven rhythm. Arms swing wide and stiffly in the opposite direction of the waddle, fingers splayed like they’re holding onto nothing, amplifying the chaotic, unstable gait."
+      },
+      "rules": [
+        "m_arm 1.8 -> 0.3 (팔을 85° 듦)"
+      ],
+      "scales": {
+        "speed": 0.6,
+        "cadence": 0.55,
+        "arm_swing": 0.3,
+        "crouch": 15.0,
+        "swing": {
+          "torso": 10.0,
+          "right_shin": 0.4,
+          "left_shin": 0.4,
+          "right_lower_arm": 0.0,
+          "left_lower_arm": 0.0
+        },
+        "pose": {
+          "head": [
+            0,
+            30.0,
+            0
+          ],
+          "right_upper_arm": [
+            -85.0,
+            0,
+            0
+          ],
+          "left_upper_arm": [
+            85.0,
+            0,
+            0
+          ],
+          "right_thigh": [
+            -0.0,
+            0,
+            -30.0
+          ],
+          "left_thigh": [
+            0.0,
+            0,
+            30.0
+          ]
+        }
+      },
+      "speed_mps": 0.416
+    },
+    {
+      "id": "P1",
+      "group": "P",
+      "text": "좀비처럼 걸어",
+      "expect": "accept",
+      "expect_action": "walk",
+      "target": "Zombie",
+      "level1": "pass",
+      "tokens": 4204,
+      "answer": "{\"action\": \"walk\", \"features\": {\"step\": \"very_long\", \"pace\": \"very_slow\", \"feet_lift\": \"shuffling\", \"feet_direction\": \"toes_out\", \"knees\": \"deeply_bent\", \"sway\": \"very_strong\", \"head\": \"lowered\", \"arm_swing\": \"small\", \"elbows\": \"straight\", \"arm_position\": \"forward\"}}",
+      "params": {
+        "action": "walk",
+        "s": 1.8,
+        "n": 0.55,
+        "c": 30.0,
+        "m_arm": 0.4,
+        "m_torso": 10.0,
+        "m_knee": 0.4,
+        "m_elbow": 1.0,
+        "torso_pitch": 0.0,
+        "head_pitch": 25.0,
+        "shoulder_flexion": 85.0,
+        "shoulder_abduction": 0.0,
+        "elbow_flexion": -30.0,
+        "stance_width": 0.0,
+        "toe_out": 30.0,
+        "features": {
+          "step": "very_long",
+          "pace": "very_slow",
+          "feet_lift": "shuffling",
+          "feet_direction": "toes_out",
+          "knees": "deeply_bent",
+          "sway": "very_strong",
+          "head": "lowered",
+          "arm_swing": "small",
+          "elbows": "straight",
+          "arm_position": "forward"
+        },
+        "description": "The zombie's steps drag heavily across the ground, each stride impossibly long and slow, like dragging weights through mud. Their feet sink deep into the earth with a wet, splayed motion, toes pointing awkwardly sideways instead of forward, as if trying to claw at the ground. Knees buckle sharply inward with a sickening *crack* before snapping back with unnatural stiffness, while the torso rocks side-to-side like a pendulum, never leaning forward smoothly. The head lolls heavily to one side, eyes vacant and unblinking, with arms swinging in slow, uncoordinated drifts rather than a natural pendulum motion."
+      },
+      "rules": [
+        "m_arm 0.4 -> 0.3 (팔을 85° 듦)"
+      ],
+      "scales": {
+        "speed": 1.8,
+        "cadence": 0.55,
+        "arm_swing": 0.3,
+        "crouch": 30.0,
+        "swing": {
+          "torso": 10.0,
+          "right_shin": 0.4,
+          "left_shin": 0.4
+        },
+        "pose": {
+          "head": [
+            0,
+            25.0,
+            0
+          ],
+          "right_upper_arm": [
+            0,
+            -85.0,
+            0
+          ],
+          "left_upper_arm": [
+            0,
+            -85.0,
+            0
+          ],
+          "right_lower_arm": [
+            0,
+            0,
+            -30.0
+          ],
+          "left_lower_arm": [
+            0,
+            0,
+            30.0
+          ],
+          "right_thigh": [
+            -0.0,
+            0,
+            -30.0
+          ],
+          "left_thigh": [
+            0.0,
+            0,
+            30.0
+          ]
+        }
+      },
+      "speed_mps": 1.247
+    },
+    {
+      "id": "P2",
+      "group": "P",
+      "text": "로봇처럼 걸어",
+      "expect": "accept",
+      "expect_action": "walk",
+      "target": "Robot",
+      "level1": "pass",
+      "tokens": 4159,
+      "answer": "{\"features\": {\"sway\": \"none\", \"feet_lift\": \"very_high\", \"elbows\": \"bent\", \"elbow_motion\": \"stiff\", \"arm_swing\": \"very_large\"}}",
+      "params": {
+        "action": "walk",
+        "s": 1.0,
+        "n": 1.0,
+        "c": 15.0,
+        "m_arm": 1.8,
+        "m_torso": 0.0,
+        "m_knee": 1.5,
+        "m_elbow": 0.0,
+        "torso_pitch": 0.0,
+        "head_pitch": 0.0,
+        "shoulder_flexion": 0.0,
+        "shoulder_abduction": 0.0,
+        "elbow_flexion": 45.0,
+        "stance_width": 0.0,
+        "toe_out": 0.0,
+        "features": {
+          "sway": "none",
+          "feet_lift": "very_high",
+          "elbows": "bent",
+          "elbow_motion": "stiff",
+          "arm_swing": "very_large"
+        },
+        "description": "The feet slice through the air with unnervingly precise, identical step lengths, lifting high and straight up without any natural bend, toes rigidly pointing directly forward like laser beams. Knees lock into stiff, unyielding straight lines with zero flexion, leaving no give in the joints. The torso remains completely rigid and upright, utterly devoid of side-to-side rocking or subtle lean, as if welded to the ground. The head holds a fixed, unblinking gaze with no nodding or tilting, and the arms swing in perfect, mechanical counterbalance—each arm moving in a tight, synchronized arc with no natural pendulum sway, pivoting like clock parts."
+      },
+      "rules": [],
+      "scales": {
+        "arm_swing": 1.8,
+        "crouch": 15.0,
+        "swing": {
+          "torso": 0.0,
+          "right_shin": 1.5,
+          "left_shin": 1.5,
+          "right_lower_arm": 0.0,
+          "left_lower_arm": 0.0
+        },
+        "pose": {
+          "right_lower_arm": [
+            0,
+            0,
+            45.0
+          ],
+          "left_lower_arm": [
+            0,
+            0,
+            -45.0
+          ]
+        }
+      },
+      "speed_mps": 1.26
+    },
+    {
+      "id": "P3",
+      "group": "P",
+      "text": "노인처럼 걸어",
+      "expect": "accept",
+      "expect_action": "walk",
+      "target": "Old",
+      "level1": "pass",
+      "tokens": 4204,
+      "answer": "{\"action\": \"walk\", \"features\": {\"step\": \"short\", \"pace\": \"slow\", \"feet_lift\": \"shuffling\", \"feet_direction\": \"toes_in\", \"knees\": \"deeply_bent\", \"torso\": \"leaning_forward\", \"sway\": \"strong\", \"head\": \"lowered\", \"arm_swing\": \"small\", \"arm_position\": \"pressed_to_sides\"}}",
+      "params": {
+        "action": "walk",
+        "s": 0.6,
+        "n": 0.75,
+        "c": 30.0,
+        "m_arm": 0.4,
+        "m_torso": 6.0,
+        "m_knee": 0.4,
+        "m_elbow": 1.0,
+        "torso_pitch": 15.0,
+        "head_pitch": 25.0,
+        "shoulder_flexion": 0.0,
+        "shoulder_abduction": -15.0,
+        "elbow_flexion": 0.0,
+        "stance_width": 0.0,
+        "toe_out": -15.0,
+        "features": {
+          "step": "short",
+          "pace": "slow",
+          "feet_lift": "shuffling",
+          "feet_direction": "toes_in",
+          "knees": "deeply_bent",
+          "torso": "leaning_forward",
+          "sway": "strong",
+          "head": "lowered",
+          "arm_swing": "small",
+          "arm_position": "pressed_to_sides"
+        },
+        "description": "The steps are short and slow, barely clearing the ground with each cautious shuffle, while the pace drags like dragging a weighted sack. Feet lift impossibly low, almost brushing the floor, with toes perpetually pointed slightly inward as if trying to find purchase in thin ice. Knees bend deeply and stiffly with each step, creating a pronounced, almost sagging forward lean that rocks the torso side-to-side like a pendulum swinging in a slow, uneven arc. The head tilts downward with a slight, weary tilt, and arms swing heavily like tired pendulums—slow, wide arcs with minimal range, hands hanging loosely at the sides."
+      },
+      "rules": [],
+      "scales": {
+        "speed": 0.6,
+        "cadence": 0.75,
+        "arm_swing": 0.4,
+        "crouch": 30.0,
+        "swing": {
+          "torso": 6.0,
+          "right_shin": 0.4,
+          "left_shin": 0.4
+        },
+        "pose": {
+          "torso": [
+            0,
+            15.0,
+            0
+          ],
+          "head": [
+            0,
+            25.0,
+            0
+          ],
+          "right_upper_arm": [
+            15.0,
+            0,
+            0
+          ],
+          "left_upper_arm": [
+            -15.0,
+            0,
+            0
+          ],
+          "right_thigh": [
+            -0.0,
+            0,
+            15.0
+          ],
+          "left_thigh": [
+            0.0,
+            0,
+            -15.0
+          ]
+        }
+      },
+      "speed_mps": 0.567
+    },
+    {
+      "id": "P4",
+      "group": "P",
+      "text": "수도승처럼 걸어",
+      "expect": "accept",
+      "expect_action": "walk",
+      "target": "Monk",
+      "level1": "pass",
+      "tokens": 4188,
+      "answer": "{\"action\": \"walk\", \"features\": {\"step\": \"long\", \"pace\": \"slow\", \"feet_lift\": \"low\", \"sway\": \"none\", \"torso\": \"leaning_forward\", \"head\": \"raised\", \"arm_swing\": \"very_large\", \"arm_position\": \"forward\", \"elbows\": \"bent\"}}",
+      "params": {
+        "action": "walk",
+        "s": 1.4,
+        "n": 0.75,
+        "c": 0.0,
+        "m_arm": 1.8,
+        "m_torso": 0.0,
+        "m_knee": 0.8,
+        "m_elbow": 1.0,
+        "torso_pitch": 15.0,
+        "head_pitch": -15.0,
+        "shoulder_flexion": 85.0,
+        "shoulder_abduction": 0.0,
+        "elbow_flexion": 45.0,
+        "stance_width": 0.0,
+        "toe_out": 0.0,
+        "features": {
+          "step": "long",
+          "pace": "slow",
+          "feet_lift": "low",
+          "sway": "none",
+          "torso": "leaning_forward",
+          "head": "raised",
+          "arm_swing": "very_large",
+          "arm_position": "forward",
+          "elbows": "bent"
+        },
+        "description": "The monk walks with **long, measured strides** that barely disturb the ground, moving at a **slow, deliberate pace** like a heartbeat. **Feet lift low** to touch the earth almost silently, **toes pointed dead ahead** with zero wobble, while **knees stay stiff and straight**—never bending to absorb impact. The **torso remains perfectly upright**, leaning only **slightly forward** without any side-to-side rocking, and the **head stays utterly still**, fixed on the path ahead. **Arms swing wide and deliberately** in a smooth, pendulum-like counterbalance, each motion precise and synchronized with the steps."
+      },
+      "rules": [
+        "m_arm 1.8 -> 0.3 (팔을 85° 듦)"
+      ],
+      "scales": {
+        "speed": 1.4,
+        "cadence": 0.75,
+        "arm_swing": 0.3,
+        "swing": {
+          "torso": 0.0,
+          "right_shin": 0.8,
+          "left_shin": 0.8
+        },
+        "pose": {
+          "torso": [
+            0,
+            15.0,
+            0
+          ],
+          "head": [
+            0,
+            -15.0,
+            0
+          ],
+          "right_upper_arm": [
+            0,
+            -85.0,
+            0
+          ],
+          "left_upper_arm": [
+            0,
+            -85.0,
+            0
+          ],
+          "right_lower_arm": [
+            0,
+            0,
+            45.0
+          ],
+          "left_lower_arm": [
+            0,
+            0,
+            -45.0
+          ]
+        }
+      },
+      "speed_mps": 1.323
+    },
+    {
+      "id": "P5",
+      "group": "P",
+      "text": "술 취한 사람처럼 걸어",
+      "expect": "accept",
+      "expect_action": "walk",
+      "target": "Drunk",
+      "level1": "pass",
+      "tokens": 3981,
+      "answer": "{\"action\": \"walk\", \"features\": {\"step\": \"very_long\", \"pace\": \"slow\", \"feet_lift\": \"shuffling\", \"feet_direction\": \"toes_out\", \"knees\": \"deeply_bent\", \"sway\": \"very_strong\", \"head\": \"hanging\", \"arm_swing\": \"very_large\", \"arm_position\": \"forward\"}}",
+      "params": {
+        "action": "walk",
+        "s": 1.8,
+        "n": 0.75,
+        "c": 30.0,
+        "m_arm": 1.8,
+        "m_torso": 10.0,
+        "m_knee": 0.4,
+        "m_elbow": 1.0,
+        "torso_pitch": 0.0,
+        "head_pitch": 30.0,
+        "shoulder_flexion": 85.0,
+        "shoulder_abduction": 0.0,
+        "elbow_flexion": 0.0,
+        "stance_width": 0.0,
+        "toe_out": 30.0,
+        "features": {
+          "step": "very_long",
+          "pace": "slow",
+          "feet_lift": "shuffling",
+          "feet_direction": "toes_out",
+          "knees": "deeply_bent",
+          "sway": "very_strong",
+          "head": "hanging",
+          "arm_swing": "very_large",
+          "arm_position": "forward"
+        },
+        "description": "The person takes lurching, uneven steps that stretch impossibly long in one direction then vanish abruptly, moving with a staggering, shuffling pace that feels like they’re barely holding themselves upright. Their feet lift only a fraction of an inch off the ground, toes pointing wildly outward at a wild angle as if trying to catch balance on a wobbly stool. Knees buckle inward with each step, legs swinging uncontrollably like pendulums while the torso rocks heavily side-to-side, swaying as if pushed by an invisible breeze. The head jerks erratically, tilting side-to-side with no rhythm, while arms flail loosely and uncoordinated, swinging with no purpose or control like a drunk sailor's arms in a storm."
+      },
+      "rules": [
+        "m_arm 1.8 -> 0.3 (팔을 85° 듦)"
+      ],
+      "scales": {
+        "speed": 1.8,
+        "cadence": 0.75,
+        "arm_swing": 0.3,
+        "crouch": 30.0,
+        "swing": {
+          "torso": 10.0,
+          "right_shin": 0.4,
+          "left_shin": 0.4
+        },
+        "pose": {
+          "head": [
+            0,
+            30.0,
+            0
+          ],
+          "right_upper_arm": [
+            0,
+            -85.0,
+            0
+          ],
+          "left_upper_arm": [
+            0,
+            -85.0,
+            0
+          ],
+          "right_thigh": [
+            -0.0,
+            0,
+            -30.0
+          ],
+          "left_thigh": [
+            0.0,
+            0,
+            30.0
+          ]
+        }
+      },
+      "speed_mps": 1.701
+    },
+    {
+      "id": "P6",
+      "group": "P",
+      "text": "슈퍼맨처럼 걸어",
+      "expect": "accept",
+      "expect_action": "walk",
+      "target": "Superman",
+      "level1": "pass",
+      "tokens": 4170,
+      "answer": "{\"features\": {\"step\": \"very_long\", \"pace\": \"very_quick\", \"feet_lift\": \"very_high\", \"sway\": \"none\", \"head\": \"raised\", \"arm_swing\": \"very_large\", \"arm_position\": \"sideways\"}}",
+      "params": {
+        "action": "walk",
+        "s": 1.8,
+        "n": 1.45,
+        "c": 15.0,
+        "m_arm": 1.8,
+        "m_torso": 0.0,
+        "m_knee": 1.5,
+        "m_elbow": 1.0,
+        "torso_pitch": -10.0,
+        "head_pitch": -15.0,
+        "shoulder_flexion": 0.0,
+        "shoulder_abduction": 85.0,
+        "elbow_flexion": 0.0,
+        "stance_width": 0.0,
+        "toe_out": 0.0,
+        "features": {
+          "step": "very_long",
+          "pace": "very_quick",
+          "feet_lift": "very_high",
+          "sway": "none",
+          "head": "raised",
+          "arm_swing": "very_large",
+          "arm_position": "sideways"
+        },
+        "description": "His strides are so vast they leave no footprints, each step propelling him forward with impossible speed while his feet hover just above the ground like floating discs. The toes point straight ahead like laser beams, lifted impossibly high off the pavement with no downward pressure at all. His legs move with zero resistance, knees locked in a rigid, unwavering extension that never bends, while his torso remains perfectly straight and still, refusing any side-to-side wobble. His head stays stiffly upright, eyes fixed ahead with no head movement, and his arms swing with a smooth, cape-like motion—each arm moving in a wide, fluid arc that seems to push air itself rather than the ground."
+      },
+      "rules": [
+        "m_arm 1.8 -> 0.3 (팔을 85° 듦)"
+      ],
+      "scales": {
+        "speed": 1.8,
+        "cadence": 1.45,
+        "arm_swing": 0.3,
+        "crouch": 15.0,
+        "swing": {
+          "torso": 0.0,
+          "right_shin": 1.5,
+          "left_shin": 1.5
+        },
+        "pose": {
+          "torso": [
+            0,
+            -10.0,
+            0
+          ],
+          "head": [
+            0,
+            -15.0,
+            0
+          ],
+          "right_upper_arm": [
+            -85.0,
+            0,
+            0
+          ],
+          "left_upper_arm": [
+            85.0,
+            0,
+            0
+          ]
+        }
+      },
+      "speed_mps": 3.289
+    },
+    {
+      "id": "F1",
+      "group": "F",
+      "text": "팔자걸음으로 걸어",
+      "expect": "accept",
+      "expect_action": "walk",
+      "target": "DuckFoot",
+      "level1": "pass",
+      "tokens": 4204,
+      "answer": "{\"action\": \"walk\", \"features\": {\"step\": \"very_long\", \"pace\": \"slow\", \"feet_lift\": \"very_high\", \"feet_direction\": \"toes_out\", \"knees\": \"deeply_bent\", \"sway\": \"some\", \"arm_swing\": \"very_large\", \"arm_position\": \"sideways\", \"elbow_motion\": \"stiff\", \"head\": \"raised\"}}",
+      "params": {
+        "action": "walk",
+        "s": 1.8,
+        "n": 0.75,
+        "c": 30.0,
+        "m_arm": 1.8,
+        "m_torso": 3.0,
+        "m_knee": 1.5,
+        "m_elbow": 0.0,
+        "torso_pitch": -10.0,
+        "head_pitch": -15.0,
+        "shoulder_flexion": 0.0,
+        "shoulder_abduction": 85.0,
+        "elbow_flexion": 0.0,
+        "stance_width": 0.0,
+        "toe_out": 30.0,
+        "features": {
+          "step": "very_long",
+          "pace": "slow",
+          "feet_lift": "very_high",
+          "feet_direction": "toes_out",
+          "knees": "deeply_bent",
+          "sway": "some",
+          "arm_swing": "very_large",
+          "arm_position": "sideways",
+          "elbow_motion": "stiff",
+          "head": "raised"
+        },
+        "description": "Each step spans a dramatic, almost diagonal cross, with massive strides that drag the body forward in slow, deliberate bursts rather than steady motion. Feet lift impossibly high—almost to the hip level—to clear the wide crossing path, while toes point sharply outward in a deliberate V-shape. Knees snap inward with a sharp, stiff bend during the cross, creating a rigid, angular pivot that contrasts with fluid walking. The torso stays unnaturally straight with minimal lean, barely rocking side-to-side, while the head remains rigidly upright and still. Arms swing in a rigid, opposite counterbalance—left arm swings wide right, right arm swings wide left—like clock hands locked in a precise, unnatural rhythm."
+      },
+      "rules": [
+        "m_arm 1.8 -> 0.3 (팔을 85° 듦)"
+      ],
+      "scales": {
+        "speed": 1.8,
+        "cadence": 0.75,
+        "arm_swing": 0.3,
+        "crouch": 30.0,
+        "swing": {
+          "torso": 3.0,
+          "right_shin": 1.5,
+          "left_shin": 1.5,
+          "right_lower_arm": 0.0,
+          "left_lower_arm": 0.0
+        },
+        "pose": {
+          "torso": [
+            0,
+            -10.0,
+            0
+          ],
+          "head": [
+            0,
+            -15.0,
+            0
+          ],
+          "right_upper_arm": [
+            -85.0,
+            0,
+            0
+          ],
+          "left_upper_arm": [
+            85.0,
+            0,
+            0
+          ],
+          "right_thigh": [
+            -0.0,
+            0,
+            -30.0
+          ],
+          "left_thigh": [
+            0.0,
+            0,
+            30.0
+          ]
+        }
+      },
+      "speed_mps": 1.701
+    },
+    {
+      "id": "F2",
+      "group": "F",
+      "text": "안짱걸음으로 걸어",
+      "expect": "accept",
+      "expect_action": "walk",
+      "target": "PigeonToed",
+      "level1": "pass",
+      "tokens": 2669,
+      "answer": "{\"action\": \"walk\", \"features\": {\"step\": \"very_long\", \"pace\": \"slow\", \"feet_lift\": \"shuffling\", \"feet_direction\": \"toes_out\", \"knees\": \"deeply_bent\", \"sway\": \"very_strong\", \"torso\": \"leaning_forward\", \"head\": \"raised\", \"arm_swing\": \"very_large\", \"arm_position\": \"sideways\", \"elbow_motion\": \"stiff\"}}",
+      "params": {
+        "action": "walk",
+        "s": 1.8,
+        "n": 0.75,
+        "c": 30.0,
+        "m_arm": 1.8,
+        "m_torso": 10.0,
+        "m_knee": 0.4,
+        "m_elbow": 0.0,
+        "torso_pitch": 15.0,
+        "head_pitch": -15.0,
+        "shoulder_flexion": 0.0,
+        "shoulder_abduction": 85.0,
+        "elbow_flexion": 0.0,
+        "stance_width": 0.0,
+        "toe_out": 30.0,
+        "features": {
+          "step": "very_long",
+          "pace": "slow",
+          "feet_lift": "shuffling",
+          "feet_direction": "toes_out",
+          "knees": "deeply_bent",
+          "sway": "very_strong",
+          "torso": "leaning_forward",
+          "head": "raised",
+          "arm_swing": "very_large",
+          "arm_position": "sideways",
+          "elbow_motion": "stiff"
+        },
+        "description": "In anjanggeol walking, each step is a massive, deliberate *thud* with enormous stride length and slow, heavy pace that makes the ground vibrate. Feet lift only a centimeter off the ground, toes sharply point outward and downward like claws digging into the earth, then slam down with explosive force. Knees bend deeply before snapping backward with the violence of a spring-loaded piston, while the torso rocks violently side-to-side like a pendulum, leaning slightly forward with each stomp. The head stays rigidly still but nods once per step in time with the impact, and arms swing stiffly wide—like rigid metronomes—pushing the body forward with unnatural, rigid momentum."
+      },
+      "rules": [
+        "m_arm 1.8 -> 0.3 (팔을 85° 듦)"
+      ],
+      "scales": {
+        "speed": 1.8,
+        "cadence": 0.75,
+        "arm_swing": 0.3,
+        "crouch": 30.0,
+        "swing": {
+          "torso": 10.0,
+          "right_shin": 0.4,
+          "left_shin": 0.4,
+          "right_lower_arm": 0.0,
+          "left_lower_arm": 0.0
+        },
+        "pose": {
+          "torso": [
+            0,
+            15.0,
+            0
+          ],
+          "head": [
+            0,
+            -15.0,
+            0
+          ],
+          "right_upper_arm": [
+            -85.0,
+            0,
+            0
+          ],
+          "left_upper_arm": [
+            85.0,
+            0,
+            0
+          ],
+          "right_thigh": [
+            -0.0,
+            0,
+            -30.0
+          ],
+          "left_thigh": [
+            0.0,
+            0,
+            30.0
+          ]
+        }
+      },
+      "speed_mps": 1.701
+    },
+    {
+      "id": "F3",
+      "group": "F",
+      "text": "다리를 넓게 벌리고 걸어",
+      "expect": "accept",
+      "expect_action": "walk",
+      "target": "WideLegs",
+      "level1": "pass",
+      "tokens": 4183,
+      "answer": "{\"action\": \"walk\", \"features\": {\"stance\": \"wide\", \"step\": \"very_long\", \"feet_lift\": \"very_high\", \"feet_direction\": \"toes_out\", \"knees\": \"deeply_bent\", \"sway\": \"very_strong\", \"arm_swing\": \"very_large\"}}",
+      "params": {
+        "action": "walk",
+        "s": 1.8,
+        "n": 1.0,
+        "c": 30.0,
+        "m_arm": 1.8,
+        "m_torso": 10.0,
+        "m_knee": 1.5,
+        "m_elbow": 1.0,
+        "torso_pitch": 0.0,
+        "head_pitch": 0.0,
+        "shoulder_flexion": 0.0,
+        "shoulder_abduction": 0.0,
+        "elbow_flexion": 0.0,
+        "stance_width": 10.0,
+        "toe_out": 30.0,
+        "features": {
+          "stance": "wide",
+          "step": "very_long",
+          "feet_lift": "very_high",
+          "feet_direction": "toes_out",
+          "knees": "deeply_bent",
+          "sway": "very_strong",
+          "arm_swing": "very_large"
+        },
+        "description": "With legs deliberately splayed wide like a startled bird's stance, each step stretches impossibly far forward while the feet lift high—almost brushing the ceiling—to clear the expansive base. Toes flare outward sharply, pointing like a defiant fan, while knees bend deeply to anchor the wide-legged frame. The torso leans dramatically side-to-side in a wobbling rhythm, as if balancing on a tightrope, and the head stays steady but subtly tilts to match the rocking motion. Arms swing wide and slow, counterbalancing the momentum with deliberate, sweeping arcs that feel like they could sweep the room."
+      },
+      "rules": [],
+      "scales": {
+        "speed": 1.8,
+        "arm_swing": 1.8,
+        "crouch": 30.0,
+        "swing": {
+          "torso": 10.0,
+          "right_shin": 1.5,
+          "left_shin": 1.5
+        },
+        "pose": {
+          "right_thigh": [
+            -10.0,
+            0,
+            -30.0
+          ],
+          "left_thigh": [
+            10.0,
+            0,
+            30.0
+          ],
+          "right_foot": [
+            10.0,
+            0,
+            0
+          ],
+          "left_foot": [
+            -10.0,
+            0,
+            0
+          ]
+        }
+      },
+      "speed_mps": 2.268
+    },
+    {
+      "id": "F4",
+      "group": "F",
+      "text": "무릎을 높이 들고 걸어",
+      "expect": "accept",
+      "expect_action": "walk",
+      "target": "HighKnees",
+      "level1": "pass",
+      "tokens": 3186,
+      "answer": "{\"action\": \"walk\", \"features\": {\"step\": \"very_short\", \"pace\": \"very_slow\", \"feet_lift\": \"very_high\", \"knees\": \"deeply_bent\", \"head\": \"raised\", \"arm_swing\": \"small\", \"elbow_motion\": \"stiff\", \"sway\": \"none\", \"elbows\": \"straight\"}}",
+      "params": {
+        "action": "walk",
+        "s": 0.3,
+        "n": 0.55,
+        "c": 30.0,
+        "m_arm": 0.4,
+        "m_torso": 0.0,
+        "m_knee": 1.5,
+        "m_elbow": 0.0,
+        "torso_pitch": -10.0,
+        "head_pitch": -15.0,
+        "shoulder_flexion": 0.0,
+        "shoulder_abduction": 0.0,
+        "elbow_flexion": -30.0,
+        "stance_width": 0.0,
+        "toe_out": 0.0,
+        "features": {
+          "step": "very_short",
+          "pace": "very_slow",
+          "feet_lift": "very_high",
+          "knees": "deeply_bent",
+          "head": "raised",
+          "arm_swing": "small",
+          "elbow_motion": "stiff",
+          "sway": "none",
+          "elbows": "straight"
+        },
+        "description": "The person takes unnaturally short, deliberate steps with a glacial pace, each foot lifted impossibly high—almost suspended above the ground before slamming down. Knees are rigidly bent at a near-90-degree angle, held stiffly high above the hips like overhanging branches, never lowering past the waist. The torso remains completely upright with zero side-to-side rocking, head fixed straight ahead without any tilt, and arms swing stiffly in tight, controlled arcs like rigid branches rather than the natural pendulum motion of walking."
+      },
+      "rules": [],
+      "scales": {
+        "speed": 0.3,
+        "cadence": 0.55,
+        "arm_swing": 0.4,
+        "crouch": 30.0,
+        "swing": {
+          "torso": 0.0,
+          "right_shin": 1.5,
+          "left_shin": 1.5,
+          "right_lower_arm": 0.0,
+          "left_lower_arm": 0.0
+        },
+        "pose": {
+          "torso": [
+            0,
+            -10.0,
+            0
+          ],
+          "head": [
+            0,
+            -15.0,
+            0
+          ],
+          "right_lower_arm": [
+            0,
+            0,
+            -30.0
+          ],
+          "left_lower_arm": [
+            0,
+            0,
+            30.0
+          ]
+        }
+      },
+      "speed_mps": 0.208
+    },
+    {
+      "id": "F5",
+      "group": "F",
+      "text": "까치발로 걸어",
+      "expect": "accept",
+      "expect_action": "walk",
+      "target": "Tiptoe",
+      "level1": "pass",
+      "tokens": 2955,
+      "answer": "{\"action\": \"walk\", \"features\": {\"step\": \"very_short\", \"feet_lift\": \"very_high\", \"knees\": \"deeply_bent\", \"torso\": \"leaning_forward\", \"sway\": \"very_strong\", \"arm_swing\": \"very_large\", \"arm_position\": \"sideways\", \"head\": \"raised\"}}",
+      "params": {
+        "action": "walk",
+        "s": 0.3,
+        "n": 1.0,
+        "c": 30.0,
+        "m_arm": 1.8,
+        "m_torso": 10.0,
+        "m_knee": 1.5,
+        "m_elbow": 1.0,
+        "torso_pitch": 15.0,
+        "head_pitch": -15.0,
+        "shoulder_flexion": 0.0,
+        "shoulder_abduction": 85.0,
+        "elbow_flexion": 0.0,
+        "stance_width": 0.0,
+        "toe_out": 0.0,
+        "features": {
+          "step": "very_short",
+          "feet_lift": "very_high",
+          "knees": "deeply_bent",
+          "torso": "leaning_forward",
+          "sway": "very_strong",
+          "arm_swing": "very_large",
+          "arm_position": "sideways",
+          "head": "raised"
+        },
+        "description": "The person takes impossibly short, frantic steps with each foot lifting *so high* the toes scream toward the ceiling, pointing rigidly forward like tiny, determined spears. Their knees stay perpetually bent and trembling, barely touching the ground with the heel, while the torso leans sharply forward with a violent, side-to-side wobble that makes the whole body quiver. The head remains stubbornly still and level, but the arms swing with a frantic, almost desperate rhythm—each swing barely clearing the body’s side, as if trying to counterbalance the tremor without ever quite stopping."
+      },
+      "rules": [
+        "m_arm 1.8 -> 0.3 (팔을 85° 듦)"
+      ],
+      "scales": {
+        "speed": 0.3,
+        "arm_swing": 0.3,
+        "crouch": 30.0,
+        "swing": {
+          "torso": 10.0,
+          "right_shin": 1.5,
+          "left_shin": 1.5
+        },
+        "pose": {
+          "torso": [
+            0,
+            15.0,
+            0
+          ],
+          "head": [
+            0,
+            -15.0,
+            0
+          ],
+          "right_upper_arm": [
+            -85.0,
+            0,
+            0
+          ],
+          "left_upper_arm": [
+            85.0,
+            0,
+            0
+          ]
+        }
+      },
+      "speed_mps": 0.378
+    },
+    {
+      "id": "F6",
+      "group": "F",
+      "text": "몸을 웅크리고 걸어",
+      "expect": "accept",
+      "expect_action": "walk",
+      "target": "Crouched",
+      "level1": "pass",
+      "tokens": 4117,
+      "answer": "{\"action\": \"walk\", \"features\": {\"step\": \"very_short\", \"pace\": \"slow\", \"knees\": \"deeply_bent\", \"feet_lift\": \"shuffling\", \"feet_direction\": \"toes_in\", \"torso\": \"leaning_forward\", \"head\": \"lowered\", \"sway\": \"some\", \"arm_swing\": \"small\", \"arm_position\": \"pressed_to_sides\", \"elbows\": \"bent\", \"elbow_motion\": \"stiff\"}}",
+      "params": {
+        "action": "walk",
+        "s": 0.3,
+        "n": 0.75,
+        "c": 30.0,
+        "m_arm": 0.4,
+        "m_torso": 3.0,
+        "m_knee": 0.4,
+        "m_elbow": 0.0,
+        "torso_pitch": 15.0,
+        "head_pitch": 25.0,
+        "shoulder_flexion": 0.0,
+        "shoulder_abduction": -15.0,
+        "elbow_flexion": 45.0,
+        "stance_width": 0.0,
+        "toe_out": -15.0,
+        "features": {
+          "step": "very_short",
+          "pace": "slow",
+          "knees": "deeply_bent",
+          "feet_lift": "shuffling",
+          "feet_direction": "toes_in",
+          "torso": "leaning_forward",
+          "head": "lowered",
+          "sway": "some",
+          "arm_swing": "small",
+          "arm_position": "pressed_to_sides",
+          "elbows": "bent",
+          "elbow_motion": "stiff"
+        },
+        "description": "The steps are unnaturally short and hesitant, barely clearing the ground as if the feet barely lift an inch off the pavement. Toes point straight down, digging into the floor like claws, while knees bend to near-90 degrees with a sharp, buckling motion that seems to strain the joints. The torso hunches forward at a 45-degree angle, rocking only minimally side-to-side—like a child balancing on a wobbly stool—while the head stays low and fixed on the floor. Arms swing in tight, stiff arcs close to the body, barely moving past the hips as if trying to hold the hunched frame together."
+      },
+      "rules": [],
+      "scales": {
+        "speed": 0.3,
+        "cadence": 0.75,
+        "arm_swing": 0.4,
+        "crouch": 30.0,
+        "swing": {
+          "torso": 3.0,
+          "right_shin": 0.4,
+          "left_shin": 0.4,
+          "right_lower_arm": 0.0,
+          "left_lower_arm": 0.0
+        },
+        "pose": {
+          "torso": [
+            0,
+            15.0,
+            0
+          ],
+          "head": [
+            0,
+            25.0,
+            0
+          ],
+          "right_upper_arm": [
+            15.0,
+            0,
+            0
+          ],
+          "left_upper_arm": [
+            -15.0,
+            0,
+            0
+          ],
+          "right_lower_arm": [
+            0,
+            0,
+            45.0
+          ],
+          "left_lower_arm": [
+            0,
+            0,
+            -45.0
+          ],
+          "right_thigh": [
+            -0.0,
+            0,
+            15.0
+          ],
+          "left_thigh": [
+            0.0,
+            0,
+            -15.0
+          ]
+        }
+      },
+      "speed_mps": 0.283
+    },
+    {
+      "id": "F7",
+      "group": "F",
+      "text": "상체를 앞으로 숙이고 걸어",
+      "expect": "accept",
+      "expect_action": "walk",
+      "target": "BentForward",
+      "level1": "pass",
+      "tokens": 3067,
+      "answer": "{\"action\": \"walk\", \"features\": {\"torso\": \"leaning_forward\", \"head\": \"lowered\", \"feet_lift\": \"low\", \"knees\": \"deeply_bent\", \"arm_swing\": \"very_large\", \"elbows\": \"sharply_bent\", \"sway\": \"very_strong\"}}",
+      "params": {
+        "action": "walk",
+        "s": 1.0,
+        "n": 1.0,
+        "c": 30.0,
+        "m_arm": 1.8,
+        "m_torso": 10.0,
+        "m_knee": 0.8,
+        "m_elbow": 1.0,
+        "torso_pitch": 15.0,
+        "head_pitch": 25.0,
+        "shoulder_flexion": 0.0,
+        "shoulder_abduction": 0.0,
+        "elbow_flexion": 60.0,
+        "stance_width": 0.0,
+        "toe_out": 0.0,
+        "features": {
+          "torso": "leaning_forward",
+          "head": "lowered",
+          "feet_lift": "low",
+          "knees": "deeply_bent",
+          "arm_swing": "very_large",
+          "elbows": "sharply_bent",
+          "sway": "very_strong"
+        },
+        "description": "The torso hunches into a deep, bent-forward crouch, sagging like a bent willow with the head tilted sharply downward to match the lean. Feet lift only a few inches off the ground, toes aggressively pointing forward to counterbalance the forward thrust, while knees bend sharply with each step to absorb the momentum. Arms swing in sharp, counterbalancing arcs—elbows bent at 90 degrees—like pendulums pulling the body back with each stride. The entire movement shudders with a pronounced side-to-side rocking motion, making the legs seem to wobble like unsteady noodles beneath the relentless forward push."
+      },
+      "rules": [],
+      "scales": {
+        "arm_swing": 1.8,
+        "crouch": 30.0,
+        "swing": {
+          "torso": 10.0,
+          "right_shin": 0.8,
+          "left_shin": 0.8
+        },
+        "pose": {
+          "torso": [
+            0,
+            15.0,
+            0
+          ],
+          "head": [
+            0,
+            25.0,
+            0
+          ],
+          "right_lower_arm": [
+            0,
+            0,
+            60.0
+          ],
+          "left_lower_arm": [
+            0,
+            0,
+            -60.0
+          ]
+        }
+      },
+      "speed_mps": 1.26
+    },
+    {
+      "id": "F8",
+      "group": "F",
+      "text": "비행기처럼 팔을 벌리고 걸어",
+      "expect": "accept",
+      "expect_action": "walk",
+      "target": "Aeroplane",
+      "level1": "pass",
+      "tokens": 3213,
+      "answer": "{\"action\": \"walk\", \"features\": {\"step\": \"very_long\", \"pace\": \"slow\", \"feet_lift\": \"high\", \"feet_direction\": \"toes_out\", \"knees\": \"deeply_bent\", \"sway\": \"some\", \"arm_position\": \"sideways\", \"arm_swing\": \"none\", \"head\": \"raised\", \"elbows\": \"straight\", \"elbow_motion\": \"stiff\", \"stance\": \"wide\"}}",
+      "params": {
+        "action": "walk",
+        "s": 1.8,
+        "n": 0.75,
+        "c": 30.0,
+        "m_arm": 0.0,
+        "m_torso": 3.0,
+        "m_knee": 1.3,
+        "m_elbow": 0.0,
+        "torso_pitch": -10.0,
+        "head_pitch": -15.0,
+        "shoulder_flexion": 0.0,
+        "shoulder_abduction": 85.0,
+        "elbow_flexion": -30.0,
+        "stance_width": 10.0,
+        "toe_out": 30.0,
+        "features": {
+          "step": "very_long",
+          "pace": "slow",
+          "feet_lift": "high",
+          "feet_direction": "toes_out",
+          "knees": "deeply_bent",
+          "sway": "some",
+          "arm_position": "sideways",
+          "arm_swing": "none",
+          "head": "raised",
+          "elbows": "straight",
+          "elbow_motion": "stiff",
+          "stance": "wide"
+        },
+        "description": "The person takes massive, slow strides with feet lifting nearly to hip height and toes pointed outward at a 45-degree angle to counterbalance the wide stance. Arms stretch rigidly sideways in a 90-degree wing position, completely still and unswinging—no natural arm motion whatsoever. Knees bend into a deep, almost knee-locking squat with each step, while the torso remains perfectly upright with barely a twitch of side-to-side rocking. The head stays rigidly fixed in a straight line, utterly motionless."
+      },
+      "rules": [],
+      "scales": {
+        "speed": 1.8,
+        "cadence": 0.75,
+        "arm_swing": 0.0,
+        "crouch": 30.0,
+        "swing": {
+          "torso": 3.0,
+          "right_shin": 1.3,
+          "left_shin": 1.3,
+          "right_lower_arm": 0.0,
+          "left_lower_arm": 0.0
+        },
+        "pose": {
+          "torso": [
+            0,
+            -10.0,
+            0
+          ],
+          "head": [
+            0,
+            -15.0,
+            0
+          ],
+          "right_upper_arm": [
+            -85.0,
+            0,
+            0
+          ],
+          "left_upper_arm": [
+            85.0,
+            0,
+            0
+          ],
+          "right_lower_arm": [
+            0,
+            0,
+            -30.0
+          ],
+          "left_lower_arm": [
+            0,
+            0,
+            30.0
+          ],
+          "right_thigh": [
+            -10.0,
+            0,
+            -30.0
+          ],
+          "left_thigh": [
+            10.0,
+            0,
+            30.0
+          ],
+          "right_foot": [
+            10.0,
+            0,
+            0
+          ],
+          "left_foot": [
+            -10.0,
+            0,
+            0
+          ]
+        }
+      },
+      "speed_mps": 1.701
+    },
+    {
+      "id": "M1",
+      "group": "M",
+      "text": "우울하게 걸어",
+      "expect": "accept",
+      "expect_action": "walk",
+      "target": "Depressed",
+      "level1": "pass",
+      "tokens": 4182,
+      "answer": "{\"action\": \"walk\", \"features\": {\"step\": \"short\", \"pace\": \"very_slow\", \"feet_lift\": \"shuffling\", \"torso\": \"leaning_forward\", \"head\": \"lowered\", \"arm_swing\": \"small\", \"sway\": \"none\", \"arm_position\": \"forward\"}}",
+      "params": {
+        "action": "walk",
+        "s": 0.6,
+        "n": 0.55,
+        "c": 0.0,
+        "m_arm": 0.4,
+        "m_torso": 0.0,
+        "m_knee": 0.4,
+        "m_elbow": 1.0,
+        "torso_pitch": 15.0,
+        "head_pitch": 25.0,
+        "shoulder_flexion": 85.0,
+        "shoulder_abduction": 0.0,
+        "elbow_flexion": 0.0,
+        "stance_width": 0.0,
+        "toe_out": 0.0,
+        "features": {
+          "step": "short",
+          "pace": "very_slow",
+          "feet_lift": "shuffling",
+          "torso": "leaning_forward",
+          "head": "lowered",
+          "arm_swing": "small",
+          "sway": "none",
+          "arm_position": "forward"
+        },
+        "description": "The person takes painfully short, hesitant steps with a glacial pace, each foot sinking into the pavement as if dragging through thick mud. Toes point straight down, barely lifting off the ground, while knees stay rigidly locked and stiff, offering no natural flex. The torso leans heavily forward with a minimal, almost absent side-to-side rocking, head drooping low and swaying only with the slowest, most listless pendulum motion. Arms swing with limp, heavy weights—hands hanging low and still, moving only in a slow, dragging arc rather than the usual natural swing."
+      },
+      "rules": [
+        "m_arm 0.4 -> 0.3 (팔을 85° 듦)"
+      ],
+      "scales": {
+        "speed": 0.6,
+        "cadence": 0.55,
+        "arm_swing": 0.3,
+        "swing": {
+          "torso": 0.0,
+          "right_shin": 0.4,
+          "left_shin": 0.4
+        },
+        "pose": {
+          "torso": [
+            0,
+            15.0,
+            0
+          ],
+          "head": [
+            0,
+            25.0,
+            0
+          ],
+          "right_upper_arm": [
+            0,
+            -85.0,
+            0
+          ],
+          "left_upper_arm": [
+            0,
+            -85.0,
+            0
+          ]
+        }
+      },
+      "speed_mps": 0.416
+    },
+    {
+      "id": "M2",
+      "group": "M",
+      "text": "신나게 걸어",
+      "expect": "accept",
+      "expect_action": "walk",
+      "target": "Elated",
+      "level1": "pass",
+      "tokens": 2961,
+      "answer": "{\"action\": \"walk\", \"features\": {\"step\": \"very_long\", \"pace\": \"very_quick\", \"knees\": \"deeply_bent\", \"feet_lift\": \"very_high\", \"feet_direction\": \"toes_out\", \"sway\": \"very_strong\", \"arm_swing\": \"very_large\", \"torso\": \"leaning_forward\", \"head\": \"raised\"}}",
+      "params": {
+        "action": "walk",
+        "s": 1.8,
+        "n": 1.45,
+        "c": 30.0,
+        "m_arm": 1.8,
+        "m_torso": 10.0,
+        "m_knee": 1.5,
+        "m_elbow": 1.0,
+        "torso_pitch": 15.0,
+        "head_pitch": -15.0,
+        "shoulder_flexion": 0.0,
+        "shoulder_abduction": 0.0,
+        "elbow_flexion": 0.0,
+        "stance_width": 0.0,
+        "toe_out": 30.0,
+        "features": {
+          "step": "very_long",
+          "pace": "very_quick",
+          "knees": "deeply_bent",
+          "feet_lift": "very_high",
+          "feet_direction": "toes_out",
+          "sway": "very_strong",
+          "arm_swing": "very_large",
+          "torso": "leaning_forward",
+          "head": "raised"
+        },
+        "description": "Feet rocket forward in giant, bouncy steps so long they'd knock over small objects, lifting high with toes thrust *straight out* like they're trying to touch the sky. Knees snap upward with explosive force, almost bending backward mid-stride, while the torso leans forward aggressively and rocks side-to-side like a frantic pendulum. Arms swing wide and fast, almost clawing at the air as if trying to grab the horizon, while the head bobs up and down in a frantic, joyful metronome rhythm."
+      },
+      "rules": [],
+      "scales": {
+        "speed": 1.8,
+        "cadence": 1.45,
+        "arm_swing": 1.8,
+        "crouch": 30.0,
+        "swing": {
+          "torso": 10.0,
+          "right_shin": 1.5,
+          "left_shin": 1.5
+        },
+        "pose": {
+          "torso": [
+            0,
+            15.0,
+            0
+          ],
+          "head": [
+            0,
+            -15.0,
+            0
+          ],
+          "right_thigh": [
+            -0.0,
+            0,
+            -30.0
+          ],
+          "left_thigh": [
+            0.0,
+            0,
+            30.0
+          ]
+        }
+      },
+      "speed_mps": 3.289
+    },
+    {
+      "id": "M3",
+      "group": "M",
+      "text": "화가 나서 쿵쿵 걸어",
+      "expect": "accept",
+      "expect_action": "walk",
+      "target": "Angry",
+      "level1": "pass",
+      "tokens": 3628,
+      "answer": "{\"action\": \"walk\", \"features\": {\"step\": \"long\", \"pace\": \"quick\", \"knees\": \"deeply_bent\", \"feet_lift\": \"shuffling\", \"arm_swing\": \"very_large\", \"torso\": \"leaning_forward\", \"head\": \"lowered\", \"sway\": \"very_strong\", \"arm_position\": \"forward\", \"elbows\": \"straight\"}}",
+      "params": {
+        "action": "walk",
+        "s": 1.4,
+        "n": 1.25,
+        "c": 30.0,
+        "m_arm": 1.8,
+        "m_torso": 10.0,
+        "m_knee": 0.4,
+        "m_elbow": 1.0,
+        "torso_pitch": 15.0,
+        "head_pitch": 25.0,
+        "shoulder_flexion": 85.0,
+        "shoulder_abduction": 0.0,
+        "elbow_flexion": -30.0,
+        "stance_width": 0.0,
+        "toe_out": 0.0,
+        "features": {
+          "step": "long",
+          "pace": "quick",
+          "knees": "deeply_bent",
+          "feet_lift": "shuffling",
+          "arm_swing": "very_large",
+          "torso": "leaning_forward",
+          "head": "lowered",
+          "sway": "very_strong",
+          "arm_position": "forward",
+          "elbows": "straight"
+        },
+        "description": "The steps stretch like a spring-loaded hammer, each stride pounding the ground with thunderous *thuds* that shake the pavement, covering the distance in a frantic, uneven rush. Feet slam down with no lift—only a brutal, almost horizontal impact—while toes point straight ahead, driving force into the earth like angry claws. Knees snap violently forward with each kick, muscles tensed and bulging as if bracing for impact, while the torso rocks side-to-side like a struck drum, leaning hard forward with a shaking, unstable posture. The head jerks downward in a feral snarl, eyes narrowed and fixed on nothing, and arms swing wildly in tight, clenching fists, whipping back and forth like rattlesnakes trying to strike."
+      },
+      "rules": [
+        "m_arm 1.8 -> 0.3 (팔을 85° 듦)"
+      ],
+      "scales": {
+        "speed": 1.4,
+        "cadence": 1.25,
+        "arm_swing": 0.3,
+        "crouch": 30.0,
+        "swing": {
+          "torso": 10.0,
+          "right_shin": 0.4,
+          "left_shin": 0.4
+        },
+        "pose": {
+          "torso": [
+            0,
+            15.0,
+            0
+          ],
+          "head": [
+            0,
+            25.0,
+            0
+          ],
+          "right_upper_arm": [
+            0,
+            -85.0,
+            0
+          ],
+          "left_upper_arm": [
+            0,
+            -85.0,
+            0
+          ],
+          "right_lower_arm": [
+            0,
+            0,
+            -30.0
+          ],
+          "left_lower_arm": [
+            0,
+            0,
+            30.0
+          ]
+        }
+      },
+      "speed_mps": 2.205
+    },
+    {
+      "id": "M4",
+      "group": "M",
+      "text": "당당하게 걸어",
+      "expect": "accept",
+      "expect_action": "walk",
+      "target": "Proud",
+      "level1": "pass",
+      "tokens": 4159,
+      "answer": "{\"action\": \"walk\", \"features\": {\"step\": \"long\", \"arm_swing\": \"very_large\", \"torso\": \"leaning_forward\", \"head\": \"raised\", \"sway\": \"none\"}}",
+      "params": {
+        "action": "walk",
+        "s": 1.4,
+        "n": 1.0,
+        "c": 0.0,
+        "m_arm": 1.8,
+        "m_torso": 0.0,
+        "m_knee": 1.0,
+        "m_elbow": 1.0,
+        "torso_pitch": 15.0,
+        "head_pitch": -15.0,
+        "shoulder_flexion": 0.0,
+        "shoulder_abduction": 0.0,
+        "elbow_flexion": 0.0,
+        "stance_width": 0.0,
+        "toe_out": 0.0,
+        "features": {
+          "step": "long",
+          "arm_swing": "very_large",
+          "torso": "leaning_forward",
+          "head": "raised",
+          "sway": "none"
+        },
+        "description": "The strides stretch like a spring-loaded piston—long, deliberate, and utterly unrelenting—each step clearing the ground with a near-vertical lift where toes point forward with laser focus, never wobbling. Knees lock in a rigid V-shape, driving the legs with military precision, while the torso holds itself like a statue, leaning only a fraction forward with zero side-to-side rocking to project unwavering authority. The head stays perfectly still and level, scanning the horizon with a straight, unblinking gaze, and arms swing wide and fast like flagpoles, each motion a deliberate, powerful stroke that never falters."
+      },
+      "rules": [],
+      "scales": {
+        "speed": 1.4,
+        "arm_swing": 1.8,
+        "swing": {
+          "torso": 0.0
+        },
+        "pose": {
+          "torso": [
+            0,
+            15.0,
+            0
+          ],
+          "head": [
+            0,
+            -15.0,
+            0
+          ]
+        }
+      },
+      "speed_mps": 1.764
+    },
+    {
+      "id": "M5",
+      "group": "M",
+      "text": "뻣뻣하게 걸어",
+      "expect": "accept",
+      "expect_action": "walk",
+      "target": "Stiff",
+      "level1": "pass",
+      "tokens": 4178,
+      "answer": "{\"features\": {\"step\": \"short\", \"pace\": \"very_slow\", \"feet_lift\": \"shuffling\", \"sway\": \"none\", \"elbow_motion\": \"stiff\", \"arm_swing\": \"small\", \"arm_position\": \"forward\", \"elbows\": \"bent\"}}",
+      "params": {
+        "action": "walk",
+        "s": 0.6,
+        "n": 0.55,
+        "c": 0.0,
+        "m_arm": 0.4,
+        "m_torso": 0.0,
+        "m_knee": 0.4,
+        "m_elbow": 0.0,
+        "torso_pitch": 0.0,
+        "head_pitch": 0.0,
+        "shoulder_flexion": 85.0,
+        "shoulder_abduction": 0.0,
+        "elbow_flexion": 45.0,
+        "stance_width": 0.0,
+        "toe_out": 0.0,
+        "features": {
+          "step": "short",
+          "pace": "very_slow",
+          "feet_lift": "shuffling",
+          "sway": "none",
+          "elbow_motion": "stiff",
+          "arm_swing": "small",
+          "arm_position": "forward",
+          "elbows": "bent"
+        },
+        "description": "This stiffly walking person takes short, choppy steps with a painfully slow pace, barely advancing each foot. Their feet lift only a hair's breadth off the ground, toes pointing rigidly straight ahead with no natural angle. Knees remain locked in a straight line, offering no bending or softness at all. The torso stays rigidly upright with zero side-to-side rocking, while arms swing in stiff, mechanical straight-line arcs instead of fluid pendulum motions."
+      },
+      "rules": [
+        "m_arm 0.4 -> 0.3 (팔을 85° 듦)"
+      ],
+      "scales": {
+        "speed": 0.6,
+        "cadence": 0.55,
+        "arm_swing": 0.3,
+        "swing": {
+          "torso": 0.0,
+          "right_shin": 0.4,
+          "left_shin": 0.4,
+          "right_lower_arm": 0.0,
+          "left_lower_arm": 0.0
+        },
+        "pose": {
+          "right_upper_arm": [
+            0,
+            -85.0,
+            0
+          ],
+          "left_upper_arm": [
+            0,
+            -85.0,
+            0
+          ],
+          "right_lower_arm": [
+            0,
+            0,
+            45.0
+          ],
+          "left_lower_arm": [
+            0,
+            0,
+            -45.0
+          ]
+        }
+      },
+      "speed_mps": 0.416
+    }
+  ]
+}

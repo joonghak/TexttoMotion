@@ -1,0 +1,61 @@
+{
+  "command": "아주 힘있게",
+  "variant": {
+    "key": "strong",
+    "label": "아주 힘있게",
+    "scales": [
+      2.0,
+      1.7,
+      0.4
+    ],
+    "terms": {
+      "track_w": 0.6,
+      "arm_swing": {
+        "scale": 2.0
+      },
+      "foot_lift": {
+        "w": 0.15,
+        "scale": 1.7,
+        "k": "auto"
+      },
+      "upright": {
+        "w": 0.1,
+        "scale": 0.4,
+        "k": "auto"
+      }
+    }
+  },
+  "reference": {
+    "clip": "/home/jong/TexttoMotion/MimicKit/data/motions/humanoid/humanoid_walk.pkl",
+    "duration_s": 10.0
+  },
+  "training": {
+    "iterations": 1000,
+    "num_envs": 1024,
+    "status": "completed",
+    "started": "2026-10-04T21:48:02",
+    "finished": "2026-10-04T22:03:09",
+    "final_log": {
+      "Iteration": 999.0,
+      "Wall_Time": 0.2489663302236133,
+      "Samples": 32768000.0,
+      "Samples_Per_Second": 36560.05297602655,
+      "Test_Return": 272.623046875,
+      "Test_Episode_Length": 296.513671875,
+      "Test_Episodes": 1024.0,
+      "Train_Return": 256.888427734375,
+      "Train_Episode_Length": 297.1788330078125,
+      "Train_Episodes": 10344.0,
+      "Critic_Loss": 0.3109830319881439,
+      "Actor_Loss": -0.022501027211546898,
+      "Clip_Frac": 0.15948486328125,
+      "Imp_Ratio": 0.9997572302818298,
+      "Action_Bound_Loss": 0.0,
+      "Adv_Mean": 0.019894104450941086,
+      "Adv_Std": 0.5996478796005249,
+      "Obs_Norm_Mean": 0.34410664439201355,
+      "Obs_Norm_Std": 0.17527218163013458,
+      "Exp_Prob": 1.0
+    }
+  }
+}

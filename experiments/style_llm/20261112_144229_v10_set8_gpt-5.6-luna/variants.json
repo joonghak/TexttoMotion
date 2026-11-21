@@ -1,0 +1,192 @@
+[
+  {
+    "key": "base",
+    "label": "기본 걷기",
+    "scales": {}
+  },
+  {
+    "key": "Q1",
+    "label": "상체를 20도 앞으로 숙이고 걸어",
+    "scales": {
+      "pose": {
+        "torso": [
+          0,
+          20.0,
+          0
+        ]
+      }
+    },
+    "clip": "walk"
+  },
+  {
+    "key": "Q2",
+    "label": "상체를 40도 앞으로 숙이고 걸어",
+    "scales": {
+      "pose": {
+        "torso": [
+          0,
+          40.0,
+          0
+        ]
+      }
+    },
+    "clip": "walk"
+  },
+  {
+    "key": "Q3",
+    "label": "고개를 30도 숙이고 걸어",
+    "scales": {
+      "pose": {
+        "head": [
+          0,
+          30.0,
+          0
+        ]
+      }
+    },
+    "clip": "walk"
+  },
+  {
+    "key": "Q4",
+    "label": "1분에 140걸음으로 걸어",
+    "scales": {
+      "cadence": 1.21
+    },
+    "clip": "walk"
+  },
+  {
+    "key": "Q5",
+    "label": "1분에 90걸음으로 걸어",
+    "scales": {
+      "cadence": 0.776
+    },
+    "clip": "walk"
+  },
+  {
+    "key": "Q6",
+    "label": "초속 0.6미터로 걸어",
+    "scales": {
+      "speed": 0.8,
+      "cadence": 0.595
+    },
+    "clip": "walk"
+  },
+  {
+    "key": "Q7",
+    "label": "초속 1.8미터로 걸어",
+    "scales": {
+      "speed": 1.428571
+    },
+    "clip": "walk"
+  },
+  {
+    "key": "Q8",
+    "label": "보폭을 평소의 1.5배로 해서 걸어",
+    "scales": {
+      "speed": 1.5
+    },
+    "clip": "walk"
+  },
+  {
+    "key": "Q9",
+    "label": "무릎을 30도 더 굽힌 채로 걸어",
+    "scales": {
+      "crouch": 30.0
+    },
+    "clip": "walk"
+  },
+  {
+    "key": "Q10",
+    "label": "두 팔을 앞으로 90도 들고 걸어",
+    "scales": {
+      "arm_swing": 0.3,
+      "pose": {
+        "right_upper_arm": [
+          -0.0,
+          -85.0,
+          0.0
+        ],
+        "left_upper_arm": [
+          0.0,
+          -85.0,
+          -0.0
+        ]
+      }
+    },
+    "clip": "walk"
+  },
+  {
+    "key": "Q11",
+    "label": "두 팔을 옆으로 45도 벌리고 걸어",
+    "scales": {
+      "arm_swing": 0.3,
+      "pose": {
+        "right_upper_arm": [
+          -45.0,
+          -0.0,
+          0.0
+        ],
+        "left_upper_arm": [
+          45.0,
+          -0.0,
+          -0.0
+        ]
+      }
+    },
+    "clip": "walk"
+  },
+  {
+    "key": "Q12",
+    "label": "두 다리를 각각 10도씩 벌리고 걸어",
+    "scales": {
+      "pose": {
+        "right_thigh": [
+          -10.0,
+          0,
+          -0.0
+        ],
+        "left_thigh": [
+          10.0,
+          0,
+          0.0
+        ],
+        "right_foot": [
+          10.0,
+          0,
+          0
+        ],
+        "left_foot": [
+          -10.0,
+          0,
+          0
+        ]
+      }
+    },
+    "clip": "walk"
+  },
+  {
+    "key": "Q13",
+    "label": "발끝을 30도 더 바깥으로 돌리고 걸어",
+    "scales": {
+      "pose": {
+        "right_thigh": [
+          -0.0,
+          0,
+          -30.0
+        ],
+        "left_thigh": [
+          0.0,
+          0,
+          30.0
+        ]
+      }
+    },
+    "clip": "walk"
+  },
+  {
+    "key": "Q0",
+    "label": "걸어",
+    "scales": {},
+    "clip": "walk"
+  }
+]

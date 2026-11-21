@@ -1,0 +1,94 @@
+{
+  "command": "지쳐서 돌려차기 (새 수식, 지친 달리기와 같은 값)",
+  "variant": {
+    "key": "n_spin_tired",
+    "label": "지쳐서 돌려차기 (새 수식, 지친 달리기와 같은 값)",
+    "scales": {
+      "speed": 0.8,
+      "cadence": 0.75,
+      "arm_swing": 0.4,
+      "swing": {
+        "right_shin": 0.8,
+        "left_shin": 0.8
+      },
+      "pose": {
+        "torso": [
+          0,
+          15,
+          0
+        ],
+        "head": [
+          0,
+          25,
+          0
+        ]
+      }
+    },
+    "terms": {
+      "track_w": 0.6,
+      "speed": {
+        "scale": 0.8
+      },
+      "cadence": {
+        "scale": 0.75
+      },
+      "arm_swing": {
+        "scale": 0.4
+      },
+      "swing": {
+        "right_shin": 0.8,
+        "left_shin": 0.8
+      },
+      "pose": {
+        "torso": [
+          0,
+          15,
+          0
+        ],
+        "head": [
+          0,
+          25,
+          0
+        ]
+      },
+      "style": {
+        "w": 0.2
+      },
+      "swing_unit": "/home/jong/TexttoMotion/MimicKit/data/motions/humanoid/humanoid_walk.pkl",
+      "pose_unit": "/home/jong/TexttoMotion/MimicKit/data/motions/humanoid/humanoid_walk.pkl"
+    }
+  },
+  "reference": {
+    "clip": "/home/jong/TexttoMotion/MimicKit/data/motions/humanoid/humanoid_spinkick.pkl",
+    "duration_s": 10.0
+  },
+  "training": {
+    "iterations": 1500,
+    "num_envs": 1024,
+    "status": "completed",
+    "started": "2026-11-03T18:03:57",
+    "finished": "2026-11-03T18:30:12",
+    "final_log": {
+      "Iteration": 1499.0,
+      "Wall_Time": 0.4341996686988407,
+      "Samples": 49152000.0,
+      "Samples_Per_Second": 31444.826695165528,
+      "Test_Return": 239.55368041992188,
+      "Test_Episode_Length": 284.6777038574219,
+      "Test_Episodes": 1027.0,
+      "Train_Return": 216.9647674560547,
+      "Train_Episode_Length": 280.1488342285156,
+      "Train_Episodes": 11037.0,
+      "Critic_Loss": 1.2392464876174927,
+      "Actor_Loss": -0.022618580609560013,
+      "Clip_Frac": 0.16050414741039276,
+      "Imp_Ratio": 1.0007538795471191,
+      "Action_Bound_Loss": 2.083197978208773e-05,
+      "Adv_Mean": -0.02195909060537815,
+      "Adv_Std": 1.1472243070602417,
+      "Obs_Norm_Mean": 0.35905560851097107,
+      "Obs_Norm_Std": 0.30523133277893066,
+      "Exp_Prob": 1.0
+    }
+  }
+}

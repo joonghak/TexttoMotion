@@ -1,0 +1,322 @@
+[
+ {
+  "key": "set8_Q1",
+  "text": "A person walks forward with the upper body leaning forward by 20 degrees.",
+  "length": 120
+ },
+ {
+  "key": "set8_Q2",
+  "text": "A person walks forward with the upper body leaning forward by 40 degrees.",
+  "length": 120
+ },
+ {
+  "key": "set8_Q3",
+  "text": "A person walks forward with the head bowed down by 30 degrees.",
+  "length": 120
+ },
+ {
+  "key": "set8_Q4",
+  "text": "A person walks forward at 140 steps per minute.",
+  "length": 120
+ },
+ {
+  "key": "set8_Q5",
+  "text": "A person walks forward at 90 steps per minute.",
+  "length": 120
+ },
+ {
+  "key": "set8_Q6",
+  "text": "A person walks forward at a speed of 0.6 meters per second.",
+  "length": 120
+ },
+ {
+  "key": "set8_Q7",
+  "text": "A person walks forward at a speed of 1.8 meters per second.",
+  "length": 120
+ },
+ {
+  "key": "set8_Q8",
+  "text": "A person walks forward with steps 1.5 times longer than usual.",
+  "length": 120
+ },
+ {
+  "key": "set8_Q9",
+  "text": "A person walks forward with the knees bent 30 degrees more than usual.",
+  "length": 120
+ },
+ {
+  "key": "set8_Q10",
+  "text": "A person walks forward with both arms raised forward to 90 degrees.",
+  "length": 120
+ },
+ {
+  "key": "set8_Q11",
+  "text": "A person walks forward with both arms raised sideways to 45 degrees.",
+  "length": 120
+ },
+ {
+  "key": "set8_Q12",
+  "text": "A person walks forward with each leg spread 10 degrees outward.",
+  "length": 120
+ },
+ {
+  "key": "set8_Q13",
+  "text": "A person walks forward with the toes turned 30 degrees further outward.",
+  "length": 120
+ },
+ {
+  "key": "set8_Q0",
+  "text": "A person walks forward.",
+  "length": 120
+ },
+ {
+  "key": "set6_N1",
+  "text": "A person walks like a penguin.",
+  "length": 120
+ },
+ {
+  "key": "set6_N2",
+  "text": "A person walks like a chicken.",
+  "length": 120
+ },
+ {
+  "key": "set6_N3",
+  "text": "A person walks like a cat.",
+  "length": 120
+ },
+ {
+  "key": "set6_N4",
+  "text": "A person walks like a dinosaur.",
+  "length": 120
+ },
+ {
+  "key": "set6_N5",
+  "text": "A person walks while flapping the arms like a bird's wings.",
+  "length": 120
+ },
+ {
+  "key": "set6_N6",
+  "text": "A person waddles like a duck.",
+  "length": 120
+ },
+ {
+  "key": "set6_P1",
+  "text": "A person walks like a zombie.",
+  "length": 120
+ },
+ {
+  "key": "set6_P2",
+  "text": "A person walks like a robot.",
+  "length": 120
+ },
+ {
+  "key": "set6_P3",
+  "text": "A person walks like an old person.",
+  "length": 120
+ },
+ {
+  "key": "set6_P4",
+  "text": "A person walks like a monk.",
+  "length": 120
+ },
+ {
+  "key": "set6_P5",
+  "text": "A person walks like a drunk person.",
+  "length": 120
+ },
+ {
+  "key": "set6_P6",
+  "text": "A person walks like Superman.",
+  "length": 120
+ },
+ {
+  "key": "set6_F1",
+  "text": "A person walks with the feet turned outward.",
+  "length": 120
+ },
+ {
+  "key": "set6_F2",
+  "text": "A person walks pigeon-toed, with the toes turned inward.",
+  "length": 120
+ },
+ {
+  "key": "set6_F3",
+  "text": "A person walks with the legs spread wide apart.",
+  "length": 120
+ },
+ {
+  "key": "set6_F4",
+  "text": "A person walks lifting the knees high.",
+  "length": 120
+ },
+ {
+  "key": "set6_F5",
+  "text": "A person walks on tiptoes.",
+  "length": 120
+ },
+ {
+  "key": "set6_F6",
+  "text": "A person walks crouched over.",
+  "length": 120
+ },
+ {
+  "key": "set6_F7",
+  "text": "A person walks with the upper body bent forward.",
+  "length": 120
+ },
+ {
+  "key": "set6_F8",
+  "text": "A person walks with the arms spread out like an airplane.",
+  "length": 120
+ },
+ {
+  "key": "set6_M1",
+  "text": "A person walks in a depressed mood.",
+  "length": 120
+ },
+ {
+  "key": "set6_M2",
+  "text": "A person walks excitedly.",
+  "length": 120
+ },
+ {
+  "key": "set6_M3",
+  "text": "A person walks angrily, stomping.",
+  "length": 120
+ },
+ {
+  "key": "set6_M4",
+  "text": "A person walks proudly.",
+  "length": 120
+ },
+ {
+  "key": "set6_M5",
+  "text": "A person walks stiffly.",
+  "length": 120
+ },
+ {
+  "key": "set7_N1",
+  "text": "A person walks with quick little steps like a quail.",
+  "length": 120
+ },
+ {
+  "key": "set7_N2",
+  "text": "A person walks like a gorilla, beating the chest.",
+  "length": 120
+ },
+ {
+  "key": "set7_N3",
+  "text": "A person walks imitating a penguin.",
+  "length": 120
+ },
+ {
+  "key": "set7_N4",
+  "text": "A person walks like a T. rex.",
+  "length": 120
+ },
+ {
+  "key": "set7_N5",
+  "text": "A person walks like a rooster.",
+  "length": 120
+ },
+ {
+  "key": "set7_N6",
+  "text": "A person walks carefully like a cat.",
+  "length": 120
+ },
+ {
+  "key": "set7_P1",
+  "text": "A person walks in the dark, feeling the way with the hands.",
+  "length": 120
+ },
+ {
+  "key": "set7_P2",
+  "text": "A person marches like a soldier.",
+  "length": 120
+ },
+ {
+  "key": "set7_P3",
+  "text": "A person walks lightly like a fairy.",
+  "length": 120
+ },
+ {
+  "key": "set7_P4",
+  "text": "A person walks like a big, heavy person.",
+  "length": 120
+ },
+ {
+  "key": "set7_P5",
+  "text": "A person struts like a fashion model.",
+  "length": 120
+ },
+ {
+  "key": "set7_P6",
+  "text": "A person walks like a SWAT officer, aiming a gun.",
+  "length": 120
+ },
+ {
+  "key": "set7_F1",
+  "text": "A person walks with the hands clasped behind the back.",
+  "length": 120
+ },
+ {
+  "key": "set7_F2",
+  "text": "A person walks with the arms folded.",
+  "length": 120
+ },
+ {
+  "key": "set7_F3",
+  "text": "A person walks with both hands on the hips.",
+  "length": 120
+ },
+ {
+  "key": "set7_F4",
+  "text": "A person walks with both arms raised above the head.",
+  "length": 120
+ },
+ {
+  "key": "set7_F5",
+  "text": "A person walks on the heels.",
+  "length": 120
+ },
+ {
+  "key": "set7_F6",
+  "text": "A person walks with the knees bent.",
+  "length": 120
+ },
+ {
+  "key": "set7_F7",
+  "text": "A person walks leaning the upper body backward.",
+  "length": 120
+ },
+ {
+  "key": "set7_F8",
+  "text": "A person walks dragging the feet along the floor.",
+  "length": 120
+ },
+ {
+  "key": "set7_M1",
+  "text": "A person walks in a hurry.",
+  "length": 120
+ },
+ {
+  "key": "set7_M2",
+  "text": "A person walks nervously, looking back as if being followed.",
+  "length": 120
+ },
+ {
+  "key": "set7_M3",
+  "text": "A person walks gracefully.",
+  "length": 120
+ },
+ {
+  "key": "set7_M4",
+  "text": "A person walks balancing as if on a tightrope.",
+  "length": 120
+ },
+ {
+  "key": "set7_M5",
+  "text": "A person walks swaying the hips.",
+  "length": 120
+ }
+]

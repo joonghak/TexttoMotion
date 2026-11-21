@@ -1,0 +1,136 @@
+{
+  "command": "펭귄 A: 지금 파라미터만 (s 0.4, n 1.2, m_arm 0.3, m_knee 0.7, 팔꿈치 신전 30, 다리 벌림 10, m_torso 5)",
+  "variant": {
+    "key": "pen_a",
+    "label": "펭귄 A: 지금 파라미터만 (s 0.4, n 1.2, m_arm 0.3, m_knee 0.7, 팔꿈치 신전 30, 다리 벌림 10, m_torso 5)",
+    "scales": {
+      "speed": 0.4,
+      "cadence": 1.2,
+      "arm_swing": 0.3,
+      "swing": {
+        "torso": 5.0,
+        "right_shin": 0.7,
+        "left_shin": 0.7
+      },
+      "pose": {
+        "right_lower_arm": [
+          0,
+          0,
+          -30
+        ],
+        "left_lower_arm": [
+          0,
+          0,
+          30
+        ],
+        "right_thigh": [
+          -10,
+          0,
+          0
+        ],
+        "left_thigh": [
+          10,
+          0,
+          0
+        ],
+        "right_foot": [
+          10,
+          0,
+          0
+        ],
+        "left_foot": [
+          -10,
+          0,
+          0
+        ]
+      }
+    },
+    "terms": {
+      "track_w": 0.6,
+      "speed": {
+        "scale": 0.4
+      },
+      "cadence": {
+        "scale": 1.2
+      },
+      "arm_swing": {
+        "scale": 0.3
+      },
+      "swing": {
+        "torso": 5.0,
+        "right_shin": 0.7,
+        "left_shin": 0.7
+      },
+      "pose": {
+        "right_lower_arm": [
+          0,
+          0,
+          -30
+        ],
+        "left_lower_arm": [
+          0,
+          0,
+          30
+        ],
+        "right_thigh": [
+          -10,
+          0,
+          0
+        ],
+        "left_thigh": [
+          10,
+          0,
+          0
+        ],
+        "right_foot": [
+          10,
+          0,
+          0
+        ],
+        "left_foot": [
+          -10,
+          0,
+          0
+        ]
+      },
+      "style": {
+        "w": 0.2
+      },
+      "swing_unit": "/home/jong/TexttoMotion/MimicKit/data/motions/humanoid/humanoid_walk.pkl",
+      "pose_unit": "/home/jong/TexttoMotion/MimicKit/data/motions/humanoid/humanoid_walk.pkl"
+    }
+  },
+  "reference": {
+    "clip": "/home/jong/TexttoMotion/MimicKit/data/motions/humanoid/humanoid_walk.pkl",
+    "duration_s": 10.0
+  },
+  "training": {
+    "iterations": 2000,
+    "num_envs": 1024,
+    "status": "completed",
+    "started": "2026-11-05T14:30:44",
+    "finished": "2026-11-05T15:02:43",
+    "final_log": {
+      "Iteration": 1999.0,
+      "Wall_Time": 0.5296644437313079,
+      "Samples": 65536000.0,
+      "Samples_Per_Second": 34369.7687467942,
+      "Test_Return": 274.06353759765625,
+      "Test_Episode_Length": 289.001953125,
+      "Test_Episodes": 1024.0,
+      "Train_Return": 261.9673156738281,
+      "Train_Episode_Length": 292.81158447265625,
+      "Train_Episodes": 10505.0,
+      "Critic_Loss": 0.0357043631374836,
+      "Actor_Loss": -0.007961869239807129,
+      "Clip_Frac": 0.2574829161167145,
+      "Imp_Ratio": 0.9986857771873474,
+      "Action_Bound_Loss": 0.0,
+      "Adv_Mean": 0.04742074012756348,
+      "Adv_Std": 0.19147786498069763,
+      "Obs_Norm_Mean": 0.33962926268577576,
+      "Obs_Norm_Std": 0.15931911766529083,
+      "Exp_Prob": 1.0
+    }
+  }
+}

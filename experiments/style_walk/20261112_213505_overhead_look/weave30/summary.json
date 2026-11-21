@@ -1,0 +1,54 @@
+{
+  "command": "갈지자로 걷는 길 확인 (사람이 정한 값): 길이 좌우로 0.3 m씩 3초 주기로 흔들림",
+  "variant": {
+    "key": "weave30",
+    "label": "갈지자로 걷는 길 확인 (사람이 정한 값): 길이 좌우로 0.3 m씩 3초 주기로 흔들림",
+    "scales": {
+      "weave": 0.3
+    },
+    "terms": {
+      "track_w": 0.6,
+      "weave": {
+        "amplitude": 0.3
+      },
+      "style": {
+        "w": 0.2
+      },
+      "swing_unit": "/home/jong/TexttoMotion/MimicKit/data/motions/humanoid/humanoid_walk.pkl",
+      "pose_unit": "/home/jong/TexttoMotion/MimicKit/data/motions/humanoid/humanoid_walk.pkl"
+    }
+  },
+  "reference": {
+    "clip": "/home/jong/TexttoMotion/MimicKit/data/motions/humanoid/humanoid_walk.pkl",
+    "duration_s": 10.0
+  },
+  "training": {
+    "iterations": 2000,
+    "num_envs": 1024,
+    "status": "completed",
+    "started": "2026-11-16T16:11:10",
+    "finished": "2026-11-16T16:40:09",
+    "final_log": {
+      "Iteration": 1999.0,
+      "Wall_Time": 0.4800156750943926,
+      "Samples": 65536000.0,
+      "Samples_Per_Second": 37924.68744039377,
+      "Test_Return": 270.1173400878906,
+      "Test_Episode_Length": 297.111328125,
+      "Test_Episodes": 1024.0,
+      "Train_Return": 254.48524475097656,
+      "Train_Episode_Length": 297.3845520019531,
+      "Train_Episodes": 10335.0,
+      "Critic_Loss": 0.14195531606674194,
+      "Actor_Loss": -0.019523167982697487,
+      "Clip_Frac": 0.251953125,
+      "Imp_Ratio": 1.0004818439483643,
+      "Action_Bound_Loss": 0.0,
+      "Adv_Mean": 0.05464467778801918,
+      "Adv_Std": 0.38152313232421875,
+      "Obs_Norm_Mean": 0.3426465094089508,
+      "Obs_Norm_Std": 0.17238232493400574,
+      "Exp_Prob": 1.0
+    }
+  }
+}

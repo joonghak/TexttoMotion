@@ -1,0 +1,42 @@
+{
+  "command": "기본 걷기",
+  "variant": {
+    "key": "base",
+    "label": "기본 걷기",
+    "scales": null,
+    "terms": null
+  },
+  "reference": {
+    "clip": "/home/jong/TexttoMotion/MimicKit/data/motions/humanoid/humanoid_walk.pkl",
+    "duration_s": 10.0
+  },
+  "training": {
+    "iterations": 1000,
+    "num_envs": 1024,
+    "status": "completed",
+    "started": "2026-09-30T16:04:29",
+    "finished": "2026-09-30T16:27:06",
+    "final_log": {
+      "Iteration": 999.0,
+      "Wall_Time": 0.37376976397302414,
+      "Samples": 32768000.0,
+      "Samples_Per_Second": 24352.484067917143,
+      "Test_Return": 283.8453063964844,
+      "Test_Episode_Length": 297.39453125,
+      "Test_Episodes": 1024.0,
+      "Train_Return": 264.66693115234375,
+      "Train_Episode_Length": 296.34271240234375,
+      "Train_Episodes": 10378.0,
+      "Critic_Loss": 2.6347806453704834,
+      "Actor_Loss": -0.027011597529053688,
+      "Clip_Frac": 0.10636597126722336,
+      "Imp_Ratio": 0.9995927214622498,
+      "Action_Bound_Loss": 0.0,
+      "Adv_Mean": -0.05148336663842201,
+      "Adv_Std": 1.6236491203308105,
+      "Obs_Norm_Mean": 0.3443444073200226,
+      "Obs_Norm_Std": 0.168193981051445,
+      "Exp_Prob": 1.0
+    }
+  }
+}

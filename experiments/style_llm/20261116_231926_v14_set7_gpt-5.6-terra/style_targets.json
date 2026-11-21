@@ -1,0 +1,831 @@
+[
+ {
+  "key": "_base",
+  "scales": {}
+ },
+ {
+  "key": "N1",
+  "scales": {
+   "speed": 0.45,
+   "cadence": 1.5,
+   "arm_swing": 0.2,
+   "bounce": 15.0,
+   "swing": {
+    "right_shin": 0.75,
+    "left_shin": 0.75
+   },
+   "pose": {
+    "torso": [
+     0,
+     12.0,
+     0
+    ],
+    "right_upper_arm": [
+     15.0,
+     -0.0,
+     0.0
+    ],
+    "left_upper_arm": [
+     -15.0,
+     -0.0,
+     -0.0
+    ]
+   }
+  }
+ },
+ {
+  "key": "N2",
+  "scales": {
+   "speed": 0.7,
+   "cadence": 0.75,
+   "arm_swing": 0.3,
+   "crouch": 20.0,
+   "swing": {
+    "torso": 6.0,
+    "right_shin": 0.8,
+    "left_shin": 0.8
+   },
+   "pose": {
+    "torso": [
+     0,
+     25.0,
+     0
+    ],
+    "head": [
+     0,
+     15.0,
+     0
+    ],
+    "right_upper_arm": [
+     -23.51,
+     -40.73,
+     56.77
+    ],
+    "right_lower_arm": [
+     0,
+     0,
+     60.0
+    ],
+    "right_thigh": [
+     -10.0,
+     0,
+     -0.0
+    ],
+    "right_foot": [
+     10.0,
+     0,
+     0
+    ],
+    "left_upper_arm": [
+     23.51,
+     -40.73,
+     -56.77
+    ],
+    "left_lower_arm": [
+     0,
+     0,
+     -60.0
+    ],
+    "left_thigh": [
+     10.0,
+     0,
+     0.0
+    ],
+    "left_foot": [
+     -10.0,
+     0,
+     0
+    ]
+   }
+  }
+ },
+ {
+  "key": "N3",
+  "scales": {
+   "speed": 0.65,
+   "cadence": 0.8,
+   "arm_swing": 0.4,
+   "crouch": 10.0,
+   "swing": {
+    "torso": 7.0,
+    "right_shin": 0.7,
+    "left_shin": 0.7
+   },
+   "pose": {
+    "right_upper_arm": [
+     15.0,
+     -0.0,
+     0.0
+    ],
+    "right_thigh": [
+     -10.0,
+     0,
+     -25.0
+    ],
+    "right_foot": [
+     10.0,
+     0,
+     0
+    ],
+    "left_upper_arm": [
+     -15.0,
+     -0.0,
+     -0.0
+    ],
+    "left_thigh": [
+     10.0,
+     0,
+     25.0
+    ],
+    "left_foot": [
+     -10.0,
+     0,
+     0
+    ]
+   }
+  }
+ },
+ {
+  "key": "N4",
+  "scales": {
+   "speed": 0.75,
+   "cadence": 0.8,
+   "arm_swing": 0.0,
+   "crouch": 12.0,
+   "swing": {
+    "right_shin": 1.3,
+    "left_shin": 1.3
+   },
+   "pose": {
+    "torso": [
+     0,
+     20.0,
+     0
+    ],
+    "head": [
+     0,
+     15.0,
+     0
+    ],
+    "right_upper_arm": [
+     -0.0,
+     -35.0,
+     0.0
+    ],
+    "right_lower_arm": [
+     0,
+     0,
+     60.0
+    ],
+    "right_thigh": [
+     -8.0,
+     0,
+     -0.0
+    ],
+    "right_foot": [
+     8.0,
+     0,
+     0
+    ],
+    "left_upper_arm": [
+     0.0,
+     -35.0,
+     -0.0
+    ],
+    "left_lower_arm": [
+     0,
+     0,
+     -60.0
+    ],
+    "left_thigh": [
+     8.0,
+     0,
+     0.0
+    ],
+    "left_foot": [
+     -8.0,
+     0,
+     0
+    ]
+   }
+  }
+ },
+ {
+  "key": "N5",
+  "scales": {
+   "speed": 0.65,
+   "cadence": 1.25,
+   "arm_swing": 0.3,
+   "crouch": 15.0,
+   "swing": {
+    "torso": 5.0,
+    "right_shin": 1.5,
+    "left_shin": 1.5
+   },
+   "pose": {
+    "torso": [
+     0,
+     -10.0,
+     0
+    ],
+    "head": [
+     0,
+     -15.0,
+     0
+    ],
+    "right_upper_arm": [
+     15.0,
+     -0.0,
+     0.0
+    ],
+    "right_thigh": [
+     -0.0,
+     0,
+     -25.0
+    ],
+    "left_upper_arm": [
+     -15.0,
+     -0.0,
+     -0.0
+    ],
+    "left_thigh": [
+     0.0,
+     0,
+     25.0
+    ]
+   }
+  }
+ },
+ {
+  "key": "N6",
+  "scales": {
+   "speed": 0.65,
+   "cadence": 0.7,
+   "arm_swing": 0.3,
+   "crouch": 20.0,
+   "foot_pitch": 20.0,
+   "swing": {
+    "right_shin": 0.7,
+    "left_shin": 0.7
+   },
+   "pose": {
+    "torso": [
+     0,
+     20.0,
+     0
+    ],
+    "right_upper_arm": [
+     -0.0,
+     -20.0,
+     0.0
+    ],
+    "right_lower_arm": [
+     0,
+     0,
+     40.0
+    ],
+    "right_thigh": [
+     5.0,
+     0,
+     -0.0
+    ],
+    "right_foot": [
+     -5.0,
+     0,
+     0
+    ],
+    "left_upper_arm": [
+     0.0,
+     -20.0,
+     -0.0
+    ],
+    "left_lower_arm": [
+     0,
+     0,
+     -40.0
+    ],
+    "left_thigh": [
+     -5.0,
+     0,
+     0.0
+    ],
+    "left_foot": [
+     5.0,
+     0,
+     0
+    ]
+   }
+  }
+ },
+ {
+  "key": "P1",
+  "scales": {
+   "speed": 0.7,
+   "cadence": 0.6,
+   "arm_swing": 0.3,
+   "crouch": 15.0,
+   "swing": {
+    "right_shin": 0.75,
+    "left_shin": 0.75
+   },
+   "pose": {
+    "torso": [
+     0,
+     15.0,
+     0
+    ],
+    "head": [
+     0,
+     15.0,
+     0
+    ],
+    "right_upper_arm": [
+     -0.0,
+     -55.0,
+     0.0
+    ],
+    "right_lower_arm": [
+     0,
+     0,
+     35.0
+    ],
+    "left_upper_arm": [
+     0.0,
+     -55.0,
+     -0.0
+    ],
+    "left_lower_arm": [
+     0,
+     0,
+     -35.0
+    ]
+   }
+  }
+ },
+ {
+  "key": "P2",
+  "scales": {
+   "speed": 1.1,
+   "cadence": 1.05,
+   "arm_swing": 0.35,
+   "swing": {
+    "torso": 0.0,
+    "right_shin": 1.35,
+    "left_shin": 1.35,
+    "right_lower_arm": 0.0,
+    "left_lower_arm": 0.0
+   },
+   "pose": {
+    "torso": [
+     0,
+     -3.0,
+     0
+    ],
+    "head": [
+     0,
+     -8.0,
+     0
+    ],
+    "right_lower_arm": [
+     0,
+     0,
+     20.0
+    ],
+    "left_lower_arm": [
+     0,
+     0,
+     -20.0
+    ]
+   }
+  }
+ },
+ {
+  "key": "P3",
+  "scales": {
+   "speed": 0.75,
+   "cadence": 0.9,
+   "arm_swing": 0.5,
+   "bounce": 8.0,
+   "swing": {
+    "right_shin": 0.7,
+    "left_shin": 0.7
+   },
+   "pose": {
+    "torso": [
+     0,
+     -5.0,
+     0
+    ],
+    "head": [
+     0,
+     -8.0,
+     0
+    ],
+    "right_upper_arm": [
+     -20.0,
+     -0.0,
+     0.0
+    ],
+    "right_lower_arm": [
+     0,
+     0,
+     20.0
+    ],
+    "left_upper_arm": [
+     20.0,
+     -0.0,
+     -0.0
+    ],
+    "left_lower_arm": [
+     0,
+     0,
+     -20.0
+    ]
+   }
+  }
+ },
+ {
+  "key": "P4",
+  "scales": {
+   "speed": 1.3,
+   "cadence": 0.75,
+   "arm_swing": 1.2,
+   "bounce": 12.0,
+   "swing": {
+    "torso": 5.0,
+    "right_shin": 0.8,
+    "left_shin": 0.8
+   },
+   "pose": {
+    "right_thigh": [
+     -10.0,
+     0,
+     -0.0
+    ],
+    "right_foot": [
+     10.0,
+     0,
+     0
+    ],
+    "left_thigh": [
+     10.0,
+     0,
+     0.0
+    ],
+    "left_foot": [
+     -10.0,
+     0,
+     0
+    ]
+   }
+  }
+ },
+ {
+  "key": "P5",
+  "scales": {
+   "speed": 1.4,
+   "cadence": 0.9,
+   "arm_swing": 1.4,
+   "pose": {
+    "torso": [
+     0,
+     -15.0,
+     0
+    ],
+    "head": [
+     0,
+     -15.0,
+     0
+    ],
+    "right_thigh": [
+     -4.0,
+     0,
+     -12.0
+    ],
+    "right_foot": [
+     4.0,
+     0,
+     0
+    ],
+    "left_thigh": [
+     4.0,
+     0,
+     12.0
+    ],
+    "left_foot": [
+     -4.0,
+     0,
+     0
+    ]
+   }
+  }
+ },
+ {
+  "key": "P6",
+  "scales": {
+   "arm_swing": 0.3,
+   "pose": {
+    "right_upper_arm": [
+     -18.52,
+     -83.54,
+     20.21
+    ],
+    "right_lower_arm": [
+     0,
+     0,
+     15.0
+    ],
+    "left_upper_arm": [
+     18.52,
+     -83.54,
+     -20.21
+    ],
+    "left_lower_arm": [
+     0,
+     0,
+     -15.0
+    ]
+   }
+  }
+ },
+ {
+  "key": "F1",
+  "scales": {
+   "arm_swing": 0.3,
+   "pose": {
+    "right_upper_arm": [
+     -0.0,
+     45.0,
+     0.0
+    ],
+    "right_lower_arm": [
+     0,
+     0,
+     60.0
+    ],
+    "left_upper_arm": [
+     0.0,
+     45.0,
+     -0.0
+    ],
+    "left_lower_arm": [
+     0,
+     0,
+     -60.0
+    ]
+   }
+  }
+ },
+ {
+  "key": "F2",
+  "scales": {
+   "arm_swing": 0.0,
+   "pose": {
+    "right_upper_arm": [
+     -15.69,
+     -27.18,
+     58.57
+    ],
+    "right_lower_arm": [
+     0,
+     0,
+     60.0
+    ],
+    "left_upper_arm": [
+     15.69,
+     -27.18,
+     -58.57
+    ],
+    "left_lower_arm": [
+     0,
+     0,
+     -60.0
+    ]
+   }
+  }
+ },
+ {
+  "key": "F3",
+  "scales": {
+   "arm_swing": 0.3,
+   "pose": {
+    "right_upper_arm": [
+     -23.32,
+     36.77,
+     50.53
+    ],
+    "right_lower_arm": [
+     0,
+     0,
+     60.0
+    ],
+    "left_upper_arm": [
+     23.32,
+     36.77,
+     -50.53
+    ],
+    "left_lower_arm": [
+     0,
+     0,
+     -60.0
+    ]
+   }
+  }
+ },
+ {
+  "key": "F4",
+  "scales": {
+   "arm_swing": 0.3,
+   "pose": {
+    "right_upper_arm": [
+     -155.0,
+     -0.0,
+     0.0
+    ],
+    "left_upper_arm": [
+     155.0,
+     -0.0,
+     -0.0
+    ]
+   }
+  }
+ },
+ {
+  "key": "F5",
+  "scales": {
+   "foot_pitch": -20.0
+  }
+ },
+ {
+  "key": "F6",
+  "scales": {
+   "crouch": 20.0,
+   "swing": {
+    "right_shin": 0.75,
+    "left_shin": 0.75
+   }
+  }
+ },
+ {
+  "key": "F7",
+  "scales": {
+   "pose": {
+    "torso": [
+     0,
+     -15.0,
+     0
+    ]
+   }
+  }
+ },
+ {
+  "key": "F8",
+  "scales": {
+   "swing": {
+    "right_shin": 0.4,
+    "left_shin": 0.4
+   }
+  }
+ },
+ {
+  "key": "M1",
+  "scales": {
+   "speed": 1.1,
+   "cadence": 1.35,
+   "arm_swing": 1.4
+  }
+ },
+ {
+  "key": "M2",
+  "scales": {
+   "cadence": 0.8,
+   "arm_swing": 0.5,
+   "pose": {
+    "head": [
+     0.0,
+     0.0,
+     -60.0
+    ]
+   }
+  }
+ },
+ {
+  "key": "M3",
+  "scales": {
+   "speed": 1.2,
+   "cadence": 0.9,
+   "arm_swing": 0.8,
+   "swing": {
+    "torso": 0.5
+   },
+   "pose": {
+    "torso": [
+     0,
+     -8.0,
+     0
+    ],
+    "head": [
+     0,
+     -8.0,
+     0
+    ],
+    "right_lower_arm": [
+     0,
+     0,
+     25.0
+    ],
+    "left_lower_arm": [
+     0,
+     0,
+     -25.0
+    ]
+   }
+  }
+ },
+ {
+  "key": "M4",
+  "scales": {
+   "speed": 0.7,
+   "cadence": 0.6,
+   "arm_swing": 0.3,
+   "crouch": 15.0,
+   "swing": {
+    "right_shin": 0.7,
+    "left_shin": 0.7
+   },
+   "pose": {
+    "torso": [
+     0,
+     15.0,
+     0
+    ],
+    "head": [
+     0,
+     25.0,
+     0
+    ],
+    "right_upper_arm": [
+     -80.0,
+     -0.0,
+     0.0
+    ],
+    "right_thigh": [
+     8.0,
+     0,
+     -0.0
+    ],
+    "right_foot": [
+     -8.0,
+     0,
+     0
+    ],
+    "left_upper_arm": [
+     80.0,
+     -0.0,
+     -0.0
+    ],
+    "left_thigh": [
+     -8.0,
+     0,
+     0.0
+    ],
+    "left_foot": [
+     8.0,
+     0,
+     0
+    ]
+   }
+  }
+ },
+ {
+  "key": "M5",
+  "scales": {
+   "cadence": 0.85,
+   "swing": {
+    "torso": 8.0
+   },
+   "pose": {
+    "right_thigh": [
+     -6.0,
+     0,
+     -0.0
+    ],
+    "right_foot": [
+     6.0,
+     0,
+     0
+    ],
+    "left_thigh": [
+     6.0,
+     0,
+     0.0
+    ],
+    "left_foot": [
+     -6.0,
+     0,
+     0
+    ]
+   }
+  }
+ }
+]

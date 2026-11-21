@@ -1,0 +1,35 @@
+[
+  {
+    "key": "s0_2",
+    "label": "s = 0.2",
+    "scales": {
+      "speed": 0.2
+    }
+  },
+  {
+    "key": "s0_75",
+    "label": "s = 0.75",
+    "scales": {
+      "speed": 0.75
+    }
+  },
+  {
+    "key": "s1",
+    "label": "s = 1",
+    "scales": {}
+  },
+  {
+    "key": "s1_25",
+    "label": "s = 1.25",
+    "scales": {
+      "speed": 1.25
+    }
+  },
+  {
+    "key": "s2",
+    "label": "s = 2",
+    "scales": {
+      "speed": 2.0
+    }
+  }
+]

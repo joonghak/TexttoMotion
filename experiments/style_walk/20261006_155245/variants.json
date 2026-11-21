@@ -1,0 +1,21 @@
+[
+  {
+    "key": "base",
+    "label": "기본 걷기",
+    "scales": {}
+  },
+  {
+    "key": "slow",
+    "label": "천천히",
+    "scales": {
+      "speed": 0.75
+    }
+  },
+  {
+    "key": "fast",
+    "label": "빠르게",
+    "scales": {
+      "speed": 1.25
+    }
+  }
+]

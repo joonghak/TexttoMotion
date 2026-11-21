@@ -1,0 +1,64 @@
+{
+  "command": "상체를 뒤로 젖힌 채 발차기해 (새 수식, 자세 항 가중치 0.4)",
+  "variant": {
+    "key": "n_kick_B5_w4",
+    "label": "상체를 뒤로 젖힌 채 발차기해 (새 수식, 자세 항 가중치 0.4)",
+    "scales": {
+      "pose": {
+        "torso": [
+          0,
+          -10.0,
+          0
+        ]
+      }
+    },
+    "terms": {
+      "track_w": 0.6,
+      "pose": {
+        "torso": [
+          0,
+          -10.0,
+          0
+        ]
+      },
+      "style": {
+        "w": 0.4
+      },
+      "swing_unit": "/home/jong/TexttoMotion/MimicKit/data/motions/humanoid/humanoid_walk.pkl",
+      "pose_unit": "/home/jong/TexttoMotion/MimicKit/data/motions/humanoid/humanoid_walk.pkl"
+    }
+  },
+  "reference": {
+    "clip": "/home/jong/TexttoMotion/MimicKit/data/motions/humanoid/humanoid_kick.pkl",
+    "duration_s": 10.0
+  },
+  "training": {
+    "iterations": 1500,
+    "num_envs": 1024,
+    "status": "completed",
+    "started": "2026-11-03T19:29:21",
+    "finished": "2026-11-03T19:56:33",
+    "final_log": {
+      "Iteration": 1499.0,
+      "Wall_Time": 0.4500669554869334,
+      "Samples": 49152000.0,
+      "Samples_Per_Second": 30336.22701440414,
+      "Test_Return": 18.574432373046875,
+      "Test_Episode_Length": 20.108013153076172,
+      "Test_Episodes": 1685.0,
+      "Train_Return": 20.656097412109375,
+      "Train_Episode_Length": 23.439212799072266,
+      "Train_Episodes": 137753.0,
+      "Critic_Loss": 0.04762506112456322,
+      "Actor_Loss": -0.016663704067468643,
+      "Clip_Frac": 0.27204591035842896,
+      "Imp_Ratio": 0.9985120892524719,
+      "Action_Bound_Loss": 7.97874051272629e-08,
+      "Adv_Mean": 0.0005608941428363323,
+      "Adv_Std": 0.2185870260000229,
+      "Obs_Norm_Mean": 0.3769209682941437,
+      "Obs_Norm_Std": 0.2533189654350281,
+      "Exp_Prob": 1.0
+    }
+  }
+}

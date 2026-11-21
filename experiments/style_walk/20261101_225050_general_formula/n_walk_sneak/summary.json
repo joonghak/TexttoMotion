@@ -1,0 +1,128 @@
+{
+  "command": "살금살금 걷기 (새 수식)",
+  "variant": {
+    "key": "n_walk_sneak",
+    "label": "살금살금 걷기 (새 수식)",
+    "scales": {
+      "crouch": 20.0,
+      "swing": {
+        "right_shin": 0.7,
+        "left_shin": 0.7
+      },
+      "speed": 0.8,
+      "cadence": 0.6,
+      "arm_swing": 0.3,
+      "pose": {
+        "torso": [
+          0,
+          20,
+          0
+        ],
+        "right_upper_arm": [
+          0,
+          -20,
+          0
+        ],
+        "left_upper_arm": [
+          0,
+          -20,
+          0
+        ],
+        "right_lower_arm": [
+          0,
+          0,
+          40
+        ],
+        "left_lower_arm": [
+          0,
+          0,
+          -40
+        ]
+      }
+    },
+    "terms": {
+      "track_w": 0.6,
+      "crouch": {
+        "angle": 20.0
+      },
+      "swing": {
+        "right_shin": 0.7,
+        "left_shin": 0.7
+      },
+      "speed": {
+        "scale": 0.8
+      },
+      "cadence": {
+        "scale": 0.6
+      },
+      "arm_swing": {
+        "scale": 0.3
+      },
+      "pose": {
+        "torso": [
+          0,
+          20,
+          0
+        ],
+        "right_upper_arm": [
+          0,
+          -20,
+          0
+        ],
+        "left_upper_arm": [
+          0,
+          -20,
+          0
+        ],
+        "right_lower_arm": [
+          0,
+          0,
+          40
+        ],
+        "left_lower_arm": [
+          0,
+          0,
+          -40
+        ]
+      },
+      "style": {
+        "w": 0.2
+      },
+      "swing_unit": "/home/jong/TexttoMotion/MimicKit/data/motions/humanoid/humanoid_walk.pkl",
+      "pose_unit": "/home/jong/TexttoMotion/MimicKit/data/motions/humanoid/humanoid_walk.pkl"
+    }
+  },
+  "reference": {
+    "clip": "/home/jong/TexttoMotion/MimicKit/data/motions/humanoid/humanoid_walk.pkl",
+    "duration_s": 10.0
+  },
+  "training": {
+    "iterations": 2000,
+    "num_envs": 1024,
+    "status": "completed",
+    "started": "2026-11-03T19:56:43",
+    "finished": "2026-11-03T20:33:48",
+    "final_log": {
+      "Iteration": 1999.0,
+      "Wall_Time": 0.6149197171794044,
+      "Samples": 65536000.0,
+      "Samples_Per_Second": 29604.587291406126,
+      "Test_Return": 281.30810546875,
+      "Test_Episode_Length": 291.564453125,
+      "Test_Episodes": 1024.0,
+      "Train_Return": 266.9934997558594,
+      "Train_Episode_Length": 293.5736389160156,
+      "Train_Episodes": 10475.0,
+      "Critic_Loss": 0.05229722708463669,
+      "Actor_Loss": -0.001726023736409843,
+      "Clip_Frac": 0.21954345703125,
+      "Imp_Ratio": 0.9990046620368958,
+      "Action_Bound_Loss": 0.0,
+      "Adv_Mean": -0.009270655922591686,
+      "Adv_Std": 0.2359565645456314,
+      "Obs_Norm_Mean": 0.3410004675388336,
+      "Obs_Norm_Std": 0.14999179542064667,
+      "Exp_Prob": 1.0
+    }
+  }
+}

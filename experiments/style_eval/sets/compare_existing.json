@@ -1,0 +1,25 @@
+{
+ "title": "기존 걷기 정책과 목표 100STYLE 스타일을 나란히 (2026-11-11)",
+ "note": "Our policies were trained in October with values set by hand (not by the LLM), before 100STYLE was used. The 100STYLE clips are moved onto our character by retarget_100style.py.",
+ "out": "experiments/style_eval/film/compare_existing",
+ "pairs": [
+  {"key": "00_base", "run": "experiments/style_walk/20261015_151030_walk_behaviors/base", "style": "Neutral",
+   "ours": "우리 기본 걷기 (스타일 없음)", "caption": "기본 걸음끼리. 유사도는 각자 이 기본 걸음에서 달라진 방향을 비교함"},
+  {"key": "01_zombie", "run": "experiments/style_walk/20261015_151030_walk_behaviors/zombie", "style": "Zombie",
+   "ours": "우리 정책: 좀비처럼 걸어", "caption": "Zombie와의 유사도 0.82, 99종 가운데 1위, 크기 0.84"},
+  {"key": "02_bigsteps", "run": "experiments/style_walk/20261015_151030_walk_behaviors/striding", "style": "BigSteps",
+   "ours": "우리 정책: 성큼성큼 걸어", "caption": "BigSteps와의 유사도 0.79, 99종 가운데 1위, 크기 0.55"},
+  {"key": "03_legsapart", "run": "experiments/style_walk/20261031_211553_new_params/stance10", "style": "LegsApart",
+   "ours": "우리 정책: 다리를 벌리고 걸어", "caption": "LegsApart와의 유사도 0.86, 99종 가운데 2위 (1위 WideLegs), 크기 0.49"},
+  {"key": "04_depressed", "run": "experiments/style_walk/20261015_151030_walk_behaviors/tired", "style": "Depressed",
+   "ours": "우리 정책: 지쳐서 터벅터벅 걸어", "caption": "Depressed와의 유사도 0.69, 99종 가운데 3위, 크기 0.90"},
+  {"key": "05_robot", "run": "experiments/style_walk/20261015_151030_walk_behaviors/robot2", "style": "Robot",
+   "ours": "우리 정책: 로봇처럼 걸어", "caption": "Robot과의 유사도 0.63, 99종 가운데 16위, 크기 0.55"},
+  {"key": "06_proud", "run": "experiments/style_walk/20261015_151030_walk_behaviors/proud", "style": "Proud",
+   "ours": "우리 정책: 당당하게 걸어", "caption": "Proud와의 유사도 0.25, 99종 가운데 14위, 크기 0.96"},
+  {"key": "07_old", "run": "experiments/style_walk/20261015_151030_walk_behaviors/old", "style": "Old",
+   "ours": "우리 정책: 노인처럼 걸어", "caption": "Old와의 유사도 0.13, 99종 가운데 40위, 크기 0.52"},
+  {"key": "08_highknees", "run": "experiments/style_walk/20261031_211553_new_params/hip16", "style": "HighKnees",
+   "ours": "우리 정책: 허벅지 진폭 1.6배", "caption": "HighKnees와의 유사도 0.17, 99종 가운데 40위, 크기 0.24"}
+ ]
+}

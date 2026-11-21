@@ -1,0 +1,859 @@
+[
+  {
+    "key": "base",
+    "label": "기본 걷기",
+    "scales": {}
+  },
+  {
+    "key": "N1",
+    "label": "펭귄처럼 걸어",
+    "scales": {
+      "speed": 0.5,
+      "cadence": 1.25,
+      "arm_swing": 0.3,
+      "swing": {
+        "torso": 10.0,
+        "right_shin": 0.7,
+        "left_shin": 0.7
+      },
+      "pose": {
+        "right_upper_arm": [
+          -45.0,
+          -0.0,
+          0.0
+        ],
+        "right_lower_arm": [
+          0,
+          0,
+          -30.0
+        ],
+        "right_thigh": [
+          5.0,
+          0,
+          -25.0
+        ],
+        "right_foot": [
+          -5.0,
+          0,
+          0
+        ],
+        "left_upper_arm": [
+          45.0,
+          -0.0,
+          -0.0
+        ],
+        "left_lower_arm": [
+          0,
+          0,
+          30.0
+        ],
+        "left_thigh": [
+          -5.0,
+          0,
+          25.0
+        ],
+        "left_foot": [
+          5.0,
+          0,
+          0
+        ]
+      }
+    },
+    "clip": "walk"
+  },
+  {
+    "key": "N2",
+    "label": "닭처럼 걸어",
+    "scales": {
+      "speed": 0.5,
+      "cadence": 1.4,
+      "arm_swing": 0.3,
+      "crouch": 10.0,
+      "swing": {
+        "torso": 4.0,
+        "right_shin": 1.4,
+        "left_shin": 1.4
+      },
+      "pose": {
+        "torso": [
+          0,
+          20.0,
+          0
+        ],
+        "head": [
+          0,
+          25.0,
+          0
+        ],
+        "right_upper_arm": [
+          -45.0,
+          -0.0,
+          0.0
+        ],
+        "right_lower_arm": [
+          0,
+          0,
+          60.0
+        ],
+        "right_thigh": [
+          4.0,
+          0,
+          -25.0
+        ],
+        "right_foot": [
+          -4.0,
+          0,
+          0
+        ],
+        "left_upper_arm": [
+          45.0,
+          -0.0,
+          -0.0
+        ],
+        "left_lower_arm": [
+          0,
+          0,
+          -60.0
+        ],
+        "left_thigh": [
+          -4.0,
+          0,
+          25.0
+        ],
+        "left_foot": [
+          4.0,
+          0,
+          0
+        ]
+      }
+    },
+    "clip": "walk"
+  },
+  {
+    "key": "N3",
+    "label": "고양이처럼 걸어",
+    "scales": {
+      "speed": 0.7,
+      "cadence": 0.75,
+      "arm_swing": 0.3,
+      "crouch": 20.0,
+      "swing": {
+        "torso": 3.0,
+        "right_shin": 0.7,
+        "left_shin": 0.7
+      },
+      "pose": {
+        "torso": [
+          0,
+          20.0,
+          0
+        ],
+        "head": [
+          0,
+          -10.0,
+          0
+        ],
+        "right_upper_arm": [
+          -6.11,
+          -34.64,
+          19.37
+        ],
+        "right_lower_arm": [
+          0,
+          0,
+          60.0
+        ],
+        "right_thigh": [
+          5.0,
+          0,
+          10.0
+        ],
+        "right_foot": [
+          -5.0,
+          0,
+          0
+        ],
+        "left_upper_arm": [
+          6.11,
+          -34.64,
+          -19.37
+        ],
+        "left_lower_arm": [
+          0,
+          0,
+          -60.0
+        ],
+        "left_thigh": [
+          -5.0,
+          0,
+          -10.0
+        ],
+        "left_foot": [
+          5.0,
+          0,
+          0
+        ]
+      }
+    },
+    "clip": "walk"
+  },
+  {
+    "key": "N4",
+    "label": "공룡처럼 걸어",
+    "scales": {
+      "speed": 1.4,
+      "cadence": 0.75,
+      "arm_swing": 0.3,
+      "crouch": 15.0,
+      "bounce": 20.0,
+      "swing": {
+        "torso": 6.0,
+        "right_shin": 1.2,
+        "left_shin": 1.2
+      },
+      "pose": {
+        "torso": [
+          0,
+          30.0,
+          0
+        ],
+        "head": [
+          0,
+          -10.0,
+          0
+        ],
+        "right_upper_arm": [
+          -0.0,
+          -25.0,
+          0.0
+        ],
+        "right_lower_arm": [
+          0,
+          0,
+          60.0
+        ],
+        "right_thigh": [
+          -10.0,
+          0,
+          -20.0
+        ],
+        "right_foot": [
+          10.0,
+          0,
+          0
+        ],
+        "left_upper_arm": [
+          0.0,
+          -25.0,
+          -0.0
+        ],
+        "left_lower_arm": [
+          0,
+          0,
+          -60.0
+        ],
+        "left_thigh": [
+          10.0,
+          0,
+          20.0
+        ],
+        "left_foot": [
+          -10.0,
+          0,
+          0
+        ]
+      }
+    },
+    "clip": "walk"
+  },
+  {
+    "key": "N5",
+    "label": "새처럼 날개를 퍼덕이며 걸어",
+    "scales": {
+      "arm_swing": 0.3,
+      "pose": {
+        "right_upper_arm": [
+          -80.0,
+          -0.0,
+          0.0
+        ],
+        "right_lower_arm": [
+          0,
+          0,
+          -30.0
+        ],
+        "left_upper_arm": [
+          80.0,
+          -0.0,
+          -0.0
+        ],
+        "left_lower_arm": [
+          0,
+          0,
+          30.0
+        ]
+      }
+    },
+    "clip": "walk"
+  },
+  {
+    "key": "N6",
+    "label": "오리처럼 뒤뚱뒤뚱 걸어",
+    "scales": {
+      "speed": 0.6,
+      "cadence": 1.2,
+      "arm_swing": 0.3,
+      "crouch": 15.0,
+      "bounce": 10.0,
+      "swing": {
+        "torso": 10.0,
+        "right_shin": 0.7,
+        "left_shin": 0.7
+      },
+      "pose": {
+        "torso": [
+          0,
+          15.0,
+          0
+        ],
+        "right_upper_arm": [
+          -25.0,
+          -0.0,
+          0.0
+        ],
+        "right_lower_arm": [
+          0,
+          0,
+          50.0
+        ],
+        "right_thigh": [
+          -10.0,
+          0,
+          -30.0
+        ],
+        "right_foot": [
+          10.0,
+          0,
+          0
+        ],
+        "left_upper_arm": [
+          25.0,
+          -0.0,
+          -0.0
+        ],
+        "left_lower_arm": [
+          0,
+          0,
+          -50.0
+        ],
+        "left_thigh": [
+          10.0,
+          0,
+          30.0
+        ],
+        "left_foot": [
+          -10.0,
+          0,
+          0
+        ]
+      }
+    },
+    "clip": "walk"
+  },
+  {
+    "key": "P1",
+    "label": "좀비처럼 걸어",
+    "scales": {
+      "speed": 0.85,
+      "cadence": 0.6,
+      "arm_swing": 0.3,
+      "swing": {
+        "torso": 5.0
+      },
+      "pose": {
+        "torso": [
+          0,
+          10.0,
+          0
+        ],
+        "right_upper_arm": [
+          -0.0,
+          -85.0,
+          0.0
+        ],
+        "right_lower_arm": [
+          0,
+          0,
+          -30.0
+        ],
+        "left_upper_arm": [
+          0.0,
+          -85.0,
+          -0.0
+        ],
+        "left_lower_arm": [
+          0,
+          0,
+          30.0
+        ]
+      }
+    },
+    "clip": "walk"
+  },
+  {
+    "key": "P2",
+    "label": "로봇처럼 걸어",
+    "scales": {
+      "swing": {
+        "torso": 0.0,
+        "right_shin": 0.85,
+        "left_shin": 0.85,
+        "right_lower_arm": 0.0,
+        "left_lower_arm": 0.0
+      },
+      "pose": {
+        "right_lower_arm": [
+          0,
+          0,
+          50.0
+        ],
+        "left_lower_arm": [
+          0,
+          0,
+          -50.0
+        ]
+      }
+    },
+    "clip": "walk"
+  },
+  {
+    "key": "P3",
+    "label": "노인처럼 걸어",
+    "scales": {
+      "speed": 0.6,
+      "cadence": 0.8,
+      "arm_swing": 0.4,
+      "crouch": 10.0,
+      "swing": {
+        "right_shin": 0.8,
+        "left_shin": 0.8
+      },
+      "pose": {
+        "torso": [
+          0,
+          30.0,
+          0
+        ],
+        "head": [
+          0,
+          -10.0,
+          0
+        ]
+      }
+    },
+    "clip": "walk"
+  },
+  {
+    "key": "P4",
+    "label": "수도승처럼 걸어",
+    "scales": {
+      "speed": 0.7,
+      "cadence": 0.7,
+      "arm_swing": 0.3,
+      "swing": {
+        "torso": 0.0,
+        "right_shin": 0.7,
+        "left_shin": 0.7,
+        "right_lower_arm": 0.0,
+        "left_lower_arm": 0.0
+      },
+      "pose": {
+        "head": [
+          0,
+          25.0,
+          0
+        ],
+        "right_upper_arm": [
+          -6.11,
+          -19.37,
+          34.64
+        ],
+        "right_lower_arm": [
+          0,
+          0,
+          50.0
+        ],
+        "left_upper_arm": [
+          6.11,
+          -19.37,
+          -34.64
+        ],
+        "left_lower_arm": [
+          0,
+          0,
+          -50.0
+        ]
+      }
+    },
+    "clip": "walk"
+  },
+  {
+    "key": "P5",
+    "label": "술 취한 사람처럼 걸어",
+    "scales": {
+      "speed": 0.75,
+      "cadence": 0.65,
+      "arm_swing": 1.4,
+      "swing": {
+        "torso": 10.0,
+        "right_shin": 0.8,
+        "left_shin": 0.8
+      },
+      "pose": {
+        "right_thigh": [
+          -8.0,
+          0,
+          -20.0
+        ],
+        "right_foot": [
+          8.0,
+          0,
+          0
+        ],
+        "left_thigh": [
+          8.0,
+          0,
+          20.0
+        ],
+        "left_foot": [
+          -8.0,
+          0,
+          0
+        ]
+      }
+    },
+    "clip": "walk"
+  },
+  {
+    "key": "P6",
+    "label": "슈퍼맨처럼 걸어",
+    "scales": {
+      "speed": 1.4,
+      "cadence": 1.1,
+      "arm_swing": 1.8,
+      "swing": {
+        "torso": 2.0
+      },
+      "pose": {
+        "torso": [
+          0,
+          -15.0,
+          0
+        ],
+        "head": [
+          0,
+          -15.0,
+          0
+        ],
+        "right_lower_arm": [
+          0,
+          0,
+          35.0
+        ],
+        "right_thigh": [
+          -8.0,
+          0,
+          -0.0
+        ],
+        "right_foot": [
+          8.0,
+          0,
+          0
+        ],
+        "left_lower_arm": [
+          0,
+          0,
+          -35.0
+        ],
+        "left_thigh": [
+          8.0,
+          0,
+          0.0
+        ],
+        "left_foot": [
+          -8.0,
+          0,
+          0
+        ]
+      }
+    },
+    "clip": "walk"
+  },
+  {
+    "key": "F1",
+    "label": "팔자걸음으로 걸어",
+    "scales": {
+      "pose": {
+        "right_thigh": [
+          -0.0,
+          0,
+          -30.0
+        ],
+        "left_thigh": [
+          0.0,
+          0,
+          30.0
+        ]
+      }
+    },
+    "clip": "walk"
+  },
+  {
+    "key": "F2",
+    "label": "안짱걸음으로 걸어",
+    "scales": {
+      "pose": {
+        "right_thigh": [
+          -0.0,
+          0,
+          30.0
+        ],
+        "left_thigh": [
+          0.0,
+          0,
+          -30.0
+        ]
+      }
+    },
+    "clip": "walk"
+  },
+  {
+    "key": "F3",
+    "label": "다리를 넓게 벌리고 걸어",
+    "scales": {
+      "pose": {
+        "right_thigh": [
+          -10.0,
+          0,
+          -0.0
+        ],
+        "right_foot": [
+          10.0,
+          0,
+          0
+        ],
+        "left_thigh": [
+          10.0,
+          0,
+          0.0
+        ],
+        "left_foot": [
+          -10.0,
+          0,
+          0
+        ]
+      }
+    },
+    "clip": "walk"
+  },
+  {
+    "key": "F4",
+    "label": "무릎을 높이 들고 걸어",
+    "scales": {
+      "crouch": 15.0,
+      "swing": {
+        "right_shin": 1.5,
+        "left_shin": 1.5
+      }
+    },
+    "clip": "walk"
+  },
+  {
+    "key": "F5",
+    "label": "까치발로 걸어",
+    "scales": {
+      "speed": 0.6,
+      "cadence": 0.8,
+      "arm_swing": 0.3,
+      "swing": {
+        "right_shin": 0.7,
+        "left_shin": 0.7
+      }
+    },
+    "clip": "walk"
+  },
+  {
+    "key": "F6",
+    "label": "몸을 웅크리고 걸어",
+    "scales": {
+      "crouch": 20.0,
+      "pose": {
+        "torso": [
+          0,
+          20.0,
+          0
+        ]
+      }
+    },
+    "clip": "walk"
+  },
+  {
+    "key": "F7",
+    "label": "상체를 앞으로 숙이고 걸어",
+    "scales": {
+      "pose": {
+        "torso": [
+          0,
+          20.0,
+          0
+        ]
+      }
+    },
+    "clip": "walk"
+  },
+  {
+    "key": "F8",
+    "label": "비행기처럼 팔을 벌리고 걸어",
+    "scales": {
+      "arm_swing": 0.3,
+      "pose": {
+        "right_upper_arm": [
+          -80.0,
+          -0.0,
+          0.0
+        ],
+        "right_lower_arm": [
+          0,
+          0,
+          -30.0
+        ],
+        "left_upper_arm": [
+          80.0,
+          -0.0,
+          -0.0
+        ],
+        "left_lower_arm": [
+          0,
+          0,
+          30.0
+        ]
+      }
+    },
+    "clip": "walk"
+  },
+  {
+    "key": "M1",
+    "label": "우울하게 걸어",
+    "scales": {
+      "speed": 0.8,
+      "cadence": 0.75,
+      "arm_swing": 0.4,
+      "swing": {
+        "right_shin": 0.8,
+        "left_shin": 0.8
+      },
+      "pose": {
+        "torso": [
+          0,
+          15.0,
+          0
+        ],
+        "head": [
+          0,
+          25.0,
+          0
+        ]
+      }
+    },
+    "clip": "walk"
+  },
+  {
+    "key": "M2",
+    "label": "신나게 걸어",
+    "scales": {
+      "speed": 1.15,
+      "cadence": 1.25,
+      "arm_swing": 1.8,
+      "bounce": 15.0,
+      "swing": {
+        "right_shin": 1.3,
+        "left_shin": 1.3
+      }
+    },
+    "clip": "walk"
+  },
+  {
+    "key": "M3",
+    "label": "화가 나서 쿵쿵 걸어",
+    "scales": {
+      "speed": 1.2,
+      "cadence": 1.25,
+      "arm_swing": 1.6,
+      "crouch": 10.0,
+      "bounce": 20.0,
+      "swing": {
+        "right_shin": 1.4,
+        "left_shin": 1.4
+      },
+      "pose": {
+        "torso": [
+          0,
+          15.0,
+          0
+        ],
+        "head": [
+          0,
+          25.0,
+          0
+        ],
+        "right_lower_arm": [
+          0,
+          0,
+          45.0
+        ],
+        "left_lower_arm": [
+          0,
+          0,
+          -45.0
+        ]
+      }
+    },
+    "clip": "walk"
+  },
+  {
+    "key": "M4",
+    "label": "당당하게 걸어",
+    "scales": {
+      "speed": 1.15,
+      "arm_swing": 1.4,
+      "pose": {
+        "torso": [
+          0,
+          -12.0,
+          0
+        ],
+        "head": [
+          0,
+          -10.0,
+          0
+        ]
+      }
+    },
+    "clip": "walk"
+  },
+  {
+    "key": "M5",
+    "label": "뻣뻣하게 걸어",
+    "scales": {
+      "arm_swing": 0.3,
+      "swing": {
+        "torso": 0.0,
+        "right_shin": 0.5,
+        "left_shin": 0.5,
+        "right_lower_arm": 0.0,
+        "left_lower_arm": 0.0
+      }
+    },
+    "clip": "walk"
+  }
+]

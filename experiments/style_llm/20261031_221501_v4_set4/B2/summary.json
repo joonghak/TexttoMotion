@@ -1,0 +1,117 @@
+{
+  "command": "좀비처럼 팔을 앞으로 뻗고 달려",
+  "variant": {
+    "key": "B2",
+    "label": "좀비처럼 팔을 앞으로 뻗고 달려",
+    "scales": {
+      "speed": 0.85,
+      "cadence": 0.6,
+      "arm_swing": 0.3,
+      "swing": {
+        "torso": 5.0
+      },
+      "pose": {
+        "torso": [
+          0,
+          10.0,
+          0
+        ],
+        "right_upper_arm": [
+          0,
+          -85.0,
+          0
+        ],
+        "left_upper_arm": [
+          0,
+          -85.0,
+          0
+        ],
+        "right_lower_arm": [
+          0,
+          0,
+          -30.0
+        ],
+        "left_lower_arm": [
+          0,
+          0,
+          30.0
+        ]
+      }
+    },
+    "terms": {
+      "track_w": 0.6,
+      "speed": {
+        "scale": 0.85
+      },
+      "cadence": {
+        "scale": 0.6
+      },
+      "arm_swing": {
+        "scale": 0.3
+      },
+      "swing": {
+        "torso": 5.0
+      },
+      "pose": {
+        "torso": [
+          0,
+          10.0,
+          0
+        ],
+        "right_upper_arm": [
+          0,
+          -85.0,
+          0
+        ],
+        "left_upper_arm": [
+          0,
+          -85.0,
+          0
+        ],
+        "right_lower_arm": [
+          0,
+          0,
+          -30.0
+        ],
+        "left_lower_arm": [
+          0,
+          0,
+          30.0
+        ]
+      }
+    }
+  },
+  "reference": {
+    "clip": "/home/jong/TexttoMotion/MimicKit/data/motions/humanoid/humanoid_run.pkl",
+    "duration_s": 10.0
+  },
+  "training": {
+    "iterations": 1500,
+    "num_envs": 1024,
+    "status": "completed",
+    "started": "2026-10-31T23:01:45",
+    "finished": "2026-10-31T23:24:27",
+    "final_log": {
+      "Iteration": 1499.0,
+      "Wall_Time": 0.3755886948770947,
+      "Samples": 49152000.0,
+      "Samples_Per_Second": 36351.82187206451,
+      "Test_Return": 265.17523193359375,
+      "Test_Episode_Length": 300.0,
+      "Test_Episodes": 1024.0,
+      "Train_Return": 249.63587951660156,
+      "Train_Episode_Length": 299.1505432128906,
+      "Train_Episodes": 10277.0,
+      "Critic_Loss": 0.11656424403190613,
+      "Actor_Loss": -0.003391818841919303,
+      "Clip_Frac": 0.26728516817092896,
+      "Imp_Ratio": 0.9994902610778809,
+      "Action_Bound_Loss": 0.0,
+      "Adv_Mean": -0.03799063712358475,
+      "Adv_Std": 0.3674589991569519,
+      "Obs_Norm_Mean": 0.35376685857772827,
+      "Obs_Norm_Std": 0.24089717864990234,
+      "Exp_Prob": 1.0
+    }
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "command": "비를 맞으며 고개를 숙이고 서둘러 걸어",
+  "variant": {
+    "key": "B9",
+    "label": "비를 맞으며 고개를 숙이고 서둘러 걸어",
+    "scales": {
+      "speed": 1.15,
+      "cadence": 1.15,
+      "arm_swing": 1.5,
+      "pose": {
+        "head": [
+          0,
+          25.0,
+          0
+        ]
+      }
+    },
+    "terms": {
+      "track_w": 0.6,
+      "speed": {
+        "scale": 1.15
+      },
+      "cadence": {
+        "scale": 1.15
+      },
+      "arm_swing": {
+        "scale": 1.5
+      },
+      "pose": {
+        "head": [
+          0,
+          25.0,
+          0
+        ]
+      }
+    }
+  },
+  "reference": {
+    "clip": "/home/jong/TexttoMotion/MimicKit/data/motions/humanoid/humanoid_walk.pkl",
+    "duration_s": 10.0
+  },
+  "training": {
+    "iterations": 2000,
+    "num_envs": 1024,
+    "status": "completed",
+    "started": "2026-10-27T21:23:18",
+    "finished": "2026-10-27T21:52:59",
+    "final_log": {
+      "Iteration": 1999.0,
+      "Wall_Time": 0.4918400132656097,
+      "Samples": 65536000.0,
+      "Samples_Per_Second": 37012.93907255457,
+      "Test_Return": 289.77532958984375,
+      "Test_Episode_Length": 297.96875,
+      "Test_Episodes": 1024.0,
+      "Train_Return": 275.8385314941406,
+      "Train_Episode_Length": 298.0470275878906,
+      "Train_Episodes": 10312.0,
+      "Critic_Loss": 0.2749175429344177,
+      "Actor_Loss": -0.022717950865626335,
+      "Clip_Frac": 0.13657836616039276,
+      "Imp_Ratio": 0.9995160102844238,
+      "Action_Bound_Loss": 1.3108362963976106e-06,
+      "Adv_Mean": -0.0023794081062078476,
+      "Adv_Std": 0.6411285996437073,
+      "Obs_Norm_Mean": 0.3436388075351715,
+      "Obs_Norm_Std": 0.18198621273040771,
+      "Exp_Prob": 1.0
+    }
+  }
+}

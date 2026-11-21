@@ -1,0 +1,93 @@
+{
+  "command": "기진맥진해서 축 처진 채로 걸어",
+  "variant": {
+    "key": "A5",
+    "label": "기진맥진해서 축 처진 채로 걸어",
+    "scales": {
+      "speed": 0.8,
+      "cadence": 0.75,
+      "arm_swing": 0.4,
+      "crouch": 10.0,
+      "swing": {
+        "right_shin": 0.8,
+        "left_shin": 0.8
+      },
+      "pose": {
+        "torso": [
+          0,
+          15.0,
+          0
+        ],
+        "head": [
+          0,
+          25.0,
+          0
+        ]
+      }
+    },
+    "terms": {
+      "track_w": 0.6,
+      "speed": {
+        "scale": 0.8
+      },
+      "cadence": {
+        "scale": 0.75
+      },
+      "arm_swing": {
+        "scale": 0.4
+      },
+      "crouch": {
+        "angle": 10.0
+      },
+      "swing": {
+        "right_shin": 0.8,
+        "left_shin": 0.8
+      },
+      "pose": {
+        "torso": [
+          0,
+          15.0,
+          0
+        ],
+        "head": [
+          0,
+          25.0,
+          0
+        ]
+      }
+    }
+  },
+  "reference": {
+    "clip": "/home/jong/TexttoMotion/MimicKit/data/motions/humanoid/humanoid_walk.pkl",
+    "duration_s": 10.0
+  },
+  "training": {
+    "iterations": 2000,
+    "num_envs": 1024,
+    "status": "completed",
+    "started": "2026-10-26T20:49:20",
+    "finished": "2026-10-26T21:23:01",
+    "final_log": {
+      "Iteration": 1999.0,
+      "Wall_Time": 0.5587068398131264,
+      "Samples": 65536000.0,
+      "Samples_Per_Second": 32583.17805905755,
+      "Test_Return": 286.9228820800781,
+      "Test_Episode_Length": 292.7431640625,
+      "Test_Episodes": 1024.0,
+      "Train_Return": 276.676513671875,
+      "Train_Episode_Length": 295.8475646972656,
+      "Train_Episodes": 10392.0,
+      "Critic_Loss": 0.06569167226552963,
+      "Actor_Loss": 0.004739795345813036,
+      "Clip_Frac": 0.19381104409694672,
+      "Imp_Ratio": 0.9992597699165344,
+      "Action_Bound_Loss": 0.0,
+      "Adv_Mean": 0.005635622888803482,
+      "Adv_Std": 0.2947884798049927,
+      "Obs_Norm_Mean": 0.3415948152542114,
+      "Obs_Norm_Std": 0.15148794651031494,
+      "Exp_Prob": 1.0
+    }
+  }
+}

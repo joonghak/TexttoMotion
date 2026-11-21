@@ -1,0 +1,92 @@
+[
+ {
+  "key": "base",
+  "label": "기본 걷기",
+  "scales": {}
+ },
+ {
+  "key": "t11_S1",
+  "label": "오른쪽 다리를 절뚝거리며 걸어: gpt-5.6-terra, 프롬프트 v11이 정한 값 (right_m_knee 0.4)",
+  "scales": {
+   "swing": {
+    "right_shin": 0.4
+   }
+  },
+  "source": {
+   "run": "20261112_211507_v11_set9_gpt-5.6-terra",
+   "id": "S1",
+   "target": "LimpRight"
+  }
+ },
+ {
+  "key": "t11_S2",
+  "label": "왼손을 번쩍 들고 걸어: gpt-5.6-terra, 프롬프트 v11이 정한 값 (left_m_arm 0.3, left_shoulder_flexion 85)",
+  "scales": {
+   "swing": {
+    "left_upper_arm": 0.3,
+    "left_lower_arm": 0.3
+   },
+   "pose": {
+    "left_upper_arm": [
+     0.0,
+     -85.0,
+     -0.0
+    ]
+   }
+  },
+  "source": {
+   "run": "20261112_211507_v11_set9_gpt-5.6-terra",
+   "id": "S2",
+   "target": "RaisedLeftArm"
+  }
+ },
+ {
+  "key": "t11_S8",
+  "label": "무거운 가방을 왼쪽 어깨에 메고 걸어: gpt-5.6-terra, 프롬프트 v11이 정한 값 (s 0.85, n 0.8, torso_roll 15, head_roll 12, left_m_arm 0.3, left_shoulder_flexion 45, left_elbow_flexion 60)",
+  "scales": {
+   "speed": 0.85,
+   "cadence": 0.8,
+   "swing": {
+    "left_upper_arm": 0.3,
+    "left_lower_arm": 0.3
+   },
+   "pose": {
+    "torso": [
+     15.0,
+     0.0,
+     0.0
+    ],
+    "head": [
+     12.0,
+     0.0,
+     0.0
+    ],
+    "left_upper_arm": [
+     0.0,
+     -45.0,
+     -0.0
+    ],
+    "left_lower_arm": [
+     0,
+     0,
+     -60.0
+    ]
+   }
+  },
+  "source": {
+   "run": "20261112_211507_v11_set9_gpt-5.6-terra",
+   "id": "S8",
+   "target": null
+  }
+ },
+ {
+  "key": "toe25",
+  "label": "까치발 걸음을 노린 새 항 확인 (사람이 정한 값): 발끝 세우기 25°",
+  "scales": {
+   "foot_pitch": 25
+  },
+  "params": {
+   "foot_pitch": 25
+  }
+ }
+]

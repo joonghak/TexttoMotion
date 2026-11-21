@@ -1,0 +1,458 @@
+{
+ "results": [
+  {
+   "label": "t10_N4",
+   "command": "\uacf5\ub8e1\ucc98\ub7fc \uac78\uc5b4: gpt-5.6-terra, \ud504\ub86c\ud504\ud2b8 v10\uc774 \uc815\ud55c \uac12 (s 1.4, n 0.7, c 20, m_arm 0.3, m_torso 6, m_knee 1.2, torso_pitch 15, head_pitch -10, shoulder_flexion 35, elbow_flexion 60, stance_width 8, toe_out 20)",
+   "rollout": "20261111_150859_terra_v10_set6_trained__t10_N4",
+   "base": "20261015_151030_walk_behaviors__base",
+   "target": "Dinosaur",
+   "top": [
+    [
+     "Dinosaur",
+     0.844
+    ],
+    [
+     "ShieldedRight",
+     0.759
+    ],
+    [
+     "ShieldedLeft",
+     0.731
+    ]
+   ],
+   "similarity": 0.844,
+   "rank": 1,
+   "strength": 1.103,
+   "delta": {
+    "step_length": 0.3033,
+    "cadence": -0.3185,
+    "torso_lean": 6.3846,
+    "torso_side": 1.2675,
+    "head_pitch": 1.2438,
+    "arm_swing": -0.4924,
+    "hand_forward": 0.4681,
+    "hand_height": 0.5371,
+    "hand_out": -0.1845,
+    "elbow_bend": 59.3099,
+    "knee_bend": 36.5816,
+    "pelvis_height": -0.117,
+    "foot_lift": 0.122,
+    "stance_width": -0.0525,
+    "pelvis_sway": 0.0012,
+    "head_sway": 0.1551,
+    "bounce": 0.0875,
+    "toe_out": 28.9806
+   },
+   "size": 8.044
+  },
+  {
+   "label": "t10_N3",
+   "command": "\uace0\uc591\uc774\ucc98\ub7fc \uac78\uc5b4: gpt-5.6-terra, \ud504\ub86c\ud504\ud2b8 v10\uc774 \uc815\ud55c \uac12 (s 0.65, n 0.8, c 20, m_arm 0.3, m_knee 0.7, torso_pitch 15, head_pitch 10, shoulder_flexion 15, elbow_flexion 35, stance_width -5, toe_out -10)",
+   "rollout": "20261111_150859_terra_v10_set6_trained__t10_N3",
+   "base": "20261015_151030_walk_behaviors__base",
+   "target": "Cat",
+   "top": [
+    [
+     "BentKnees",
+     0.846
+    ],
+    [
+     "Dinosaur",
+     0.751
+    ],
+    [
+     "OnToesCrouched",
+     0.697
+    ]
+   ],
+   "similarity": 0.512,
+   "rank": 13,
+   "strength": 1.43,
+   "delta": {
+    "step_length": -0.4531,
+    "cadence": -0.1978,
+    "torso_lean": 7.3673,
+    "torso_side": -2.9718,
+    "head_pitch": 16.7462,
+    "arm_swing": -0.5006,
+    "hand_forward": 0.2989,
+    "hand_height": 0.1678,
+    "hand_out": -0.1075,
+    "elbow_bend": 34.1503,
+    "knee_bend": 40.2302,
+    "pelvis_height": -0.0954,
+    "foot_lift": 0.0537,
+    "stance_width": -0.0267,
+    "pelvis_sway": -0.0188,
+    "head_sway": -0.0153,
+    "bounce": -0.0068,
+    "toe_out": -3.3441
+   },
+   "size": 6.342
+  },
+  {
+   "label": "t10_P5",
+   "command": "\uc220 \ucde8\ud55c \uc0ac\ub78c\ucc98\ub7fc \uac78\uc5b4: gpt-5.6-terra, \ud504\ub86c\ud504\ud2b8 v10\uc774 \uc815\ud55c \uac12 (s 0.75, n 0.65, m_arm 0.6, m_torso 8, m_knee 0.8, torso_pitch 10, head_pitch 15, stance_width 8, toe_out 15)",
+   "rollout": "20261111_150859_terra_v10_set6_trained__t10_P5",
+   "base": "20261015_151030_walk_behaviors__base",
+   "target": "Drunk",
+   "top": [
+    [
+     "DuckFoot",
+     0.768
+    ],
+    [
+     "LegsApart",
+     0.697
+    ],
+    [
+     "WideLegs",
+     0.651
+    ]
+   ],
+   "similarity": 0.273,
+   "rank": 33,
+   "strength": 1.233,
+   "delta": {
+    "step_length": NaN,
+    "cadence": NaN,
+    "torso_lean": 4.7349,
+    "torso_side": 5.1913,
+    "head_pitch": 18.5046,
+    "arm_swing": -0.3916,
+    "hand_forward": -0.0566,
+    "hand_height": -0.0092,
+    "hand_out": 0.0294,
+    "elbow_bend": 1.1771,
+    "knee_bend": 0.4301,
+    "pelvis_height": -0.0019,
+    "foot_lift": -0.0399,
+    "stance_width": 0.1921,
+    "pelvis_sway": 0.0018,
+    "head_sway": 0.3014,
+    "bounce": -0.0055,
+    "toe_out": 23.3546
+   },
+   "size": 4.352
+  },
+  {
+   "label": "t10_M3",
+   "command": "\ud654\uac00 \ub098\uc11c \ucff5\ucff5 \uac78\uc5b4: gpt-5.6-terra, \ud504\ub86c\ud504\ud2b8 v10\uc774 \uc815\ud55c \uac12 (s 1.2, n 1.2, c 15, m_arm 1.5, m_knee 1.4, torso_pitch 10, head_pitch 15, elbow_flexion 45, bounce 20)",
+   "rollout": "20261111_150859_terra_v10_set6_trained__t10_M3",
+   "base": "20261015_151030_walk_behaviors__base",
+   "target": "Angry",
+   "top": [
+    [
+     "BentKnees",
+     0.853
+    ],
+    [
+     "Dinosaur",
+     0.748
+    ],
+    [
+     "Roadrunner",
+     0.711
+    ]
+   ],
+   "similarity": 0.567,
+   "rank": 13,
+   "strength": 2.711,
+   "delta": {
+    "step_length": 0.1582,
+    "cadence": 0.2076,
+    "torso_lean": 4.5588,
+    "torso_side": 0.9408,
+    "head_pitch": 20.8801,
+    "arm_swing": -0.0026,
+    "hand_forward": 0.1416,
+    "hand_height": 0.2161,
+    "hand_out": -0.1686,
+    "elbow_bend": 44.1257,
+    "knee_bend": 45.771,
+    "pelvis_height": -0.1347,
+    "foot_lift": 0.1247,
+    "stance_width": -0.0113,
+    "pelvis_sway": 0.0315,
+    "head_sway": -0.009,
+    "bounce": 0.0367,
+    "toe_out": 9.8817
+   },
+   "size": 7.901
+  },
+  {
+   "label": "t10_N1",
+   "command": "\ud3ad\uadc4\ucc98\ub7fc \uac78\uc5b4: gpt-5.6-terra, \ud504\ub86c\ud504\ud2b8 v10\uc774 \uc815\ud55c \uac12 (s 0.6, n 0.8, m_arm 0.3, m_torso 7, m_knee 0.7, shoulder_abduction 45, elbow_flexion 20, stance_width 10, toe_out 20)",
+   "rollout": "20261111_150859_terra_v10_set6_trained__t10_N1",
+   "base": "20261015_151030_walk_behaviors__base",
+   "target": "Penguin",
+   "top": [
+    [
+     "Star",
+     0.802
+    ],
+    [
+     "LegsApart",
+     0.693
+    ],
+    [
+     "WideLegs",
+     0.677
+    ]
+   ],
+   "similarity": 0.349,
+   "rank": 14,
+   "strength": 1.515,
+   "delta": {
+    "step_length": -0.5835,
+    "cadence": -0.1452,
+    "torso_lean": -1.2811,
+    "torso_side": 5.8257,
+    "head_pitch": -3.7239,
+    "arm_swing": -0.3693,
+    "hand_forward": 0.1082,
+    "hand_height": 0.4047,
+    "hand_out": 0.464,
+    "elbow_bend": 19.0288,
+    "knee_bend": 0.3468,
+    "pelvis_height": 0.0113,
+    "foot_lift": -0.0124,
+    "stance_width": 0.2847,
+    "pelvis_sway": 0.013,
+    "head_sway": 0.2867,
+    "bounce": -0.017,
+    "toe_out": 28.662
+   },
+   "size": 5.649
+  },
+  {
+   "label": "t10_N2",
+   "command": "\ub2ed\ucc98\ub7fc \uac78\uc5b4: gpt-5.6-terra, \ud504\ub86c\ud504\ud2b8 v10\uc774 \uc815\ud55c \uac12 (s 0.5, n 1.5, m_arm 0.3, m_knee 1.3, torso_pitch 15, shoulder_abduction -15, elbow_flexion 50, toe_out 25, bounce 20)",
+   "rollout": "20261111_150859_terra_v10_set6_trained__t10_N2",
+   "base": "20261015_151030_walk_behaviors__base",
+   "target": "Chicken",
+   "top": [
+    [
+     "LeftHop",
+     0.695
+    ],
+    [
+     "ArmsFolded",
+     0.652
+    ],
+    [
+     "March",
+     0.601
+    ]
+   ],
+   "similarity": 0.527,
+   "rank": 9,
+   "strength": 0.887,
+   "delta": {
+    "step_length": -0.7072,
+    "cadence": 0.4212,
+    "torso_lean": 9.0568,
+    "torso_side": 0.2263,
+    "head_pitch": 9.0338,
+    "arm_swing": -0.4242,
+    "hand_forward": 0.1762,
+    "hand_height": 0.201,
+    "hand_out": -0.3212,
+    "elbow_bend": 48.1998,
+    "knee_bend": 18.7943,
+    "pelvis_height": -0.0043,
+    "foot_lift": 0.0917,
+    "stance_width": -0.0653,
+    "pelvis_sway": -0.012,
+    "head_sway": 0.046,
+    "bounce": 0.0182,
+    "toe_out": 32.7075
+   },
+   "size": 5.112
+  }
+ ],
+ "features": {
+  "20261111_150859_terra_v10_set6_trained__t10_N4": {
+   "cadence": 81.81818181818183,
+   "step_length": 1.0922328154370227,
+   "torso_lean": 5.5273072828014715,
+   "torso_side": 8.64193850980406,
+   "head_pitch": -0.5208129912622064,
+   "arm_swing": 0.09264783525191383,
+   "hand_forward": 0.6013456310925193,
+   "hand_height": -0.3390316580607804,
+   "hand_out": -0.0003088151085486428,
+   "elbow_bend": 97.44358251356977,
+   "knee_bend": 62.19452585113115,
+   "foot_lift": 0.2719799539108359,
+   "toe_out": 34.42156531940502,
+   "pelvis_height": 0.845679726365204,
+   "stance_width": 0.1250679240510786,
+   "pelvis_sway": 0.09354605699691897,
+   "head_sway": 0.21655217697784232,
+   "bounce": 0.14633452625159055,
+   "_frames": 840.0,
+   "_speed": 1.2383177104875274,
+   "_leg": 0.8314158314261655,
+   "_arm": 0.533735002041251,
+   "_segments": 4,
+   "_resets": 0
+  },
+  "20261015_151030_walk_behaviors__base": {
+   "cadence": 112.5,
+   "step_length": 0.8064948871113241,
+   "torso_lean": -0.857325842364189,
+   "torso_side": 7.37443265525886,
+   "head_pitch": -1.764628884626383,
+   "arm_swing": 0.5850134330093087,
+   "hand_forward": 0.13321883657080713,
+   "hand_height": -0.8761560845225834,
+   "hand_out": 0.18419841616859828,
+   "elbow_bend": 38.133693700231646,
+   "knee_bend": 25.61297079659542,
+   "foot_lift": 0.14998863928850698,
+   "toe_out": 5.440920111476988,
+   "pelvis_height": 0.9626349408715464,
+   "stance_width": 0.17760594227755339,
+   "pelvis_sway": 0.09239434972409807,
+   "head_sway": 0.06141740393216622,
+   "bounce": 0.05883484944829111,
+   "_frames": 840.0,
+   "_speed": 1.2572486202366089,
+   "_leg": 0.8314158070626247,
+   "_arm": 0.5337349643843438,
+   "_segments": 4,
+   "_resets": 0
+  },
+  "20261111_150859_terra_v10_set6_trained__t10_N3": {
+   "cadence": 92.30769230769232,
+   "step_length": 0.5126410854379838,
+   "torso_lean": 6.510006484746198,
+   "torso_side": 4.402666398805074,
+   "head_pitch": 14.98158662150755,
+   "arm_swing": 0.08443712328049705,
+   "hand_forward": 0.43208007417257976,
+   "hand_height": -0.7083946495173211,
+   "hand_out": 0.07665128737812217,
+   "elbow_bend": 72.28398683228315,
+   "knee_bend": 65.84312597603105,
+   "foot_lift": 0.2037178824548963,
+   "toe_out": 2.0968063571062086,
+   "pelvis_height": 0.8672310744301618,
+   "stance_width": 0.15091855237446547,
+   "pelvis_sway": 0.07363400095276668,
+   "head_sway": 0.04612166625158583,
+   "bounce": 0.052079459597638766,
+   "_frames": 840.0,
+   "_speed": 0.6557198775073438,
+   "_leg": 0.8314158433392613,
+   "_arm": 0.5337349583811035,
+   "_segments": 4,
+   "_resets": 0
+  },
+  "20261111_150859_terra_v10_set6_trained__t10_P5": {
+   "cadence": NaN,
+   "step_length": NaN,
+   "torso_lean": 3.8775704768146513,
+   "torso_side": 12.565689743449315,
+   "head_pitch": 16.739972784479235,
+   "arm_swing": 0.19340494604441275,
+   "hand_forward": 0.07666680155327468,
+   "hand_height": -0.8853639981872465,
+   "hand_out": 0.2136155009337482,
+   "elbow_bend": 39.31076760225463,
+   "knee_bend": 26.043083043515832,
+   "foot_lift": 0.11006959228599153,
+   "toe_out": 28.795491469945233,
+   "pelvis_height": 0.9607395576859485,
+   "stance_width": 0.36969346340178694,
+   "pelvis_sway": 0.09420190137787178,
+   "head_sway": 0.3628607520771774,
+   "bounce": 0.05335591009632136,
+   "_frames": 624.75,
+   "_speed": 0.6186291953526597,
+   "_leg": 0.8314158196914097,
+   "_arm": 0.5337349594574996,
+   "_segments": 4,
+   "_resets": 0
+  },
+  "20261111_150859_terra_v10_set6_trained__t10_M3": {
+   "cadence": 138.46153846153845,
+   "step_length": 0.9447701070641801,
+   "torso_lean": 3.7014525667815708,
+   "torso_side": 8.315214088038577,
+   "head_pitch": 19.115473627289376,
+   "arm_swing": 0.5824295955246027,
+   "hand_forward": 0.2747940340625855,
+   "hand_height": -0.6600206093817811,
+   "hand_out": 0.015643203268359045,
+   "elbow_bend": 82.25942959755297,
+   "knee_bend": 71.38396899792048,
+   "foot_lift": 0.2746927627662273,
+   "toe_out": 15.322651086388708,
+   "pelvis_height": 0.8279108091923835,
+   "stance_width": 0.16625681466320413,
+   "pelvis_sway": 0.12387420068528027,
+   "head_sway": 0.05240272483160323,
+   "bounce": 0.09553605034665971,
+   "_frames": 840.0,
+   "_speed": 1.8126849714818793,
+   "_leg": 0.8314158281492033,
+   "_arm": 0.533734966610917,
+   "_segments": 4,
+   "_resets": 0
+  },
+  "20261111_150859_terra_v10_set6_trained__t10_N1": {
+   "cadence": 97.29729729729729,
+   "step_length": 0.449991640935599,
+   "torso_lean": -2.138444213648155,
+   "torso_side": 13.200153435961603,
+   "head_pitch": -5.488511281530407,
+   "arm_swing": 0.21574384793998114,
+   "hand_forward": 0.24138742810448893,
+   "hand_height": -0.47146115071685546,
+   "hand_out": 0.6481900769326772,
+   "elbow_bend": 57.162516029945316,
+   "knee_bend": 25.959797539857163,
+   "foot_lift": 0.13762452842338724,
+   "toe_out": 34.10295408165169,
+   "pelvis_height": 0.9739831013099823,
+   "stance_width": 0.4623472119605433,
+   "pelvis_sway": 0.10540603633026865,
+   "head_sway": 0.3480780902003671,
+   "bounce": 0.0418598663218138,
+   "_frames": 831.0,
+   "_speed": 0.6066975660220324,
+   "_leg": 0.8314158123820181,
+   "_arm": 0.5337349616173006,
+   "_segments": 4,
+   "_resets": 0
+  },
+  "20261111_150859_terra_v10_set6_trained__t10_N2": {
+   "cadence": 171.42857142857144,
+   "step_length": 0.3976282488534241,
+   "torso_lean": 8.19945572550829,
+   "torso_side": 7.60069987570162,
+   "head_pitch": 7.269193032396245,
+   "arm_swing": 0.16076664983257982,
+   "hand_forward": 0.3093744196015665,
+   "hand_height": -0.6751105634906459,
+   "hand_out": -0.13704788783291424,
+   "elbow_bend": 86.33353428985285,
+   "knee_bend": 44.40730676984108,
+   "foot_lift": 0.24172205614075953,
+   "toe_out": 38.14845863997556,
+   "pelvis_height": 0.9583032341164122,
+   "stance_width": 0.11231287458259416,
+   "pelvis_sway": 0.08039830528968653,
+   "head_sway": 0.1074456285214527,
+   "bounce": 0.077055952095204,
+   "_frames": 840.0,
+   "_speed": 0.9445554788318562,
+   "_leg": 0.8314158225539577,
+   "_arm": 0.5337349784058889,
+   "_segments": 4,
+   "_resets": 0
+  }
+ }
+}

@@ -1,0 +1,6 @@
+{"out": "experiments/t2m_compare/study/videos_report",
+ "pairs": [{"key": "set9_S2", "run": "experiments/style_walk/20261119_205619_f9_set9_final/f9_S2", "ours": "",
+            "clips": [{"type": "hml", "file": "experiments/t2m_compare/out/momask/set9_S2_r0.npy", "method": "momask"},
+                      {"type": "hml", "file": "experiments/t2m_compare/out/t2mgpt/set9_S2_r0.npy", "method": "t2mgpt"},
+                      {"type": "hml", "file": "experiments/t2m_compare/out/mdm/set9_S2_r0.npy", "method": "mdm"}],
+            "seconds": 6.0, "blind": true, "caption": ""}]}

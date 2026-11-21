@@ -1,0 +1,704 @@
+{
+  "model": "openai/gpt-5.6-terra",
+  "revision": null,
+  "quantize": null,
+  "prompt": "v14",
+  "thinking_budget": null,
+  "test_set": "test_commands_10.json",
+  "seed": 42,
+  "batch_size": 2,
+  "elapsed_s": 20.1,
+  "level1_passed": 12,
+  "commands": 12,
+  "results": [
+    {
+      "id": "C1",
+      "group": "C",
+      "text": "천천히 걷다가 갑자기 막 뛰어",
+      "expect": "accept",
+      "expect_sequence": [
+        "walk",
+        "run"
+      ],
+      "level1": "pass",
+      "tokens": 58,
+      "answer": "{\"look\":\"A slow walk suddenly transitions into a frantic run.\",\"sequence\":[{\"action\":\"walk\",\"seconds\":3},{\"action\":\"run\",\"seconds\":3}],\"s\":1.2,\"n\":1.5,\"m_arm\":1.5}",
+      "params": {
+        "action": "walk",
+        "s": 1.2,
+        "n": 1.5,
+        "c": 0.0,
+        "m_arm": 1.5,
+        "m_torso": 1.0,
+        "m_knee": 1.0,
+        "m_elbow": 1.0,
+        "torso_pitch": 0.0,
+        "head_pitch": 0.0,
+        "shoulder_flexion": 0.0,
+        "shoulder_abduction": 0.0,
+        "elbow_flexion": 0.0,
+        "stance_width": 0.0,
+        "toe_out": 0.0,
+        "shoulder_rotation": 0.0,
+        "bounce": 0.0,
+        "torso_roll": 0.0,
+        "head_roll": 0.0,
+        "head_yaw": 0.0,
+        "foot_pitch": 0.0,
+        "weave": 0.0,
+        "look": "A slow walk suddenly transitions into a frantic run.",
+        "sequence": [
+          {
+            "action": "walk",
+            "seconds": 3.0
+          },
+          {
+            "action": "run",
+            "seconds": 3.0
+          }
+        ]
+      },
+      "rules": [],
+      "scales": {
+        "speed": 1.2,
+        "cadence": 1.5,
+        "arm_swing": 1.5
+      },
+      "speed_mps": 2.268
+    },
+    {
+      "id": "C2",
+      "group": "C",
+      "text": "뛰어가다가 앞으로 크게 점프해",
+      "expect": "accept",
+      "expect_sequence": [
+        "run",
+        "jump"
+      ],
+      "level1": "pass",
+      "tokens": 49,
+      "answer": "{\"look\":\"Runs forward, then makes a large forward jump.\",\"sequence\":[{\"action\":\"run\",\"seconds\":2.4},{\"action\":\"jump\",\"seconds\":1.77}],\"s\":1.25}",
+      "params": {
+        "action": "run",
+        "s": 1.25,
+        "n": 1.0,
+        "c": 0.0,
+        "m_arm": 1.0,
+        "m_torso": 1.0,
+        "m_knee": 1.0,
+        "m_elbow": 1.0,
+        "torso_pitch": 0.0,
+        "head_pitch": 0.0,
+        "shoulder_flexion": 0.0,
+        "shoulder_abduction": 0.0,
+        "elbow_flexion": 0.0,
+        "stance_width": 0.0,
+        "toe_out": 0.0,
+        "shoulder_rotation": 0.0,
+        "bounce": 0.0,
+        "torso_roll": 0.0,
+        "head_roll": 0.0,
+        "head_yaw": 0.0,
+        "foot_pitch": 0.0,
+        "weave": 0.0,
+        "look": "Runs forward, then makes a large forward jump.",
+        "sequence": [
+          {
+            "action": "run",
+            "seconds": 2.4
+          },
+          {
+            "action": "jump",
+            "seconds": 1.77
+          }
+        ]
+      },
+      "rules": [],
+      "scales": {
+        "speed": 1.25
+      },
+      "speed_mps": 4.45
+    },
+    {
+      "id": "C3",
+      "group": "C",
+      "text": "걸어가다가 앞차기 한 번 해",
+      "expect": "accept",
+      "expect_sequence": [
+        "walk",
+        "kick"
+      ],
+      "level1": "pass",
+      "tokens": 40,
+      "answer": "{\"look\":\"Walk forward, then perform one front kick.\",\"sequence\":[{\"action\":\"walk\",\"seconds\":3},{\"action\":\"kick\",\"seconds\":1.53}]}",
+      "params": {
+        "action": "walk",
+        "s": 1.0,
+        "n": 1.0,
+        "c": 0.0,
+        "m_arm": 1.0,
+        "m_torso": 1.0,
+        "m_knee": 1.0,
+        "m_elbow": 1.0,
+        "torso_pitch": 0.0,
+        "head_pitch": 0.0,
+        "shoulder_flexion": 0.0,
+        "shoulder_abduction": 0.0,
+        "elbow_flexion": 0.0,
+        "stance_width": 0.0,
+        "toe_out": 0.0,
+        "shoulder_rotation": 0.0,
+        "bounce": 0.0,
+        "torso_roll": 0.0,
+        "head_roll": 0.0,
+        "head_yaw": 0.0,
+        "foot_pitch": 0.0,
+        "weave": 0.0,
+        "look": "Walk forward, then perform one front kick.",
+        "sequence": [
+          {
+            "action": "walk",
+            "seconds": 3.0
+          },
+          {
+            "action": "kick",
+            "seconds": 1.53
+          }
+        ]
+      },
+      "rules": [],
+      "scales": {},
+      "speed_mps": 1.26
+    },
+    {
+      "id": "C4",
+      "group": "C",
+      "text": "점프 두 번 하고 나서 걸어",
+      "expect": "accept",
+      "expect_sequence": [
+        "jump",
+        "walk"
+      ],
+      "level1": "pass",
+      "tokens": 38,
+      "answer": "{\"look\":\"Jump twice, then walk forward.\",\"sequence\":[{\"action\":\"jump\",\"seconds\":3.54},{\"action\":\"walk\",\"seconds\":3}]}",
+      "params": {
+        "action": "jump",
+        "s": 1.0,
+        "n": 1.0,
+        "c": 0.0,
+        "m_arm": 1.0,
+        "m_torso": 1.0,
+        "m_knee": 1.0,
+        "m_elbow": 1.0,
+        "torso_pitch": 0.0,
+        "head_pitch": 0.0,
+        "shoulder_flexion": 0.0,
+        "shoulder_abduction": 0.0,
+        "elbow_flexion": 0.0,
+        "stance_width": 0.0,
+        "toe_out": 0.0,
+        "shoulder_rotation": 0.0,
+        "bounce": 0.0,
+        "torso_roll": 0.0,
+        "head_roll": 0.0,
+        "head_yaw": 0.0,
+        "foot_pitch": 0.0,
+        "weave": 0.0,
+        "look": "Jump twice, then walk forward.",
+        "sequence": [
+          {
+            "action": "jump",
+            "seconds": 3.54
+          },
+          {
+            "action": "walk",
+            "seconds": 3.0
+          }
+        ]
+      },
+      "rules": [],
+      "scales": {},
+      "speed_mps": 0.61
+    },
+    {
+      "id": "C5",
+      "group": "C",
+      "text": "걷다가 돌려차기 해",
+      "expect": "accept",
+      "expect_sequence": [
+        "walk",
+        "spinkick"
+      ],
+      "level1": "pass",
+      "tokens": 42,
+      "answer": "{\"look\":\"Walk forward, then perform a turning kick.\",\"sequence\":[{\"action\":\"walk\",\"seconds\":3},{\"action\":\"spinkick\",\"seconds\":2.56}]}",
+      "params": {
+        "action": "walk",
+        "s": 1.0,
+        "n": 1.0,
+        "c": 0.0,
+        "m_arm": 1.0,
+        "m_torso": 1.0,
+        "m_knee": 1.0,
+        "m_elbow": 1.0,
+        "torso_pitch": 0.0,
+        "head_pitch": 0.0,
+        "shoulder_flexion": 0.0,
+        "shoulder_abduction": 0.0,
+        "elbow_flexion": 0.0,
+        "stance_width": 0.0,
+        "toe_out": 0.0,
+        "shoulder_rotation": 0.0,
+        "bounce": 0.0,
+        "torso_roll": 0.0,
+        "head_roll": 0.0,
+        "head_yaw": 0.0,
+        "foot_pitch": 0.0,
+        "weave": 0.0,
+        "look": "Walk forward, then perform a turning kick.",
+        "sequence": [
+          {
+            "action": "walk",
+            "seconds": 3.0
+          },
+          {
+            "action": "spinkick",
+            "seconds": 2.56
+          }
+        ]
+      },
+      "rules": [],
+      "scales": {},
+      "speed_mps": 1.26
+    },
+    {
+      "id": "C6",
+      "group": "C",
+      "text": "달리다가 멈춰서 발차기해",
+      "expect": "accept",
+      "expect_sequence": [
+        "run",
+        "kick"
+      ],
+      "level1": "pass",
+      "tokens": 44,
+      "answer": "{\"look\":\"Runs forward, stops, then performs a front kick.\",\"sequence\":[{\"action\":\"run\",\"seconds\":2.4},{\"action\":\"kick\",\"seconds\":3.06}]}",
+      "params": {
+        "action": "run",
+        "s": 1.0,
+        "n": 1.0,
+        "c": 0.0,
+        "m_arm": 1.0,
+        "m_torso": 1.0,
+        "m_knee": 1.0,
+        "m_elbow": 1.0,
+        "torso_pitch": 0.0,
+        "head_pitch": 0.0,
+        "shoulder_flexion": 0.0,
+        "shoulder_abduction": 0.0,
+        "elbow_flexion": 0.0,
+        "stance_width": 0.0,
+        "toe_out": 0.0,
+        "shoulder_rotation": 0.0,
+        "bounce": 0.0,
+        "torso_roll": 0.0,
+        "head_roll": 0.0,
+        "head_yaw": 0.0,
+        "foot_pitch": 0.0,
+        "weave": 0.0,
+        "look": "Runs forward, stops, then performs a front kick.",
+        "sequence": [
+          {
+            "action": "run",
+            "seconds": 2.4
+          },
+          {
+            "action": "kick",
+            "seconds": 3.06
+          }
+        ]
+      },
+      "rules": [],
+      "scales": {},
+      "speed_mps": 3.56
+    },
+    {
+      "id": "C7",
+      "group": "C",
+      "text": "걷다가 뛰다가 마지막에 점프해",
+      "expect": "accept",
+      "expect_sequence": [
+        "walk",
+        "run",
+        "jump"
+      ],
+      "level1": "pass",
+      "tokens": 53,
+      "answer": "{\"look\":\"Walk, accelerate into a run, then finish with repeated forward jumps.\",\"sequence\":[{\"action\":\"walk\",\"seconds\":3},{\"action\":\"run\",\"seconds\":3},{\"action\":\"jump\",\"seconds\":3.54}]}",
+      "params": {
+        "action": "walk",
+        "s": 1.0,
+        "n": 1.0,
+        "c": 0.0,
+        "m_arm": 1.0,
+        "m_torso": 1.0,
+        "m_knee": 1.0,
+        "m_elbow": 1.0,
+        "torso_pitch": 0.0,
+        "head_pitch": 0.0,
+        "shoulder_flexion": 0.0,
+        "shoulder_abduction": 0.0,
+        "elbow_flexion": 0.0,
+        "stance_width": 0.0,
+        "toe_out": 0.0,
+        "shoulder_rotation": 0.0,
+        "bounce": 0.0,
+        "torso_roll": 0.0,
+        "head_roll": 0.0,
+        "head_yaw": 0.0,
+        "foot_pitch": 0.0,
+        "weave": 0.0,
+        "look": "Walk, accelerate into a run, then finish with repeated forward jumps.",
+        "sequence": [
+          {
+            "action": "walk",
+            "seconds": 3.0
+          },
+          {
+            "action": "run",
+            "seconds": 3.0
+          },
+          {
+            "action": "jump",
+            "seconds": 3.54
+          }
+        ]
+      },
+      "rules": [],
+      "scales": {},
+      "speed_mps": 1.26
+    },
+    {
+      "id": "C8",
+      "group": "C",
+      "text": "지쳐서 터벅터벅 걷다가 힘을 내서 달려",
+      "expect": "accept",
+      "expect_sequence": [
+        "walk",
+        "run"
+      ],
+      "level1": "pass",
+      "tokens": 83,
+      "answer": "{\"look\":\"A tired, heavy walk transitions into a more energetic run.\",\"sequence\":[{\"action\":\"walk\",\"seconds\":3},{\"action\":\"run\",\"seconds\":3}],\"s\":1.15,\"n\":1.15,\"m_arm\":1.8,\"m_knee\":1.2,\"torso_pitch\":-5,\"elbow_flexion\":45}",
+      "params": {
+        "action": "walk",
+        "s": 1.15,
+        "n": 1.15,
+        "c": 0.0,
+        "m_arm": 1.8,
+        "m_torso": 1.0,
+        "m_knee": 1.2,
+        "m_elbow": 1.0,
+        "torso_pitch": -5.0,
+        "head_pitch": 0.0,
+        "shoulder_flexion": 0.0,
+        "shoulder_abduction": 0.0,
+        "elbow_flexion": 45.0,
+        "stance_width": 0.0,
+        "toe_out": 0.0,
+        "shoulder_rotation": 0.0,
+        "bounce": 0.0,
+        "torso_roll": 0.0,
+        "head_roll": 0.0,
+        "head_yaw": 0.0,
+        "foot_pitch": 0.0,
+        "weave": 0.0,
+        "look": "A tired, heavy walk transitions into a more energetic run.",
+        "sequence": [
+          {
+            "action": "walk",
+            "seconds": 3.0
+          },
+          {
+            "action": "run",
+            "seconds": 3.0
+          }
+        ]
+      },
+      "rules": [],
+      "scales": {
+        "speed": 1.15,
+        "cadence": 1.15,
+        "arm_swing": 1.8,
+        "swing": {
+          "right_shin": 1.2,
+          "left_shin": 1.2
+        },
+        "pose": {
+          "torso": [
+            0,
+            -5.0,
+            0
+          ],
+          "right_lower_arm": [
+            0,
+            0,
+            45.0
+          ],
+          "left_lower_arm": [
+            0,
+            0,
+            -45.0
+          ]
+        }
+      },
+      "speed_mps": 1.666
+    },
+    {
+      "id": "T1",
+      "group": "T",
+      "text": "까치발을 들고 사뿐사뿐 걸어",
+      "expect": "accept",
+      "expect_action": "walk",
+      "expect_foot_pitch": 1,
+      "level1": "pass",
+      "tokens": 54,
+      "answer": "{\"look\":\"A light, delicate tiptoe walk with soft, quiet steps.\",\"s\":0.8,\"n\":0.85,\"m_arm\":0.4,\"m_knee\":0.7,\"foot_pitch\":20}",
+      "params": {
+        "action": "walk",
+        "s": 0.8,
+        "n": 0.85,
+        "c": 0.0,
+        "m_arm": 0.4,
+        "m_torso": 1.0,
+        "m_knee": 0.7,
+        "m_elbow": 1.0,
+        "torso_pitch": 0.0,
+        "head_pitch": 0.0,
+        "shoulder_flexion": 0.0,
+        "shoulder_abduction": 0.0,
+        "elbow_flexion": 0.0,
+        "stance_width": 0.0,
+        "toe_out": 0.0,
+        "shoulder_rotation": 0.0,
+        "bounce": 0.0,
+        "torso_roll": 0.0,
+        "head_roll": 0.0,
+        "head_yaw": 0.0,
+        "foot_pitch": 20.0,
+        "weave": 0.0,
+        "look": "A light, delicate tiptoe walk with soft, quiet steps."
+      },
+      "rules": [],
+      "scales": {
+        "speed": 0.8,
+        "cadence": 0.85,
+        "arm_swing": 0.4,
+        "foot_pitch": 20.0,
+        "swing": {
+          "right_shin": 0.7,
+          "left_shin": 0.7
+        }
+      },
+      "speed_mps": 0.857
+    },
+    {
+      "id": "T2",
+      "group": "T",
+      "text": "발뒤꿈치로만 걸어",
+      "expect": "accept",
+      "expect_action": "walk",
+      "expect_foot_pitch": -1,
+      "level1": "pass",
+      "tokens": 25,
+      "answer": "{\"look\":\"Walks only on the heels with toes lifted.\",\"foot_pitch\":-20}",
+      "params": {
+        "action": "walk",
+        "s": 1.0,
+        "n": 1.0,
+        "c": 0.0,
+        "m_arm": 1.0,
+        "m_torso": 1.0,
+        "m_knee": 1.0,
+        "m_elbow": 1.0,
+        "torso_pitch": 0.0,
+        "head_pitch": 0.0,
+        "shoulder_flexion": 0.0,
+        "shoulder_abduction": 0.0,
+        "elbow_flexion": 0.0,
+        "stance_width": 0.0,
+        "toe_out": 0.0,
+        "shoulder_rotation": 0.0,
+        "bounce": 0.0,
+        "torso_roll": 0.0,
+        "head_roll": 0.0,
+        "head_yaw": 0.0,
+        "foot_pitch": -20.0,
+        "weave": 0.0,
+        "look": "Walks only on the heels with toes lifted."
+      },
+      "rules": [],
+      "scales": {
+        "foot_pitch": -20.0
+      },
+      "speed_mps": 1.26
+    },
+    {
+      "id": "T3",
+      "group": "T",
+      "text": "하이힐을 신은 것처럼 걸어",
+      "expect": "accept",
+      "expect_action": "walk",
+      "expect_foot_pitch": 1,
+      "level1": "pass",
+      "tokens": 54,
+      "answer": "{\"look\":\"The character walks delicately on raised heels with toes pointed down.\",\"foot_pitch\":20,\"s\":0.85,\"n\":0.9,\"m_knee\":0.8,\"m_arm\":0.7}",
+      "params": {
+        "action": "walk",
+        "s": 0.85,
+        "n": 0.9,
+        "c": 0.0,
+        "m_arm": 0.7,
+        "m_torso": 1.0,
+        "m_knee": 0.8,
+        "m_elbow": 1.0,
+        "torso_pitch": 0.0,
+        "head_pitch": 0.0,
+        "shoulder_flexion": 0.0,
+        "shoulder_abduction": 0.0,
+        "elbow_flexion": 0.0,
+        "stance_width": 0.0,
+        "toe_out": 0.0,
+        "shoulder_rotation": 0.0,
+        "bounce": 0.0,
+        "torso_roll": 0.0,
+        "head_roll": 0.0,
+        "head_yaw": 0.0,
+        "foot_pitch": 20.0,
+        "weave": 0.0,
+        "look": "The character walks delicately on raised heels with toes pointed down."
+      },
+      "rules": [],
+      "scales": {
+        "speed": 0.85,
+        "cadence": 0.9,
+        "arm_swing": 0.7,
+        "foot_pitch": 20.0,
+        "swing": {
+          "right_shin": 0.8,
+          "left_shin": 0.8
+        }
+      },
+      "speed_mps": 0.964
+    },
+    {
+      "id": "T4",
+      "group": "T",
+      "text": "발레리나처럼 발끝으로 걸어",
+      "expect": "accept",
+      "expect_action": "walk",
+      "expect_foot_pitch": 1,
+      "level1": "pass",
+      "tokens": 86,
+      "answer": "{\"look\":\"A graceful ballerina-like walk on tiptoes.\",\"s\":0.85,\"n\":0.9,\"m_arm\":0.3,\"m_knee\":0.8,\"torso_pitch\":-10,\"head_pitch\":-10,\"shoulder_abduction\":45,\"elbow_flexion\":25,\"stance_width\":-5,\"foot_pitch\":25}",
+      "params": {
+        "action": "walk",
+        "s": 0.85,
+        "n": 0.9,
+        "c": 0.0,
+        "m_arm": 0.3,
+        "m_torso": 1.0,
+        "m_knee": 0.8,
+        "m_elbow": 1.0,
+        "torso_pitch": -10.0,
+        "head_pitch": -10.0,
+        "shoulder_flexion": 0.0,
+        "shoulder_abduction": 45.0,
+        "elbow_flexion": 25.0,
+        "stance_width": -5.0,
+        "toe_out": 0.0,
+        "shoulder_rotation": 0.0,
+        "bounce": 0.0,
+        "torso_roll": 0.0,
+        "head_roll": 0.0,
+        "head_yaw": 0.0,
+        "foot_pitch": 25.0,
+        "weave": 0.0,
+        "look": "A graceful ballerina-like walk on tiptoes."
+      },
+      "rules": [],
+      "scales": {
+        "speed": 0.85,
+        "cadence": 0.9,
+        "arm_swing": 0.3,
+        "foot_pitch": 25.0,
+        "swing": {
+          "right_shin": 0.8,
+          "left_shin": 0.8
+        },
+        "pose": {
+          "torso": [
+            0,
+            -10.0,
+            0
+          ],
+          "head": [
+            0,
+            -10.0,
+            0
+          ],
+          "right_upper_arm": [
+            -45.0,
+            -0.0,
+            0.0
+          ],
+          "right_lower_arm": [
+            0,
+            0,
+            25.0
+          ],
+          "right_thigh": [
+            5.0,
+            0,
+            -0.0
+          ],
+          "right_foot": [
+            -5.0,
+            0,
+            0
+          ],
+          "left_upper_arm": [
+            45.0,
+            -0.0,
+            -0.0
+          ],
+          "left_lower_arm": [
+            0,
+            0,
+            -25.0
+          ],
+          "left_thigh": [
+            -5.0,
+            0,
+            0.0
+          ],
+          "left_foot": [
+            5.0,
+            0,
+            0
+          ]
+        }
+      },
+      "speed_mps": 0.964
+    }
+  ],
+  "reasoning_effort": "medium",
+  "api_usage": {
+    "requests": 12,
+    "prompt_tokens": 59589,
+    "cached_tokens": 59376,
+    "completion_tokens": 626,
+    "reasoning_tokens": 0
+  }
+}

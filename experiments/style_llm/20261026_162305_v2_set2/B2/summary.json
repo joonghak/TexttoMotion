@@ -1,0 +1,77 @@
+{
+  "command": "우아하게 천천히 걸어",
+  "variant": {
+    "key": "B2",
+    "label": "우아하게 천천히 걸어",
+    "scales": {
+      "cadence": 0.75,
+      "crouch": 10.0,
+      "swing": {
+        "torso": 5.0,
+        "right_shin": 0.8,
+        "left_shin": 0.8
+      },
+      "pose": {
+        "torso": [
+          0,
+          5.0,
+          0
+        ]
+      }
+    },
+    "terms": {
+      "track_w": 0.6,
+      "cadence": {
+        "scale": 0.75
+      },
+      "crouch": {
+        "angle": 10.0
+      },
+      "swing": {
+        "torso": 5.0,
+        "right_shin": 0.8,
+        "left_shin": 0.8
+      },
+      "pose": {
+        "torso": [
+          0,
+          5.0,
+          0
+        ]
+      }
+    }
+  },
+  "reference": {
+    "clip": "/home/jong/TexttoMotion/MimicKit/data/motions/humanoid/humanoid_walk.pkl",
+    "duration_s": 10.0
+  },
+  "training": {
+    "iterations": 2000,
+    "num_envs": 1024,
+    "status": "completed",
+    "started": "2026-10-26T23:19:11",
+    "finished": "2026-10-26T23:50:09",
+    "final_log": {
+      "Iteration": 1999.0,
+      "Wall_Time": 0.5131173531214396,
+      "Samples": 65536000.0,
+      "Samples_Per_Second": 35478.13055571324,
+      "Test_Return": 291.0816650390625,
+      "Test_Episode_Length": 295.9345703125,
+      "Test_Episodes": 1024.0,
+      "Train_Return": 278.01800537109375,
+      "Train_Episode_Length": 296.9920959472656,
+      "Train_Episodes": 10350.0,
+      "Critic_Loss": 0.03839214891195297,
+      "Actor_Loss": -0.011131147854030132,
+      "Clip_Frac": 0.234344482421875,
+      "Imp_Ratio": 0.9996167421340942,
+      "Action_Bound_Loss": 0.0,
+      "Adv_Mean": 0.013039588928222656,
+      "Adv_Std": 0.19597771763801575,
+      "Obs_Norm_Mean": 0.3407580852508545,
+      "Obs_Norm_Std": 0.15732765197753906,
+      "Exp_Prob": 1.0
+    }
+  }
+}

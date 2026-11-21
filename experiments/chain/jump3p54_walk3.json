@@ -1,0 +1,23 @@
+{
+ "name": "jump3p54_walk3",
+ "segments": [
+  [
+   "jump",
+   3.54
+  ],
+  [
+   "walk",
+   3.0
+  ]
+ ],
+ "blend_s": 0.5,
+ "seconds": 6.533333333333333,
+ "junctions_s": [
+  [
+   3.033333333333333,
+   3.533333333333333
+  ]
+ ],
+ "file": "/home/jong/TexttoMotion/MimicKit/data/motions/humanoid/humanoid_chain_jump3p54_walk3.pkl",
+ "strip": "/home/jong/TexttoMotion/experiments/chain/jump3p54_walk3_strip.png"
+}

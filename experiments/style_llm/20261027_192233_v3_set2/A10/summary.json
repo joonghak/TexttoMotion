@@ -1,0 +1,77 @@
+{
+  "command": "두 팔을 앞으로 나란히 뻗고 천천히 걸어",
+  "variant": {
+    "key": "A10",
+    "label": "두 팔을 앞으로 나란히 뻗고 천천히 걸어",
+    "scales": {
+      "cadence": 0.6,
+      "arm_swing": 0.3,
+      "pose": {
+        "right_upper_arm": [
+          0,
+          -85.0,
+          0
+        ],
+        "left_upper_arm": [
+          0,
+          -85.0,
+          0
+        ]
+      }
+    },
+    "terms": {
+      "track_w": 0.6,
+      "cadence": {
+        "scale": 0.6
+      },
+      "arm_swing": {
+        "scale": 0.3
+      },
+      "pose": {
+        "right_upper_arm": [
+          0,
+          -85.0,
+          0
+        ],
+        "left_upper_arm": [
+          0,
+          -85.0,
+          0
+        ]
+      }
+    }
+  },
+  "reference": {
+    "clip": "/home/jong/TexttoMotion/MimicKit/data/motions/humanoid/humanoid_walk.pkl",
+    "duration_s": 10.0
+  },
+  "training": {
+    "iterations": 2000,
+    "num_envs": 1024,
+    "status": "completed",
+    "started": "2026-10-27T20:53:14",
+    "finished": "2026-10-27T21:23:06",
+    "final_log": {
+      "Iteration": 1999.0,
+      "Wall_Time": 0.49481655716896056,
+      "Samples": 65536000.0,
+      "Samples_Per_Second": 36790.28961480029,
+      "Test_Return": 288.0250549316406,
+      "Test_Episode_Length": 294.771484375,
+      "Test_Episodes": 1024.0,
+      "Train_Return": 276.2652282714844,
+      "Train_Episode_Length": 296.37078857421875,
+      "Train_Episodes": 10374.0,
+      "Critic_Loss": 0.6204085350036621,
+      "Actor_Loss": -0.021045375615358353,
+      "Clip_Frac": 0.10587769001722336,
+      "Imp_Ratio": 1.000493049621582,
+      "Action_Bound_Loss": 0.0,
+      "Adv_Mean": 0.003523407503962517,
+      "Adv_Std": 0.8971642851829529,
+      "Obs_Norm_Mean": 0.3440343141555786,
+      "Obs_Norm_Std": 0.15372996032238007,
+      "Exp_Prob": 1.0
+    }
+  }
+}

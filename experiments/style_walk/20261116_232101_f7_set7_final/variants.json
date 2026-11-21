@@ -1,0 +1,982 @@
+[
+ {
+  "key": "base",
+  "label": "기본 걷기",
+  "scales": {}
+ },
+ {
+  "key": "f7_N1",
+  "label": "메추라기처럼 종종 걸어: gpt-5.6-terra, 프롬프트 v14이 정한 값 (s 0.45, n 1.5, m_arm 0.2, m_knee 0.75, torso_pitch 12, shoulder_abduction -15, bounce 15)",
+  "scales": {
+   "speed": 0.45,
+   "cadence": 1.5,
+   "arm_swing": 0.2,
+   "bounce": 15.0,
+   "swing": {
+    "right_shin": 0.75,
+    "left_shin": 0.75
+   },
+   "pose": {
+    "torso": [
+     0,
+     12.0,
+     0
+    ],
+    "right_upper_arm": [
+     15.0,
+     -0.0,
+     0.0
+    ],
+    "left_upper_arm": [
+     -15.0,
+     -0.0,
+     -0.0
+    ]
+   }
+  },
+  "source": {
+   "run": "20261116_231926_v14_set7_gpt-5.6-terra",
+   "id": "N1",
+   "target": "Quail"
+  }
+ },
+ {
+  "key": "f7_N2",
+  "label": "고릴라처럼 가슴을 두드리며 걸어: gpt-5.6-terra, 프롬프트 v14이 정한 값 (s 0.7, n 0.75, c 20, m_arm 1.5, m_torso 6, m_knee 0.8, torso_pitch 25, head_pitch 15, shoulder_flexion 45, elbow_flexion 60, stance_width 10, shoulder_rotation 60)",
+  "scales": {
+   "speed": 0.7,
+   "cadence": 0.75,
+   "arm_swing": 0.3,
+   "crouch": 20.0,
+   "swing": {
+    "torso": 6.0,
+    "right_shin": 0.8,
+    "left_shin": 0.8
+   },
+   "pose": {
+    "torso": [
+     0,
+     25.0,
+     0
+    ],
+    "head": [
+     0,
+     15.0,
+     0
+    ],
+    "right_upper_arm": [
+     -23.51,
+     -40.73,
+     56.77
+    ],
+    "right_lower_arm": [
+     0,
+     0,
+     60.0
+    ],
+    "right_thigh": [
+     -10.0,
+     0,
+     -0.0
+    ],
+    "right_foot": [
+     10.0,
+     0,
+     0
+    ],
+    "left_upper_arm": [
+     23.51,
+     -40.73,
+     -56.77
+    ],
+    "left_lower_arm": [
+     0,
+     0,
+     -60.0
+    ],
+    "left_thigh": [
+     10.0,
+     0,
+     0.0
+    ],
+    "left_foot": [
+     -10.0,
+     0,
+     0
+    ]
+   }
+  },
+  "source": {
+   "run": "20261116_231926_v14_set7_gpt-5.6-terra",
+   "id": "N2",
+   "target": "BeatChest"
+  }
+ },
+ {
+  "key": "f7_N3",
+  "label": "펭귄 흉내를 내면서 걸어: gpt-5.6-terra, 프롬프트 v14이 정한 값 (s 0.65, n 0.8, c 10, m_arm 0.4, m_torso 7, m_knee 0.7, shoulder_abduction -15, stance_width 10, toe_out 25)",
+  "scales": {
+   "speed": 0.65,
+   "cadence": 0.8,
+   "arm_swing": 0.4,
+   "crouch": 10.0,
+   "swing": {
+    "torso": 7.0,
+    "right_shin": 0.7,
+    "left_shin": 0.7
+   },
+   "pose": {
+    "right_upper_arm": [
+     15.0,
+     -0.0,
+     0.0
+    ],
+    "right_thigh": [
+     -10.0,
+     0,
+     -25.0
+    ],
+    "right_foot": [
+     10.0,
+     0,
+     0
+    ],
+    "left_upper_arm": [
+     -15.0,
+     -0.0,
+     -0.0
+    ],
+    "left_thigh": [
+     10.0,
+     0,
+     25.0
+    ],
+    "left_foot": [
+     -10.0,
+     0,
+     0
+    ]
+   }
+  },
+  "source": {
+   "run": "20261116_231926_v14_set7_gpt-5.6-terra",
+   "id": "N3",
+   "target": "Penguin"
+  }
+ },
+ {
+  "key": "f7_N4",
+  "label": "티라노사우루스처럼 걸어: gpt-5.6-terra, 프롬프트 v14이 정한 값 (s 0.75, n 0.8, c 12, m_arm 0, m_knee 1.3, torso_pitch 20, head_pitch 15, shoulder_flexion 35, elbow_flexion 60, stance_width 8)",
+  "scales": {
+   "speed": 0.75,
+   "cadence": 0.8,
+   "arm_swing": 0.0,
+   "crouch": 12.0,
+   "swing": {
+    "right_shin": 1.3,
+    "left_shin": 1.3
+   },
+   "pose": {
+    "torso": [
+     0,
+     20.0,
+     0
+    ],
+    "head": [
+     0,
+     15.0,
+     0
+    ],
+    "right_upper_arm": [
+     -0.0,
+     -35.0,
+     0.0
+    ],
+    "right_lower_arm": [
+     0,
+     0,
+     60.0
+    ],
+    "right_thigh": [
+     -8.0,
+     0,
+     -0.0
+    ],
+    "right_foot": [
+     8.0,
+     0,
+     0
+    ],
+    "left_upper_arm": [
+     0.0,
+     -35.0,
+     -0.0
+    ],
+    "left_lower_arm": [
+     0,
+     0,
+     -60.0
+    ],
+    "left_thigh": [
+     8.0,
+     0,
+     0.0
+    ],
+    "left_foot": [
+     -8.0,
+     0,
+     0
+    ]
+   }
+  },
+  "source": {
+   "run": "20261116_231926_v14_set7_gpt-5.6-terra",
+   "id": "N4",
+   "target": "Dinosaur"
+  }
+ },
+ {
+  "key": "f7_N5",
+  "label": "수탉처럼 걸어: gpt-5.6-terra, 프롬프트 v14이 정한 값 (s 0.65, n 1.25, c 15, m_arm 0.3, m_torso 5, m_knee 1.5, torso_pitch -10, head_pitch -15, shoulder_abduction -15, toe_out 25)",
+  "scales": {
+   "speed": 0.65,
+   "cadence": 1.25,
+   "arm_swing": 0.3,
+   "crouch": 15.0,
+   "swing": {
+    "torso": 5.0,
+    "right_shin": 1.5,
+    "left_shin": 1.5
+   },
+   "pose": {
+    "torso": [
+     0,
+     -10.0,
+     0
+    ],
+    "head": [
+     0,
+     -15.0,
+     0
+    ],
+    "right_upper_arm": [
+     15.0,
+     -0.0,
+     0.0
+    ],
+    "right_thigh": [
+     -0.0,
+     0,
+     -25.0
+    ],
+    "left_upper_arm": [
+     -15.0,
+     -0.0,
+     -0.0
+    ],
+    "left_thigh": [
+     0.0,
+     0,
+     25.0
+    ]
+   }
+  },
+  "source": {
+   "run": "20261116_231926_v14_set7_gpt-5.6-terra",
+   "id": "N5",
+   "target": "Chicken"
+  }
+ },
+ {
+  "key": "f7_N6",
+  "label": "고양이처럼 조심스럽게 걸어: gpt-5.6-terra, 프롬프트 v14이 정한 값 (s 0.65, n 0.7, c 20, m_arm 0.3, m_knee 0.7, torso_pitch 20, shoulder_flexion 20, elbow_flexion 40, stance_width -5, foot_pitch 20)",
+  "scales": {
+   "speed": 0.65,
+   "cadence": 0.7,
+   "arm_swing": 0.3,
+   "crouch": 20.0,
+   "foot_pitch": 20.0,
+   "swing": {
+    "right_shin": 0.7,
+    "left_shin": 0.7
+   },
+   "pose": {
+    "torso": [
+     0,
+     20.0,
+     0
+    ],
+    "right_upper_arm": [
+     -0.0,
+     -20.0,
+     0.0
+    ],
+    "right_lower_arm": [
+     0,
+     0,
+     40.0
+    ],
+    "right_thigh": [
+     5.0,
+     0,
+     -0.0
+    ],
+    "right_foot": [
+     -5.0,
+     0,
+     0
+    ],
+    "left_upper_arm": [
+     0.0,
+     -20.0,
+     -0.0
+    ],
+    "left_lower_arm": [
+     0,
+     0,
+     -40.0
+    ],
+    "left_thigh": [
+     -5.0,
+     0,
+     0.0
+    ],
+    "left_foot": [
+     5.0,
+     0,
+     0
+    ]
+   }
+  },
+  "source": {
+   "run": "20261116_231926_v14_set7_gpt-5.6-terra",
+   "id": "N6",
+   "target": "Cat"
+  }
+ },
+ {
+  "key": "f7_P1",
+  "label": "어둠 속에서 손으로 더듬으며 걸어: gpt-5.6-terra, 프롬프트 v14이 정한 값 (s 0.7, n 0.6, c 15, m_arm 0.3, m_knee 0.75, torso_pitch 15, head_pitch 15, shoulder_flexion 55, elbow_flexion 35)",
+  "scales": {
+   "speed": 0.7,
+   "cadence": 0.6,
+   "arm_swing": 0.3,
+   "crouch": 15.0,
+   "swing": {
+    "right_shin": 0.75,
+    "left_shin": 0.75
+   },
+   "pose": {
+    "torso": [
+     0,
+     15.0,
+     0
+    ],
+    "head": [
+     0,
+     15.0,
+     0
+    ],
+    "right_upper_arm": [
+     -0.0,
+     -55.0,
+     0.0
+    ],
+    "right_lower_arm": [
+     0,
+     0,
+     35.0
+    ],
+    "left_upper_arm": [
+     0.0,
+     -55.0,
+     -0.0
+    ],
+    "left_lower_arm": [
+     0,
+     0,
+     -35.0
+    ]
+   }
+  },
+  "source": {
+   "run": "20261116_231926_v14_set7_gpt-5.6-terra",
+   "id": "P1",
+   "target": "InTheDark"
+  }
+ },
+ {
+  "key": "f7_P2",
+  "label": "군인처럼 행진하며 걸어: gpt-5.6-terra, 프롬프트 v14이 정한 값 (s 1.1, n 1.05, m_arm 0.35, m_torso 0, m_knee 1.35, m_elbow 0, torso_pitch -3, head_pitch -8, elbow_flexion 20)",
+  "scales": {
+   "speed": 1.1,
+   "cadence": 1.05,
+   "arm_swing": 0.35,
+   "swing": {
+    "torso": 0.0,
+    "right_shin": 1.35,
+    "left_shin": 1.35,
+    "right_lower_arm": 0.0,
+    "left_lower_arm": 0.0
+   },
+   "pose": {
+    "torso": [
+     0,
+     -3.0,
+     0
+    ],
+    "head": [
+     0,
+     -8.0,
+     0
+    ],
+    "right_lower_arm": [
+     0,
+     0,
+     20.0
+    ],
+    "left_lower_arm": [
+     0,
+     0,
+     -20.0
+    ]
+   }
+  },
+  "source": {
+   "run": "20261116_231926_v14_set7_gpt-5.6-terra",
+   "id": "P2",
+   "target": "March"
+  }
+ },
+ {
+  "key": "f7_P3",
+  "label": "요정처럼 사뿐사뿐 걸어: gpt-5.6-terra, 프롬프트 v14이 정한 값 (s 0.75, n 0.9, m_arm 0.5, m_knee 0.7, torso_pitch -5, head_pitch -8, shoulder_abduction 20, elbow_flexion 20, bounce 8)",
+  "scales": {
+   "speed": 0.75,
+   "cadence": 0.9,
+   "arm_swing": 0.5,
+   "bounce": 8.0,
+   "swing": {
+    "right_shin": 0.7,
+    "left_shin": 0.7
+   },
+   "pose": {
+    "torso": [
+     0,
+     -5.0,
+     0
+    ],
+    "head": [
+     0,
+     -8.0,
+     0
+    ],
+    "right_upper_arm": [
+     -20.0,
+     -0.0,
+     0.0
+    ],
+    "right_lower_arm": [
+     0,
+     0,
+     20.0
+    ],
+    "left_upper_arm": [
+     20.0,
+     -0.0,
+     -0.0
+    ],
+    "left_lower_arm": [
+     0,
+     0,
+     -20.0
+    ]
+   }
+  },
+  "source": {
+   "run": "20261116_231926_v14_set7_gpt-5.6-terra",
+   "id": "P3",
+   "target": "FairySteps"
+  }
+ },
+ {
+  "key": "f7_P4",
+  "label": "덩치 큰 사람처럼 걸어: gpt-5.6-terra, 프롬프트 v14이 정한 값 (s 1.3, n 0.75, m_arm 1.2, m_torso 5, m_knee 0.8, stance_width 10, bounce 12)",
+  "scales": {
+   "speed": 1.3,
+   "cadence": 0.75,
+   "arm_swing": 1.2,
+   "bounce": 12.0,
+   "swing": {
+    "torso": 5.0,
+    "right_shin": 0.8,
+    "left_shin": 0.8
+   },
+   "pose": {
+    "right_thigh": [
+     -10.0,
+     0,
+     -0.0
+    ],
+    "right_foot": [
+     10.0,
+     0,
+     0
+    ],
+    "left_thigh": [
+     10.0,
+     0,
+     0.0
+    ],
+    "left_foot": [
+     -10.0,
+     0,
+     0
+    ]
+   }
+  },
+  "source": {
+   "run": "20261116_231926_v14_set7_gpt-5.6-terra",
+   "id": "P4",
+   "target": "Heavyset"
+  }
+ },
+ {
+  "key": "f7_P5",
+  "label": "패션모델처럼 뽐내며 걸어: gpt-5.6-terra, 프롬프트 v14이 정한 값 (s 1.4, n 0.9, m_arm 1.4, torso_pitch -15, head_pitch -15, stance_width 4, toe_out 12)",
+  "scales": {
+   "speed": 1.4,
+   "cadence": 0.9,
+   "arm_swing": 1.4,
+   "pose": {
+    "torso": [
+     0,
+     -15.0,
+     0
+    ],
+    "head": [
+     0,
+     -15.0,
+     0
+    ],
+    "right_thigh": [
+     -4.0,
+     0,
+     -12.0
+    ],
+    "right_foot": [
+     4.0,
+     0,
+     0
+    ],
+    "left_thigh": [
+     4.0,
+     0,
+     12.0
+    ],
+    "left_foot": [
+     -4.0,
+     0,
+     0
+    ]
+   }
+  },
+  "source": {
+   "run": "20261116_231926_v14_set7_gpt-5.6-terra",
+   "id": "P5",
+   "target": "Strutting"
+  }
+ },
+ {
+  "key": "f7_P6",
+  "label": "특공대원처럼 총을 겨눈 자세로 걸어: gpt-5.6-terra, 프롬프트 v14이 정한 값 (m_arm 0.3, shoulder_flexion 85, elbow_flexion 15, shoulder_rotation 25)",
+  "scales": {
+   "arm_swing": 0.3,
+   "pose": {
+    "right_upper_arm": [
+     -18.52,
+     -83.54,
+     20.21
+    ],
+    "right_lower_arm": [
+     0,
+     0,
+     15.0
+    ],
+    "left_upper_arm": [
+     18.52,
+     -83.54,
+     -20.21
+    ],
+    "left_lower_arm": [
+     0,
+     0,
+     -15.0
+    ]
+   }
+  },
+  "source": {
+   "run": "20261116_231926_v14_set7_gpt-5.6-terra",
+   "id": "P6",
+   "target": "Swat"
+  }
+ },
+ {
+  "key": "f7_F1",
+  "label": "뒷짐을 지고 걸어: gpt-5.6-terra, 프롬프트 v14이 정한 값 (m_arm 0.3, shoulder_flexion -45, elbow_flexion 60)",
+  "scales": {
+   "arm_swing": 0.3,
+   "pose": {
+    "right_upper_arm": [
+     -0.0,
+     45.0,
+     0.0
+    ],
+    "right_lower_arm": [
+     0,
+     0,
+     60.0
+    ],
+    "left_upper_arm": [
+     0.0,
+     45.0,
+     -0.0
+    ],
+    "left_lower_arm": [
+     0,
+     0,
+     -60.0
+    ]
+   }
+  },
+  "source": {
+   "run": "20261116_231926_v14_set7_gpt-5.6-terra",
+   "id": "F1",
+   "target": "ArmsBehindBack"
+  }
+ },
+ {
+  "key": "f7_F2",
+  "label": "팔짱을 끼고 걸어: gpt-5.6-terra, 프롬프트 v14이 정한 값 (m_arm 0, shoulder_flexion 30, elbow_flexion 60, shoulder_rotation 60)",
+  "scales": {
+   "arm_swing": 0.0,
+   "pose": {
+    "right_upper_arm": [
+     -15.69,
+     -27.18,
+     58.57
+    ],
+    "right_lower_arm": [
+     0,
+     0,
+     60.0
+    ],
+    "left_upper_arm": [
+     15.69,
+     -27.18,
+     -58.57
+    ],
+    "left_lower_arm": [
+     0,
+     0,
+     -60.0
+    ]
+   }
+  },
+  "source": {
+   "run": "20261116_231926_v14_set7_gpt-5.6-terra",
+   "id": "F2",
+   "target": "ArmsFolded"
+  }
+ },
+ {
+  "key": "f7_F3",
+  "label": "양손을 허리에 짚고 걸어: gpt-5.6-terra, 프롬프트 v14이 정한 값 (m_arm 0.3, shoulder_flexion -25, shoulder_abduction 35, elbow_flexion 60, shoulder_rotation 45)",
+  "scales": {
+   "arm_swing": 0.3,
+   "pose": {
+    "right_upper_arm": [
+     -23.32,
+     36.77,
+     50.53
+    ],
+    "right_lower_arm": [
+     0,
+     0,
+     60.0
+    ],
+    "left_upper_arm": [
+     23.32,
+     36.77,
+     -50.53
+    ],
+    "left_lower_arm": [
+     0,
+     0,
+     -60.0
+    ]
+   }
+  },
+  "source": {
+   "run": "20261116_231926_v14_set7_gpt-5.6-terra",
+   "id": "F3",
+   "target": "Akimbo"
+  }
+ },
+ {
+  "key": "f7_F4",
+  "label": "두 팔을 머리 위로 들고 걸어: gpt-5.6-terra, 프롬프트 v14이 정한 값 (m_arm 0.3, shoulder_abduction 155)",
+  "scales": {
+   "arm_swing": 0.3,
+   "pose": {
+    "right_upper_arm": [
+     -155.0,
+     -0.0,
+     0.0
+    ],
+    "left_upper_arm": [
+     155.0,
+     -0.0,
+     -0.0
+    ]
+   }
+  },
+  "source": {
+   "run": "20261116_231926_v14_set7_gpt-5.6-terra",
+   "id": "F4",
+   "target": "ArmsAboveHead"
+  }
+ },
+ {
+  "key": "f7_F5",
+  "label": "발뒤꿈치로 걸어: gpt-5.6-terra, 프롬프트 v14이 정한 값 (foot_pitch -20)",
+  "scales": {
+   "foot_pitch": -20.0
+  },
+  "source": {
+   "run": "20261116_231926_v14_set7_gpt-5.6-terra",
+   "id": "F5",
+   "target": "OnHeels"
+  }
+ },
+ {
+  "key": "f7_F6",
+  "label": "무릎을 굽힌 채로 걸어: gpt-5.6-terra, 프롬프트 v14이 정한 값 (c 20, m_knee 0.75)",
+  "scales": {
+   "crouch": 20.0,
+   "swing": {
+    "right_shin": 0.75,
+    "left_shin": 0.75
+   }
+  },
+  "source": {
+   "run": "20261116_231926_v14_set7_gpt-5.6-terra",
+   "id": "F6",
+   "target": "BentKnees"
+  }
+ },
+ {
+  "key": "f7_F7",
+  "label": "상체를 뒤로 젖히고 걸어: gpt-5.6-terra, 프롬프트 v14이 정한 값 (torso_pitch -15)",
+  "scales": {
+   "pose": {
+    "torso": [
+     0,
+     -15.0,
+     0
+    ]
+   }
+  },
+  "source": {
+   "run": "20261116_231926_v14_set7_gpt-5.6-terra",
+   "id": "F7",
+   "target": "LeanBack"
+  }
+ },
+ {
+  "key": "f7_F8",
+  "label": "발을 바닥에 끌면서 걸어: gpt-5.6-terra, 프롬프트 v14이 정한 값 (m_knee 0.4)",
+  "scales": {
+   "swing": {
+    "right_shin": 0.4,
+    "left_shin": 0.4
+   }
+  },
+  "source": {
+   "run": "20261116_231926_v14_set7_gpt-5.6-terra",
+   "id": "F8",
+   "target": "SlideFeet"
+  }
+ },
+ {
+  "key": "f7_M1",
+  "label": "급하게 서둘러 걸어: gpt-5.6-terra, 프롬프트 v14이 정한 값 (s 1.1, n 1.35, m_arm 1.4)",
+  "scales": {
+   "speed": 1.1,
+   "cadence": 1.35,
+   "arm_swing": 1.4
+  },
+  "source": {
+   "run": "20261116_231926_v14_set7_gpt-5.6-terra",
+   "id": "M1",
+   "target": "Rushed"
+  }
+ },
+ {
+  "key": "f7_M2",
+  "label": "누가 따라오는 것 같아 뒤를 살피며 걸어: gpt-5.6-terra, 프롬프트 v14이 정한 값 (n 0.8, m_arm 0.5, head_yaw 60)",
+  "scales": {
+   "cadence": 0.8,
+   "arm_swing": 0.5,
+   "pose": {
+    "head": [
+     0.0,
+     0.0,
+     -60.0
+    ]
+   }
+  },
+  "source": {
+   "run": "20261116_231926_v14_set7_gpt-5.6-terra",
+   "id": "M2",
+   "target": "Followed"
+  }
+ },
+ {
+  "key": "f7_M3",
+  "label": "우아하게 걸어: gpt-5.6-terra, 프롬프트 v14이 정한 값 (s 1.2, n 0.9, m_arm 0.8, m_torso 0.5, torso_pitch -8, head_pitch -8, elbow_flexion 25)",
+  "scales": {
+   "speed": 1.2,
+   "cadence": 0.9,
+   "arm_swing": 0.8,
+   "swing": {
+    "torso": 0.5
+   },
+   "pose": {
+    "torso": [
+     0,
+     -8.0,
+     0
+    ],
+    "head": [
+     0,
+     -8.0,
+     0
+    ],
+    "right_lower_arm": [
+     0,
+     0,
+     25.0
+    ],
+    "left_lower_arm": [
+     0,
+     0,
+     -25.0
+    ]
+   }
+  },
+  "source": {
+   "run": "20261116_231926_v14_set7_gpt-5.6-terra",
+   "id": "M3",
+   "target": "GracefulArms"
+  }
+ },
+ {
+  "key": "f7_M4",
+  "label": "외줄을 타듯 균형을 잡으며 걸어: gpt-5.6-terra, 프롬프트 v14이 정한 값 (s 0.7, n 0.6, c 15, m_arm 0.3, m_knee 0.7, torso_pitch 15, head_pitch 25, shoulder_abduction 80, stance_width -8)",
+  "scales": {
+   "speed": 0.7,
+   "cadence": 0.6,
+   "arm_swing": 0.3,
+   "crouch": 15.0,
+   "swing": {
+    "right_shin": 0.7,
+    "left_shin": 0.7
+   },
+   "pose": {
+    "torso": [
+     0,
+     15.0,
+     0
+    ],
+    "head": [
+     0,
+     25.0,
+     0
+    ],
+    "right_upper_arm": [
+     -80.0,
+     -0.0,
+     0.0
+    ],
+    "right_thigh": [
+     8.0,
+     0,
+     -0.0
+    ],
+    "right_foot": [
+     -8.0,
+     0,
+     0
+    ],
+    "left_upper_arm": [
+     80.0,
+     -0.0,
+     -0.0
+    ],
+    "left_thigh": [
+     -8.0,
+     0,
+     0.0
+    ],
+    "left_foot": [
+     8.0,
+     0,
+     0
+    ]
+   }
+  },
+  "source": {
+   "run": "20261116_231926_v14_set7_gpt-5.6-terra",
+   "id": "M4",
+   "target": "Balance"
+  }
+ },
+ {
+  "key": "f7_M5",
+  "label": "엉덩이를 씰룩거리며 걸어: gpt-5.6-terra, 프롬프트 v14이 정한 값 (n 0.85, m_torso 8, stance_width 6)",
+  "scales": {
+   "cadence": 0.85,
+   "swing": {
+    "torso": 8.0
+   },
+   "pose": {
+    "right_thigh": [
+     -6.0,
+     0,
+     -0.0
+    ],
+    "right_foot": [
+     6.0,
+     0,
+     0
+    ],
+    "left_thigh": [
+     6.0,
+     0,
+     0.0
+    ],
+    "left_foot": [
+     -6.0,
+     0,
+     0
+    ]
+   }
+  },
+  "source": {
+   "run": "20261116_231926_v14_set7_gpt-5.6-terra",
+   "id": "M5",
+   "target": "WiggleHips"
+  }
+ }
+]

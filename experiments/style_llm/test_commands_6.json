@@ -1,0 +1,36 @@
+{
+  "note": "Sixth set (2026-11-05): walking commands named after 100STYLE styles, for the style metric of experiments/style_eval (similarity, rank, size against the target style). Written before prompt v6 and before any output on these commands. Group N imitates an animal, P a person or character, F names a body feature, M a mood. Four commands (zombie, robot, old, proud) are prompt examples since v1 and check that what worked keeps working. All are walks and should be accepted. Do not edit after its first run.",
+  "groups": {
+    "N": "동물 흉내",
+    "P": "인물이나 캐릭터 흉내",
+    "F": "몸의 특징을 말한 걸음",
+    "M": "기분이나 태도"
+  },
+  "commands": [
+    {"id": "N1", "group": "N", "text": "펭귄처럼 걸어", "expect": "accept", "expect_action": "walk", "target": "Penguin"},
+    {"id": "N2", "group": "N", "text": "닭처럼 걸어", "expect": "accept", "expect_action": "walk", "target": "Chicken"},
+    {"id": "N3", "group": "N", "text": "고양이처럼 걸어", "expect": "accept", "expect_action": "walk", "target": "Cat"},
+    {"id": "N4", "group": "N", "text": "공룡처럼 걸어", "expect": "accept", "expect_action": "walk", "target": "Dinosaur"},
+    {"id": "N5", "group": "N", "text": "새처럼 날개를 퍼덕이며 걸어", "expect": "accept", "expect_action": "walk", "target": "Flapping"},
+    {"id": "N6", "group": "N", "text": "오리처럼 뒤뚱뒤뚱 걸어", "expect": "accept", "expect_action": "walk", "target": "Penguin"},
+    {"id": "P1", "group": "P", "text": "좀비처럼 걸어", "expect": "accept", "expect_action": "walk", "target": "Zombie"},
+    {"id": "P2", "group": "P", "text": "로봇처럼 걸어", "expect": "accept", "expect_action": "walk", "target": "Robot"},
+    {"id": "P3", "group": "P", "text": "노인처럼 걸어", "expect": "accept", "expect_action": "walk", "target": "Old"},
+    {"id": "P4", "group": "P", "text": "수도승처럼 걸어", "expect": "accept", "expect_action": "walk", "target": "Monk"},
+    {"id": "P5", "group": "P", "text": "술 취한 사람처럼 걸어", "expect": "accept", "expect_action": "walk", "target": "Drunk"},
+    {"id": "P6", "group": "P", "text": "슈퍼맨처럼 걸어", "expect": "accept", "expect_action": "walk", "target": "Superman"},
+    {"id": "F1", "group": "F", "text": "팔자걸음으로 걸어", "expect": "accept", "expect_action": "walk", "target": "DuckFoot"},
+    {"id": "F2", "group": "F", "text": "안짱걸음으로 걸어", "expect": "accept", "expect_action": "walk", "target": "PigeonToed"},
+    {"id": "F3", "group": "F", "text": "다리를 넓게 벌리고 걸어", "expect": "accept", "expect_action": "walk", "target": "WideLegs"},
+    {"id": "F4", "group": "F", "text": "무릎을 높이 들고 걸어", "expect": "accept", "expect_action": "walk", "target": "HighKnees"},
+    {"id": "F5", "group": "F", "text": "까치발로 걸어", "expect": "accept", "expect_action": "walk", "target": "Tiptoe"},
+    {"id": "F6", "group": "F", "text": "몸을 웅크리고 걸어", "expect": "accept", "expect_action": "walk", "target": "Crouched"},
+    {"id": "F7", "group": "F", "text": "상체를 앞으로 숙이고 걸어", "expect": "accept", "expect_action": "walk", "target": "BentForward"},
+    {"id": "F8", "group": "F", "text": "비행기처럼 팔을 벌리고 걸어", "expect": "accept", "expect_action": "walk", "target": "Aeroplane"},
+    {"id": "M1", "group": "M", "text": "우울하게 걸어", "expect": "accept", "expect_action": "walk", "target": "Depressed"},
+    {"id": "M2", "group": "M", "text": "신나게 걸어", "expect": "accept", "expect_action": "walk", "target": "Elated"},
+    {"id": "M3", "group": "M", "text": "화가 나서 쿵쿵 걸어", "expect": "accept", "expect_action": "walk", "target": "Angry"},
+    {"id": "M4", "group": "M", "text": "당당하게 걸어", "expect": "accept", "expect_action": "walk", "target": "Proud"},
+    {"id": "M5", "group": "M", "text": "뻣뻣하게 걸어", "expect": "accept", "expect_action": "walk", "target": "Stiff"}
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "command": "고양이처럼 걸어: Qwen3-4B-Thinking-2507, 프롬프트 v6이 정한 값 (s 0.6, n 1.25, c 30, m_arm 0.4, m_torso 3, m_knee 0.8, torso_pitch 15, head_pitch -15)",
+  "variant": {
+    "key": "v6_N3",
+    "label": "고양이처럼 걸어: Qwen3-4B-Thinking-2507, 프롬프트 v6이 정한 값 (s 0.6, n 1.25, c 30, m_arm 0.4, m_torso 3, m_knee 0.8, torso_pitch 15, head_pitch -15)",
+    "scales": {
+      "speed": 0.6,
+      "cadence": 1.25,
+      "arm_swing": 0.4,
+      "crouch": 30.0,
+      "swing": {
+        "torso": 3.0,
+        "right_shin": 0.8,
+        "left_shin": 0.8
+      },
+      "pose": {
+        "torso": [
+          0,
+          15.0,
+          0
+        ],
+        "head": [
+          0,
+          -15.0,
+          0
+        ]
+      }
+    },
+    "terms": {
+      "track_w": 0.6,
+      "speed": {
+        "scale": 0.6
+      },
+      "cadence": {
+        "scale": 1.25
+      },
+      "arm_swing": {
+        "scale": 0.4
+      },
+      "crouch": {
+        "angle": 30.0
+      },
+      "swing": {
+        "torso": 3.0,
+        "right_shin": 0.8,
+        "left_shin": 0.8
+      },
+      "pose": {
+        "torso": [
+          0,
+          15.0,
+          0
+        ],
+        "head": [
+          0,
+          -15.0,
+          0
+        ]
+      },
+      "style": {
+        "w": 0.2
+      },
+      "swing_unit": "/home/jong/TexttoMotion/MimicKit/data/motions/humanoid/humanoid_walk.pkl",
+      "pose_unit": "/home/jong/TexttoMotion/MimicKit/data/motions/humanoid/humanoid_walk.pkl"
+    }
+  },
+  "reference": {
+    "clip": "/home/jong/TexttoMotion/MimicKit/data/motions/humanoid/humanoid_walk.pkl",
+    "duration_s": 10.0
+  },
+  "training": {
+    "iterations": 2000,
+    "num_envs": 1024,
+    "status": "completed",
+    "started": "2026-11-11T14:36:53",
+    "finished": "2026-11-11T15:13:41",
+    "final_log": {
+      "Iteration": 1999.0,
+      "Wall_Time": 0.6102125871843762,
+      "Samples": 65536000.0,
+      "Samples_Per_Second": 29832.95465674155,
+      "Test_Return": 284.390625,
+      "Test_Episode_Length": 297.390625,
+      "Test_Episodes": 1024.0,
+      "Train_Return": 270.1783447265625,
+      "Train_Episode_Length": 297.7044677734375,
+      "Train_Episodes": 10321.0,
+      "Critic_Loss": 0.02354620210826397,
+      "Actor_Loss": -0.006270342972129583,
+      "Clip_Frac": 0.28084108233451843,
+      "Imp_Ratio": 0.9981594085693359,
+      "Action_Bound_Loss": 0.0,
+      "Adv_Mean": 0.013529649004340172,
+      "Adv_Std": 0.15875203907489777,
+      "Obs_Norm_Mean": 0.34145984053611755,
+      "Obs_Norm_Std": 0.1634630262851715,
+      "Exp_Prob": 1.0
+    }
+  }
+}

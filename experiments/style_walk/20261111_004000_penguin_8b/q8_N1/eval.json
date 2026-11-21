@@ -1,0 +1,39 @@
+{
+  "end": "TIME",
+  "fell": false,
+  "fell_at_s": null,
+  "completion": 1.0,
+  "reference_duration_s": 10.0,
+  "sim": {
+    "arm_swing_m": 0.4114806354045868,
+    "foot_clearance_m": 0.19956257939338684,
+    "torso_tilt_deg": 6.215810775756836,
+    "duration_s": 10.0,
+    "start_heading_deg": 2.8601417149332065e-05,
+    "travel_deg": 0.0,
+    "distance_m": 9.37106990814209,
+    "speed_mps": 0.937106990814209,
+    "total_turn_deg": -0.918242948053698,
+    "turn_rate_dps": 0.0918242948053698,
+    "max_foot_height_m": 0.24932391941547394,
+    "kick_count": 0
+  },
+  "reference_window": {
+    "arm_swing_m": 0.3233408033847809,
+    "foot_clearance_m": 0.17032504081726074,
+    "torso_tilt_deg": 3.0382096767425537,
+    "duration_s": 10.0,
+    "start_heading_deg": 2.8601417149332065e-05,
+    "travel_deg": 0.0,
+    "distance_m": 9.434846878051758,
+    "speed_mps": 0.9434846878051758,
+    "total_turn_deg": 0.36497542716786263,
+    "turn_rate_dps": 0.03649754271678626,
+    "max_foot_height_m": 0.21207654476165771,
+    "kick_count": 0
+  },
+  "root_pos_err_m": 0.09212574362754822,
+  "body_pos_err_m": 0.12526078522205353,
+  "dt": 0.03333333333333333,
+  "steps": 300
+}

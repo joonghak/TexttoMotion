@@ -1,0 +1,122 @@
+{
+  "command": "좀비처럼 팔을 앞으로 뻗고 달려 (최종 수식, 팔 자세는 걷기 기준, 상체 기울기 보정)",
+  "variant": {
+    "key": "n3_run_B2",
+    "label": "좀비처럼 팔을 앞으로 뻗고 달려 (최종 수식, 팔 자세는 걷기 기준, 상체 기울기 보정)",
+    "scales": {
+      "speed": 0.85,
+      "cadence": 0.6,
+      "arm_swing": 0.3,
+      "swing": {
+        "torso": 5.0
+      },
+      "pose": {
+        "torso": [
+          0,
+          10,
+          0
+        ],
+        "right_upper_arm": [
+          0,
+          -85,
+          0
+        ],
+        "left_upper_arm": [
+          0,
+          -85,
+          0
+        ],
+        "right_lower_arm": [
+          0,
+          0,
+          -30
+        ],
+        "left_lower_arm": [
+          0,
+          0,
+          30
+        ]
+      }
+    },
+    "terms": {
+      "track_w": 0.6,
+      "speed": {
+        "scale": 0.85
+      },
+      "cadence": {
+        "scale": 0.6
+      },
+      "arm_swing": {
+        "scale": 0.3
+      },
+      "swing": {
+        "torso": 5.0
+      },
+      "pose": {
+        "torso": [
+          0,
+          10,
+          0
+        ],
+        "right_upper_arm": [
+          0,
+          -85,
+          0
+        ],
+        "left_upper_arm": [
+          0,
+          -85,
+          0
+        ],
+        "right_lower_arm": [
+          0,
+          0,
+          -30
+        ],
+        "left_lower_arm": [
+          0,
+          0,
+          30
+        ]
+      },
+      "style": {
+        "w": 0.2
+      },
+      "swing_unit": "/home/jong/TexttoMotion/MimicKit/data/motions/humanoid/humanoid_walk.pkl",
+      "pose_unit": "/home/jong/TexttoMotion/MimicKit/data/motions/humanoid/humanoid_walk.pkl"
+    }
+  },
+  "reference": {
+    "clip": "/home/jong/TexttoMotion/MimicKit/data/motions/humanoid/humanoid_run.pkl",
+    "duration_s": 10.0
+  },
+  "training": {
+    "iterations": 1500,
+    "num_envs": 1024,
+    "status": "completed",
+    "started": "2026-11-03T20:48:30",
+    "finished": "2026-11-03T21:13:01",
+    "final_log": {
+      "Iteration": 1499.0,
+      "Wall_Time": 0.4053111859824922,
+      "Samples": 49152000.0,
+      "Samples_Per_Second": 33686.05112695582,
+      "Test_Return": 265.12139892578125,
+      "Test_Episode_Length": 300.0,
+      "Test_Episodes": 1024.0,
+      "Train_Return": 249.63339233398438,
+      "Train_Episode_Length": 297.5226135253906,
+      "Train_Episodes": 10338.0,
+      "Critic_Loss": 0.07312657684087753,
+      "Actor_Loss": -0.006072554737329483,
+      "Clip_Frac": 0.2652831971645355,
+      "Imp_Ratio": 0.9979597330093384,
+      "Action_Bound_Loss": 0.0,
+      "Adv_Mean": -0.008127972483634949,
+      "Adv_Std": 0.27072882652282715,
+      "Obs_Norm_Mean": 0.35383906960487366,
+      "Obs_Norm_Std": 0.24117815494537354,
+      "Exp_Prob": 1.0
+    }
+  }
+}

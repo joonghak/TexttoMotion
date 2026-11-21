@@ -1,0 +1,57 @@
+{
+  "command": "허벅지를 높이 들면서 걸어",
+  "variant": {
+    "key": "A4",
+    "label": "허벅지를 높이 들면서 걸어",
+    "scales": {
+      "crouch": 15.0,
+      "swing": {
+        "right_shin": 1.5,
+        "left_shin": 1.5
+      }
+    },
+    "terms": {
+      "track_w": 0.6,
+      "crouch": {
+        "angle": 15.0
+      },
+      "swing": {
+        "right_shin": 1.5,
+        "left_shin": 1.5
+      }
+    }
+  },
+  "reference": {
+    "clip": "/home/jong/TexttoMotion/MimicKit/data/motions/humanoid/humanoid_walk.pkl",
+    "duration_s": 10.0
+  },
+  "training": {
+    "iterations": 2000,
+    "num_envs": 1024,
+    "status": "completed",
+    "started": "2026-10-26T18:24:16",
+    "finished": "2026-10-26T18:54:31",
+    "final_log": {
+      "Iteration": 1999.0,
+      "Wall_Time": 0.5011589703294966,
+      "Samples": 65536000.0,
+      "Samples_Per_Second": 36324.69041205744,
+      "Test_Return": 283.25958251953125,
+      "Test_Episode_Length": 296.537109375,
+      "Test_Episodes": 1024.0,
+      "Train_Return": 270.56219482421875,
+      "Train_Episode_Length": 297.9891052246094,
+      "Train_Episodes": 10311.0,
+      "Critic_Loss": 0.03667348250746727,
+      "Actor_Loss": -0.003833301132544875,
+      "Clip_Frac": 0.27754518389701843,
+      "Imp_Ratio": 1.0005770921707153,
+      "Action_Bound_Loss": 5.612282549805059e-08,
+      "Adv_Mean": -0.00935389008373022,
+      "Adv_Std": 0.19463810324668884,
+      "Obs_Norm_Mean": 0.34227168560028076,
+      "Obs_Norm_Std": 0.17138512432575226,
+      "Exp_Prob": 1.0
+    }
+  }
+}

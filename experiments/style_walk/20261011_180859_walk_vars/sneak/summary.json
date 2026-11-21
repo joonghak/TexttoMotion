@@ -1,0 +1,75 @@
+{
+  "command": "살금살금 조합",
+  "variant": {
+    "key": "sneak",
+    "label": "살금살금 조합",
+    "scales": {
+      "crouch": 30.0,
+      "pose": {
+        "torso": [
+          0,
+          20,
+          0
+        ]
+      },
+      "arm_swing": 0.3,
+      "speed": 0.6,
+      "cadence": 0.7
+    },
+    "terms": {
+      "track_w": 0.6,
+      "crouch": {
+        "angle": 30.0
+      },
+      "pose": {
+        "torso": [
+          0,
+          20,
+          0
+        ]
+      },
+      "arm_swing": {
+        "scale": 0.3
+      },
+      "speed": {
+        "scale": 0.6
+      },
+      "cadence": {
+        "scale": 0.7
+      }
+    }
+  },
+  "reference": {
+    "clip": "/home/jong/TexttoMotion/MimicKit/data/motions/humanoid/humanoid_walk.pkl",
+    "duration_s": 10.0
+  },
+  "training": {
+    "iterations": 2000,
+    "num_envs": 1024,
+    "status": "completed",
+    "started": "2026-10-11T23:36:16",
+    "finished": "2026-10-12T00:48:02",
+    "final_log": {
+      "Iteration": 1999.0,
+      "Wall_Time": 1.193043570386039,
+      "Samples": 65536000.0,
+      "Samples_Per_Second": 15258.826162194517,
+      "Test_Return": 268.5030517578125,
+      "Test_Episode_Length": 291.578125,
+      "Test_Episodes": 1024.0,
+      "Train_Return": 255.17718505859375,
+      "Train_Episode_Length": 292.7875061035156,
+      "Train_Episodes": 10510.0,
+      "Critic_Loss": 0.17644119262695312,
+      "Actor_Loss": 0.004089407157152891,
+      "Clip_Frac": 0.21771851181983948,
+      "Imp_Ratio": 0.9983829855918884,
+      "Action_Bound_Loss": 0.0,
+      "Adv_Mean": -0.005218889564275742,
+      "Adv_Std": 0.4750465154647827,
+      "Obs_Norm_Mean": 0.34010398387908936,
+      "Obs_Norm_Std": 0.1532735526561737,
+      "Exp_Prob": 1.0
+    }
+  }
+}

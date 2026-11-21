@@ -1,0 +1,49 @@
+{
+  "command": "다리 굽힘 20°",
+  "variant": {
+    "key": "crouch",
+    "label": "다리 굽힘 20°",
+    "scales": {
+      "crouch": 20.0
+    },
+    "terms": {
+      "track_w": 0.6,
+      "crouch": {
+        "angle": 20.0
+      }
+    }
+  },
+  "reference": {
+    "clip": "/home/jong/TexttoMotion/MimicKit/data/motions/humanoid/humanoid_walk.pkl",
+    "duration_s": 10.0
+  },
+  "training": {
+    "iterations": 1500,
+    "num_envs": 1024,
+    "status": "completed",
+    "started": "2026-10-09T00:02:49",
+    "finished": "2026-10-09T00:26:09",
+    "final_log": {
+      "Iteration": 1499.0,
+      "Wall_Time": 0.3859475955698225,
+      "Samples": 49152000.0,
+      "Samples_Per_Second": 35376.132640948876,
+      "Test_Return": 286.57110595703125,
+      "Test_Episode_Length": 296.5205078125,
+      "Test_Episodes": 1024.0,
+      "Train_Return": 273.4580078125,
+      "Train_Episode_Length": 297.7511901855469,
+      "Train_Episodes": 10319.0,
+      "Critic_Loss": 0.03994903713464737,
+      "Actor_Loss": -0.005034189205616713,
+      "Clip_Frac": 0.24833984673023224,
+      "Imp_Ratio": 0.9999023675918579,
+      "Action_Bound_Loss": 0.0,
+      "Adv_Mean": -0.007073155604302883,
+      "Adv_Std": 0.19803102314472198,
+      "Obs_Norm_Mean": 0.34285005927085876,
+      "Obs_Norm_Std": 0.16638927161693573,
+      "Exp_Prob": 1.0
+    }
+  }
+}

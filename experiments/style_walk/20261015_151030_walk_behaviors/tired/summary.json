@@ -1,0 +1,89 @@
+{
+  "command": "지쳐서 터벅터벅",
+  "variant": {
+    "key": "tired",
+    "label": "지쳐서 터벅터벅",
+    "scales": {
+      "swing": {
+        "right_shin": 0.8,
+        "left_shin": 0.8
+      },
+      "speed": 0.8,
+      "cadence": 0.75,
+      "arm_swing": 0.4,
+      "pose": {
+        "torso": [
+          0,
+          15,
+          0
+        ],
+        "head": [
+          0,
+          25,
+          0
+        ]
+      }
+    },
+    "terms": {
+      "track_w": 0.6,
+      "swing": {
+        "right_shin": 0.8,
+        "left_shin": 0.8
+      },
+      "speed": {
+        "scale": 0.8
+      },
+      "cadence": {
+        "scale": 0.75
+      },
+      "arm_swing": {
+        "scale": 0.4
+      },
+      "pose": {
+        "torso": [
+          0,
+          15,
+          0
+        ],
+        "head": [
+          0,
+          25,
+          0
+        ]
+      }
+    }
+  },
+  "reference": {
+    "clip": "/home/jong/TexttoMotion/MimicKit/data/motions/humanoid/humanoid_walk.pkl",
+    "duration_s": 10.0
+  },
+  "training": {
+    "iterations": 2000,
+    "num_envs": 1024,
+    "status": "completed",
+    "started": "2026-10-15T17:53:54",
+    "finished": "2026-10-15T18:24:15",
+    "final_log": {
+      "Iteration": 1999.0,
+      "Wall_Time": 0.5028759382168452,
+      "Samples": 65536000.0,
+      "Samples_Per_Second": 36200.66712477005,
+      "Test_Return": 291.69940185546875,
+      "Test_Episode_Length": 297.3837890625,
+      "Test_Episodes": 1024.0,
+      "Train_Return": 276.2873229980469,
+      "Train_Episode_Length": 295.8595886230469,
+      "Train_Episodes": 10389.0,
+      "Critic_Loss": 0.0319199375808239,
+      "Actor_Loss": -0.006220707204192877,
+      "Clip_Frac": 0.2530883848667145,
+      "Imp_Ratio": 0.9976178407669067,
+      "Action_Bound_Loss": 0.0,
+      "Adv_Mean": 0.00031647831201553345,
+      "Adv_Std": 0.18068984150886536,
+      "Obs_Norm_Mean": 0.3401978015899658,
+      "Obs_Norm_Std": 0.15258386731147766,
+      "Exp_Prob": 1.0
+    }
+  }
+}

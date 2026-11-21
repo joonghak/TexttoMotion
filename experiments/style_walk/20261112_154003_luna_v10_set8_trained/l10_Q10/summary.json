@@ -1,0 +1,78 @@
+{
+  "command": "두 팔을 앞으로 90도 들고 걸어: gpt-5.6-luna, 프롬프트 v10이 정한 값 (m_arm 0.3, shoulder_flexion 85)",
+  "variant": {
+    "key": "l10_Q10",
+    "label": "두 팔을 앞으로 90도 들고 걸어: gpt-5.6-luna, 프롬프트 v10이 정한 값 (m_arm 0.3, shoulder_flexion 85)",
+    "scales": {
+      "arm_swing": 0.3,
+      "pose": {
+        "right_upper_arm": [
+          -0.0,
+          -85.0,
+          0.0
+        ],
+        "left_upper_arm": [
+          0.0,
+          -85.0,
+          -0.0
+        ]
+      }
+    },
+    "terms": {
+      "track_w": 0.6,
+      "arm_swing": {
+        "scale": 0.3
+      },
+      "pose": {
+        "right_upper_arm": [
+          -0.0,
+          -85.0,
+          0.0
+        ],
+        "left_upper_arm": [
+          0.0,
+          -85.0,
+          -0.0
+        ]
+      },
+      "style": {
+        "w": 0.2
+      },
+      "swing_unit": "/home/jong/TexttoMotion/MimicKit/data/motions/humanoid/humanoid_walk.pkl",
+      "pose_unit": "/home/jong/TexttoMotion/MimicKit/data/motions/humanoid/humanoid_walk.pkl"
+    }
+  },
+  "reference": {
+    "clip": "/home/jong/TexttoMotion/MimicKit/data/motions/humanoid/humanoid_walk.pkl",
+    "duration_s": 10.0
+  },
+  "training": {
+    "iterations": 2000,
+    "num_envs": 1024,
+    "status": "completed",
+    "started": "2026-11-12T20:12:15",
+    "finished": "2026-11-12T20:42:35",
+    "final_log": {
+      "Iteration": 1999.0,
+      "Wall_Time": 0.5024312954478793,
+      "Samples": 65536000.0,
+      "Samples_Per_Second": 36232.70407193995,
+      "Test_Return": 292.1136474609375,
+      "Test_Episode_Length": 297.9658203125,
+      "Test_Episodes": 1024.0,
+      "Train_Return": 277.4068603515625,
+      "Train_Episode_Length": 297.0093994140625,
+      "Train_Episodes": 10347.0,
+      "Critic_Loss": 0.04160480946302414,
+      "Actor_Loss": 0.000963458907790482,
+      "Clip_Frac": 0.24592895805835724,
+      "Imp_Ratio": 0.9993441700935364,
+      "Action_Bound_Loss": 0.0,
+      "Adv_Mean": 0.0009123277850449085,
+      "Adv_Std": 0.2089662104845047,
+      "Obs_Norm_Mean": 0.34598010778427124,
+      "Obs_Norm_Std": 0.16647666692733765,
+      "Exp_Prob": 1.0
+    }
+  }
+}

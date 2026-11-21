@@ -1,0 +1,50 @@
+# Python environments and caches
+.venv/
+.venv-*/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.cache/
+*.egg-info/
+
+# Local settings and secrets
+.env
+.env.*
+!.env.example
+.vscode/
+.idea/
+.DS_Store
+
+# Generated training output and model weights
+output/
+outputs/
+logs/
+checkpoints/
+wandb/
+*.log
+events.out.tfevents.*
+*.pt
+*.pth
+*.ckpt
+*.ckpt.*
+*.onnx
+*.safetensors
+
+# Local datasets; record download/conversion instructions in Git instead
+/datasets/
+
+# Experiment media and edited clips (regenerate with film.py / play_compare.py)
+experiments/**/*.mp4
+experiments/**/*.gif
+experiments/**/*.png
+experiments/**/*.jpg
+experiments/**/*.pkl
+
+# Style metric: recorded policy rollouts (large .npz)
+experiments/style_eval/rollouts/
+experiments/style_llm/api_cache/
+
+# Generated joints of the text-to-motion baselines (regenerate with experiments/t2m_compare/gen_*.py)
+experiments/t2m_compare/out/*/

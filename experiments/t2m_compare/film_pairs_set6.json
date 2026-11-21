@@ -1,0 +1,150 @@
+{
+ "title": "6세트 명령: 우리와 공개 T2M 모델 (2026-11-12)",
+ "out": "experiments/t2m_compare/film/set6",
+ "pairs": [
+  {
+   "key": "set6_N4",
+   "run": "experiments/style_walk/20261111_150859_terra_v10_set6_trained/t10_N4",
+   "ours": "우리 (gpt-5.6-terra 값, 학습)",
+   "clips": [
+    {
+     "type": "hml",
+     "file": "experiments/t2m_compare/out/momask/set6_N4_r0.npy",
+     "label": "MoMask"
+    },
+    {
+     "type": "hml",
+     "file": "experiments/t2m_compare/out/t2mgpt/set6_N4_r0.npy",
+     "label": "T2M-GPT"
+    },
+    {
+     "type": "hml",
+     "file": "experiments/t2m_compare/out/mdm/set6_N4_r0.npy",
+     "label": "MDM"
+    }
+   ],
+   "seconds": 6.0,
+   "caption": "\"공룡처럼 걸어\" — 왼쪽부터 우리, MoMask, T2M-GPT, MDM (모두 같은 캐릭터)"
+  },
+  {
+   "key": "set6_N2",
+   "run": "experiments/style_walk/20261111_150859_terra_v10_set6_trained/t10_N2",
+   "ours": "우리 (gpt-5.6-terra 값, 학습)",
+   "clips": [
+    {
+     "type": "hml",
+     "file": "experiments/t2m_compare/out/momask/set6_N2_r0.npy",
+     "label": "MoMask"
+    },
+    {
+     "type": "hml",
+     "file": "experiments/t2m_compare/out/t2mgpt/set6_N2_r0.npy",
+     "label": "T2M-GPT"
+    },
+    {
+     "type": "hml",
+     "file": "experiments/t2m_compare/out/mdm/set6_N2_r0.npy",
+     "label": "MDM"
+    }
+   ],
+   "seconds": 6.0,
+   "caption": "\"닭처럼 걸어\" — 왼쪽부터 우리, MoMask, T2M-GPT, MDM (모두 같은 캐릭터)"
+  },
+  {
+   "key": "set6_N1",
+   "run": "experiments/style_walk/20261111_150859_terra_v10_set6_trained/t10_N1",
+   "ours": "우리 (gpt-5.6-terra 값, 학습)",
+   "clips": [
+    {
+     "type": "hml",
+     "file": "experiments/t2m_compare/out/momask/set6_N1_r0.npy",
+     "label": "MoMask"
+    },
+    {
+     "type": "hml",
+     "file": "experiments/t2m_compare/out/t2mgpt/set6_N1_r0.npy",
+     "label": "T2M-GPT"
+    },
+    {
+     "type": "hml",
+     "file": "experiments/t2m_compare/out/mdm/set6_N1_r0.npy",
+     "label": "MDM"
+    }
+   ],
+   "seconds": 6.0,
+   "caption": "\"펭귄처럼 걸어\" — 왼쪽부터 우리, MoMask, T2M-GPT, MDM (모두 같은 캐릭터)"
+  },
+  {
+   "key": "set6_N3",
+   "run": "experiments/style_walk/20261111_150859_terra_v10_set6_trained/t10_N3",
+   "ours": "우리 (gpt-5.6-terra 값, 학습)",
+   "clips": [
+    {
+     "type": "hml",
+     "file": "experiments/t2m_compare/out/momask/set6_N3_r0.npy",
+     "label": "MoMask"
+    },
+    {
+     "type": "hml",
+     "file": "experiments/t2m_compare/out/t2mgpt/set6_N3_r0.npy",
+     "label": "T2M-GPT"
+    },
+    {
+     "type": "hml",
+     "file": "experiments/t2m_compare/out/mdm/set6_N3_r0.npy",
+     "label": "MDM"
+    }
+   ],
+   "seconds": 6.0,
+   "caption": "\"고양이처럼 걸어\" — 왼쪽부터 우리, MoMask, T2M-GPT, MDM (모두 같은 캐릭터)"
+  },
+  {
+   "key": "set6_M3",
+   "run": "experiments/style_walk/20261111_150859_terra_v10_set6_trained/t10_M3",
+   "ours": "우리 (gpt-5.6-terra 값, 학습)",
+   "clips": [
+    {
+     "type": "hml",
+     "file": "experiments/t2m_compare/out/momask/set6_M3_r0.npy",
+     "label": "MoMask"
+    },
+    {
+     "type": "hml",
+     "file": "experiments/t2m_compare/out/t2mgpt/set6_M3_r0.npy",
+     "label": "T2M-GPT"
+    },
+    {
+     "type": "hml",
+     "file": "experiments/t2m_compare/out/mdm/set6_M3_r0.npy",
+     "label": "MDM"
+    }
+   ],
+   "seconds": 6.0,
+   "caption": "\"화가 나서 쿵쿵 걸어\" — 왼쪽부터 우리, MoMask, T2M-GPT, MDM (모두 같은 캐릭터)"
+  },
+  {
+   "key": "set6_P5",
+   "run": "experiments/style_walk/20261111_150859_terra_v10_set6_trained/t10_P5",
+   "ours": "우리 (gpt-5.6-terra 값, 학습)",
+   "clips": [
+    {
+     "type": "hml",
+     "file": "experiments/t2m_compare/out/momask/set6_P5_r0.npy",
+     "label": "MoMask"
+    },
+    {
+     "type": "hml",
+     "file": "experiments/t2m_compare/out/t2mgpt/set6_P5_r0.npy",
+     "label": "T2M-GPT"
+    },
+    {
+     "type": "hml",
+     "file": "experiments/t2m_compare/out/mdm/set6_P5_r0.npy",
+     "label": "MDM"
+    }
+   ],
+   "seconds": 6.0,
+   "caption": "\"술 취한 사람처럼 걸어\" — 왼쪽부터 우리, MoMask, T2M-GPT, MDM (모두 같은 캐릭터)"
+  }
+ ]
+}

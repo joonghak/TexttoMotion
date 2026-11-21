@@ -1,0 +1,22 @@
+{
+  "note": "Eighth set (2026-11-12): walking commands that state a number, for the comparison with text-to-motion models (experiments/t2m_compare). Written by Claude before any model was run on them. Each command names one quantity; the measured value of the generated walk is compared with the stated value. Angles (lean, head, knees, arms, legs, toes) are measured as the change from the same method's plain walk (\"걸어\" / \"A person walks forward.\"), cadence and speed as absolute values. The English text is given to models that take English. Do not edit after its first run.",
+  "groups": {
+    "Q": "수치로 말한 걸음"
+  },
+  "commands": [
+    {"id": "Q1", "group": "Q", "text": "상체를 20도 앞으로 숙이고 걸어", "en": "A person walks forward with the upper body leaning forward by 20 degrees.", "expect": "accept", "expect_action": "walk", "measure": "torso_lean_change", "value": 20},
+    {"id": "Q2", "group": "Q", "text": "상체를 40도 앞으로 숙이고 걸어", "en": "A person walks forward with the upper body leaning forward by 40 degrees.", "expect": "accept", "expect_action": "walk", "measure": "torso_lean_change", "value": 40},
+    {"id": "Q3", "group": "Q", "text": "고개를 30도 숙이고 걸어", "en": "A person walks forward with the head bowed down by 30 degrees.", "expect": "accept", "expect_action": "walk", "measure": "head_pitch_change", "value": 30},
+    {"id": "Q4", "group": "Q", "text": "1분에 140걸음으로 걸어", "en": "A person walks forward at 140 steps per minute.", "expect": "accept", "expect_action": "walk", "measure": "cadence", "value": 140},
+    {"id": "Q5", "group": "Q", "text": "1분에 90걸음으로 걸어", "en": "A person walks forward at 90 steps per minute.", "expect": "accept", "expect_action": "walk", "measure": "cadence", "value": 90},
+    {"id": "Q6", "group": "Q", "text": "초속 0.6미터로 걸어", "en": "A person walks forward at a speed of 0.6 meters per second.", "expect": "accept", "expect_action": "walk", "measure": "speed", "value": 0.6},
+    {"id": "Q7", "group": "Q", "text": "초속 1.8미터로 걸어", "en": "A person walks forward at a speed of 1.8 meters per second.", "expect": "accept", "expect_action": "walk", "measure": "speed", "value": 1.8},
+    {"id": "Q8", "group": "Q", "text": "보폭을 평소의 1.5배로 해서 걸어", "en": "A person walks forward with steps 1.5 times longer than usual.", "expect": "accept", "expect_action": "walk", "measure": "step_length_ratio", "value": 1.5},
+    {"id": "Q9", "group": "Q", "text": "무릎을 30도 더 굽힌 채로 걸어", "en": "A person walks forward with the knees bent 30 degrees more than usual.", "expect": "accept", "expect_action": "walk", "measure": "knee_bend_change", "value": 30},
+    {"id": "Q10", "group": "Q", "text": "두 팔을 앞으로 90도 들고 걸어", "en": "A person walks forward with both arms raised forward to 90 degrees.", "expect": "accept", "expect_action": "walk", "measure": "arm_flexion", "value": 90},
+    {"id": "Q11", "group": "Q", "text": "두 팔을 옆으로 45도 벌리고 걸어", "en": "A person walks forward with both arms raised sideways to 45 degrees.", "expect": "accept", "expect_action": "walk", "measure": "arm_abduction", "value": 45},
+    {"id": "Q12", "group": "Q", "text": "두 다리를 각각 10도씩 벌리고 걸어", "en": "A person walks forward with each leg spread 10 degrees outward.", "expect": "accept", "expect_action": "walk", "measure": "leg_abduction_change", "value": 10},
+    {"id": "Q13", "group": "Q", "text": "발끝을 30도 더 바깥으로 돌리고 걸어", "en": "A person walks forward with the toes turned 30 degrees further outward.", "expect": "accept", "expect_action": "walk", "measure": "toe_out_change", "value": 30},
+    {"id": "Q0", "group": "Q", "text": "걸어", "en": "A person walks forward.", "expect": "accept", "expect_action": "walk", "measure": "plain", "value": null}
+  ]
+}

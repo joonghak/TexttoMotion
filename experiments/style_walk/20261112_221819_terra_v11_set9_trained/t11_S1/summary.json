@@ -1,0 +1,56 @@
+{
+  "command": "오른쪽 다리를 절뚝거리며 걸어: gpt-5.6-terra, 프롬프트 v11이 정한 값 (right_m_knee 0.4)",
+  "variant": {
+    "key": "t11_S1",
+    "label": "오른쪽 다리를 절뚝거리며 걸어: gpt-5.6-terra, 프롬프트 v11이 정한 값 (right_m_knee 0.4)",
+    "scales": {
+      "swing": {
+        "right_shin": 0.4
+      }
+    },
+    "terms": {
+      "track_w": 0.6,
+      "swing": {
+        "right_shin": 0.4
+      },
+      "style": {
+        "w": 0.2
+      },
+      "swing_unit": "/home/jong/TexttoMotion/MimicKit/data/motions/humanoid/humanoid_walk.pkl",
+      "pose_unit": "/home/jong/TexttoMotion/MimicKit/data/motions/humanoid/humanoid_walk.pkl"
+    }
+  },
+  "reference": {
+    "clip": "/home/jong/TexttoMotion/MimicKit/data/motions/humanoid/humanoid_walk.pkl",
+    "duration_s": 10.0
+  },
+  "training": {
+    "iterations": 2000,
+    "num_envs": 1024,
+    "status": "completed",
+    "started": "2026-11-12T22:18:19",
+    "finished": "2026-11-12T22:48:44",
+    "final_log": {
+      "Iteration": 1999.0,
+      "Wall_Time": 0.5034386709663603,
+      "Samples": 65536000.0,
+      "Samples_Per_Second": 36160.20280980931,
+      "Test_Return": 292.3677978515625,
+      "Test_Episode_Length": 298.259765625,
+      "Test_Episodes": 1024.0,
+      "Train_Return": 278.2857360839844,
+      "Train_Episode_Length": 298.03155517578125,
+      "Train_Episodes": 10310.0,
+      "Critic_Loss": 0.07933463156223297,
+      "Actor_Loss": 0.007418869528919458,
+      "Clip_Frac": 0.17790527641773224,
+      "Imp_Ratio": 0.9996539950370789,
+      "Action_Bound_Loss": 0.0,
+      "Adv_Mean": 0.02636854723095894,
+      "Adv_Std": 0.31650274991989136,
+      "Obs_Norm_Mean": 0.3417953550815582,
+      "Obs_Norm_Std": 0.16601842641830444,
+      "Exp_Prob": 1.0
+    }
+  }
+}
