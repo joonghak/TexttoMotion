@@ -49,12 +49,13 @@ def main():
     os.makedirs(OUT, exist_ok=True)
     sizes = {}
     # set 7 styles, each policy filmed alone from 40 degrees off its path (1920 x 720): the middle square
-    for key in ["N2", "N4", "N5", "N6", "P5", "P6", "F2", "F4"]:
-        ims = frames(os.path.join(ms.SET7, f"fig_{key}_quarter.mp4"), 0.0, 4.0, 12)
+    later = {"M4": "cand_M4_quarter.mp4", "F3": "cand_F3y_quarter.mp4"}  # filmed after the first six
+    for key in ["M4", "N4", "N5", "N6", "P5", "P6", "F2", "F3"]:
+        ims = frames(os.path.join(ms.SET7, later.get(key, f"fig_{key}_quarter.mp4")), 0.0, 4.0, 12)
         ims = [im.crop((600, 0, 1320, 720)).resize((260, 260), Image.LANCZOS) for im in ims]
         sizes[f"style_{key}"] = save_gif(ims, os.path.join(OUT, f"style_{key}.gif"), 12)
     # the same command by the four methods (human-study films, side view on top of each 640 x 960 film)
-    for key, folder in [("set8_Q2", "videos"), ("set9_S2", "videos_report")]:
+    for key, folder in [("set8_Q2", "videos"), ("set7_P5", "videos")]:
         for method in ["ours", "momask", "t2mgpt", "mdm"]:
             ims = frames(os.path.join(STUDY, folder, f"{key}_{method}.mp4"), 0.0, 4.0, 12)
             ims = [im.crop((170, 70, 470, 440)).resize((180, 222), Image.LANCZOS) for im in ims]
@@ -71,6 +72,8 @@ def main():
     for f in ["fig1_architecture.png", "fig2_styles.jpg", "fig3_compare.jpg", "fig4_onesided.jpg", "fig5_chains.jpg",
               "chart_overview.png", "chart_numeric.png"]:  # the charts come from reports/final/make_charts.py
         shutil.copy(os.path.join(ROOT, "reports", "final", "figures", f), os.path.join(OUT, f))
+    # the human study as drawn for the poster (reports/final/make_charts.py)
+    shutil.copy(os.path.join(ROOT, "reports", "poster", "assets", "chart_human_poster.png"), os.path.join(OUT, "chart_human.png"))
     for k, v in sizes.items():
         print(f"{k:24s} {v:5.2f} MB")
     print("total MB", round(sum(os.path.getsize(os.path.join(OUT, f)) for f in os.listdir(OUT)) / 1e6, 1))

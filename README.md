@@ -7,10 +7,10 @@
 아주대학교 소프트웨어학과 자기주도연구 (2026-2) | 이종학, 지도교수 유리
 
 <p align="center">
-  <img src="docs/media/style_N2.gif" width="190"> <img src="docs/media/style_N4.gif" width="190">
-  <img src="docs/media/style_P6.gif" width="190"> <img src="docs/media/style_F4.gif" width="190">
+  <img src="docs/media/style_M4.gif" width="190"> <img src="docs/media/style_N4.gif" width="190">
+  <img src="docs/media/style_P6.gif" width="190"> <img src="docs/media/style_F3.gif" width="190">
 </p>
-<p align="center"><sub>"고릴라처럼 가슴을 두드리며 걸어", "티라노사우루스처럼 걸어", "특공대원처럼 총을 겨눈 자세로 걸어", "두 팔을 머리 위로 들고 걸어"로 각각 학습한 정책</sub></p>
+<p align="center"><sub>"외줄을 타듯 균형을 잡으며 걸어", "티라노사우루스처럼 걸어", "특공대원처럼 총을 겨눈 자세로 걸어", "양손을 허리에 짚고 걸어"로 각각 학습한 정책</sub></p>
 
 LaRMo는 자연어 명령을 받으면 LLM이 스타일 파라미터를 정하고, 고정한 보상 수식이 그 값으로 참조 모션의 목표를 바꾼 뒤, 명령마다 강화학습 정책을 학습합니다.
 정책은 Isaac Lab 물리 시뮬레이션 안에서 관절 토크로 움직이므로, 발이 뜨거나 미끄러지지 않고 "상체를 40도 숙여" 같은 수치나 "왼손만" 같은 한쪽 지시도 보상의 목표로 그대로 들어갑니다.
@@ -24,11 +24,11 @@ LaRMo는 자연어 명령을 받으면 LLM이 스타일 파라미터를 정하�
 
 평가용 명령 25개(동물, 인물과 캐릭터, 몸의 특징, 기분과 태도) 가운데 여덟 개입니다. 정책마다 따로 촬영하였습니다.
 
-| 고릴라처럼 가슴을 두드리며 | 티라노사우루스처럼 | 수탉처럼 | 고양이처럼 조심스럽게 |
+| 외줄을 타듯 균형을 잡으며 | 티라노사우루스처럼 | 수탉처럼 | 고양이처럼 조심스럽게 |
 | :---: | :---: | :---: | :---: |
-| <img src="docs/media/style_N2.gif" width="190"> | <img src="docs/media/style_N4.gif" width="190"> | <img src="docs/media/style_N5.gif" width="190"> | <img src="docs/media/style_N6.gif" width="190"> |
-| **패션모델처럼 뽐내며** | **특공대원처럼 총을 겨눈 자세로** | **팔짱을 끼고** | **두 팔을 머리 위로 들고** |
-| <img src="docs/media/style_P5.gif" width="190"> | <img src="docs/media/style_P6.gif" width="190"> | <img src="docs/media/style_F2.gif" width="190"> | <img src="docs/media/style_F4.gif" width="190"> |
+| <img src="docs/media/style_M4.gif" width="190"> | <img src="docs/media/style_N4.gif" width="190"> | <img src="docs/media/style_N5.gif" width="190"> | <img src="docs/media/style_N6.gif" width="190"> |
+| **패션모델처럼 뽐내며** | **특공대원처럼 총을 겨눈 자세로** | **팔짱을 끼고** | **양손을 허리에 짚고** |
+| <img src="docs/media/style_P5.gif" width="190"> | <img src="docs/media/style_P6.gif" width="190"> | <img src="docs/media/style_F2.gif" width="190"> | <img src="docs/media/style_F3.gif" width="190"> |
 
 ### 같은 명령, 네 방법
 
@@ -37,7 +37,7 @@ LaRMo는 자연어 명령을 받으면 LLM이 스타일 파라미터를 정하�
 | 명령 | LaRMo | MoMask | T2M-GPT | MDM |
 | :--- | :---: | :---: | :---: | :---: |
 | 상체를 40도 앞으로 숙이고 걸어 | <img src="docs/media/compare_set8_Q2_ours.gif" width="140"> | <img src="docs/media/compare_set8_Q2_momask.gif" width="140"> | <img src="docs/media/compare_set8_Q2_t2mgpt.gif" width="140"> | <img src="docs/media/compare_set8_Q2_mdm.gif" width="140"> |
-| 왼손을 번쩍 들고 걸어 | <img src="docs/media/compare_set9_S2_ours.gif" width="140"> | <img src="docs/media/compare_set9_S2_momask.gif" width="140"> | <img src="docs/media/compare_set9_S2_t2mgpt.gif" width="140"> | <img src="docs/media/compare_set9_S2_mdm.gif" width="140"> |
+| 패션모델처럼 뽐내며 걸어 | <img src="docs/media/compare_set7_P5_ours.gif" width="140"> | <img src="docs/media/compare_set7_P5_momask.gif" width="140"> | <img src="docs/media/compare_set7_P5_t2mgpt.gif" width="140"> | <img src="docs/media/compare_set7_P5_mdm.gif" width="140"> |
 
 ### 연속 동작
 
@@ -50,7 +50,7 @@ LLM이 동작의 순서와 길이를 출력하면, 참조 클립을 0.5초씩 �
 ### 한쪽 동작
 
 <p align="center"><img src="docs/media/fig4_onesided.jpg" width="820"></p>
-<p align="center"><sub>정면에서 본 모습(캐릭터의 왼쪽이 그림의 오른쪽). 왼쪽부터 기본 걷기, 왼손을 번쩍 들고, 몸을 오른쪽으로 기울이고, 무거운 가방을 왼쪽 어깨에 메고, 고개를 왼쪽으로 갸웃하고, 다친 왼팔을 감싸 쥐고(실패)</sub></p>
+<p align="center"><sub>정면에서 본 모습(캐릭터의 왼쪽이 그림의 오른쪽). 왼쪽부터 기본 걷기, 한쪽 다리가 나무 의족인 해적처럼, 몸을 오른쪽으로 기울이고, 무거운 가방을 왼쪽 어깨에 메고, 고개를 왼쪽으로 갸웃하고, 다친 왼팔을 감싸 쥐고(실패)</sub></p>
 
 ## 결과 요약
 
@@ -74,6 +74,19 @@ LaRMo는 명령마다 학습한 정책 하나를, 비교 모델은 명령마다 
 
 <p align="center"><img src="docs/media/chart_numeric.png" width="820"></p>
 
+### 사람 평가
+
+평가자 9명이 명령 16개(스타일 12, 수치 2, 연속 동작 2)마다 방법 이름을 가린 네 영상 가운데 하나씩을 골랐습니다.
+
+<p align="center"><img src="docs/media/chart_human.png" width="820"></p>
+
+| 질문 | LaRMo | MoMask | T2M-GPT | MDM |
+| :--- | :---: | :---: | :---: | :---: |
+| 명령과 가장 잘 맞는 영상 | **89%** | 3% | 6% | 3% |
+| 가장 자연스러운 영상 | **96%** | 1% | 1% | 1% |
+
+### 그 밖의 결과
+
 - 걷기 정책 52개 모두 캐릭터 4개를 30초씩 기록하는 동안 한 번도 넘어지지 않았습니다.
 - 스타일 유사도는 동물, 인물, 몸의 특징, 기분의 네 종류 모두에서 가장 높았고, 목표 스타일이 99개 가운데 1위인 명령이 6개였습니다.
 - 한계도 있습니다. 명령마다 정책을 새로 학습하므로 한 명령에 30~40분(RTX 5070)이 걸리고, 손이나 발을 특정 위치에 닿게 하는 동작(전화 받기, 지팡이)은 표현하기 어렵습니다. 스타일 명령 25개 가운데 군인 행진, 펭귄 등 9개는 비교 모델의 유사도가 더 높았습니다.
@@ -96,14 +109,15 @@ $$
 
 LLM(gpt-5.6-terra, 프롬프트 v14)이 JSON으로 출력하고, Python이 범위를 검사한 뒤 보상 설정으로 바꿉니다.
 
-| 종류 | 파라미터 |
-| :--- | :--- |
-| 공간과 시간 배율 | `s` 보폭, `n` 보행 박자 (걷는 속도 = 1.26 × s × n m/s) |
-| 진폭 배율 | `m_arm`, `m_torso`, `m_knee`, `m_elbow` |
-| 자세 오프셋 | 상체와 고개의 기울기, 어깨와 팔꿈치 각도, 다리 벌림, 발끝 각도 |
-| 무릎, 발, 경로 | 무릎 굽힘 `c`, 위아래 출렁임 `bounce`, 발끝 세우기 `foot_pitch`, 갈지자 길 `weave` |
-| 한쪽 값 | `right_`, `left_` 접두어로 한쪽 팔다리에만 다른 값 |
-| 연속 동작 | `{"sequence": [{"action": "run", "seconds": 2.4}, {"action": "jump", "seconds": 1.77}]}` |
+| 변환 | 스타일 목표 | 명령과 LLM 출력의 예 |
+| :--- | :--- | :--- |
+| 시간 배율 `n` | $\theta(nt)$ | "1분에 140걸음으로 걸어" → `n = 1.21` |
+| 공간 배율 `s` | $s \cdot p(t)$ | "보폭을 평소의 1.5배로 해서 걸어" → `s = 1.5` |
+| 진폭 배율 `m` | $\bar{\theta} + m(\theta - \bar{\theta})$ | "발을 바닥에 끌면서 걸어" → `m_knee = 0.4` |
+| 자세 오프셋 `δ` | $\theta + \delta$ | "상체를 20도 앞으로 숙이고 걸어" → `torso_pitch = 20` |
+| 좌우 개별 값 | `m`, `δ`를 좌우 따로 지정 | "왼손을 번쩍 들고 걸어" → `left_shoulder_abduction = 160` |
+
+$\theta$는 참조 모션의 관절 회전($\bar{\theta}$는 그 평균), $p$는 루트 위치입니다. 이 밖에 무릎 굽힘 `c`, 위아래 출렁임 `bounce`, 발끝 세우기 `foot_pitch`, 갈지자 길 `weave`가 있고, 걷는 속도는 1.26 × s × n m/s가 됩니다. 연속 동작은 `{"sequence": [{"action": "run", "seconds": 2.4}, {"action": "jump", "seconds": 1.77}]}`처럼 순서와 길이로 출력합니다. 값의 범위는 학습으로 동작이 유지되는 것을 확인한 구간으로 제한하였습니다.
 
 ### 학습과 평가
 
@@ -120,8 +134,8 @@ experiments/
   style_walk/             학습 실행(run_style_walk.py), 최종 실행(final_runs.sh), 촬영(film.py), 실험 기록
   style_eval/             100STYLE 지표, 정책 기록(record_policies.py), 한쪽 동작 판정(side_check.py)
   chain/                  연속 동작 클립 합성(compose_chain.py)과 순서 판정(chain_check.py)
-  t2m_compare/            MoMask, T2M-GPT, MDM 출력 생성과 측정, 사람 평가 도구
-  train_eval/, parser_eval/, spinkick/   중간보고서 이전의 실험
+  t2m_compare/            MoMask, T2M-GPT, MDM 출력 생성과 측정, 사람 평가 도구(설문 페이지, 응답 수집 서버, 집계)
+  train_eval/, parser_eval/, spinkick/   초기 실험
 docs/                     README의 영상과 그림 (make_media.py)
 train_from_text.py, motion_parser.py, play_motion.py   초기 파이프라인 (Qwen 파서로 방향과 속도만 지정)
 ```
